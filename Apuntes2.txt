@@ -1,0 +1,81 @@
+Procesador load/store es un procesador que hace una operacion desde un registro
+
+Una instruccion load es una instruccion que carga un dato u operando de memoria a un registro del procesador.
+
+Una instruccion de store es una instruccion que guarda o almacena un operando o dato que esté en registro lo almacena en memoria. 
+
+un procesador load/store.
+
+	a)Los datos se cargan de memoria a registros mediante la instruccion load.
+	b)Se ejecuta la operación con los datos que se han almacenado en registros.
+	c)El resultado se retiene en el acomulador (AC)
+	d)Mediante la instrucción store se almacena en memoria.
+
+	todos los procesadores MIPS son Load/store (es una versión del modelo MIPS)
+	modelo: conjunto de características que debe seguir un proyecto.
+	metodología: serie de pasos a seguir para alcanzar el modelo.
+
+operaciones de transferencia (load/store).
+---------------------------------------------------------------------------------
+Tarea 1. 2° parcial.{bit, byte, word, half word, double word, quad word}
+	bit: unidad de información más pequeña de un sistema de cómputo; está formado por un flip flop con el que se puede representar por 0's y 1's lógicos que a su vez son la base del sistema binario.
+
+	byte: es un arreglo de 8 flip flop con el cual se puede representar un registro de 8 bits.
+
+	word: es un arreglo de 32 fil flop con el cual se pueden representar un registro de 32 bits.
+
+	half word: es un arreglo de 16 flip flop con el que se pueden representar un registro de 16 bits.
+
+	double word: es un arreglo de dos palabras que consta de un arreglo de 64  flip flop con el cual se puede representar registros de 64 bits.
+
+	quad word: es un arreglo de cuatro palabras que consta de 128 flip flop con el cual se pueden representar registros de 128 bits. 
+---------------------------------------------------------------------------------
+byte direccionable:
+
+	Hace referencia a la memoria de programa. La memoria de programa es un arreglo de vectores de 8 bits. 
+
+Extensor de signo:
+Operación de hardware extiende a un numero mayor de bit con su signo respectivo.
+
+=ELEMENTOS, BLOQUES O módulos en hardware que integran al procesador MIPS-32 bit=
+
+PC->MEM PROG->DECODER->FILE REGISTER
+código fuente
+codigo ensamblador
+instrucciones en lenguaje máquina.
+opcode|rs|rt|rd|shom|func
+
+Contador de programa: 
+EL contador de programa mantiene la dirección de la siguiente instrucción a ser ejecutada, apunta a la memoria del programa.
+
+Memoria del programa: 
+almacena o guarda las instrucciones simples de un programa son byte direccionables. 
+
+El decodificador:
+Es un circuito lógico que separa los campos de la instrucción y las guarda en registros separados. 
+
+Archivo de registros (hardware):
+Recibe los operandos pero en general son direcciones dónde se han de localizar los operandos realmente.
+
+Unidad Aritmética Lógica:
+
+
+Unidad de control:
+
+
+Multiplexores:
+
+
+Extensores de signo:
+
+
+Memoria de datos:
+
+
+Instrucciones tipo I.- de referencia (load/store) y tipo inmediato
+	opcode|rs|rt|constant or address
+	rs.- registro base
+	rt.- registo destino
+	imm=constant or address: para el caso de una instrucción de carga, es una palabra ubicada en el espacio de direcciones de 2exp(15)=32768 bytes o 8192 palabras.
+
+

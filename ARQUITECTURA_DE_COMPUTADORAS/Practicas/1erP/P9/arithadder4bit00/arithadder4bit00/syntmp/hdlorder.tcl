@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd" "C:/Users/FERNANDO/Desktop/P9/arithadder4bit00/arithadder4bit00.vhdl" 

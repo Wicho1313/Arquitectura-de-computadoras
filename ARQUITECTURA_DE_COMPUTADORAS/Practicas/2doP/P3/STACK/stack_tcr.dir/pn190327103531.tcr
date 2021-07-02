@@ -1,0 +1,5 @@
+#Start recording tcl command: 3/27/2019 10:29:35
+#Project Location: C:/Users/FERNANDO/Desktop/STACK; Project name: stack
+prj_project open "C:/Users/FERNANDO/Desktop/STACK/stack.ldf"
+prj_run Export -impl stack -task Jedecgen
+#Stop recording: 3/27/2019 10:35:31

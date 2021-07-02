@@ -1,0 +1,3 @@
+ckid0_0:@|S:BCD00.D01.oscout.Q[0]@|E:BCD01.aux0@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_2:@|S:BCD00.D02.outdiv1.Q[0]@|E:BCD14.outr[3:0]@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2
+ckid0_4:@|S:BCD00.D00.OSCinst0.OSC@|E:BCD00.D02.sdiv1[20:0]@|F:@syn_dgcc_clockid0_4==1@|M:ClockId_0_4

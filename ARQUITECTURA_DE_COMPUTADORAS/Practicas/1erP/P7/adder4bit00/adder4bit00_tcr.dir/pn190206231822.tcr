@@ -1,0 +1,18 @@
+#Start recording tcl command: 2/6/2019 20:30:39
+#Project Location: C:/Users/FERNANDO/Desktop/P7/adder4bit00; Project name: adder4bit00
+prj_project new -name "adder4bit00" -impl "adder4bit00" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/FERNANDO/Desktop/P7/adder4bit00/xor00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P7/adder4bit00/and00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P7/adder4bit00/packageha00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P7/adder4bit00/ha00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P7/adder4bit00/or00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P7/adder4bit00/packagefa00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P7/adder4bit00/fa00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P7/adder4bit00/xnor00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P7/adder4bit00/packageadder4bit00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P7/adder4bit00/adder4bit00.vhdl"
+prj_run Export -impl adder4bit00 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 2/6/2019 23:18:22

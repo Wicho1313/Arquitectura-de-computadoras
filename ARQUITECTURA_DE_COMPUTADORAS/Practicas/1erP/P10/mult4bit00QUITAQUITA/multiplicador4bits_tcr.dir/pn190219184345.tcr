@@ -1,0 +1,5 @@
+#Start recording tcl command: 2/19/2019 18:38:44
+#Project Location: C:/Users/FERNANDO/Desktop/P10/mult4bit00; Project name: multiplicador4bits
+prj_project open "C:/Users/FERNANDO/Desktop/P10/mult4bit00/multiplicador4bits.ldf"
+prj_project close
+#Stop recording: 2/19/2019 18:43:45

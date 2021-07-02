@@ -1,0 +1,31 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sun Mar 31 12:10:05 2019 *
+NOTE DESIGN NAME: toprom00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS clk00 : 61 : out *
+NOTE PINS cdiv00[0] : 11 : in *
+NOTE PINS outtransist0[3] : 76 : out *
+NOTE PINS outtransist0[2] : 75 : out *
+NOTE PINS outtransist0[1] : 74 : out *
+NOTE PINS outtransist0[0] : 73 : out *
+NOTE PINS outword0[6] : 77 : out *
+NOTE PINS outword0[5] : 78 : out *
+NOTE PINS outword0[4] : 81 : out *
+NOTE PINS outword0[3] : 82 : out *
+NOTE PINS outword0[2] : 83 : out *
+NOTE PINS outword0[1] : 84 : out *
+NOTE PINS outword0[0] : 85 : out *
+NOTE PINS outcont0[4] : 63 : out *
+NOTE PINS outcont0[3] : 49 : out *
+NOTE PINS outcont0[2] : 47 : out *
+NOTE PINS outcont0[1] : 45 : out *
+NOTE PINS outcont0[0] : 43 : out *
+NOTE PINS enr0 : 1 : in *
+NOTE PINS cdiv00[4] : 5 : in *
+NOTE PINS cdiv00[3] : 6 : in *
+NOTE PINS cdiv00[2] : 9 : in *
+NOTE PINS cdiv00[1] : 10 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

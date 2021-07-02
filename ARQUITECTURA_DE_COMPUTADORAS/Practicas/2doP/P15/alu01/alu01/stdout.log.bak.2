@@ -1,0 +1,90 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.10_x64\synpbase
+Hostname:    FERNANDO-VAIO
+Date:        Mon May  6 23:30:22 2019
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch alu01_alu01_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "C:\Users\FERNANDO\Desktop\P15\alu01\alu01\alu01_alu01.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+hdl_info_gen completed
+# Mon May  6 23:30:23 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\FERNANDO\Desktop\P15\alu01\alu01\alu01_alu01.srr to C:\Users\FERNANDO\Desktop\P15\alu01\alu01\alu01_alu01.srf
+log file: "C:\Users\FERNANDO\Desktop\P15\alu01\alu01\alu01_alu01.srr"
+Running: alu01 in foreground
+
+Running proj_1|alu01
+
+Running: compile (Compile) on proj_1|alu01
+# Mon May  6 23:30:23 2019
+
+Running: compile_flow (Compile Process) on proj_1|alu01
+# Mon May  6 23:30:23 2019
+
+Running: compiler (Compile Input) on proj_1|alu01
+# Mon May  6 23:30:23 2019
+Copied C:\Users\FERNANDO\Desktop\P15\alu01\alu01\synwork\alu01_alu01_comp.srs to C:\Users\FERNANDO\Desktop\P15\alu01\alu01\alu01_alu01.srs
+
+compiler completed
+# Mon May  6 23:30:25 2019
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|alu01
+# Mon May  6 23:30:25 2019
+
+multi_srs_gen completed
+# Mon May  6 23:30:26 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\FERNANDO\Desktop\P15\alu01\alu01\synwork\alu01_alu01_mult.srs to C:\Users\FERNANDO\Desktop\P15\alu01\alu01\alu01_alu01.srs
+Copied C:\Users\FERNANDO\Desktop\P15\alu01\alu01\alu01_alu01.srr to C:\Users\FERNANDO\Desktop\P15\alu01\alu01\alu01_alu01.srf
+Complete: Compile Process on proj_1|alu01
+
+Running: premap (Pre-mapping) on proj_1|alu01
+# Mon May  6 23:30:26 2019
+
+premap completed with warnings
+# Mon May  6 23:30:28 2019
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on proj_1|alu01
+
+Running: map (Map) on proj_1|alu01
+# Mon May  6 23:30:28 2019
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|alu01
+# Mon May  6 23:30:28 2019
+Copied C:\Users\FERNANDO\Desktop\P15\alu01\alu01\synwork\alu01_alu01_m.srm to C:\Users\FERNANDO\Desktop\P15\alu01\alu01\alu01_alu01.srm
+
+fpga_mapper completed with warnings
+# Mon May  6 23:30:32 2019
+
+Return Code: 1
+Run Time:00h:00m:04s
+Complete: Map on proj_1|alu01
+Copied C:\Users\FERNANDO\Desktop\P15\alu01\alu01\alu01_alu01.srr to C:\Users\FERNANDO\Desktop\P15\alu01\alu01\alu01_alu01.srf
+Complete: Logic Synthesis on proj_1|alu01
+TCL script complete: "alu01_alu01_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+C:\Users\FERNANDO\Desktop\P15\alu01\alu01\proj_1.prj
+batch mode default:no

@@ -1,0 +1,1350 @@
+
+synpwrap -msg -prj "memProg00_memProg0_synplify.tcl" -log "memProg00_memProg0.srf"
+Copyright (C) 1992-2019 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.11.0.396.4
+    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+
+==contents of memProg00_memProg0.srf
+#Build: Synplify Pro (R) N-2018.03L-SP1-1, Build 443R, Apr  1 2019
+#install: C:\lscc\diamond\3.11_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-496B8RB
+
+# Mon Nov 25 10:46:39 2019
+
+#Implementation: memProg0
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : memProg0
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : memProg0
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+@N:"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\toprom00.vhd":13:7:13:14|Top entity is set to topdec00.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\toprom00.vhd":13:7:13:14|Synthesizing work.topdec00.topdec0.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\decoderInst00.vhd":7:7:7:19|Synthesizing work.decoderinst00.decoderinst0.
+Post processing for work.decoderinst00.decoderinst0
+Running optimization stage 1 on decoderInst00 .......
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\decoderInst00.vhd":28:2:28:3|Register bit outFlagDI is always 1.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\mP00.vhd":9:7:9:11|Synthesizing work.dec00.dec0.
+Post processing for work.dec00.dec0
+Running optimization stage 1 on dec00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\contRead00.vhd":8:7:8:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\contRead00.vhd":27:6:27:14|Removing redundant assignment.
+Post processing for work.contread00.contread0
+Running optimization stage 1 on contRead00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\topdiv00.vhd":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":25:6:25:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":34:6:34:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":43:6:43:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":52:6:52:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":61:6:61:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":70:6:70:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":79:6:79:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":88:6:88:11|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Running optimization stage 1 on OSCH .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.topdiv00.topdiv0
+Running optimization stage 1 on topdiv00 .......
+Post processing for work.topdec00.topdec0
+Running optimization stage 1 on topdec00 .......
+Running optimization stage 2 on OSCH .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on topdiv00 .......
+Running optimization stage 2 on contRead00 .......
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\contRead00.vhd":19:2:19:3|Register bit outcontrd(0) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\contRead00.vhd":19:2:19:3|Register bit outcontrd(1) is always 0.
+@W: CL279 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\contRead00.vhd":19:2:19:3|Pruning register bits 1 to 0 of outcontrd(5 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on dec00 .......
+Running optimization stage 2 on decoderInst00 .......
+@N: CL159 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\decoderInst00.vhd":10:1:10:8|Input inFlagDI is unused.
+Running optimization stage 2 on topdec00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 78MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 25 10:46:40 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : memProg0
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+File C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
+File C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\memProg0\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 25 10:46:40 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\synwork\memProg00_memProg0_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 25 10:46:40 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Database state : C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\synwork\|memProg0
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+File C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
+File C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\memProg0\synwork\memProg00_memProg0_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 25 10:46:42 2019
+
+###########################################################]
+Premap Report
+
+# Mon Nov 25 10:46:43 2019
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : memProg0
+Synopsys Lattice Technology Pre-mapping, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\memProg00_memProg0_scck.rpt 
+Printing clock  summary report in "C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\memProg00_memProg0_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+syn_allowed_resources : blockrams=26  set on top level netlist topdec00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+
+Clock Summary
+******************
+
+          Start                            Requested     Requested     Clock                                           Clock                   Clock
+Level     Clock                            Frequency     Period        Type                                            Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     22   
+1 .         div00|outdiv_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     100  
+====================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                 Clock     Source                           Clock Pin               Non-clock Pin     Non-clock Pin
+Clock                            Load      Pin                              Seq Example             Seq Example       Comb Example 
+-----------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     22        RO00.DI00.OSCInst0.OSC(OSCH)     RO00.DI01.outdiv.C      -                 -            
+div00|outdiv_derived_clock       100       RO00.DI01.outdiv.Q[0](dffe)      RO03.outRDDI[4:0].C     -                 -            
+===================================================================================================================================
+
+@W: MT529 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\div00.vhd":20:2:20:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including RO00.DI01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 122 clock pin(s) of sequential element(s)
+0 instances converted, 122 sequential instances remain driven by gated/generated clocks
+
+=================================================================== Gated/Generated Clocks ====================================================================
+Clock Tree ID     Driving Element            Drive Element Type     Unconverted Fanout     Sample Instance           Explanation                               
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       RO00.DI01.outdiv.Q[0]      dffe                   100                    RO03.outopcodeDI[5:0]     Derived clock on input (not legal for GCC)
+@KP:ckid0_2       RO00.DI00.OSCInst0.OSC     OSCH                   22                     RO00.DI01.sdiv[20:0]      Black box on clock path                   
+===============================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 143MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Nov 25 10:46:44 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Nov 25 10:46:45 2019
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : memProg0
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: FA239 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:84:74:89|ROM prom\.inIRDI_2[15:8] (in view: work.dec00(dec0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:84:74:89|Found ROM prom\.inIRDI_2[15:8] (in view: work.dec00(dec0)) with 32 words by 8 bits.
+@W: FA239 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:16:74:21|ROM prom\.inIRDI_2[31:24] (in view: work.dec00(dec0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:16:74:21|Found ROM prom\.inIRDI_2[31:24] (in view: work.dec00(dec0)) with 16 words by 8 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.inIRDI[29] because it is equivalent to instance RO02.inIRDI[27]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.inIRDI[15] because it is equivalent to instance RO02.inIRDI[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.inIRDI[14] because it is equivalent to instance RO02.inIRDI[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.inIRDI[13] because it is equivalent to instance RO02.inIRDI[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.inIRDI[12] because it is equivalent to instance RO02.inIRDI[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.inIRDI[11] because it is equivalent to instance RO02.inIRDI[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.inIRDI[9] because it is equivalent to instance RO02.inIRDI[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.inIRDI[8] because it is equivalent to instance RO02.inIRDI[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.inIRDI[30] because it is equivalent to instance RO02.inIRDI[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.inIRDI[25] because it is equivalent to instance RO02.inIRDI[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.inIRDI[28] because it is equivalent to instance RO02.inIRDI[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance inIRDI[10] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[15] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[14] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[13] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[12] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[11] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[10] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[9] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[8] (in view: work.dec00(dec0)) because it does not drive other instances.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.outIRDI[30] because it is equivalent to instance RO02.outIRDI[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.outIRDI[25] because it is equivalent to instance RO02.outIRDI[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.outIRDI[28] because it is equivalent to instance RO02.outIRDI[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.outIRDI[29] because it is equivalent to instance RO02.outIRDI[27]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outRSDI[4] because it is equivalent to instance RO03.outRSDI[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outopcodeDI[4] because it is equivalent to instance RO03.outRSDI[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outopcodeDI[2] because it is equivalent to instance RO03.outopcodeDI[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outopcodeDI[3] because it is equivalent to instance RO03.outopcodeDI[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outRDDI[4] because it is equivalent to instance RO03.outRDDI[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outRDDI[3] because it is equivalent to instance RO03.outRDDI[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outRDDI[2] because it is equivalent to instance RO03.outRDDI[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outRDDI[1] because it is equivalent to instance RO03.outRDDI[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outshamTDI[4] because it is equivalent to instance RO03.outRDDI[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outshamTDI[3] because it is equivalent to instance RO03.outRDDI[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outshamTDI[2] because it is equivalent to instance RO03.outRDDI[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing sequential instance RO03.outRDDI[0] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Boundary register RO03.outRDDI[0] (in view: work.topdec00(topdec0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+
+@W: FA239 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:48:74:53|ROM RO02.prom\.inIRDI_2_0[23:16] (in view: work.topdec00(topdec0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:120:74:125|ROM RO02.prom\.inIRDI_2_0[7:0] (in view: work.topdec00(topdec0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:120:74:125|ROM RO02.prom\.inIRDI_2_0[7:0] (in view: work.topdec00(topdec0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:120:74:125|Found ROM RO02.prom\.inIRDI_2_0[7:0] (in view: work.topdec00(topdec0)) with 16 words by 8 bits.
+@W: FA239 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:48:74:53|ROM RO02.prom\.inIRDI_2_0[23:16] (in view: work.topdec00(topdec0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:48:74:53|Found ROM RO02.prom\.inIRDI_2_0[23:16] (in view: work.topdec00(topdec0)) with 16 words by 8 bits.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:120:74:125|Removing instance RO02.prom.inIRDI_2_0_dreg[7] because it is equivalent to instance RO02.prom.inIRDI_2_0_dreg[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:120:74:125|Removing instance RO02.prom.inIRDI_2_0_dreg[5] because it is equivalent to instance RO02.prom.inIRDI_2_0_dreg[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:120:74:125|Removing instance RO02.prom.inIRDI_2_0_dreg[4] because it is equivalent to instance RO02.prom.inIRDI_2_0_dreg[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.outIRDI[7] because it is equivalent to instance RO02.outIRDI[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.outIRDI[5] because it is equivalent to instance RO02.outIRDI[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.outIRDI[4] because it is equivalent to instance RO02.outIRDI[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:48:74:53|Removing instance RO02.prom.inIRDI_2_0_dreg_0[7] because it is equivalent to instance RO02.prom.inIRDI_2_0_dreg_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:48:74:53|Removing instance RO02.prom.inIRDI_2_0_dreg_0[6] because it is equivalent to instance RO02.prom.inIRDI_2_0_dreg_0[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:48:74:53|Removing instance RO02.prom.inIRDI_2_0_dreg_0[5] because it is equivalent to instance RO02.prom.inIRDI_2_0_dreg_0[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:48:74:53|Removing instance RO02.prom.inIRDI_2_0_dreg_0[4] because it is equivalent to instance RO02.prom.inIRDI_2_0_dreg_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:48:74:53|Removing instance RO02.prom.inIRDI_2_0_dreg_0[3] because it is equivalent to instance RO02.prom.inIRDI_2_0_dreg_0[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outfunctDI[7] because it is equivalent to instance RO03.outfunctDI[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outfunctDI[5] because it is equivalent to instance RO03.outfunctDI[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outfunctDI[4] because it is equivalent to instance RO03.outfunctDI[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.outIRDI[22] because it is equivalent to instance RO02.outIRDI[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.outIRDI[23] because it is equivalent to instance RO02.outIRDI[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.outIRDI[21] because it is equivalent to instance RO02.outIRDI[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.outIRDI[20] because it is equivalent to instance RO02.outIRDI[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing instance RO02.outIRDI[19] because it is equivalent to instance RO02.outIRDI[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outRTDI[6] because it is equivalent to instance RO03.outRTDI[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outRTDI[7] because it is equivalent to instance RO03.outRTDI[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outRTDI[5] because it is equivalent to instance RO03.outRTDI[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outRTDI[4] because it is equivalent to instance RO03.outRTDI[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing instance RO03.outRTDI[3] because it is equivalent to instance RO03.outRTDI[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:48:74:53|Removing sequential instance RO02.prom\.inIRDI_2_0_dreg_0[2] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance RO02.outIRDI[18] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing sequential instance RO03.outRTDI[2] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Boundary register RO03.outRTDI[2] (in view: work.topdec00(topdec0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		   468.50ns		  43 /        59
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 110MB peak: 145MB)
+
+Writing Analyst data base C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\synwork\memProg00_memProg0_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 145MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\memProg00_memProg0.edi
+N-2018.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 149MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 149MB)
+
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net RO00.DI00.sclk.
+@N: MT615 |Found clock div00|outdiv_derived_clock with period 480.77ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Nov 25 10:46:47 2019
+#
+
+
+Top view:               topdec00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 469.669
+
+                                 Requested     Estimated      Requested     Estimated                 Clock                                           Clock              
+Starting Clock                   Frequency     Frequency      Period        Period        Slack       Type                                            Group              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+div00|outdiv_derived_clock       2.1 MHz       1113.7 MHz     480.769       0.898         959.743     derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0
+osc00|osc_int_inferred_clock     2.1 MHz       90.1 MHz       480.769       11.100        469.669     inferred                                        Inferred_clkgroup_0
+=========================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  480.769     469.669  |  No paths    -      |  No paths    -      |  No paths    -    
+div00|outdiv_derived_clock    div00|outdiv_derived_clock    |  480.769     959.743  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: div00|outdiv_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                                             Arrival            
+Instance                Reference                      Type        Pin     Net               Time        Slack  
+                        Clock                                                                                   
+----------------------------------------------------------------------------------------------------------------
+RO01.outcontrd_1[2]     div00|outdiv_derived_clock     FD1S3IX     Q       outcont0_c[2]     1.268       959.743
+RO01.outcontrd_1[5]     div00|outdiv_derived_clock     FD1S3IX     Q       outcont0_c[5]     1.268       959.743
+RO01.outcontrd_1[3]     div00|outdiv_derived_clock     FD1S3IX     Q       outcont0_c[3]     1.260       959.751
+RO01.outcontrd_1[4]     div00|outdiv_derived_clock     FD1S3IX     Q       outcont0_c[4]     1.256       959.755
+RO02.inIRDI[24]         div00|outdiv_derived_clock     FD1S3IX     Q       inIRDI[24]        0.972       960.461
+RO02.inIRDI[26]         div00|outdiv_derived_clock     FD1S3IX     Q       inIRDI[26]        0.972       960.461
+RO02.inIRDI[27]         div00|outdiv_derived_clock     FD1S3IX     Q       inIRDI[27]        0.972       960.461
+RO02.inIRDI[31]         div00|outdiv_derived_clock     FD1S3IX     Q       inIRDI[31]        0.972       960.461
+RO02.outIRDI[0]         div00|outdiv_derived_clock     FD1S3AX     Q       inIRDI0[0]        0.972       960.461
+RO02.outIRDI[1]         div00|outdiv_derived_clock     FD1S3AX     Q       inIRDI0[1]        0.972       960.461
+================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                  Starting                                                                  Required            
+Instance                          Reference                      Type        Pin     Net                    Time         Slack  
+                                  Clock                                                                                         
+--------------------------------------------------------------------------------------------------------------------------------
+RO02.inIRDI[24]                   div00|outdiv_derived_clock     FD1S3IX     D       inIRDI_2[24]           961.627      959.743
+RO02.inIRDI[26]                   div00|outdiv_derived_clock     FD1S3IX     D       inIRDI_2[26]           961.627      959.743
+RO02.inIRDI[27]                   div00|outdiv_derived_clock     FD1S3IX     D       inIRDI_2[27]           961.627      959.743
+RO02.inIRDI[31]                   div00|outdiv_derived_clock     FD1S3IX     D       inIRDI_2[31]           961.627      959.743
+RO01.outcontrd_1[2]               div00|outdiv_derived_clock     FD1S3IX     D       N_13_i                 961.627      959.743
+RO01.outcontrd_1[3]               div00|outdiv_derived_clock     FD1S3IX     D       outcontrd_1_RNO[3]     961.627      959.743
+RO01.outcontrd_1[4]               div00|outdiv_derived_clock     FD1S3IX     D       outcontrd_1_RNO[4]     961.627      959.743
+RO01.outcontrd_1[5]               div00|outdiv_derived_clock     FD1S3IX     D       outcontrd_1_RNO[5]     961.627      959.743
+RO02.prom\.inIRDI_2_0_dreg[0]     div00|outdiv_derived_clock     FD1S3IX     D       inIRDI_2_0_0[0]        961.627      959.743
+RO02.prom\.inIRDI_2_0_dreg[1]     div00|outdiv_derived_clock     FD1S3IX     D       inIRDI_2_0_0[1]        961.627      959.743
+================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      961.538
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         961.627
+
+    - Propagation time:                      1.885
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 959.743
+
+    Number of logic level(s):                1
+    Starting point:                          RO01.outcontrd_1[2] / Q
+    Ending point:                            RO01.outcontrd_1[2] / D
+    The start point is clocked by            div00|outdiv_derived_clock [rising] on pin CK
+    The end   point is clocked by            div00|outdiv_derived_clock [rising] on pin CK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:div00|outdiv_derived_clock to c:div00|outdiv_derived_clock)
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+RO01.outcontrd_1[2]         FD1S3IX      Q        Out     1.268     1.268       -         
+outcont0_c[2]               Net          -        -       -         -           16        
+RO01.outcontrd_1_RNO[2]     ORCALUT4     A        In      0.000     1.268       -         
+RO01.outcontrd_1_RNO[2]     ORCALUT4     Z        Out     0.617     1.885       -         
+N_13_i                      Net          -        -       -         -           1         
+RO01.outcontrd_1[2]         FD1S3IX      D        In      0.000     1.885       -         
+==========================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: osc00|osc_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                          Arrival            
+Instance               Reference                        Type        Pin     Net          Time        Slack  
+                       Clock                                                                                
+------------------------------------------------------------------------------------------------------------
+RO00.DI01.sdiv[18]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[18]     1.148       469.669
+RO00.DI01.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[19]     1.148       469.669
+RO00.DI01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[20]     1.148       469.669
+RO00.DI01.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[17]     1.044       469.773
+RO00.DI01.sdiv[16]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[16]     1.148       470.862
+RO00.DI01.sdiv[14]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[14]     1.044       470.966
+RO00.DI01.sdiv[15]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[15]     1.044       470.966
+RO00.DI01.sdiv[7]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[7]      1.044       471.102
+RO00.DI01.sdiv[8]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[8]      1.044       471.102
+RO00.DI01.sdiv[9]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[9]      1.044       471.102
+============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                              Required            
+Instance               Reference                        Type        Pin     Net              Time         Slack  
+                       Clock                                                                                     
+-----------------------------------------------------------------------------------------------------------------
+RO00.DI01.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[19]     480.664      469.669
+RO00.DI01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[20]     480.664      469.669
+RO00.DI01.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[17]     480.664      469.812
+RO00.DI01.sdiv[18]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[18]     480.664      469.812
+RO00.DI01.sdiv[15]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[15]     480.664      469.955
+RO00.DI01.sdiv[16]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[16]     480.664      469.955
+RO00.DI01.sdiv[13]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[13]     480.664      470.098
+RO00.DI01.sdiv[14]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[14]     480.664      470.098
+RO00.DI01.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[11]     480.664      470.240
+RO00.DI01.sdiv[12]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[12]     480.664      470.240
+=================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      10.995
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     469.669
+
+    Number of logic level(s):                16
+    Starting point:                          RO00.DI01.sdiv[18] / Q
+    Ending point:                            RO00.DI01.sdiv[20] / D
+    The start point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+    The end   point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+RO00.DI01.sdiv[18]                            FD1S3IX      Q        Out     1.148     1.148       -         
+sdiv[18]                                      Net          -        -       -         -           4         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0_a2_0[0]     ORCALUT4     D        In      0.000     1.148       -         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0_a2_0[0]     ORCALUT4     Z        Out     1.193     2.341       -         
+N_41                                          Net          -        -       -         -           4         
+RO00.DI01.un1_outdiv_1_sqmuxa_i_a2_2          ORCALUT4     A        In      0.000     2.341       -         
+RO00.DI01.un1_outdiv_1_sqmuxa_i_a2_2          ORCALUT4     Z        Out     1.153     3.493       -         
+N_44                                          Net          -        -       -         -           3         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0_a2_1[0]     ORCALUT4     A        In      0.000     3.493       -         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0_a2_1[0]     ORCALUT4     Z        Out     1.089     4.582       -         
+N_46                                          Net          -        -       -         -           2         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0_a9[0]       ORCALUT4     B        In      0.000     4.582       -         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0_a9[0]       ORCALUT4     Z        Out     1.017     5.599       -         
+N_30                                          Net          -        -       -         -           1         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0[0]          ORCALUT4     A        In      0.000     5.599       -         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0[0]          ORCALUT4     Z        Out     1.017     6.616       -         
+un1_outdiv_0_sqmuxa_1_0[0]                    Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_0_0                    CCU2D        B0       In      0.000     6.616       -         
+RO00.DI01.un1_sdiv_cry_0_0                    CCU2D        COUT     Out     1.544     8.160       -         
+un1_sdiv_cry_0                                Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_1_0                    CCU2D        CIN      In      0.000     8.160       -         
+RO00.DI01.un1_sdiv_cry_1_0                    CCU2D        COUT     Out     0.143     8.303       -         
+un1_sdiv_cry_2                                Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_3_0                    CCU2D        CIN      In      0.000     8.303       -         
+RO00.DI01.un1_sdiv_cry_3_0                    CCU2D        COUT     Out     0.143     8.446       -         
+un1_sdiv_cry_4                                Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_5_0                    CCU2D        CIN      In      0.000     8.446       -         
+RO00.DI01.un1_sdiv_cry_5_0                    CCU2D        COUT     Out     0.143     8.589       -         
+un1_sdiv_cry_6                                Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_7_0                    CCU2D        CIN      In      0.000     8.589       -         
+RO00.DI01.un1_sdiv_cry_7_0                    CCU2D        COUT     Out     0.143     8.732       -         
+un1_sdiv_cry_8                                Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_9_0                    CCU2D        CIN      In      0.000     8.732       -         
+RO00.DI01.un1_sdiv_cry_9_0                    CCU2D        COUT     Out     0.143     8.874       -         
+un1_sdiv_cry_10                               Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_11_0                   CCU2D        CIN      In      0.000     8.874       -         
+RO00.DI01.un1_sdiv_cry_11_0                   CCU2D        COUT     Out     0.143     9.017       -         
+un1_sdiv_cry_12                               Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_13_0                   CCU2D        CIN      In      0.000     9.017       -         
+RO00.DI01.un1_sdiv_cry_13_0                   CCU2D        COUT     Out     0.143     9.160       -         
+un1_sdiv_cry_14                               Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_15_0                   CCU2D        CIN      In      0.000     9.160       -         
+RO00.DI01.un1_sdiv_cry_15_0                   CCU2D        COUT     Out     0.143     9.303       -         
+un1_sdiv_cry_16                               Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_17_0                   CCU2D        CIN      In      0.000     9.303       -         
+RO00.DI01.un1_sdiv_cry_17_0                   CCU2D        COUT     Out     0.143     9.445       -         
+un1_sdiv_cry_18                               Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_19_0                   CCU2D        CIN      In      0.000     9.445       -         
+RO00.DI01.un1_sdiv_cry_19_0                   CCU2D        S1       Out     1.549     10.995      -         
+un1_sdiv[20]                                  Net          -        -       -         -           1         
+RO00.DI01.sdiv[20]                            FD1S3IX      D        In      0.000     10.995      -         
+============================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 148MB peak: 149MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 148MB peak: 149MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-4
+
+Register bits: 59 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       46
+
+
+Details:
+CCU2D:          11
+FD1S3AX:        16
+FD1S3IX:        36
+GSR:            1
+IB:             6
+INV:            1
+OB:             40
+OFS1P3DX:       7
+ORCALUT4:       42
+OSCH:           1
+PFUMX:          1
+PUR:            1
+VHI:            5
+VLO:            4
+false:          3
+true:           2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 33MB peak: 149MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon Nov 25 10:46:47 2019
+
+###########################################################]
+
+
+Synthesis exit by 0.
+
+edif2ngd  -l "MachXO2" -d LCMXO2-7000HE -path "C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/memProg00/memProg0" -path "C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/memProg00"   "C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/memProg00/memProg0/memProg00_memProg0.edi" "memProg00_memProg0.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.11.0.396.4
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to memProg00_memProg0.ngo...
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 10 MB
+
+
+ngdbuild  -a "MachXO2" -d LCMXO2-7000HE  -p "C:/lscc/diamond/3.11_x64/ispfpga/xo2c00/data"  -p "C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/memProg00/memProg0" -p "C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/memProg00"  "memProg00_memProg0.ngo" "memProg00_memProg0.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.11.0.396.4
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'memProg00_memProg0.ngo' ...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="RO00/DI00/OSCInst0_SEDSTDBY" arg2="RO00/DI00/OSCInst0_SEDSTDBY"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="inFlagDI0" arg2="inFlagDI0"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="2"  />
+
+Design Results:
+    171 blocks expanded
+Complete the first expansion.
+Writing 'memProg00_memProg0.ngd' ...
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 18 MB
+
+
+map -a "MachXO2" -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial   "memProg00_memProg0.ngd" -o "memProg00_memProg0_map.ncd" -pr "memProg00_memProg0.prf" -mp "memProg00_memProg0.mrp" -lpf "C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/memProg00/memProg0/memProg00_memProg0_synplify.lpf" -lpf "C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/memProg00/memProg00.lpf" -c 0           
+map:  version Diamond (64-bit) 3.11.0.396.4
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: memProg00_memProg0.ngd
+   Picdevice="LCMXO2-7000HE"
+
+   Pictype="TQFP144"
+
+   Picspeed=4
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO2-7000HETQFP144, Performance used: 4.
+
+Loading device for application map from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="inFlagDI0"  />
+
+
+
+Design Summary:
+   Number of registers:     59 out of  7209 (1%)
+      PFU registers:           52 out of  6864 (1%)
+      PIO registers:            7 out of   345 (2%)
+   Number of SLICEs:        34 out of  3432 (1%)
+      SLICEs as Logic/ROM:     34 out of  3432 (1%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:         66 out of  6864 (1%)
+      Number used as logic LUTs:         44
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 46 + 4(JTAG) out of 115 (43%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : Yes
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  2
+     Net clk00_c: 23 loads, 23 rising, 0 falling (Driver: RO00/DI01/outdiv )
+     Net RO00/sclk: 12 loads, 12 rising, 0 falling (Driver: RO00/DI00/OSCInst0 )
+   Number of Clock Enables:  0
+   Number of LSRs:  2
+     Net RO00/DI01/N_5_i: 11 loads, 11 LSLICEs
+     Net en0_c: 8 loads, 8 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net outcont0_c[2]: 16 loads
+     Net outcont0_c[5]: 16 loads
+     Net outcont0_c[3]: 15 loads
+     Net outcont0_c[4]: 14 loads
+     Net RO00/DI01/N_5_i: 12 loads
+     Net cdiv00_c[1]: 8 loads
+     Net en0_c: 8 loads
+     Net cdiv00_c[0]: 7 loads
+     Net cdiv00_c[2]: 7 loads
+     Net cdiv00_c[3]: 7 loads
+ 
+
+   Number of warnings:  1
+   Number of errors:    0
+
+
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 58 MB
+
+Dumping design to file memProg00_memProg0_map.ncd.
+
+mpartrce -p "memProg00_memProg0.p2t" -f "memProg00_memProg0.p3t" -tf "memProg00_memProg0.pt" "memProg00_memProg0_map.ncd" "memProg00_memProg0.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "memProg00_memProg0_map.ncd"
+Mon Nov 25 10:46:53 2019
+
+PAR: Place And Route Diamond (64-bit) 3.11.0.396.4.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/memProg00/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF memProg00_memProg0_map.ncd memProg00_memProg0.dir/5_1.ncd memProg00_memProg0.prf
+Preference file: memProg00_memProg0.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file memProg00_memProg0_map.ncd.
+Design name: topdec00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application par from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   46+4(JTAG)/336     15% used
+                  46+4(JTAG)/115     43% bonded
+   IOLOGIC            7/336           2% used
+
+   SLICE             34/3432         <1% used
+
+   OSC                1/1           100% used
+
+
+Number of Signals: 140
+Number of Connections: 338
+
+Pin Constraint Summary:
+   40 out of 46 pins locked (86% locked).
+
+The following 2 signals are selected to use the primary clock routing resources:
+    clk00_c (driver: RO00/DI01/SLICE_17, clk load #: 23)
+    RO00/sclk (driver: RO00/DI00/OSCInst0, clk load #: 12)
+
+
+The following 1 signal is selected to use the secondary clock routing resources:
+    RO00/DI01/N_5_i (driver: RO00/DI01/SLICE_17, clk load #: 0, sr load #: 11, ce load #: 0)
+
+No signal is selected as Global Set/Reset.
+.
+Starting Placer Phase 0.
+...........
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+Starting Placer Phase 1.
+...................
+Placer score = 58520.
+Finished Placer Phase 1.  REAL time: 8 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  57480
+Finished Placer Phase 2.  REAL time: 8 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Global Clocks:
+  PRIMARY "clk00_c" from Q0 on comp "RO00/DI01/SLICE_17" on site "R2C16B", clk load = 23
+  PRIMARY "RO00/sclk" from OSC on comp "RO00/DI00/OSCInst0" on site "OSC", clk load = 12
+  SECONDARY "RO00/DI01/N_5_i" from F1 on comp "RO00/DI01/SLICE_17" on site "R2C16B", clk load = 0, ce load = 0, sr load = 11
+
+  PRIMARY  : 2 out of 8 (25%)
+  SECONDARY: 1 out of 8 (12%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   46 + 4(JTAG) out of 336 (14.9%) PIO sites used.
+   46 + 4(JTAG) out of 115 (43.5%) bonded PIO sites used.
+   Number of PIO comps: 46; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 0 / 28 (  0%)  | -          | -         |
+| 1        | 16 / 29 ( 55%) | 2.5V       | -         |
+| 2        | 20 / 29 ( 68%) | 2.5V       | -         |
+| 3        | 7 / 9 ( 77%)   | 2.5V       | -         |
+| 4        | 2 / 10 ( 20%)  | 2.5V       | -         |
+| 5        | 1 / 10 ( 10%)  | 2.5V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 7 secs 
+
+Dumping design to file memProg00_memProg0.dir/5_1.ncd.
+
+0 connections routed; 338 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 12 secs 
+
+Start NBR router at 10:47:05 11/25/19
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 10:47:05 11/25/19
+
+Start NBR section for initial routing at 10:47:05 11/25/19
+Level 4, iteration 1
+5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 467.067ns/0.000ns; real time: 12 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 10:47:05 11/25/19
+Level 4, iteration 1
+4(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 467.067ns/0.000ns; real time: 12 secs 
+Level 4, iteration 2
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 467.067ns/0.000ns; real time: 12 secs 
+Level 4, iteration 3
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 467.067ns/0.000ns; real time: 12 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 10:47:05 11/25/19
+
+Start NBR section for re-routing at 10:47:06 11/25/19
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 467.067ns/0.000ns; real time: 13 secs 
+
+Start NBR section for post-routing at 10:47:06 11/25/19
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 467.067ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 12 secs 
+Total REAL time: 13 secs 
+Completely routed.
+End of route.  338 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file memProg00_memProg0.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 467.067
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.377
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 12 secs 
+Total REAL time to completion: 13 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+trce -f "memProg00_memProg0.pt" -o "memProg00_memProg0.twr" "memProg00_memProg0.ncd" "memProg00_memProg0.prf"
+trce:  version Diamond (64-bit) 3.11.0.396.4
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file memprog00_memprog0.ncd.
+Design name: topdec00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application trce from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4
+Mon Nov 25 10:47:07 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o memProg00_memProg0.twr -gui -msgset C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/memProg00/promote.xml memProg00_memProg0.ncd memProg00_memProg0.prf 
+Design file:     memprog00_memprog0.ncd
+Preference file: memprog00_memprog0.prf
+Device,speed:    LCMXO2-7000HE,4
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1327 paths, 1 nets, and 291 connections (86.09% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.11.0.396.4
+Mon Nov 25 10:47:07 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o memProg00_memProg0.twr -gui -msgset C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/memProg00/promote.xml memProg00_memProg0.ncd memProg00_memProg0.prf 
+Design file:     memprog00_memprog0.ncd
+Preference file: memprog00_memprog0.prf
+Device,speed:    LCMXO2-7000HE,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1327 paths, 1 nets, and 291 connections (86.09% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 66 MB
+
+
+tmcheck -par "memProg00_memProg0.par" 
+
+bitgen -f "memProg00_memProg0.t2b" -w "memProg00_memProg0.ncd"  -jedec "memProg00_memProg0.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.11.0.396.4
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file memProg00_memProg0.ncd.
+Design name: topdec00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application Bitgen from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from memProg00_memProg0.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.95.
+ 
+Saving bit stream in "memProg00_memProg0.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        2046 Pages (128*2046 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory: 2046 Pages (Page 0 to Page 2045).
+Initialized UFM Pages:                     0 Page.
+ 
+Total CPU Time: 5 secs 
+Total REAL Time: 5 secs 
+Peak Memory Usage: 289 MB

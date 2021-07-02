@@ -1,0 +1,8 @@
+---------------------------------------------------
+Report for cell not00
+   Instance path: not00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00        100.0
+                                  LUT4	       8.00        100.0
+                                 IOBUF	         16        100.0

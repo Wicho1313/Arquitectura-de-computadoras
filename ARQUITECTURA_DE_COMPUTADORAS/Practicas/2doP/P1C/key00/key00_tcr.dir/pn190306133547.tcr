@@ -1,0 +1,6 @@
+#Start recording tcl command: 3/6/2019 10:40:00
+#Project Location: C:/Users/FERNANDO/Desktop/P1/key00; Project name: key00
+prj_project open "C:/Users/FERNANDO/Desktop/P1/key00/key00.ldf"
+prj_src add "C:/Users/FERNANDO/Desktop/P1/key00/topkey00.vhdl"
+prj_run Export -impl key0 -task Jedecgen
+#Stop recording: 3/6/2019 13:35:47

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "alu00_alu00.log"
+-o "alu00_alu00.csv"
+-pr "alu00_alu00.prf"

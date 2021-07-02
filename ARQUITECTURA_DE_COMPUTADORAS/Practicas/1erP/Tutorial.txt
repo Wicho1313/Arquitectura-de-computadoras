@@ -1,0 +1,127 @@
+/***********************************************************************************************************
+1.Crear nuevo Proyecto:
+	Nombre del Proyecto: and00
+							and00
+2. Seleccionar MachX02  LCMX02-7000HE
+
+3. Seleccionar: Sympli file pro
+4. and00 en el new archivo
+***********************************************************************************************************/
+--------------------------------------Código para la compuerta AND----------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+library lattice;
+use lattice.all;
+
+entity and00 is
+	port(
+		Aa: in std_logic_vector(7 downto 0);
+		Ba: in std_logic_vector(7 downto 0);
+		Ya: out std_logic_vector(7 downto 0));
+end and00;
+	
+architecture and0 of and00 is
+begin
+	Ya <= Aa and Ba;
+end and0;
+--------------------------------------Código para la compuerta OR----------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+library lattice;
+use lattice.all;
+
+entity or00 is
+	port(
+		Aa: in std_logic_vector(7 downto 0);
+		Ba: in std_logic_vector(7 downto 0);
+		Ya: out std_logic_vector(7 downto 0));
+end or00;
+	
+architecture or0 of or00 is
+begin
+	Ya <= Aa or Ba;
+end or0;
+--------------------------------------Código para la compuerta XOR----------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+library lattice;
+use lattice.all;
+
+entity xor00 is
+	port(
+		Aa: in std_logic_vector(7 downto 0);
+		Ba: in std_logic_vector(7 downto 0);
+		Ya: out std_logic_vector(7 downto 0));
+end xor00;
+	
+architecture xor0 of xor00 is
+begin
+	Ya <= Aa xor Ba;
+end xor0;
+--------------------------------------Código para la compuerta NOT----------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+library lattice;
+use lattice.all;
+
+entity not00 is
+	port(
+		Aa: in std_logic_vector(7 downto 0);
+		Ya: out std_logic_vector(7 downto 0));
+end not00;
+	
+architecture not0 of not00 is
+begin
+	Ya <= not Aa;
+end not0;
+--------------------------------------Código para la compuerta NAND----------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+library lattice;
+use lattice.all;
+
+entity nand00 is
+	port(
+		Aa: in std_logic_vector(7 downto 0);
+		Ba: in std_logic_vector(7 downto 0);
+		Ya: out std_logic_vector(7 downto 0));
+end nand00;
+	
+architecture nand0 of nand00 is
+begin
+	Ya <= Aa nand Ba;
+end nand0;
+--------------------------------------Código para la compuerta NOR----------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+library lattice;
+use lattice.all;
+
+entity nor00 is
+	port(
+		Aa: in std_logic_vector(7 downto 0);
+		Ba: in std_logic_vector(7 downto 0);
+		Ya: out std_logic_vector(7 downto 0));
+end nor00;
+	
+architecture nor0 of nor00 is
+begin
+	Ya <= Aa nor Ba;
+end nor0;
+--------------------------------------Código para la compuerta XNOR----------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+library lattice;
+use lattice.all;
+
+entity xnor00 is
+	port(
+		Aa: in std_logic_vector(7 downto 0);
+		Ba: in std_logic_vector(7 downto 0);
+		Ya: out std_logic_vector(7 downto 0));
+end xnor00;
+	
+architecture xnor0 of xnor00 is
+begin
+	Ya <= Aa xnor Ba;
+end xnor0;

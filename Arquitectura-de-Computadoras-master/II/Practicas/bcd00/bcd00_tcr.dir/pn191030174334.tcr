@@ -1,0 +1,9 @@
+#Start recording tcl command: 10/30/2019 16:21:24
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00; Project name: bcd00
+prj_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.ldf"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/shift12bit00.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/ac8bit00.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/ac12bit00.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/memProg00.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/compadd00.vhdl"
+#Stop recording: 10/30/2019 17:43:34

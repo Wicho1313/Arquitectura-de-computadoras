@@ -1,0 +1,47 @@
+Synopsys HDL Compiler, version comp201509p1, Build 145R, built Dec  9 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201509p1, Build 145R, built Dec  9 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.7_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\arithadder4bit00\arithadder4bit00.vhdl":10:7:10:22|Top entity is set to arithadder4bit00.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\arithadder4bit00\arithadder4bit00.vhdl":10:7:10:22|Synthesizing work.arithadder4bit00.arithadder4bit0.
+Post processing for work.arithadder4bit00.arithadder4bit0
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 76MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Sep 05 09:06:59 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201509p1, Build 145R, built Dec  9 2015
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\arithadder4bit00\arithadder4bit00.vhdl":10:7:10:22|Selected library: work cell: arithadder4bit00 view arithadder4bit0 as top level
+@N: NF107 :"C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\arithadder4bit00\arithadder4bit00.vhdl":10:7:10:22|Selected library: work cell: arithadder4bit00 view arithadder4bit0 as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Sep 05 09:06:59 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Sep 05 09:06:59 2016
+
+###########################################################]

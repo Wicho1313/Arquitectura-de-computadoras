@@ -1,0 +1,90 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.11_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.11_x64\synpbase
+Hostname:    DESKTOP-496B8RB
+Date:        Tue Nov 19 08:53:26 2019
+Version:     N-2018.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch signo00_signo0_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\signo00_signo0.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\signo00_signo0.srr to C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\signo00_signo0.srf
+
+hdl_info_gen completed
+# Tue Nov 19 08:53:28 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+log file: "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\signo00_signo0.srr"
+Running: signo0 in foreground
+
+Running proj_1|signo0
+
+Running Flow: compile (Compile) on proj_1|signo0
+# Tue Nov 19 08:53:28 2019
+
+Running Flow: compile_flow (Compile Process) on proj_1|signo0
+# Tue Nov 19 08:53:28 2019
+
+Running: compiler (Compile Input) on proj_1|signo0
+# Tue Nov 19 08:53:28 2019
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\synwork\signo00_signo0_comp.srs to C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\signo00_signo0.srs
+
+compiler completed
+# Tue Nov 19 08:53:32 2019
+
+Return Code: 0
+Run Time:00h:00m:04s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|signo0
+# Tue Nov 19 08:53:32 2019
+
+multi_srs_gen completed
+# Tue Nov 19 08:53:33 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\synwork\signo00_signo0_mult.srs to C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\signo00_signo0.srs
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\signo00_signo0.srr to C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\signo00_signo0.srf
+Complete: Compile Process on proj_1|signo0
+
+Running: premap (Premap) on proj_1|signo0
+# Tue Nov 19 08:53:33 2019
+
+premap completed
+# Tue Nov 19 08:53:37 2019
+
+Return Code: 0
+Run Time:00h:00m:04s
+Complete: Compile on proj_1|signo0
+
+Running Flow: map (Map) on proj_1|signo0
+# Tue Nov 19 08:53:37 2019
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|signo0
+# Tue Nov 19 08:53:37 2019
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\synwork\signo00_signo0_m.srm to C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\signo00_signo0.srm
+
+fpga_mapper completed
+# Tue Nov 19 08:53:39 2019
+
+Return Code: 0
+Run Time:00h:00m:02s
+Complete: Map on proj_1|signo0
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\signo00_signo0.srr to C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\signo00_signo0.srf
+Complete: Logic Synthesis on proj_1|signo0
+TCL script complete: "signo00_signo0_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\proj_1.prj
+batch mode default:no

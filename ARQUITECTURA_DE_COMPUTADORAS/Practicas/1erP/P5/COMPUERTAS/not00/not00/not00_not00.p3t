@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "not00_not00.log"
+-o "not00_not00.csv"
+-pr "not00_not00.prf"

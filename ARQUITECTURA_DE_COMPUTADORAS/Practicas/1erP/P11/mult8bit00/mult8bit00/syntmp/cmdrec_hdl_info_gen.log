@@ -1,0 +1,16 @@
+C:\lscc\diamond\3.7_x64\synpbase\bin64\c_vhdl.exe  -osyn  "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\mult8bit00\synwork\mult8bit00_mult8bit00_hdl_.srs"  -top  topmult8bit00  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\mult8bit00\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult4bit00VHDL\and00.vhdl" -lib work "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult4bit00VHDL\or00.vhdl" -lib work "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult4bit00VHDL\packagefa00.vhdl" -lib work "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult4bit00VHDL\packageha00.vhdl" -lib work "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult4bit00VHDL\topfa00.vhdl" -lib work "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult4bit00VHDL\topha00.vhdl" -lib work "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult4bit00VHDL\xor00.vhdl" -lib work "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\packagemult8bit00.vhdl" -lib work "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl"  -log  "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\mult8bit00\syntax.log"  -fileorder  "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\mult8bit00\syntmp\hdlorder.tcl" 
+rc:0 success:1 runtime:0
+C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\mult8bit00\synwork\mult8bit00_mult8bit00_hdl_.srs|o|0|0
+C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1377014408|73964
+C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult4bit00VHDL\and00.vhdl|i|1471877348|305
+C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult4bit00VHDL\or00.vhdl|i|1471877348|276
+C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult4bit00VHDL\packagefa00.vhdl|i|1472046906|425
+C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult4bit00VHDL\packageha00.vhdl|i|1471531059|394
+C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult4bit00VHDL\topfa00.vhdl|i|1472133988|687
+C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult4bit00VHDL\topha00.vhdl|i|1472047710|482
+C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult4bit00VHDL\xor00.vhdl|i|1471877348|287
+C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\packagemult8bit00.vhdl|i|1476884674|448
+C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl|i|1476893539|12741
+C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\mult8bit00\syntax.log|o|1476894330|992
+C:\lscc\diamond\3.7_x64\synpbase\bin\c_vhdl.exe|i|1449734236|2359296
+C:\lscc\diamond\3.7_x64\synpbase\bin64\c_vhdl.exe|i|1449734446|3228672

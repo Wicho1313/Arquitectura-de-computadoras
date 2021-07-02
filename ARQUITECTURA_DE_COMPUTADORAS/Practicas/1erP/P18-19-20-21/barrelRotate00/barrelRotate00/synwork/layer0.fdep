@@ -1,0 +1,65 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Alejandro\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\barrelRotate00\\barrelRotate00\\synwork\\barrelRotate00_barrelRotate00_comp.srs|-top|topbarrelRotate00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\bin64\\c_vhdl.exe":1481010008
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\location.map":1481020354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std1164.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\numeric.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\arith.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1480973228
+#CUR:"C:\\Users\\Alejandro\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\barrelRotate00\\barrelRotate00\\source\\div00.vhdl":1505453395
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\cpld\\lattice.vhd":1481007224
+#CUR:"C:\\Users\\Alejandro\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\barrelRotate00\\barrelRotate00\\source\\osc00.vhdl":1505453489
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1481007224
+#CUR:"C:\\Users\\Alejandro\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\barrelRotate00\\barrelRotate00\\source\\packagediv00.vhdl":1505453544
+#CUR:"C:\\Users\\Alejandro\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\barrelRotate00\\barrelRotate00\\source\\toposcdiv00.vhdl":1505455449
+#CUR:"C:\\Users\\Alejandro\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\barrelRotate00\\BarrelRotate00.vhdl":1506442191
+#CUR:"C:\\Users\\Alejandro\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\barrelRotate00\\packagebarrelRotate00.vhdl":1506441158
+#CUR:"C:\\Users\\Alejandro\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\barrelRotate00\\topbarrelRotate00.vhdl":1506442199
+0 "C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\source\div00.vhdl" vhdl
+2 "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\source\osc00.vhdl" vhdl
+3 "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\source\packagediv00.vhdl" vhdl
+4 "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\source\toposcdiv00.vhdl" vhdl
+5 "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\BarrelRotate00.vhdl" vhdl
+6 "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\packagebarrelRotate00.vhdl" vhdl
+7 "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\topbarrelRotate00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 2 1 3 
+5 0 
+6 0 
+7 4 5 6 
+
+# Dependency Lists (Users Of)
+0 6 5 
+1 4 
+2 4 
+3 4 
+4 7 
+5 7 
+6 7 
+7 -1
+
+# Design Unit to File Association
+arch work div00 div0 1
+module work div00 1
+arch work osc00 osc0 2
+module work osc00 2
+arch work toposcdiv00 toposcdiv0 4
+module work toposcdiv00 4
+arch work barrelrotate00 barrelrotate0 5
+module work barrelrotate00 5
+arch work topbarrelrotate00 topbarrelrotate0 7
+module work topbarrelrotate00 7
+
+
+# Configuration files used

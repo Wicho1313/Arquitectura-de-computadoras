@@ -1,0 +1,2 @@
+@E: CD326 :"C:\Users\FRANCO\Documents\Arquitectura\projectMachXO2\word00\topword00.vhdl":21:3:21:6|Port clkr of entity work.contring00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+

@@ -1,0 +1,23 @@
+#Start recording tcl command: 11/13/2018 15:17:52
+#Project Location: C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits; Project name: multiplicador4bits
+prj_project new -name "multiplicador4bits" -impl "multiplicador4bits" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/and00.vhdl"
+prj_src add "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/xor00.vhdl"
+prj_src add "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/ha00.vhdl"
+prj_src add "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/fa00.vhdl"
+prj_src add "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/multiplicador4bits.vhdl"
+prj_src remove "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/multiplicador4bits.vhdl"
+prj_src add "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/multplicador00.vhdl"
+prj_src add "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/or00.vhdl"
+prj_run Synthesis -impl multiplicador4bits
+prj_run Export -impl multiplicador4bits
+prj_run Export -impl multiplicador4bits -task Jedecgen
+pgr_project save "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/multiplicador4bits/multiplicador4bits.xcf"
+prj_src add -exclude "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/multiplicador4bits/multiplicador4bits.xcf"
+prj_src enable "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/multiplicador4bits/multiplicador4bits.xcf"
+pgr_program run
+pgr_project save "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/multiplicador4bits/multiplicador4bits.xcf"
+prj_project save
+prj_project close
+#Stop recording: 11/13/2018 17:37:49

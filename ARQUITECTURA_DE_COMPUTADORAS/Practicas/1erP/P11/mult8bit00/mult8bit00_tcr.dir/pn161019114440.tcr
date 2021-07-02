@@ -1,0 +1,17 @@
+#Start recording tcl command: 10/19/2016 08:57:17
+#Project Location: C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/mult8bit00; Project name: mult8bit00
+prj_project open "C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/mult8bit00/mult8bit00.ldf"
+prj_src add "C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/mult8bit00/topmult8bit00.vhdl"
+launch_synplify_prj mult8bit00
+prj_run Export -impl mult8bit00 -task Jedecgen
+pgr_project save "C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/mult8bit00/mult8bit00/mult8bit00.xcf"
+prj_src add -exclude "C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/mult8bit00/mult8bit00/mult8bit00.xcf"
+prj_src enable "C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/mult8bit00/mult8bit00/mult8bit00.xcf"
+prj_dev set -part LCMXO2-7000HE-4TG144C
+pgr_project close
+prj_run Export -impl mult8bit00 -task Jedecgen
+pgr_project open "C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/mult8bit00/mult8bit00/mult8bit00.xcf"
+pgr_project save "C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/mult8bit00/mult8bit00/mult8bit00.xcf"
+pgr_program run
+pgr_project close
+#Stop recording: 10/19/2016 11:44:40

@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/3.11_x64/cae_library/synthesis/vhdl/machxo2.vhd" "C:/Users/ameri/Documentos/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Practicas/2doP/P12/signo00/signo00.vhd" 

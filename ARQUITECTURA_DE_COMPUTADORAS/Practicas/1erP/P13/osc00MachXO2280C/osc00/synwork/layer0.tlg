@@ -1,0 +1,5 @@
+@N: CD630 :"C:\Users\FERNANDO\Desktop\P12\osc00MachXO2280C\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD326 :"C:\Users\FERNANDO\Desktop\P12\osc00MachXO2280C\osc00.vhdl":24:0:24:7|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0

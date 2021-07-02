@@ -1,0 +1,43 @@
+Respuestas
+1.- rs
+2.- 16 bit
+3.- rs,rt,shamt
+4.- opcode y funct
+5.- Las dos salidas de datos
+6.- 8 bit
+7.- 
+8.- El archivo de registros y la Alu
+9.- Es el numero del registro donde se encuentra el dato y el registro destino
+10.- 
+type arrayword is array(0 to 64) of std_logic_vector(7 downto 0)
+signal wordR: arrayword;
+
+wordR(0)<= inR(conv_integer(indir(0)));
+wordR(1)<= inR(conv_integer(indir(1)));
+wordR(2)<= inR(conv_integer(indir(2)));
+wordR(3)<= inR(conv_integer(indir(3)));
+11.- 
+outword <= [sword(conv_integer(indir))]&[sword(conv_integer(indir+1))] + [...] + [...]
+12.- 
+opcodeDI <= inword(31 downto 26)
+rsDI <= inword(25 downto 21)
+rtDI <= inword(20 downto 16)
+rdDI
+shamt
+funct
+13.- 
+14.-  Es una tarea que puede ser divida en tareas para se ejecutada secuencialmente
+15.- 
+16.- Single Instruction Multiple Data - SIMD
+17.- 
+18.- SISD
+19.- Consiste en ejecutar las etapas de una instruccion " aplicando el concepto de proceso "
+20.- Es una memoria donde se almacenan las instrucciones
+
+Esto aplica para una arquitectura de 32 bit
+
+En cuanto a las Fotos, no recuerdo bien en que orden iban las respuestas
+Foto A: Figura en la parte superior derecha
+Foto B: Figura en la parte inferior, FI: Fetch Instruction; DI: Decode Instruction ...
+	Esto se puede ver como un pipeline
+Foto C: Figura inferior, cada bloque es un pipeline, esta es la estructura superescalar

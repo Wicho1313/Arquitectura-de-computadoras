@@ -1,0 +1,11 @@
+#Start recording tcl command: 3/3/2019 17:12:23
+#Project Location: C:/Users/FERNANDO/Desktop/QUINTO_SEMESTRE/ARQUITECTURA_DE_COMPUTADORAS/Prácticas/P12/osc00MachXO2280C; Project name: osc00
+prj_project open "C:/Users/FERNANDO/Desktop/QUINTO_SEMESTRE/ARQUITECTURA_DE_COMPUTADORAS/Prácticas/P12/osc00MachXO2280C/osc00.ldf"
+prj_run Export -impl osc00 -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/QUINTO_SEMESTRE/ARQUITECTURA_DE_COMPUTADORAS/Prácticas/P12/osc00MachXO2280C/osc00/osc00.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/QUINTO_SEMESTRE/ARQUITECTURA_DE_COMPUTADORAS/Prácticas/P12/osc00MachXO2280C/osc00/osc00.xcf"
+pgr_program run
+pgr_program run
+pgr_project save "C:/Users/FERNANDO/Desktop/QUINTO_SEMESTRE/ARQUITECTURA_DE_COMPUTADORAS/Prácticas/P12/osc00MachXO2280C/osc00/osc00.xcf"
+prj_project close
+#Stop recording: 3/3/2019 17:15:16

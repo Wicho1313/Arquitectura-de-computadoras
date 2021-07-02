@@ -1,0 +1,104 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : lcd1
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 46
+FID:  path (prevtimestamp, timestamp)
+23       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\div00.vhd (N/A, 2019-08-04 00:00:34)
+24       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\lcdconfig00.vhd (N/A, 2019-08-04 00:00:34)
+25       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\lcdcontconfig00.vhd (N/A, 2019-08-04 00:00:34)
+26       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\lcdcontdata00.vhd (N/A, 2019-08-04 00:00:34)
+27       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\lcddata00.vhd (N/A, 2019-10-28 20:56:38)
+28       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\lcdmux00.vhd (N/A, 2019-08-04 00:00:34)
+29       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\osc00.vhd (N/A, 2019-08-04 00:00:34)
+30       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\packagelcd00.vhd (N/A, 2019-08-04 00:00:34)
+31       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\packageosc00.vhd (N/A, 2019-08-04 00:00:34)
+32       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\toplcd00.vhd (N/A, 2019-08-04 00:00:34)
+33       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\toposc00.vhd (N/A, 2019-08-04 00:00:34)
+0        C:\Users\elite\OneDrive\Escritorio\lcd01\div00.vhd (2019-05-02 11:07:11, N/A)
+1        C:\Users\elite\OneDrive\Escritorio\lcd01\lcdconfig00.vhd (2019-05-02 11:07:11, N/A)
+2        C:\Users\elite\OneDrive\Escritorio\lcd01\lcdcontconfig00.vhd (2019-05-02 11:07:11, N/A)
+3        C:\Users\elite\OneDrive\Escritorio\lcd01\lcdcontdata00.vhd (2019-05-02 11:07:11, N/A)
+4        C:\Users\elite\OneDrive\Escritorio\lcd01\lcddata00.vhd (2019-05-02 11:07:12, N/A)
+5        C:\Users\elite\OneDrive\Escritorio\lcd01\lcdmux00.vhd (2019-05-02 11:07:12, N/A)
+6        C:\Users\elite\OneDrive\Escritorio\lcd01\osc00.vhd (2019-05-02 11:07:12, N/A)
+7        C:\Users\elite\OneDrive\Escritorio\lcd01\packagelcd00.vhd (2019-05-02 11:07:12, N/A)
+8        C:\Users\elite\OneDrive\Escritorio\lcd01\packageosc00.vhd (2019-05-02 11:07:12, N/A)
+9        C:\Users\elite\OneDrive\Escritorio\lcd01\toplcd00.vhd (2019-05-02 11:07:12, N/A)
+10       C:\Users\elite\OneDrive\Escritorio\lcd01\toposc00.vhd (2019-05-02 11:07:12, N/A)
+11       C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd (2017-04-27 17:11:44, N/A)
+12       C:\lscc\diamond\3.10_x64\synpbase\lib\cpld\lattice.vhd (2017-08-05 02:23:36, N/A)
+13       C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.vhd (2017-08-05 02:23:36, N/A)
+14       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\arith.vhd (2017-08-05 01:03:44, N/A)
+15       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\hyperents.vhd (2017-08-05 01:03:44, N/A)
+16       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\location.map (2017-08-05 07:43:28, N/A)
+17       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\numeric.vhd (2017-08-05 01:03:44, N/A)
+18       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2017-08-05 01:03:44, N/A)
+19       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd (2017-08-05 01:03:44, N/A)
+20       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std1164.vhd (2017-08-05 01:03:44, N/A)
+21       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\umr_capim.vhd (2017-08-05 01:03:44, N/A)
+22       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\unsigned.vhd (2017-08-05 01:03:44, N/A)
+34       C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (N/A, 2018-11-15 00:32:12)
+35       C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (N/A, 2019-04-01 08:08:08)
+36       C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\machxo2.vhd (N/A, 2019-04-01 08:08:08)
+37       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (N/A, 2019-04-01 08:07:44)
+38       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (N/A, 2019-04-01 08:07:44)
+39       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (N/A, 2019-04-01 15:01:20)
+40       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (N/A, 2019-04-01 08:07:44)
+41       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (N/A, 2019-04-01 08:07:44)
+42       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (N/A, 2019-04-01 08:07:44)
+43       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (N/A, 2019-04-01 08:07:44)
+44       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (N/A, 2019-04-01 08:07:44)
+45       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (N/A, 2019-04-01 08:07:44)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 9
+MID:  lib.cell.view
+0        work.div00.div0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\div00.vhd (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\toplcd00.vhd (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\toposc00.vhd (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+2        work.lcdconfig00.lcdconfig0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\lcdconfig00.vhd (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\toplcd00.vhd (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+4        work.lcdcontconfig00.lcdcontconfig0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\lcdcontconfig00.vhd (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\toplcd00.vhd (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+6        work.lcdcontdata00.lcdcontdata0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\lcdcontdata00.vhd (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\toplcd00.vhd (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+8        work.lcddata00.lcddata0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\lcddata00.vhd (N/A, 2019-10-28 20:56:38) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\toplcd00.vhd (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+10       work.lcdmux00.lcdmux0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\lcdmux00.vhd (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\toplcd00.vhd (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+12       work.osc00.osc0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\osc00.vhd (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\toplcd00.vhd (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\toposc00.vhd (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+14       work.toplcd00.toplcd0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\toplcd00.vhd (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+16       work.toposc00.toposc0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\toplcd00.vhd (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\toposc00.vhd (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "muxcomp00_muxcomp00.log"
+-o "muxcomp00_muxcomp00.csv"
+-pr "muxcomp00_muxcomp00.prf"

@@ -1,0 +1,142 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : memProg0
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : memProg0
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+@N:"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\toprom00.vhd":13:7:13:14|Top entity is set to topdec00.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\toprom00.vhd":13:7:13:14|Synthesizing work.topdec00.topdec0.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\decoderInst00.vhd":7:7:7:19|Synthesizing work.decoderinst00.decoderinst0.
+Post processing for work.decoderinst00.decoderinst0
+Running optimization stage 1 on decoderInst00 .......
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\decoderInst00.vhd":28:2:28:3|Register bit outFlagDI is always 1.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\mP00.vhd":9:7:9:11|Synthesizing work.dec00.dec0.
+Post processing for work.dec00.dec0
+Running optimization stage 1 on dec00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\contRead00.vhd":8:7:8:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\contRead00.vhd":27:6:27:14|Removing redundant assignment.
+Post processing for work.contread00.contread0
+Running optimization stage 1 on contRead00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\topdiv00.vhd":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":25:6:25:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":34:6:34:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":43:6:43:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":52:6:52:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":61:6:61:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":70:6:70:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":79:6:79:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd":88:6:88:11|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Running optimization stage 1 on OSCH .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.topdiv00.topdiv0
+Running optimization stage 1 on topdiv00 .......
+Post processing for work.topdec00.topdec0
+Running optimization stage 1 on topdec00 .......
+Running optimization stage 2 on OSCH .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on topdiv00 .......
+Running optimization stage 2 on contRead00 .......
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\contRead00.vhd":19:2:19:3|Register bit outcontrd(0) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\contRead00.vhd":19:2:19:3|Register bit outcontrd(1) is always 0.
+@W: CL279 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\contRead00.vhd":19:2:19:3|Pruning register bits 1 to 0 of outcontrd(5 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on dec00 .......
+Running optimization stage 2 on decoderInst00 .......
+@N: CL159 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\decoderInst00.vhd":10:1:10:8|Input inFlagDI is unused.
+Running optimization stage 2 on topdec00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 78MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 25 10:46:40 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : memProg0
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+File C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
+File C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\memProg0\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 25 10:46:40 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\synwork\memProg00_memProg0_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 25 10:46:40 2019
+
+###########################################################]

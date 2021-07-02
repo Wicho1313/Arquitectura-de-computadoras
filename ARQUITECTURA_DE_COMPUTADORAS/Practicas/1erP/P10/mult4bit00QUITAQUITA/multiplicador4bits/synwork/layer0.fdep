@@ -1,0 +1,61 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\FRANCO\\Desktop\\10-multiplicador4bits\\multiplicador4bits\\synwork\\multiplicador4bits_multiplicador4bits_comp.srs|-top|multiplicador00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"C:\\Users\\FRANCO\\Desktop\\10-multiplicador4bits\\and00.vhdl":1542961506
+#CUR:"C:\\Users\\FRANCO\\Desktop\\10-multiplicador4bits\\xor00.vhdl":1542961504
+#CUR:"C:\\Users\\FRANCO\\Desktop\\10-multiplicador4bits\\or00.vhdl":1542961506
+#CUR:"C:\\Users\\FRANCO\\Desktop\\10-multiplicador4bits\\ha00.vhdl":1542961506
+#CUR:"C:\\Users\\FRANCO\\Desktop\\10-multiplicador4bits\\fa00.vhdl":1542961506
+#CUR:"C:\\Users\\FRANCO\\Desktop\\10-multiplicador4bits\\multplicador00.vhdl":1542961506
+0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\FRANCO\Desktop\10-multiplicador4bits\and00.vhdl" vhdl
+2 "C:\Users\FRANCO\Desktop\10-multiplicador4bits\xor00.vhdl" vhdl
+3 "C:\Users\FRANCO\Desktop\10-multiplicador4bits\or00.vhdl" vhdl
+4 "C:\Users\FRANCO\Desktop\10-multiplicador4bits\ha00.vhdl" vhdl
+5 "C:\Users\FRANCO\Desktop\10-multiplicador4bits\fa00.vhdl" vhdl
+6 "C:\Users\FRANCO\Desktop\10-multiplicador4bits\multplicador00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 2 1 
+5 4 3 
+6 1 5 
+
+# Dependency Lists (Users Of)
+0 -1
+1 6 4 
+2 4 
+3 5 
+4 5 
+5 6 
+6 -1
+
+# Design Unit to File Association
+arch work and00 and0 1
+module work and00 1
+arch work xor00 xor0 2
+module work xor00 2
+arch work or00 or0 3
+module work or00 3
+arch work ha00 ha0 4
+module work ha00 4
+arch work fa00 fa0 5
+module work fa00 5
+arch work multiplicador00 multiplicador0 6
+module work multiplicador00 6
+
+
+# Configuration files used

@@ -1,0 +1,17 @@
+@N: CD630 :"C:\Users\FERNANDO\Desktop\P12\div00\topdiv00\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\FERNANDO\Desktop\P12\div00\topdiv00\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P12\div00\topdiv00\div00.vhdl":29:6:29:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P12\div00\topdiv00\div00.vhdl":37:6:37:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P12\div00\topdiv00\div00.vhdl":45:6:45:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P12\div00\topdiv00\div00.vhdl":53:6:53:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P12\div00\topdiv00\div00.vhdl":61:6:61:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P12\div00\topdiv00\div00.vhdl":69:6:69:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P12\div00\topdiv00\div00.vhdl":77:6:77:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P12\div00\topdiv00\div00.vhdl":85:6:85:11|Removing redundant assignment.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\FERNANDO\Desktop\P12\div00\topdiv00\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD326 :"C:\Users\FERNANDO\Desktop\P12\div00\topdiv00\osc00.vhdl":24:0:24:7|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0

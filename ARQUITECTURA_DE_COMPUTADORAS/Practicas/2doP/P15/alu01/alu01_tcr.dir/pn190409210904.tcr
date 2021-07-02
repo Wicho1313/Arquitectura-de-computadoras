@@ -1,0 +1,26 @@
+#Start recording tcl command: 4/9/2019 20:53:37
+#Project Location: C:/Users/FERNANDO/Desktop/P15/alu01; Project name: alu01
+prj_project new -name "alu01" -impl "alu01" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/topdiv00VHDL/div00.vhdl" "C:/Users/FERNANDO/Desktop/P15/topdiv00VHDL/osc00.vhdl" "C:/Users/FERNANDO/Desktop/P15/topdiv00VHDL/packagediv00.vhdl" "C:/Users/FERNANDO/Desktop/P15/topdiv00VHDL/topdiv00.vhdl"
+prj_project save
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/anda00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/ora00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/nanda00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/nora00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/xora00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/xnora00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/nota00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/ac00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/packagealu00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/topalu00.vhdl"
+prj_run Export -impl alu01 -task Jedecgen
+prj_run Export -impl alu01 -task Jedecgen
+pgr_project save "C:/Users/FERNANDO/Desktop/P15/alu01/alu01/alu01.xcf"
+prj_src add -exclude "C:/Users/FERNANDO/Desktop/P15/alu01/alu01/alu01.xcf"
+prj_src enable "C:/Users/FERNANDO/Desktop/P15/alu01/alu01/alu01.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P15/alu01/alu01/alu01.xcf"
+pgr_program run
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 4/9/2019 21:09:04

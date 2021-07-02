@@ -1,0 +1,189 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\alu01\\alu01\\synwork\\alu01_alu01_comp.srs|-top|topalu00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\bin64\\c_vhdl.exe":1554128468
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\location.map":1554152480
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std1164.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\numeric.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\arith.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542263532
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\topdiv00VHDL\\div00.vhdl":1571606024
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\cpld\\lattice.vhd":1554127688
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\topdiv00VHDL\\osc00.vhdl":1571606026
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\topdiv00VHDL\\packagediv00.vhdl":1571606026
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\adder8bit00VHDL\\xor00.vhdl":1571606024
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1554127688
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\adder8bit00VHDL\\and00.vhdl":1571606022
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\adder8bit00VHDL\\packageha00.vhdl":1571606024
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\adder8bit00VHDL\\or00.vhdl":1571606026
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\adder8bit00VHDL\\packagefa00.vhdl":1571606022
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\adder8bit00VHDL\\xnor00.vhdl":1571606024
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\adder8bit00VHDL\\packageadder8bit00.vhdl":1571606024
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\mult8bit00VHDL\\packagemult8bit00.vhdl":1571606026
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\alu01\\anda00.vhdl":1574959687
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\alu01\\ora00.vhdl":1574959687
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\alu01\\nanda00.vhdl":1574959687
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\alu01\\nora00.vhdl":1574959687
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\alu01\\xora00.vhdl":1574959687
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\alu01\\xnora00.vhdl":1574959687
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\alu01\\nota00.vhdl":1574959687
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\alu01\\add00.vhdl":1574785332
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\alu01\\sub00.vhdl":1574785332
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\alu01\\mult00.vhdl":1571606018
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\alu01\\ac00.vhdl":1571606020
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\alu01\\packagealu00.vhdl":1574785230
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\topdiv00VHDL\\topdiv00.vhdl":1571606024
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\adder8bit00VHDL\\topha00.vhdl":1571606022
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\adder8bit00VHDL\\topfa00.vhdl":1571606022
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\adder8bit00VHDL\\topadder8bit00.vhdl":1571606024
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\mult8bit00VHDL\\topmult8bit00.vhdl":1571606026
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P15\\alu01\\topalu00.vhdl":1574783488
+0 "C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\div00.vhdl" vhdl
+2 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\osc00.vhdl" vhdl
+3 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\packagediv00.vhdl" vhdl
+4 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\xor00.vhdl" vhdl
+5 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\and00.vhdl" vhdl
+6 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\packageha00.vhdl" vhdl
+7 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\or00.vhdl" vhdl
+8 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\packagefa00.vhdl" vhdl
+9 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\xnor00.vhdl" vhdl
+10 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\packageadder8bit00.vhdl" vhdl
+11 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\mult8bit00VHDL\packagemult8bit00.vhdl" vhdl
+12 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\anda00.vhdl" vhdl
+13 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\ora00.vhdl" vhdl
+14 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nanda00.vhdl" vhdl
+15 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nora00.vhdl" vhdl
+16 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\xora00.vhdl" vhdl
+17 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\xnora00.vhdl" vhdl
+18 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nota00.vhdl" vhdl
+19 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\add00.vhdl" vhdl
+20 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\sub00.vhdl" vhdl
+21 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\mult00.vhdl" vhdl
+22 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\ac00.vhdl" vhdl
+23 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\packagealu00.vhdl" vhdl
+24 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\topdiv00.vhdl" vhdl
+25 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\topha00.vhdl" vhdl
+26 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\topfa00.vhdl" vhdl
+27 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\topadder8bit00.vhdl" vhdl
+28 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\mult8bit00VHDL\topmult8bit00.vhdl" vhdl
+29 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\topalu00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 -1
+18 -1
+19 -1
+20 -1
+21 -1
+22 -1
+23 -1
+24 2 1 3 
+25 5 4 6 
+26 25 7 8 
+27 4 26 9 5 10 
+28 5 26 11 
+29 24 12 13 14 15 16 17 18 27 28 19 20 21 22 23 
+
+# Dependency Lists (Users Of)
+0 -1
+1 24 
+2 24 
+3 24 
+4 25 27 
+5 28 25 27 
+6 25 
+7 26 
+8 26 
+9 27 
+10 27 
+11 28 
+12 29 
+13 29 
+14 29 
+15 29 
+16 29 
+17 29 
+18 29 
+19 29 
+20 29 
+21 29 
+22 29 
+23 29 
+24 29 
+25 26 
+26 28 27 
+27 29 
+28 29 
+29 -1
+
+# Design Unit to File Association
+arch work div00 div0 1
+module work div00 1
+arch work osc00 osc0 2
+module work osc00 2
+arch work xor00 xor0 4
+module work xor00 4
+arch work and00 and0 5
+module work and00 5
+arch work or00 or0 7
+module work or00 7
+arch work xnor00 xnor0 9
+module work xnor00 9
+arch work anda00 anda0 12
+module work anda00 12
+arch work ora00 ora0 13
+module work ora00 13
+arch work nanda00 nanda0 14
+module work nanda00 14
+arch work nora00 nora0 15
+module work nora00 15
+arch work xora00 xora0 16
+module work xora00 16
+arch work xnora00 xnora0 17
+module work xnora00 17
+arch work nota00 nota0 18
+module work nota00 18
+arch work add00 add0 19
+module work add00 19
+arch work sub00 sub0 20
+module work sub00 20
+arch work mult00 mult0 21
+module work mult00 21
+arch work ac00 ac0 22
+module work ac00 22
+arch work topdiv00 topdiv0 24
+module work topdiv00 24
+arch work topha00 topha0 25
+module work topha00 25
+arch work topfa00 topfa0 26
+module work topfa00 26
+arch work topadder8bit00 topadder8bit0 27
+module work topadder8bit00 27
+arch work topmult8bit00 topmult8bit0 28
+module work topmult8bit00 28
+arch work topalu00 topalu0 29
+module work topalu00 29
+
+
+# Configuration files used

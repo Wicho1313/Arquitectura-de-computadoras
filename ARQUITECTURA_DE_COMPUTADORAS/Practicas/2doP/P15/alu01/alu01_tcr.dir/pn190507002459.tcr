@@ -1,0 +1,10 @@
+#Start recording tcl command: 5/7/2019 00:15:36
+#Project Location: C:/Users/FERNANDO/Desktop/P15/alu01; Project name: alu01
+prj_project open "C:/Users/FERNANDO/Desktop/P15/alu01/alu01.ldf"
+prj_src remove "C:/Users/FERNANDO/Desktop/P15/mult8bit00/packagemult8bit00.vhdl" "C:/Users/FERNANDO/Desktop/P15/mult8bit00/topmult8bit00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/mult8bit00VHDL/packagemult8bit00.vhdl" "C:/Users/FERNANDO/Desktop/P15/mult8bit00VHDL/topmult8bit00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/adder8bit00VHDL/topfa00.vhdl"
+prj_src remove "C:/Users/FERNANDO/Desktop/P15/adder8bit00VHDL/topfa00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/mult8bit00VHDL/topfa00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/mult8bit00VHDL/topha00.vhdl"
+#Stop recording: 5/7/2019 00:24:59

@@ -1,0 +1,7 @@
+#Start recording tcl command: 11/15/2018 11:32:07
+#Project Location: C:/Users/alexis/Desktop/AAarquitecturadecomputadoras/ProyectosMacxo2/bcd00; Project name: bcd00
+prj_project new -name "bcd00" -impl "bcd" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/alexis/Desktop/AAarquitecturadecomputadoras/ProyectosMacxo2/div00vhdl/div00.vhdl" "C:/Users/alexis/Desktop/AAarquitecturadecomputadoras/ProyectosMacxo2/div00vhdl/osc00.vhdl" "C:/Users/alexis/Desktop/AAarquitecturadecomputadoras/ProyectosMacxo2/div00vhdl/packagediv00 .vhdl" "C:/Users/alexis/Desktop/AAarquitecturadecomputadoras/ProyectosMacxo2/div00vhdl/paclagediv00.vhdl" "C:/Users/alexis/Desktop/AAarquitecturadecomputadoras/ProyectosMacxo2/div00vhdl/topdiv00.vhdl"
+prj_project save
+prj_src add "C:/Users/alexis/Desktop/AAarquitecturadecomputadoras/ProyectosMacxo2/bcd00/sust00.vhdl"
+#Stop recording: 11/15/2018 12:08:18

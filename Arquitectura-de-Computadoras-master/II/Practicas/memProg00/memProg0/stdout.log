@@ -1,0 +1,90 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.11_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.11_x64\synpbase
+Hostname:    DESKTOP-496B8RB
+Date:        Mon Nov 25 10:46:37 2019
+Version:     N-2018.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch memProg00_memProg0_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\memProg00_memProg0.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\memProg00_memProg0.srr to C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\memProg00_memProg0.srf
+
+hdl_info_gen completed
+# Mon Nov 25 10:46:38 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+log file: "C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\memProg00_memProg0.srr"
+Running: memProg0 in foreground
+
+Running proj_1|memProg0
+
+Running Flow: compile (Compile) on proj_1|memProg0
+# Mon Nov 25 10:46:39 2019
+
+Running Flow: compile_flow (Compile Process) on proj_1|memProg0
+# Mon Nov 25 10:46:39 2019
+
+Running: compiler (Compile Input) on proj_1|memProg0
+# Mon Nov 25 10:46:39 2019
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\synwork\memProg00_memProg0_comp.srs to C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\memProg00_memProg0.srs
+
+compiler completed
+# Mon Nov 25 10:46:42 2019
+
+Return Code: 0
+Run Time:00h:00m:03s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|memProg0
+# Mon Nov 25 10:46:42 2019
+
+multi_srs_gen completed
+# Mon Nov 25 10:46:42 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\synwork\memProg00_memProg0_mult.srs to C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\memProg00_memProg0.srs
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\memProg00_memProg0.srr to C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\memProg00_memProg0.srf
+Complete: Compile Process on proj_1|memProg0
+
+Running: premap (Premap) on proj_1|memProg0
+# Mon Nov 25 10:46:42 2019
+
+premap completed with warnings
+# Mon Nov 25 10:46:44 2019
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on proj_1|memProg0
+
+Running Flow: map (Map) on proj_1|memProg0
+# Mon Nov 25 10:46:44 2019
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|memProg0
+# Mon Nov 25 10:46:44 2019
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\synwork\memProg00_memProg0_m.srm to C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\memProg00_memProg0.srm
+
+fpga_mapper completed with warnings
+# Mon Nov 25 10:46:48 2019
+
+Return Code: 1
+Run Time:00h:00m:03s
+Complete: Map on proj_1|memProg0
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\memProg00_memProg0.srr to C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\memProg00_memProg0.srf
+Complete: Logic Synthesis on proj_1|memProg0
+TCL script complete: "memProg00_memProg0_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\proj_1.prj
+batch mode default:no

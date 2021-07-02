@@ -1,0 +1,241 @@
+
+Loading design for application trce from file signo00_signo0.ncd.
+Design name: signo00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application trce from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4
+Tue Nov 19 08:53:56 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o signo00_signo0.twr -gui -msgset C:/Users/ameri/Documentos/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Practicas/2doP/P12/signo00/promote.xml signo00_signo0.ncd signo00_signo0.prf 
+Design file:     signo00_signo0.ncd
+Preference file: signo00_signo0.prf
+Device,speed:    LCMXO2-7000HE,4
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: Default path enumeration
+            32 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:   15.025ns delay vector_entrada[15] to vector_salida[16]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI vector_entrada[15]
+ROUTE        17    10.205        5.PADDI to       41.PADDO vector_entrada_c[15]
+DOPAD_DEL   ---     3.448       41.PADDO to         41.PAD vector_salida[16]
+                  --------
+                   15.025   (32.1% logic, 67.9% route), 2 logic levels.
+
+Report:   15.025ns delay vector_entrada[15] to vector_salida[17]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI vector_entrada[15]
+ROUTE        17    10.205        5.PADDI to       39.PADDO vector_entrada_c[15]
+DOPAD_DEL   ---     3.448       39.PADDO to         39.PAD vector_salida[17]
+                  --------
+                   15.025   (32.1% logic, 67.9% route), 2 logic levels.
+
+Report:   14.525ns delay vector_entrada[15] to vector_salida[18]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI vector_entrada[15]
+ROUTE        17     9.705        5.PADDI to       44.PADDO vector_entrada_c[15]
+DOPAD_DEL   ---     3.448       44.PADDO to         44.PAD vector_salida[18]
+                  --------
+                   14.525   (33.2% logic, 66.8% route), 2 logic levels.
+
+Report:   14.525ns delay vector_entrada[15] to vector_salida[19]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI vector_entrada[15]
+ROUTE        17     9.705        5.PADDI to       42.PADDO vector_entrada_c[15]
+DOPAD_DEL   ---     3.448       42.PADDO to         42.PAD vector_salida[19]
+                  --------
+                   14.525   (33.2% logic, 66.8% route), 2 logic levels.
+
+Report:   14.525ns delay vector_entrada[15] to vector_salida[20]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI vector_entrada[15]
+ROUTE        17     9.705        5.PADDI to       43.PADDO vector_entrada_c[15]
+DOPAD_DEL   ---     3.448       43.PADDO to         43.PAD vector_salida[20]
+                  --------
+                   14.525   (33.2% logic, 66.8% route), 2 logic levels.
+
+Report:   14.525ns delay vector_entrada[15] to vector_salida[21]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI vector_entrada[15]
+ROUTE        17     9.705        5.PADDI to       45.PADDO vector_entrada_c[15]
+DOPAD_DEL   ---     3.448       45.PADDO to         45.PAD vector_salida[21]
+                  --------
+                   14.525   (33.2% logic, 66.8% route), 2 logic levels.
+
+Report:   14.525ns delay vector_entrada[15] to vector_salida[22]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI vector_entrada[15]
+ROUTE        17     9.705        5.PADDI to       47.PADDO vector_entrada_c[15]
+DOPAD_DEL   ---     3.448       47.PADDO to         47.PAD vector_salida[22]
+                  --------
+                   14.525   (33.2% logic, 66.8% route), 2 logic levels.
+
+Report:   14.525ns delay vector_entrada[15] to vector_salida[24]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI vector_entrada[15]
+ROUTE        17     9.705        5.PADDI to       48.PADDO vector_entrada_c[15]
+DOPAD_DEL   ---     3.448       48.PADDO to         48.PAD vector_salida[24]
+                  --------
+                   14.525   (33.2% logic, 66.8% route), 2 logic levels.
+
+Report:   13.566ns delay vector_entrada[15] to vector_salida[23]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI vector_entrada[15]
+ROUTE        17     8.746        5.PADDI to       49.PADDO vector_entrada_c[15]
+DOPAD_DEL   ---     3.448       49.PADDO to         49.PAD vector_salida[23]
+                  --------
+                   13.566   (35.5% logic, 64.5% route), 2 logic levels.
+
+Report:   13.566ns delay vector_entrada[15] to vector_salida[25]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI vector_entrada[15]
+ROUTE        17     8.746        5.PADDI to       50.PADDO vector_entrada_c[15]
+DOPAD_DEL   ---     3.448       50.PADDO to         50.PAD vector_salida[25]
+                  --------
+                   13.566   (35.5% logic, 64.5% route), 2 logic levels.
+
+Report:   15.025ns is the maximum delay for this preference.
+
+
+================================================================================
+Preference: Default net enumeration
+            16 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:   10.205ns maximum delay on vector_entrada_c[15]
+
+           Delays             Connection(s)
+           5.457ns          5.PADDI to 91.PADDO        
+          10.205ns          5.PADDI to 41.PADDO        
+          10.205ns          5.PADDI to 39.PADDO        
+           9.705ns          5.PADDI to 44.PADDO        
+           9.705ns          5.PADDI to 42.PADDO        
+           9.705ns          5.PADDI to 43.PADDO        
+           9.705ns          5.PADDI to 45.PADDO        
+           9.705ns          5.PADDI to 47.PADDO        
+           8.746ns          5.PADDI to 49.PADDO        
+           9.705ns          5.PADDI to 48.PADDO        
+           8.746ns          5.PADDI to 50.PADDO        
+           8.306ns          5.PADDI to 52.PADDO        
+           8.300ns          5.PADDI to 55.PADDO        
+           8.306ns          5.PADDI to 54.PADDO        
+           8.300ns          5.PADDI to 56.PADDO        
+           7.355ns          5.PADDI to 57.PADDO        
+           6.406ns          5.PADDI to 59.PADDO        
+
+Report:    6.400ns maximum delay on vector_entrada_c[5]
+
+           Delays             Connection(s)
+           6.400ns         21.PADDI to 104.PADDO       
+
+Report:    5.973ns maximum delay on vector_entrada_c[4]
+
+           Delays             Connection(s)
+           5.973ns         22.PADDI to 105.PADDO       
+
+Report:    5.918ns maximum delay on vector_entrada_c[8]
+
+           Delays             Connection(s)
+           5.918ns         14.PADDI to 97.PADDO        
+
+Report:    5.918ns maximum delay on vector_entrada_c[7]
+
+           Delays             Connection(s)
+           5.918ns         19.PADDI to 99.PADDO        
+
+Report:    5.876ns maximum delay on vector_entrada_c[14]
+
+           Delays             Connection(s)
+           5.876ns          6.PADDI to 92.PADDO        
+
+Report:    5.876ns maximum delay on vector_entrada_c[6]
+
+           Delays             Connection(s)
+           5.876ns         20.PADDI to 100.PADDO       
+
+Report:    5.474ns maximum delay on vector_entrada_c[12]
+
+           Delays             Connection(s)
+           5.474ns         10.PADDI to 94.PADDO        
+
+Report:    5.451ns maximum delay on vector_entrada_c[10]
+
+           Delays             Connection(s)
+           5.451ns         12.PADDI to 95.PADDO        
+
+Report:    5.449ns maximum delay on vector_entrada_c[9]
+
+           Delays             Connection(s)
+           5.449ns         13.PADDI to 98.PADDO        
+
+Report:   10.205ns is the maximum delay for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+Default path enumeration                |     0.000 ns|    15.025 ns|   0  
+                                        |             |             |
+Default net enumeration                 |     0.000 ns|    10.205 ns|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 0 clocks:
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 32 paths, 16 nets, and 32 connections (100.00% coverage)
+
+--------------------------------------------------------------------------------
+

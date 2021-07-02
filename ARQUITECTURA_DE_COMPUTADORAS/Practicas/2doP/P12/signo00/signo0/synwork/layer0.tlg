@@ -1,0 +1,9 @@
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo00.vhd":4:7:4:13|Synthesizing work.signo00.signo0.
+Post processing for work.signo00.signo0
+Running optimization stage 1 on signo00 .......
+Running optimization stage 2 on signo00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo0\synwork\layer0.rt.csv
+

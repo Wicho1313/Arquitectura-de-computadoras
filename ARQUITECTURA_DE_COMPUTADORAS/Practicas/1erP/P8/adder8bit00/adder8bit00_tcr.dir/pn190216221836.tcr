@@ -1,0 +1,23 @@
+#Start recording tcl command: 2/16/2019 20:59:00
+#Project Location: C:/Users/FERNANDO/Desktop/P8/adder8bit00; Project name: adder8bit00
+prj_project new -name "adder8bit00" -impl "adder8bit00" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/FERNANDO/Desktop/P8/adder8bit00/xor00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P8/adder8bit00/and00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P8/adder8bit00/packageha00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P8/adder8bit00/ha00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P8/adder8bit00/or00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P8/adder8bit00/packagefa00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P8/adder8bit00/fa00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P8/adder8bit00/xnor00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P8/adder8bit00/packageadder8bit00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P8/adder8bit00/adder8bit00.vhdl"
+prj_run Export -impl adder8bit00 -task Jedecgen
+prj_run Export -impl adder8bit00 -task Jedecgen
+pgr_project save "C:/Users/FERNANDO/Desktop/P8/adder8bit00/adder8bit00/adder8bit00.xcf"
+prj_src add -exclude "C:/Users/FERNANDO/Desktop/P8/adder8bit00/adder8bit00/adder8bit00.xcf"
+prj_src enable "C:/Users/FERNANDO/Desktop/P8/adder8bit00/adder8bit00/adder8bit00.xcf"
+pgr_program run
+pgr_project save "C:/Users/FERNANDO/Desktop/P8/adder8bit00/adder8bit00/adder8bit00.xcf"
+pgr_project close
+#Stop recording: 2/16/2019 22:18:36

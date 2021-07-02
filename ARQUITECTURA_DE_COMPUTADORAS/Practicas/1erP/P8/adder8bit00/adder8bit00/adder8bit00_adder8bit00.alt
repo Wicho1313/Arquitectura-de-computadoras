@@ -1,0 +1,34 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sat Feb 16 21:56:26 2019 *
+NOTE DESIGN NAME: adder8bit00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS So[0] : 97 : out *
+NOTE PINS SL : 1 : in *
+NOTE PINS LED : 61 : out *
+NOTE PINS So[7] : 91 : out *
+NOTE PINS So[6] : 92 : out *
+NOTE PINS So[5] : 93 : out *
+NOTE PINS So[4] : 94 : out *
+NOTE PINS So[3] : 96 : out *
+NOTE PINS So[2] : 95 : out *
+NOTE PINS So[1] : 98 : out *
+NOTE PINS Bi[7] : 19 : in *
+NOTE PINS Bi[6] : 20 : in *
+NOTE PINS Bi[5] : 21 : in *
+NOTE PINS Bi[4] : 22 : in *
+NOTE PINS Bi[3] : 132 : in *
+NOTE PINS Bi[2] : 133 : in *
+NOTE PINS Bi[1] : 24 : in *
+NOTE PINS Bi[0] : 23 : in *
+NOTE PINS Ai[7] : 5 : in *
+NOTE PINS Ai[6] : 6 : in *
+NOTE PINS Ai[5] : 9 : in *
+NOTE PINS Ai[4] : 10 : in *
+NOTE PINS Ai[3] : 11 : in *
+NOTE PINS Ai[2] : 12 : in *
+NOTE PINS Ai[1] : 13 : in *
+NOTE PINS Ai[0] : 14 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

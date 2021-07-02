@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topalu00  -multisrs  C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\synwork\alu00_alu00_comp.srs  -osyn  C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\synwork\alu00_alu00_mult.srs  -log  C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\synlog\alu00_alu00_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top topalu00 -multisrs ..\synwork\alu00_alu00_comp.srs -osyn ..\synwork\alu00_alu00_mult.srs -log ..\synlog\alu00_alu00_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\alu00_alu00_comp.srs|io:i|time:1574354913|size:13137|exec:0|csum:9BE108AA99EEF1177A8F800F44FE8051
+file:..\synwork\alu00_alu00_mult.srs|io:o|time:1574354915|size:3467|exec:0|csum:
+file:..\synlog\alu00_alu00_multi_srs_gen.srr|io:o|time:1574354915|size:1255|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

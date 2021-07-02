@@ -1,0 +1,28 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MO106 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:84:74:89|Found ROM prom\.inIRDI_2[15:8] (in view: work.dec00(dec0)) with 32 words by 8 bits.
+@N: MO106 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:16:74:21|Found ROM prom\.inIRDI_2[31:24] (in view: work.dec00(dec0)) with 16 words by 8 bits.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance inIRDI[10] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[15] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[14] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[13] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[12] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[11] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[10] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[9] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance outIRDI[8] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing sequential instance RO03.outRDDI[0] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@N: MO106 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:120:74:125|Found ROM RO02.prom\.inIRDI_2_0[7:0] (in view: work.topdec00(topdec0)) with 16 words by 8 bits.
+@N: MO106 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:48:74:53|Found ROM RO02.prom\.inIRDI_2_0[23:16] (in view: work.topdec00(topdec0)) with 16 words by 8 bits.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":74:48:74:53|Removing sequential instance RO02.prom\.inIRDI_2_0_dreg_0[2] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\mp00.vhd":68:2:68:3|Removing sequential instance RO02.outIRDI[18] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura-de-computadoras-master\ii\practicas\memprog00\decoderinst00.vhd":28:2:28:3|Removing sequential instance RO03.outRTDI[2] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\memProg0\memProg00_memProg0.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock div00|outdiv_derived_clock with period 480.77ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

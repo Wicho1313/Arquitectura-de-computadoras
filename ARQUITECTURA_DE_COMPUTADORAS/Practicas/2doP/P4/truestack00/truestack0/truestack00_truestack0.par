@@ -1,0 +1,237 @@
+PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Sun Mar 31 20:56:29 2019
+
+C:/lscc/diamond/3.10_x64/ispfpga\bin\nt64\par -f truestack00_truestack0.p2t
+truestack00_truestack0_map.ncd truestack00_truestack0.dir
+truestack00_truestack0.prf -gui -msgset
+C:/Users/FERNANDO/Desktop/P4/truestack00/promote.xml
+
+
+Preference file: truestack00_truestack0.prf.
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            459.248      0            0.306        0            14           Success
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 14 secs 
+
+par done!
+
+Lattice Place and Route Report for Design "truestack00_truestack0_map.ncd"
+Sun Mar 31 20:56:29 2019
+
+PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/FERNANDO/Desktop/P4/truestack00/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF truestack00_truestack0_map.ncd truestack00_truestack0.dir/5_1.ncd truestack00_truestack0.prf
+Preference file: truestack00_truestack0.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file truestack00_truestack0_map.ncd.
+Design name: topStack00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application par from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   44+4(JTAG)/336     14% used
+                  44+4(JTAG)/115     42% bonded
+   IOLOGIC            2/336          <1% used
+
+   SLICE             93/3432          2% used
+
+   OSC                1/1           100% used
+
+
+Number of Signals: 286
+Number of Connections: 824
+
+Pin Constraint Summary:
+   44 out of 44 pins locked (100% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    RA00.sclk_0 (driver: RA00/D00/OSCInst0, clk load #: 37)
+
+
+The following 2 signals are selected to use the secondary clock routing resources:
+    clk0_c (driver: RA00/D01/SLICE_36, clk load #: 8, sr load #: 0, ce load #: 0)
+    RA00/D01/outdiv_0_sqmuxa_i_RNIJBU41 (driver: RA00/D01/SLICE_67, clk load #: 0, sr load #: 11, ce load #: 0)
+
+No signal is selected as Global Set/Reset.
+Starting Placer Phase 0.
+......
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+Starting Placer Phase 1.
+...................
+Placer score = 80742.
+Finished Placer Phase 1.  REAL time: 8 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  80736
+Finished Placer Phase 2.  REAL time: 8 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "RA00.sclk_0" from OSC on comp "RA00/D00/OSCInst0" on site "OSC", clk load = 37
+  SECONDARY "clk0_c" from Q0 on comp "RA00/D01/SLICE_36" on site "R14C18C", clk load = 8, ce load = 0, sr load = 0
+  SECONDARY "RA00/D01/outdiv_0_sqmuxa_i_RNIJBU41" from F0 on comp "RA00/D01/SLICE_67" on site "R14C18A", clk load = 0, ce load = 0, sr load = 11
+
+  PRIMARY  : 1 out of 8 (12%)
+  SECONDARY: 2 out of 8 (25%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   44 + 4(JTAG) out of 336 (14.3%) PIO sites used.
+   44 + 4(JTAG) out of 115 (41.7%) bonded PIO sites used.
+   Number of PIO comps: 44; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 0 / 28 (  0%)  | -          | -         |
+| 1        | 21 / 29 ( 72%) | 2.5V       | -         |
+| 2        | 16 / 29 ( 55%) | 2.5V       | -         |
+| 3        | 0 / 9 (  0%)   | -          | -         |
+| 4        | 0 / 10 (  0%)  | -          | -         |
+| 5        | 7 / 10 ( 70%)  | 2.5V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 8 secs 
+
+Dumping design to file truestack00_truestack0.dir/5_1.ncd.
+
+0 connections routed; 824 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 12 secs 
+
+Start NBR router at 20:56:41 03/31/19
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 20:56:41 03/31/19
+
+Start NBR section for initial routing at 20:56:41 03/31/19
+Level 4, iteration 1
+20(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.811ns/0.000ns; real time: 12 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 20:56:42 03/31/19
+Level 4, iteration 1
+15(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.811ns/0.000ns; real time: 13 secs 
+Level 4, iteration 2
+6(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.248ns/0.000ns; real time: 13 secs 
+Level 4, iteration 3
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.255ns/0.000ns; real time: 13 secs 
+Level 4, iteration 4
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.255ns/0.000ns; real time: 13 secs 
+Level 4, iteration 5
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.248ns/0.000ns; real time: 13 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 20:56:42 03/31/19
+
+Start NBR section for re-routing at 20:56:42 03/31/19
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.248ns/0.000ns; real time: 13 secs 
+
+Start NBR section for post-routing at 20:56:42 03/31/19
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 459.248ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 14 secs 
+Total REAL time: 14 secs 
+Completely routed.
+End of route.  824 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file truestack00_truestack0.dir/5_1.ncd.
+
+
+All signals are completely routed.
+
+
+PAR_SUMMARY::Run status = Success
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 459.248
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.306
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 14 secs 
+Total REAL time to completion: 14 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.

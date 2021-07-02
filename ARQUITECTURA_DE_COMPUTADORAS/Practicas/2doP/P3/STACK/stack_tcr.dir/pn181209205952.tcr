@@ -1,0 +1,15 @@
+#Start recording tcl command: 12/9/2018 18:32:16
+#Project Location: C:/Users/Nat/Desktop/4-StackPointer; Project name: stack
+prj_project new -name "stack" -impl "stack" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_src add "C:/Users/Nat/Desktop/4-StackPointer/div00.vhdl" "C:/Users/Nat/Desktop/4-StackPointer/oscilador00.vhdl" "C:/Users/Nat/Desktop/4-StackPointer/topOsc00.vhdl"
+prj_project save
+prj_src add "C:/Users/Nat/Desktop/4-StackPointer/coderStack00.vhdl"
+prj_src add "C:/Users/Nat/Desktop/4-StackPointer/contring00.vhdl"
+prj_src add "C:/Users/Nat/Desktop/4-StackPointer/muxstack00.vhdl"
+prj_src add "C:/Users/Nat/Desktop/4-StackPointer/stackpointer00.vhdl"
+prj_src add "C:/Users/Nat/Desktop/4-StackPointer/stack00.vhdl"
+prj_src add "C:/Users/Nat/Desktop/4-StackPointer/topStack00.vhdl"
+prj_run Export -impl stack -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 12/9/2018 20:59:52

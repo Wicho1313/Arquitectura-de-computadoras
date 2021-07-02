@@ -1,0 +1,15 @@
+#Start recording tcl command: 11/11/2019 09:22:08
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00; Project name: bcd00
+prj_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.ldf"
+prj_run Export -impl bcd0 -task Jedecgen
+pgr_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd0/bcd0.xcf"
+pgr_program run
+pgr_project close
+prj_run Export -impl bcd0 -task Jedecgen
+pgr_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd0/bcd0.xcf"
+pgr_program run
+pgr_project close
+prj_run Export -impl bcd0 -task Jedecgen
+prj_run Export -impl bcd0 -task Jedecgen
+prj_run Export -impl bcd0 -task Jedecgen
+#Stop recording: 11/11/2019 09:59:37

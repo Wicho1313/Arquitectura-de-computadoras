@@ -1,0 +1,6 @@
+#Start recording tcl command: 8/19/2019 13:27:11
+#Project Location: C:/Users/Wicho/Documents/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Prácticas/1erP/P5/COMPUERTAS/and00; Project name: and00
+prj_project open "C:/Users/Wicho/Documents/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Prácticas/1erP/P5/COMPUERTAS/and00/and00.ldf"
+prj_project save
+prj_project close
+#Stop recording: 8/19/2019 13:30:14

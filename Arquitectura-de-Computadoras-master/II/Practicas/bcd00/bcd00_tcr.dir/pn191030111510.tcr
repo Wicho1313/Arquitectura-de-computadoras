@@ -1,0 +1,7 @@
+#Start recording tcl command: 10/30/2019 11:06:34
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00; Project name: bcd00
+prj_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.ldf"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/PortA00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 10/30/2019 11:15:10

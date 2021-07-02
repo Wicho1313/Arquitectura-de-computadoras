@@ -1,0 +1,285 @@
+----------------------------------------------------------------------
+Report for cell topbcd00.topbcd0
+
+Register bits: 185 of 6864 (3%)
+PIC Latch:       0
+I/O cells:       78
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                 BB        2       100.0
+                              CCU2D       23       100.0
+                            FD1P3AX       79       100.0
+                            FD1S3AX       12       100.0
+                            FD1S3IX       75       100.0
+                            FD1S3JX        6       100.0
+                                GSR        1       100.0
+                                 IB       19       100.0
+                           IFS1P3DX       10       100.0
+                           IFS1P3IX        2       100.0
+                                INV        5       100.0
+                                 OB       45       100.0
+                                OBZ       12       100.0
+                           OFS1P3IX        1       100.0
+                           ORCALUT4      301       100.0
+                               OSCH        1       100.0
+                              PFUMX        7       100.0
+                                PUR        1       100.0
+                                VHI       15       100.0
+                                VLO       18       100.0
+SUB MODULES 
+                             ac1200        1       100.0
+                              ac800        1       100.0
+                        checkCode00        1       100.0
+                          compadd00        1       100.0
+                         contIter00        1       100.0
+                         contring00        1       100.0
+                              div00        1       100.0
+                              div01        1       100.0
+                             init00        1       100.0
+                         loadData00        1       100.0
+                              mux00        1       100.0
+                              osc00        1       100.0
+                               pc00        1       100.0
+                          progMem00        1       100.0
+                          shift1200        1       100.0
+                           shift800        1       100.0
+                             sust00        1       100.0
+                           topdiv00        1       100.0
+                               uc00        1       100.0
+                            
+                         TOTAL           654           
+----------------------------------------------------------------------
+Report for cell init00.netlist
+     Instance path:  BCD01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        1         1.3
+                            FD1S3AX        1         8.3
+                            FD1S3IX        3         4.0
+                            FD1S3JX        2        33.3
+                           ORCALUT4       16         5.3
+                              PFUMX        1        14.3
+                                VHI        1         6.7
+                                VLO        1         5.6
+                            
+                         TOTAL            26           
+----------------------------------------------------------------------
+Report for cell compadd00.netlist
+     Instance path:  BCD04
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX       25        31.6
+                            FD1S3IX        3         4.0
+                           ORCALUT4       19         6.3
+                                VHI        1         6.7
+                                VLO        1         5.6
+                            
+                         TOTAL            49           
+----------------------------------------------------------------------
+Report for cell shift1200.netlist
+     Instance path:  BCD06
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX       11        13.9
+                            FD1S3AX        1         8.3
+                            FD1S3IX        3         4.0
+                           ORCALUT4       14         4.7
+                                VHI        1         6.7
+                                VLO        1         5.6
+                            
+                         TOTAL            31           
+----------------------------------------------------------------------
+Report for cell sust00.netlist
+     Instance path:  BCD03
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX       12        15.2
+                            FD1S3AX        1         8.3
+                            FD1S3IX        3         4.0
+                           ORCALUT4        8         2.7
+                              PFUMX        1        14.3
+                                VHI        1         6.7
+                                VLO        1         5.6
+                            
+                         TOTAL            27           
+----------------------------------------------------------------------
+Report for cell mux00.netlist
+     Instance path:  BCD16
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4       57        18.9
+                              PFUMX        1        14.3
+                                VLO        1         5.6
+                            
+                         TOTAL            59           
+----------------------------------------------------------------------
+Report for cell contring00.netlist
+     Instance path:  BCD14
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3AX        4        33.3
+                            FD1S3JX        3        50.0
+                                INV        1        20.0
+                                VHI        1         6.7
+                            
+                         TOTAL             9           
+----------------------------------------------------------------------
+Report for cell checkCode00.netlist
+     Instance path:  BCD13
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.3
+                                VLO        1         5.6
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell progMem00.netlist
+     Instance path:  BCD12
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        3         3.8
+                            FD1S3AX        1         8.3
+                                INV        1        20.0
+                           ORCALUT4        9         3.0
+                                VHI        1         6.7
+                                VLO        1         5.6
+                            
+                         TOTAL            16           
+----------------------------------------------------------------------
+Report for cell pc00.netlist
+     Instance path:  BCD11
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3IX        5         6.7
+                            FD1S3JX        1        16.7
+                           ORCALUT4       10         3.3
+                                VHI        1         6.7
+                                VLO        1         5.6
+                            
+                         TOTAL            18           
+----------------------------------------------------------------------
+Report for cell uc00.netlist
+     Instance path:  BCD10
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4       15         5.0
+                              PFUMX        3        42.9
+                                VLO        1         5.6
+                            
+                         TOTAL            19           
+----------------------------------------------------------------------
+Report for cell contIter00.netlist
+     Instance path:  BCD09
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3IX        6         8.0
+                           ORCALUT4       12         4.0
+                                VHI        1         6.7
+                                VLO        1         5.6
+                            
+                         TOTAL            20           
+----------------------------------------------------------------------
+Report for cell ac1200.netlist
+     Instance path:  BCD08
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX       12        15.2
+                            FD1S3IX        1         1.3
+                           ORCALUT4        1         0.3
+                                VHI        1         6.7
+                                VLO        1         5.6
+                            
+                         TOTAL            16           
+----------------------------------------------------------------------
+Report for cell ac800.netlist
+     Instance path:  BCD07
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        8        10.1
+                            FD1S3IX        1         1.3
+                           ORCALUT4        1         0.3
+                                VHI        1         6.7
+                                VLO        1         5.6
+                            
+                         TOTAL            12           
+----------------------------------------------------------------------
+Report for cell shift800.netlist
+     Instance path:  BCD05
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        7         8.9
+                            FD1S3AX        1         8.3
+                            FD1S3IX        3         4.0
+                                INV        1        20.0
+                           ORCALUT4        7         2.3
+                              PFUMX        1        14.3
+                                VHI        1         6.7
+                                VLO        1         5.6
+                            
+                         TOTAL            22           
+----------------------------------------------------------------------
+Report for cell loadData00.netlist
+     Instance path:  BCD02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3AX        1         8.3
+                            FD1S3IX        3         4.0
+                                INV        1        20.0
+                           ORCALUT4       32        10.6
+                                VHI        1         6.7
+                                VLO        1         5.6
+                            
+                         TOTAL            39           
+----------------------------------------------------------------------
+Report for cell topdiv00.netlist
+     Instance path:  BCD00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       23       100.0
+                            FD1S3AX        2        16.7
+                            FD1S3IX       44        58.7
+                           ORCALUT4       93        30.9
+                               OSCH        1       100.0
+                                VHI        2        13.3
+                                VLO        3        16.7
+SUB MODULES 
+                              div00        1       100.0
+                              div01        1       100.0
+                              osc00        1       100.0
+                            
+                         TOTAL           171           
+----------------------------------------------------------------------
+Report for cell div01.netlist
+     Instance path:  BCD00.D02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11        47.8
+                            FD1S3AX        1         8.3
+                            FD1S3IX       21        28.0
+                           ORCALUT4       41        13.6
+                                VHI        1         6.7
+                                VLO        1         5.6
+                            
+                         TOTAL            76           
+----------------------------------------------------------------------
+Report for cell div00.netlist
+     Instance path:  BCD00.D01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       12        52.2
+                            FD1S3AX        1         8.3
+                            FD1S3IX       23        30.7
+                           ORCALUT4       52        17.3
+                                VHI        1         6.7
+                                VLO        1         5.6
+                            
+                         TOTAL            90           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  BCD00.D00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VLO        1         5.6
+                            
+                         TOTAL             2           

@@ -1,0 +1,164 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn170919120033"></A><B><U><big>pn170919120033</big></U></B>
+#Start recording tcl command: 9/19/2017 11:44:24
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00; Project name: barrelRotate00
+prj_project new -name "barrelRotate00" -impl "barrelRotate00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00vhdl/div00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00vhdl/osc00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00vhdl/packagediv00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00vhdl/toposcdiv00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/source"
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/source/div00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/source/osc00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/source/packagediv00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/source/toposcdiv00.vhdl"
+prj_project save
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/BarrelRotate00.vhdl"
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/packagebarrelRotate00.vhdl"
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/topbarrelRotate00.vhdl"
+#Stop recording: 9/19/2017 12:00:33
+
+
+
+<A name="pn170926104855"></A><B><U><big>pn170926104855</big></U></B>
+#Start recording tcl command: 9/26/2017 10:35:27
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00; Project name: barrelRotate00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00.ldf"
+prj_run Export -impl barrelRotate00 -task Jedecgen
+prj_run Synthesis -impl barrelRotate00
+prj_run Synthesis -impl barrelRotate00 -task Synplify_Synthesis
+prj_run Export -impl barrelRotate00 -task Jedecgen
+prj_run Synthesis -impl barrelRotate00
+prj_project save
+prj_project close
+#Stop recording: 9/26/2017 10:48:55
+
+
+
+<A name="pn170926145127"></A><B><U><big>pn170926145127</big></U></B>
+#Start recording tcl command: 9/26/2017 10:50:24
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00; Project name: barrelRotate00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00.ldf"
+prj_run Export -impl barrelRotate00 -task Jedecgen
+prj_run Export -impl barrelRotate00 -task Jedecgen
+prj_run Export -impl barrelRotate00 -task Jedecgen
+prj_run Synthesis -impl barrelRotate00 -task Synplify_Synthesis
+prj_run Synthesis -impl barrelRotate00 -task Synplify_Synthesis -forceOne
+prj_run Synthesis -impl barrelRotate00 -task Synplify_Synthesis
+prj_run Export -impl barrelRotate00 -task Jedecgen
+prj_run Export -impl barrelRotate00 -task Jedecgen
+prj_run Export -impl barrelRotate00 -task Jedecgen
+#Stop recording: 9/26/2017 14:51:27
+
+
+
+<A name="pn170927105351"></A><B><U><big>pn170927105351</big></U></B>
+#Start recording tcl command: 9/27/2017 10:41:00
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00; Project name: barrelRotate00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00.ldf"
+#Stop recording: 9/27/2017 10:53:51
+
+
+
+<A name="pn171003090327"></A><B><U><big>pn171003090327</big></U></B>
+#Start recording tcl command: 10/3/2017 08:43:36
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00; Project name: barrelRotate00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00.ldf"
+prj_run Export -impl barrelRotate00 -task Jedecgen
+pgr_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/barrelRotate00.xcf"
+prj_src add -exclude "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/barrelRotate00.xcf"
+prj_src enable "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/barrelRotate00.xcf"
+pgr_program run
+pgr_project close
+pgr_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/barrelRotate00.xcf"
+pgr_program run
+pgr_program run
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 10/3/2017 09:03:27
+
+
+
+<A name="pn190222164842"></A><B><U><big>pn190222164842</big></U></B>
+#Start recording tcl command: 2/22/2019 16:35:30
+#Project Location: C:/Users/FERNANDO/Desktop/P18/barrelRotate00; Project name: barrelRotate00
+prj_project open "C:/Users/FERNANDO/Desktop/P18/barrelRotate00/barrelRotate00.ldf"
+prj_run Export -impl barrelRotate00 -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/P18/barrelRotate00/barrelRotate00/barrelRotate00.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P18/barrelRotate00/barrelRotate00/barrelRotate00.xcf"
+pgr_program run
+pgr_project close
+pgr_project open "C:/Users/FERNANDO/Desktop/P18/barrelRotate00/barrelRotate00/barrelRotate00.xcf"
+pgr_program run
+pgr_project close
+prj_project close
+#Stop recording: 2/22/2019 16:48:42
+
+
+
+<A name="pn190222165149"></A><B><U><big>pn190222165149</big></U></B>
+#Start recording tcl command: 2/22/2019 16:48:52
+#Project Location: C:/Users/FERNANDO/Desktop/P18/barrelRotate00; Project name: barrelRotate00
+prj_project open "C:/Users/FERNANDO/Desktop/P18/barrelRotate00/barrelRotate00.ldf"
+pgr_project open "C:/Users/FERNANDO/Desktop/P18/barrelRotate00/barrelRotate00/barrelRotate00.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P18/barrelRotate00/barrelRotate00/barrelRotate00.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 2/22/2019 16:51:49
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

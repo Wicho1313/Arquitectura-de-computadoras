@@ -1,0 +1,89 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.10_x64\synpbase
+Hostname:    FERNANDO-VAIO
+Date:        Tue Jan 29 19:59:05 2019
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch and00_and00_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "C:\Users\FERNANDO\Desktop\and00\and00\and00_and00.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+hdl_info_gen completed
+# Tue Jan 29 19:59:06 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+log file: "C:\Users\FERNANDO\Desktop\and00\and00\and00_and00.srr"
+Running: and00 in foreground
+
+Running proj_1|and00
+
+Running: compile (Compile) on proj_1|and00
+# Tue Jan 29 19:59:06 2019
+
+Running: compile_flow (Compile Process) on proj_1|and00
+# Tue Jan 29 19:59:06 2019
+
+Running: compiler (Compile Input) on proj_1|and00
+# Tue Jan 29 19:59:06 2019
+Copied C:\Users\FERNANDO\Desktop\and00\and00\synwork\and00_and00_comp.srs to C:\Users\FERNANDO\Desktop\and00\and00\and00_and00.srs
+
+compiler completed
+# Tue Jan 29 19:59:11 2019
+
+Return Code: 0
+Run Time:00h:00m:05s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|and00
+# Tue Jan 29 19:59:11 2019
+
+multi_srs_gen completed
+# Tue Jan 29 19:59:11 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Users\FERNANDO\Desktop\and00\and00\synwork\and00_and00_mult.srs to C:\Users\FERNANDO\Desktop\and00\and00\and00_and00.srs
+Copied C:\Users\FERNANDO\Desktop\and00\and00\and00_and00.srr to C:\Users\FERNANDO\Desktop\and00\and00\and00_and00.srf
+Complete: Compile Process on proj_1|and00
+
+Running: premap (Pre-mapping) on proj_1|and00
+# Tue Jan 29 19:59:11 2019
+
+premap completed
+# Tue Jan 29 19:59:14 2019
+
+Return Code: 0
+Run Time:00h:00m:03s
+Complete: Compile on proj_1|and00
+
+Running: map (Map) on proj_1|and00
+# Tue Jan 29 19:59:14 2019
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|and00
+# Tue Jan 29 19:59:14 2019
+Copied C:\Users\FERNANDO\Desktop\and00\and00\synwork\and00_and00_m.srm to C:\Users\FERNANDO\Desktop\and00\and00\and00_and00.srm
+
+fpga_mapper completed
+# Tue Jan 29 19:59:17 2019
+
+Return Code: 0
+Run Time:00h:00m:03s
+Complete: Map on proj_1|and00
+Copied C:\Users\FERNANDO\Desktop\and00\and00\and00_and00.srr to C:\Users\FERNANDO\Desktop\and00\and00\and00_and00.srf
+Complete: Logic Synthesis on proj_1|and00
+TCL script complete: "and00_and00_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+C:\Users\FERNANDO\Desktop\and00\and00\proj_1.prj
+batch mode default:no

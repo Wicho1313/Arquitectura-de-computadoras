@@ -1,0 +1,402 @@
+
+         Lattice Mapping Report File for Design Module 'toplcdram00'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
+     lcdram00_lcdram00.ngd -o lcdram00_lcdram00_map.ncd -pr
+     lcdram00_lcdram00.prf -mp lcdram00_lcdram00.mrp -lpf C:/Users/ameri/Documen
+     tos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/lcd
+     03/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00_lcdram00_synplify.lpf
+     -lpf C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computado
+     ras-master/II/Practicas/lcd03/lcdkeyborrar/lcdram00/lcdram00/lcdram00.lpf
+     -c 0 -gui -msgset C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura
+     -de-Computadoras-master/II/Practicas/lcd03/lcdkeyborrar/lcdram00/lcdram00/p
+     romote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
+Mapped on:  11/12/19  09:27:28
+
+Design Summary
+--------------
+
+   Number of registers:    358 out of  7209 (5%)
+      PFU registers:          356 out of  6864 (5%)
+      PIO registers:            2 out of   345 (1%)
+   Number of SLICEs:       249 out of  3432 (7%)
+      SLICEs as Logic/ROM:    249 out of  3432 (7%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         28 out of  3432 (1%)
+   Number of LUT4s:        393 out of  6864 (6%)
+      Number used as logic LUTs:        337
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       56
+      Number used as shift registers:     0
+   Number of PIO sites used: 35 + 4(JTAG) out of 115 (34%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:        1 out of 1 (100%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : Yes
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+
+                                    Page 1
+
+
+
+
+Design:  toplcdram00                                   Date:  11/12/19  09:27:28
+
+Design Summary (cont)
+---------------------
+     ripple logic.
+   Number of clocks:  2
+     Net clk0_c: 172 loads, 172 rising, 0 falling (Driver: U0/OS01/outdiv )
+     Net U0/soscout0: 12 loads, 0 rising, 12 falling (Driver: U0/OS00/OSCInst0 )
+     
+   Number of Clock Enables:  37
+     Net un1_clr_inv_0_a2_0_a3: 2 loads, 0 LSLICEs
+     Net clr0_c: 8 loads, 8 LSLICEs
+     Net U1/COLS_0_sqmuxa: 2 loads, 2 LSLICEs
+     Net U1/N_19: 4 loads, 4 LSLICEs
+     Net U1/N_37: 4 loads, 4 LSLICEs
+     Net U1/N_35: 4 loads, 4 LSLICEs
+     Net U1/N_33: 4 loads, 4 LSLICEs
+     Net U1/N_31: 4 loads, 4 LSLICEs
+     Net U1/N_29: 4 loads, 4 LSLICEs
+     Net U1/N_27: 4 loads, 4 LSLICEs
+     Net U1/ram_32_1_sqmuxa_i_i_a3: 4 loads, 4 LSLICEs
+     Net U1/N_25: 4 loads, 4 LSLICEs
+     Net U1/N_74: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_2_i_0_0: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_3_i_0_0: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_4_i_0_0: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_6_i_0_0: 4 loads, 4 LSLICEs
+     Net U1/N_23: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_5_i_0_0: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_7_i_0_0: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_8_i_0_0: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_9_i_0_0: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_10_i_0_0: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_11_i_0_0: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_12_i_0_0: 4 loads, 4 LSLICEs
+     Net U1/N_54: 4 loads, 4 LSLICEs
+     Net U1/N_21: 4 loads, 4 LSLICEs
+     Net U1/N_52: 4 loads, 4 LSLICEs
+     Net U1/N_50: 4 loads, 4 LSLICEs
+     Net U1/N_48: 4 loads, 4 LSLICEs
+     Net U1/N_46: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_18_i_0_0: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_19_i_0_0: 4 loads, 4 LSLICEs
+     Net U1/N_42: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_21_i_0_0: 4 loads, 4 LSLICEs
+     Net U1/N_39: 4 loads, 4 LSLICEs
+     Net U1/addre: 17 loads, 17 LSLICEs
+   Number of local set/reset loads for net clr0_c merged into GSR:  55
+   Number of LSRs:  1
+     Net U0/OS01/un1_outdiv37_2_0_0_RNI4M6D1: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net U1/addr[4]: 143 loads
+     Net U1/addr[3]: 86 loads
+     Net U1/addr[2]: 54 loads
+     Net U1/addr[1]: 38 loads
+     Net U1/N_234_i: 33 loads
+     Net U1/N_337_1: 32 loads
+     Net U1/un1_c_key_10[0]: 32 loads
+     Net U1/un1_c_key_10[1]: 32 loads
+
+                                    Page 2
+
+
+
+
+Design:  toplcdram00                                   Date:  11/12/19  09:27:28
+
+Design Summary (cont)
+---------------------
+     Net U1/un1_c_key_10[2]: 32 loads
+     Net U1/un1_c_key_10[3]: 32 loads
+
+
+
+
+   Number of warnings:  1
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: Using local reset signal 'clr0_c' to infer global GSR net.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| LCD_DATA0[0]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| OP                  | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ROWSLED[3]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ROWSLED[2]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ROWSLED[1]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ROWSLED[0]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| COLSLED[3]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| COLSLED[2]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| COLSLED[1]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| COLSLED[0]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ROWS[3]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ROWS[2]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ROWS[1]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ROWS[0]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| COLS[3]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| COLS[2]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 3
+
+
+
+
+Design:  toplcdram00                                   Date:  11/12/19  09:27:28
+
+IO (PIO) Attributes (cont)
+--------------------------
+| COLS[1]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| COLS[0]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clr0                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clk0                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED_1               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LCD_RW0             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LCD_RS0             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| LCD_ENABLE0         | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| LCD_DATA0[7]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LCD_DATA0[6]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LCD_DATA0[5]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LCD_DATA0[4]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LCD_DATA0[3]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LCD_DATA0[2]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LCD_DATA0[1]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block VCC undriven or does not drive anything - clipped.
+Block U0/OS01/VCC undriven or does not drive anything - clipped.
+Block U1/VCC undriven or does not drive anything - clipped.
+Signal clr0_c_i was merged into signal clr0_c
+Signal U0/OS01/CN was merged into signal U0/soscout0
+Signal U0/OS00/GND undriven or does not drive anything - clipped.
+Signal U0/OS01/GND undriven or does not drive anything - clipped.
+Signal U1/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal U0/OS00/OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
+Signal U0/OS01/un1_sdiv_1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal U0/OS01/N_1 undriven or does not drive anything - clipped.
+Signal U0/OS01/un1_sdiv_1_cry_19_0_COUT undriven or does not drive anything -
+     clipped.
+Signal U1/addr_s_0_S1[31] undriven or does not drive anything - clipped.
+
+                                    Page 4
+
+
+
+
+Design:  toplcdram00                                   Date:  11/12/19  09:27:28
+
+Removed logic (cont)
+--------------------
+Signal U1/addr_s_0_COUT[31] undriven or does not drive anything - clipped.
+Signal U1/addr_cry_0_S0[0] undriven or does not drive anything - clipped.
+Signal U1/N_1 undriven or does not drive anything - clipped.
+Block clr0_pad_RNI5D9B was optimized away.
+Block U0/OS01/outdiv.CN was optimized away.
+Block U0/OS00/GND was optimized away.
+Block U0/OS01/GND was optimized away.
+Block U1/GND was optimized away.
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                U0/OS00/OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     U0/soscout0
+  OSC Nominal Frequency (MHz):                      2.08
+
+ASIC Components
+---------------
+
+Instance Name: U0/OS00/OSCInst0
+         Type: OSCH
+
+GSR Usage
+---------
+
+GSR Component:
+   The local reset signal 'clr0_c' of the design has been inferred as Global Set
+        Reset (GSR). The reset signal used for GSR control is 'clr0_c'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components on inferred reset domain with GSR Property disabled
+--------------------------------------------------------------
+
+     These components have the GSR property set to DISABLED and are on the
+     inferred reset domain. The components will respond to the reset signal
+     'clr0_c' via the local reset on the component and not the GSR component.
+
+     Type and number of components of the type: 
+   Register = 15 
+
+     Type and instance name of component: 
+   Register : U1/LCD_DATA[7]
+   Register : U1/c_key[0]
+   Register : U1/c_key[1]
+   Register : U1/c_key[2]
+
+                                    Page 5
+
+
+
+
+Design:  toplcdram00                                   Date:  11/12/19  09:27:28
+
+GSR Usage (cont)
+----------------
+   Register : U1/c_key[3]
+   Register : U1/c_key[4]
+   Register : U1/c_key[5]
+   Register : U1/c_key[6]
+   Register : U1/LCD_DATA[0]
+   Register : U1/LCD_DATA[1]
+   Register : U1/LCD_DATA[2]
+   Register : U1/LCD_DATA[3]
+   Register : U1/LCD_DATA[4]
+   Register : U1/LCD_DATA[5]
+   Register : U1/LCD_DATA[6]
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 61 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 6
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights
+     reserved.

@@ -1,0 +1,4 @@
+ Staged, pending: Staged, start: Staged, applicable: Staged, targeted: Staged, limit: Staged
+2019-08-10 21:24:33, Info                  CBS    Plan: Package: HyperV-Networking-Containers-Package~31bf3856ad364e35~amd64~en-US~10.0.18362.1, Update: e81030d211db1155f4dba1dc3b22eec5, current: Staged, pending: Default, start: Staged, applicable: Installed, targeted: Staged, limit: Staged, selected: Default
+2019-08-10 21:24:33, Info                  CBS    Plan: Package: HyperV-Networking-Containers-Package~31bf3856ad364e35~amd64~en-US~10.0.18362.1, Update: ff17cf401a6a38ea411cf01b5bee90ce, current: Staged, pending: Default, start: Staged, applicable: Installed, targeted: Staged, limit: Staged, selected: Default
+2019-08-10 21:24:33, Info                  CBS    Appl: detect Parent, Package: HyperV-Networking-Containers-onecore-Package~31bf3856ad364e35~amd64~en-US~10.0.18362.1, Parent: HyperV-Networking-Containers-onecore-Packag

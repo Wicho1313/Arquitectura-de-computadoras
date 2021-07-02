@@ -1,0 +1,177 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn181209205952"></A><B><U><big>pn181209205952</big></U></B>
+#Start recording tcl command: 12/9/2018 18:32:16
+#Project Location: C:/Users/Nat/Desktop/4-StackPointer; Project name: stack
+prj_project new -name "stack" -impl "stack" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_src add "C:/Users/Nat/Desktop/4-StackPointer/div00.vhdl" "C:/Users/Nat/Desktop/4-StackPointer/oscilador00.vhdl" "C:/Users/Nat/Desktop/4-StackPointer/topOsc00.vhdl"
+prj_project save
+prj_src add "C:/Users/Nat/Desktop/4-StackPointer/coderStack00.vhdl"
+prj_src add "C:/Users/Nat/Desktop/4-StackPointer/contring00.vhdl"
+prj_src add "C:/Users/Nat/Desktop/4-StackPointer/muxstack00.vhdl"
+prj_src add "C:/Users/Nat/Desktop/4-StackPointer/stackpointer00.vhdl"
+prj_src add "C:/Users/Nat/Desktop/4-StackPointer/stack00.vhdl"
+prj_src add "C:/Users/Nat/Desktop/4-StackPointer/topStack00.vhdl"
+prj_run Export -impl stack -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 12/9/2018 20:59:52
+
+
+
+<A name="pn181209210955"></A><B><U><big>pn181209210955</big></U></B>
+#Start recording tcl command: 12/9/2018 21:03:54
+#Project Location: C:/Users/Nat/Desktop/4-StackPointer; Project name: stack
+prj_project open "C:/Users/Nat/Desktop/4-StackPointer/stack.ldf"
+prj_project close
+#Stop recording: 12/9/2018 21:09:55
+
+
+
+<A name="pn190327100423"></A><B><U><big>pn190327100423</big></U></B>
+#Start recording tcl command: 3/27/2019 09:51:22
+#Project Location: C:/Users/FERNANDO/Desktop/STACK; Project name: stack
+prj_project open "C:/Users/FERNANDO/Desktop/STACK/stack.ldf"
+#Stop recording: 3/27/2019 10:04:23
+
+
+
+<A name="pn190327103531"></A><B><U><big>pn190327103531</big></U></B>
+#Start recording tcl command: 3/27/2019 10:29:35
+#Project Location: C:/Users/FERNANDO/Desktop/STACK; Project name: stack
+prj_project open "C:/Users/FERNANDO/Desktop/STACK/stack.ldf"
+prj_run Export -impl stack -task Jedecgen
+#Stop recording: 3/27/2019 10:35:31
+
+
+
+<A name="pn190331162751"></A><B><U><big>pn190331162751</big></U></B>
+#Start recording tcl command: 3/31/2019 15:08:45
+#Project Location: C:/Users/FERNANDO/Desktop/pilas/STACK; Project name: stack
+prj_project open "C:/Users/FERNANDO/Desktop/pilas/STACK/stack.ldf"
+prj_run Export -impl stack -task Jedecgen
+prj_run Export -impl stack -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/pilas/STACK/stack/stack.xcf"
+pgr_program run
+pgr_project close
+prj_run Export -impl stack -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/pilas/STACK/stack/stack.xcf"
+pgr_program run
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 3/31/2019 16:27:51
+
+
+
+<A name="pn190331171453"></A><B><U><big>pn190331171453</big></U></B>
+#Start recording tcl command: 3/31/2019 16:29:11
+#Project Location: C:/Users/FERNANDO/Desktop/pilas/STACK; Project name: stack
+prj_project open "C:/Users/FERNANDO/Desktop/pilas/STACK/stack.ldf"
+prj_run Export -impl stack -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/pilas/STACK/stack/stack.xcf"
+pgr_program run
+pgr_project close
+prj_run Export -impl stack -task Jedecgen
+prj_run Export -impl stack -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/pilas/STACK/stack/stack.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/pilas/STACK/stack/stack.xcf"
+pgr_program run
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 3/31/2019 17:14:53
+
+
+
+<A name="pn190331180821"></A><B><U><big>pn190331180821</big></U></B>
+#Start recording tcl command: 3/31/2019 18:00:35
+#Project Location: C:/Users/FERNANDO/Desktop/P3/pilas/STACK; Project name: stack
+prj_project open "C:/Users/FERNANDO/Desktop/P3/pilas/STACK/stack.ldf"
+#Stop recording: 3/31/2019 18:08:21
+
+
+
+<A name="pn190331182213"></A><B><U><big>pn190331182213</big></U></B>
+#Start recording tcl command: 3/31/2019 18:21:31
+#Project Location: C:/Users/FERNANDO/Desktop/P3/pilas/STACK; Project name: stack
+prj_project open "C:/Users/FERNANDO/Desktop/P3/pilas/STACK/stack.ldf"
+#Stop recording: 3/31/2019 18:22:13
+
+
+
+<A name="pn190331183722"></A><B><U><big>pn190331183722</big></U></B>
+#Start recording tcl command: 3/31/2019 18:36:43
+#Project Location: C:/Users/FERNANDO/Desktop/P3/pilas/STACK; Project name: stack
+prj_project open "C:/Users/FERNANDO/Desktop/P3/pilas/STACK/stack.ldf"
+#Stop recording: 3/31/2019 18:37:22
+
+
+
+<A name="pn190331203227"></A><B><U><big>pn190331203227</big></U></B>
+#Start recording tcl command: 3/31/2019 19:00:44
+#Project Location: C:/Users/FERNANDO/Desktop/pilas/STACK; Project name: stack
+prj_project open "C:/Users/FERNANDO/Desktop/pilas/STACK/stack.ldf"
+#Stop recording: 3/31/2019 20:32:27
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

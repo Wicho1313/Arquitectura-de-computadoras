@@ -1,0 +1,10 @@
+#Start recording tcl command: 11/12/2019 08:53:48
+#Project Location: C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/lcd02; Project name: lcd02
+prj_project open "C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/lcd02/lcd02.ldf"
+pgr_project open "C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/lcd02/lcd2/lcd2.xcf"
+pgr_program run
+prj_run Export -impl lcd2 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/lcd02/lcd2/lcd2.xcf"
+prj_project close
+#Stop recording: 11/12/2019 09:42:41

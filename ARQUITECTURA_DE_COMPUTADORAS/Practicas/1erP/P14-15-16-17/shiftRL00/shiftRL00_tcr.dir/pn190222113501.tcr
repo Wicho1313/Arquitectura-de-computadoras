@@ -1,0 +1,17 @@
+#Start recording tcl command: 2/22/2019 10:50:37
+#Project Location: C:/Users/FERNANDO/Desktop/P14/shiftRL00; Project name: shiftRL00
+prj_project open "C:/Users/FERNANDO/Desktop/P14/shiftRL00/shiftRL00.ldf"
+prj_src add "C:/Users/FERNANDO/Desktop/P14/shiftRL00/packageshiftRL00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P14/shiftRL00/topshiftRL00.vhdl"
+prj_run Export -impl shiftRL0 -task Jedecgen
+prj_run Export -impl shiftRL0 -task Jedecgen
+pgr_project save "C:/Users/FERNANDO/Desktop/P14/shiftRL00/shiftRL0/shiftRL0.xcf"
+prj_src add -exclude "C:/Users/FERNANDO/Desktop/P14/shiftRL00/shiftRL0/shiftRL0.xcf"
+prj_src enable "C:/Users/FERNANDO/Desktop/P14/shiftRL00/shiftRL0/shiftRL0.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P14/shiftRL00/shiftRL0/shiftRL0.xcf"
+pgr_program run
+pgr_project save "C:/Users/FERNANDO/Desktop/P14/shiftRL00/shiftRL0/shiftRL0.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 2/22/2019 11:35:01

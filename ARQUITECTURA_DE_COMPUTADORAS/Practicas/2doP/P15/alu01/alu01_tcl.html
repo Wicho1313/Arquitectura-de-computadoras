@@ -1,0 +1,124 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn190409210904"></A><B><U><big>pn190409210904</big></U></B>
+#Start recording tcl command: 4/9/2019 20:53:37
+#Project Location: C:/Users/FERNANDO/Desktop/P15/alu01; Project name: alu01
+prj_project new -name "alu01" -impl "alu01" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/topdiv00VHDL/div00.vhdl" "C:/Users/FERNANDO/Desktop/P15/topdiv00VHDL/osc00.vhdl" "C:/Users/FERNANDO/Desktop/P15/topdiv00VHDL/packagediv00.vhdl" "C:/Users/FERNANDO/Desktop/P15/topdiv00VHDL/topdiv00.vhdl"
+prj_project save
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/anda00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/ora00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/nanda00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/nora00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/xora00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/xnora00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/nota00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/ac00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/packagealu00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/alu01/topalu00.vhdl"
+prj_run Export -impl alu01 -task Jedecgen
+prj_run Export -impl alu01 -task Jedecgen
+pgr_project save "C:/Users/FERNANDO/Desktop/P15/alu01/alu01/alu01.xcf"
+prj_src add -exclude "C:/Users/FERNANDO/Desktop/P15/alu01/alu01/alu01.xcf"
+prj_src enable "C:/Users/FERNANDO/Desktop/P15/alu01/alu01/alu01.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P15/alu01/alu01/alu01.xcf"
+pgr_program run
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 4/9/2019 21:09:04
+
+
+
+<A name="pn190506021327"></A><B><U><big>pn190506021327</big></U></B>
+#Start recording tcl command: 5/5/2019 21:57:32
+#Project Location: C:/Users/FERNANDO/Desktop/P15/alu01; Project name: alu01
+prj_project open "C:/Users/FERNANDO/Desktop/P15/alu01/alu01.ldf"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/adder8bit00/adder8bit00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/and00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/fa00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/ha00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/or00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/packageadder8bit00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/packagefa00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/packageha00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/xnor00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/xor00.vhdl"
+prj_src remove "C:/Users/FERNANDO/Desktop/P15/adder8bit00/xor00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/xnor00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/packageha00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/packagefa00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/packageadder8bit00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/or00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/ha00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/fa00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/and00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/adder8bit00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/adder8bit00/adder8bit00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/and00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/fa00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/ha00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/or00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/packageadder8bit00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/packagefa00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/packageha00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/xnor00.vhdl" "C:/Users/FERNANDO/Desktop/P15/adder8bit00/xor00.vhdl"
+#Stop recording: 5/6/2019 02:13:27
+
+
+
+<A name="pn190507002459"></A><B><U><big>pn190507002459</big></U></B>
+#Start recording tcl command: 5/7/2019 00:15:36
+#Project Location: C:/Users/FERNANDO/Desktop/P15/alu01; Project name: alu01
+prj_project open "C:/Users/FERNANDO/Desktop/P15/alu01/alu01.ldf"
+prj_src remove "C:/Users/FERNANDO/Desktop/P15/mult8bit00/packagemult8bit00.vhdl" "C:/Users/FERNANDO/Desktop/P15/mult8bit00/topmult8bit00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/mult8bit00VHDL/packagemult8bit00.vhdl" "C:/Users/FERNANDO/Desktop/P15/mult8bit00VHDL/topmult8bit00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/adder8bit00VHDL/topfa00.vhdl"
+prj_src remove "C:/Users/FERNANDO/Desktop/P15/adder8bit00VHDL/topfa00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/mult8bit00VHDL/topfa00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P15/mult8bit00VHDL/topha00.vhdl"
+#Stop recording: 5/7/2019 00:24:59
+
+
+
+<A name="pn190507232622"></A><B><U><big>pn190507232622</big></U></B>
+#Start recording tcl command: 5/7/2019 22:53:14
+#Project Location: C:/Users/FERNANDO/Desktop/P15/alu01; Project name: alu01
+prj_project open "C:/Users/FERNANDO/Desktop/P15/alu01/alu01.ldf"
+#Stop recording: 5/7/2019 23:26:22
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

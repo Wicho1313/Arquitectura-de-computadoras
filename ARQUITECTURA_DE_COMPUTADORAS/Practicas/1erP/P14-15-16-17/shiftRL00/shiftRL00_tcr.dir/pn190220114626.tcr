@@ -1,0 +1,9 @@
+#Start recording tcl command: 2/20/2019 11:30:54
+#Project Location: C:/Users/FERNANDO/Desktop/P14/shiftRL00; Project name: shiftRL00
+prj_project new -name "shiftRL00" -impl "shiftRL0" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_src add "C:/Users/FERNANDO/Desktop/P14/topdiv00VHDL/div00.vhdl" "C:/Users/FERNANDO/Desktop/P14/topdiv00VHDL/osc00.vhdl" "C:/Users/FERNANDO/Desktop/P14/topdiv00VHDL/packagediv00.vhdl" "C:/Users/FERNANDO/Desktop/P14/topdiv00VHDL/topdiv00.vhdl"
+prj_project save
+prj_src add "C:/Users/FERNANDO/Desktop/P14/shiftRL00/shiftRL00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 2/20/2019 11:46:26

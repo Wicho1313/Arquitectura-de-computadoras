@@ -1,0 +1,9 @@
+#Start recording tcl command: 1/30/2019 11:46:51
+#Project Location: C:/Users/FERNANDO/Desktop/COMPUERTAS/muxcomp00; Project name: muxcomp00
+prj_project open "C:/Users/FERNANDO/Desktop/COMPUERTAS/muxcomp00/muxcomp00.ldf"
+prj_run Export -impl muxcomp00 -task Jedecgen
+prj_run Export -impl muxcomp00 -task Jedecgen
+prj_run Synthesis -impl muxcomp00
+prj_run Export -impl muxcomp00 -task Jedecgen
+prj_run Export -impl muxcomp00 -task Jedecgen
+#Stop recording: 1/30/2019 11:56:51

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topdiv00  -multisrs  C:\Users\FERNANDO\Desktop\P12\div00\topdiv00\topdiv00\synwork\topdiv00_topdiv00_comp.srs  -osyn  C:\Users\FERNANDO\Desktop\P12\div00\topdiv00\topdiv00\synwork\topdiv00_topdiv00_mult.srs  -log  C:\Users\FERNANDO\Desktop\P12\div00\topdiv00\topdiv00\synlog\topdiv00_topdiv00_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top topdiv00 -multisrs ..\synwork\topdiv00_topdiv00_comp.srs -osyn ..\synwork\topdiv00_topdiv00_mult.srs -log ..\synlog\topdiv00_topdiv00_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\topdiv00_topdiv00_comp.srs|io:i|time:1550681808|size:5248|exec:0|csum:BAD61DE6CB96C41E16125DD7FD419E83
+file:..\synwork\topdiv00_topdiv00_mult.srs|io:o|time:1550681810|size:2205|exec:0|csum:
+file:..\synlog\topdiv00_topdiv00_multi_srs_gen.srr|io:o|time:1550681810|size:409|exec:0|csum:
+file:..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

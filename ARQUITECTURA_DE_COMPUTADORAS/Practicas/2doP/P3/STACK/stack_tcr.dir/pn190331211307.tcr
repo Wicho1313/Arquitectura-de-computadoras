@@ -1,0 +1,8 @@
+#Start recording tcl command: 3/31/2019 21:09:54
+#Project Location: C:/Users/FERNANDO/Desktop/P3/STACK; Project name: stack
+prj_project open "C:/Users/FERNANDO/Desktop/P3/STACK/stack.ldf"
+pgr_project open "C:/Users/FERNANDO/Desktop/P3/STACK/stack/stack.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P3/STACK/stack/stack.xcf"
+pgr_program run
+pgr_project close
+#Stop recording: 3/31/2019 21:13:07

@@ -1,0 +1,2733 @@
+----------------------------------------------------------------------
+Report for cell topmult8bit00.topmult8bit0
+
+Register bits: 0 of 4320 (0%)
+PIC Latch:       0
+I/O cells:       32
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GSR        1       100.0
+                                 IB       16       100.0
+                                 OB       16       100.0
+                           ORCALUT4      120       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO       20       100.0
+SUB MODULES 
+                           and00_10        1       100.0
+                          and00_101        1       100.0
+                           and00_11        1       100.0
+                          and00_125        1       100.0
+                          and00_149        1       100.0
+                           and00_16        1       100.0
+                          and00_173        1       100.0
+                           and00_25        1       100.0
+                           and00_29        1       100.0
+                            and00_4        1       100.0
+                           and00_53        1       100.0
+                            and00_6        1       100.0
+                           and00_77        1       100.0
+                            and00_8        1       100.0
+                            and00_9        1       100.0
+                             or00_0        1       100.0
+                             or00_1        1       100.0
+                            or00_10        1       100.0
+                            or00_11        1       100.0
+                            or00_12        1       100.0
+                            or00_13        1       100.0
+                            or00_15        1       100.0
+                            or00_16        1       100.0
+                            or00_17        1       100.0
+                            or00_18        1       100.0
+                            or00_19        1       100.0
+                             or00_2        1       100.0
+                            or00_20        1       100.0
+                            or00_21        1       100.0
+                            or00_23        1       100.0
+                            or00_24        1       100.0
+                            or00_25        1       100.0
+                            or00_26        1       100.0
+                            or00_27        1       100.0
+                            or00_28        1       100.0
+                            or00_29        1       100.0
+                             or00_3        1       100.0
+                            or00_31        1       100.0
+                            or00_32        1       100.0
+                            or00_33        1       100.0
+                            or00_34        1       100.0
+                            or00_35        1       100.0
+                            or00_36        1       100.0
+                            or00_37        1       100.0
+                            or00_39        1       100.0
+                             or00_4        1       100.0
+                            or00_40        1       100.0
+                            or00_41        1       100.0
+                            or00_42        1       100.0
+                            or00_43        1       100.0
+                            or00_44        1       100.0
+                            or00_45        1       100.0
+                            or00_47        1       100.0
+                            or00_48        1       100.0
+                            or00_49        1       100.0
+                             or00_5        1       100.0
+                            or00_50        1       100.0
+                            or00_51        1       100.0
+                            or00_52        1       100.0
+                            or00_53        1       100.0
+                             or00_7        1       100.0
+                             or00_8        1       100.0
+                             or00_9        1       100.0
+                            topfa00        1       100.0
+                         topfa00_10        1       100.0
+                         topfa00_11        1       100.0
+                         topfa00_12        1       100.0
+                         topfa00_13        1       100.0
+                         topfa00_14        1       100.0
+                         topfa00_15        1       100.0
+                         topfa00_16        1       100.0
+                         topfa00_17        1       100.0
+                         topfa00_18        1       100.0
+                         topfa00_19        1       100.0
+                          topfa00_2        1       100.0
+                         topfa00_20        1       100.0
+                         topfa00_21        1       100.0
+                         topfa00_22        1       100.0
+                         topfa00_23        1       100.0
+                         topfa00_24        1       100.0
+                         topfa00_25        1       100.0
+                         topfa00_26        1       100.0
+                         topfa00_27        1       100.0
+                         topfa00_28        1       100.0
+                         topfa00_29        1       100.0
+                          topfa00_3        1       100.0
+                         topfa00_30        1       100.0
+                         topfa00_31        1       100.0
+                         topfa00_32        1       100.0
+                         topfa00_33        1       100.0
+                         topfa00_34        1       100.0
+                         topfa00_35        1       100.0
+                         topfa00_36        1       100.0
+                         topfa00_37        1       100.0
+                         topfa00_38        1       100.0
+                         topfa00_39        1       100.0
+                          topfa00_4        1       100.0
+                         topfa00_40        1       100.0
+                         topfa00_41        1       100.0
+                         topfa00_42        1       100.0
+                         topfa00_43        1       100.0
+                         topfa00_44        1       100.0
+                         topfa00_45        1       100.0
+                         topfa00_46        1       100.0
+                         topfa00_47        1       100.0
+                         topfa00_48        1       100.0
+                         topfa00_49        1       100.0
+                          topfa00_5        1       100.0
+                         topfa00_50        1       100.0
+                         topfa00_51        1       100.0
+                         topfa00_52        1       100.0
+                         topfa00_53        1       100.0
+                         topfa00_54        1       100.0
+                         topfa00_55        1       100.0
+                         topfa00_56        1       100.0
+                          topfa00_6        1       100.0
+                          topfa00_7        1       100.0
+                          topfa00_8        1       100.0
+                          topfa00_9        1       100.0
+                    topha00_4_100_0        1       100.0
+                   topha00_4_100_10        1       100.0
+                  topha00_4_100_100        1       100.0
+                  topha00_4_100_102        1       100.0
+                  topha00_4_100_104        1       100.0
+                  topha00_4_100_106        1       100.0
+                  topha00_4_100_108        1       100.0
+                  topha00_4_100_109        1       100.0
+                   topha00_4_100_12        1       100.0
+                   topha00_4_100_13        1       100.0
+                   topha00_4_100_16        1       100.0
+                   topha00_4_100_18        1       100.0
+                    topha00_4_100_2        1       100.0
+                   topha00_4_100_20        1       100.0
+                   topha00_4_100_22        1       100.0
+                   topha00_4_100_24        1       100.0
+                   topha00_4_100_26        1       100.0
+                   topha00_4_100_28        1       100.0
+                   topha00_4_100_29        1       100.0
+                   topha00_4_100_32        1       100.0
+                   topha00_4_100_34        1       100.0
+                   topha00_4_100_36        1       100.0
+                   topha00_4_100_38        1       100.0
+                    topha00_4_100_4        1       100.0
+                   topha00_4_100_40        1       100.0
+                   topha00_4_100_42        1       100.0
+                   topha00_4_100_43        1       100.0
+                   topha00_4_100_45        1       100.0
+                   topha00_4_100_48        1       100.0
+                   topha00_4_100_50        1       100.0
+                   topha00_4_100_52        1       100.0
+                   topha00_4_100_54        1       100.0
+                   topha00_4_100_56        1       100.0
+                   topha00_4_100_58        1       100.0
+                    topha00_4_100_6        1       100.0
+                   topha00_4_100_60        1       100.0
+                   topha00_4_100_61        1       100.0
+                   topha00_4_100_64        1       100.0
+                   topha00_4_100_66        1       100.0
+                   topha00_4_100_68        1       100.0
+                   topha00_4_100_70        1       100.0
+                   topha00_4_100_72        1       100.0
+                   topha00_4_100_74        1       100.0
+                   topha00_4_100_75        1       100.0
+                   topha00_4_100_77        1       100.0
+                    topha00_4_100_8        1       100.0
+                   topha00_4_100_80        1       100.0
+                   topha00_4_100_82        1       100.0
+                   topha00_4_100_84        1       100.0
+                   topha00_4_100_86        1       100.0
+                   topha00_4_100_88        1       100.0
+                    topha00_4_100_9        1       100.0
+                   topha00_4_100_90        1       100.0
+                   topha00_4_100_91        1       100.0
+                   topha00_4_100_93        1       100.0
+                   topha00_4_100_96        1       100.0
+                   topha00_4_100_98        1       100.0
+                            xor00_0        1       100.0
+                           xor00_10        1       100.0
+                          xor00_100        1       100.0
+                          xor00_102        1       100.0
+                          xor00_104        1       100.0
+                          xor00_106        1       100.0
+                          xor00_108        1       100.0
+                          xor00_109        1       100.0
+                           xor00_12        1       100.0
+                           xor00_13        1       100.0
+                           xor00_16        1       100.0
+                           xor00_18        1       100.0
+                            xor00_2        1       100.0
+                           xor00_20        1       100.0
+                           xor00_22        1       100.0
+                           xor00_24        1       100.0
+                           xor00_26        1       100.0
+                           xor00_28        1       100.0
+                           xor00_29        1       100.0
+                           xor00_32        1       100.0
+                           xor00_34        1       100.0
+                           xor00_36        1       100.0
+                           xor00_38        1       100.0
+                            xor00_4        1       100.0
+                           xor00_40        1       100.0
+                           xor00_42        1       100.0
+                           xor00_43        1       100.0
+                           xor00_45        1       100.0
+                           xor00_48        1       100.0
+                           xor00_50        1       100.0
+                           xor00_52        1       100.0
+                           xor00_54        1       100.0
+                           xor00_56        1       100.0
+                           xor00_58        1       100.0
+                            xor00_6        1       100.0
+                           xor00_60        1       100.0
+                           xor00_61        1       100.0
+                           xor00_64        1       100.0
+                           xor00_66        1       100.0
+                           xor00_68        1       100.0
+                           xor00_70        1       100.0
+                           xor00_72        1       100.0
+                           xor00_74        1       100.0
+                           xor00_75        1       100.0
+                           xor00_77        1       100.0
+                            xor00_8        1       100.0
+                           xor00_80        1       100.0
+                           xor00_82        1       100.0
+                           xor00_84        1       100.0
+                           xor00_86        1       100.0
+                           xor00_88        1       100.0
+                            xor00_9        1       100.0
+                           xor00_90        1       100.0
+                           xor00_91        1       100.0
+                           xor00_93        1       100.0
+                           xor00_96        1       100.0
+                           xor00_98        1       100.0
+                            
+                         TOTAL           408           
+----------------------------------------------------------------------
+Report for cell topfa00_56.netlist
+  Original Cell name topfa00
+     Instance path:  UFA55
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                          and00_173        1       100.0
+                  topha00_4_100_109        1       100.0
+                          xor00_109        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_109.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA55.UHA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                          and00_173        1       100.0
+                          xor00_109        1       100.0
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell xor00_109.netlist
+  Original Cell name xor00
+     Instance path:  UFA55.UHA00.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell and00_173.netlist
+  Original Cell name and00
+     Instance path:  UFA55.UHA00.UA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_55.netlist
+  Original Cell name topfa00
+     Instance path:  UFA54
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_53        1       100.0
+                  topha00_4_100_108        1       100.0
+                          xor00_108        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_53.netlist
+  Original Cell name or00
+     Instance path:  UFA54.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_108.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA54.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                          xor00_108        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_108.netlist
+  Original Cell name xor00
+     Instance path:  UFA54.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_54.netlist
+  Original Cell name topfa00
+     Instance path:  UFA53
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_52        1       100.0
+                  topha00_4_100_106        1       100.0
+                          xor00_106        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_52.netlist
+  Original Cell name or00
+     Instance path:  UFA53.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_106.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA53.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                          xor00_106        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_106.netlist
+  Original Cell name xor00
+     Instance path:  UFA53.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_53.netlist
+  Original Cell name topfa00
+     Instance path:  UFA52
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_51        1       100.0
+                  topha00_4_100_104        1       100.0
+                          xor00_104        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_51.netlist
+  Original Cell name or00
+     Instance path:  UFA52.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_104.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA52.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                          xor00_104        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_104.netlist
+  Original Cell name xor00
+     Instance path:  UFA52.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_52.netlist
+  Original Cell name topfa00
+     Instance path:  UFA51
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_50        1       100.0
+                  topha00_4_100_102        1       100.0
+                          xor00_102        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_50.netlist
+  Original Cell name or00
+     Instance path:  UFA51.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_102.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA51.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                          xor00_102        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_102.netlist
+  Original Cell name xor00
+     Instance path:  UFA51.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_51.netlist
+  Original Cell name topfa00
+     Instance path:  UFA50
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_49        1       100.0
+                  topha00_4_100_100        1       100.0
+                          xor00_100        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_49.netlist
+  Original Cell name or00
+     Instance path:  UFA50.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_100.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA50.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                          xor00_100        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_100.netlist
+  Original Cell name xor00
+     Instance path:  UFA50.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_50.netlist
+  Original Cell name topfa00
+     Instance path:  UFA49
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_48        1       100.0
+                   topha00_4_100_98        1       100.0
+                           xor00_98        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_48.netlist
+  Original Cell name or00
+     Instance path:  UFA49.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_98.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA49.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_98        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_98.netlist
+  Original Cell name xor00
+     Instance path:  UFA49.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_49.netlist
+  Original Cell name topfa00
+     Instance path:  UFA48
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_47        1       100.0
+                   topha00_4_100_96        1       100.0
+                           xor00_96        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_47.netlist
+  Original Cell name or00
+     Instance path:  UFA48.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_96.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA48.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_96        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_96.netlist
+  Original Cell name xor00
+     Instance path:  UFA48.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_48.netlist
+  Original Cell name topfa00
+     Instance path:  UFA47
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                          and00_149        1       100.0
+                   topha00_4_100_93        1       100.0
+                           xor00_93        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_93.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA47.UHA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                          and00_149        1       100.0
+                           xor00_93        1       100.0
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell xor00_93.netlist
+  Original Cell name xor00
+     Instance path:  UFA47.UHA00.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell and00_149.netlist
+  Original Cell name and00
+     Instance path:  UFA47.UHA00.UA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_47.netlist
+  Original Cell name topfa00
+     Instance path:  UFA46
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+                                VLO        1         5.0
+SUB MODULES 
+                            or00_45        1       100.0
+                   topha00_4_100_91        1       100.0
+                           xor00_91        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell or00_45.netlist
+  Original Cell name or00
+     Instance path:  UFA46.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_91.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA46.UHA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+SUB MODULES 
+                           xor00_91        1       100.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell xor00_91.netlist
+  Original Cell name xor00
+     Instance path:  UFA46.UHA00.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell topfa00_46.netlist
+  Original Cell name topfa00
+     Instance path:  UFA45
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_44        1       100.0
+                   topha00_4_100_90        1       100.0
+                           xor00_90        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_44.netlist
+  Original Cell name or00
+     Instance path:  UFA45.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_90.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA45.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_90        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_90.netlist
+  Original Cell name xor00
+     Instance path:  UFA45.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_45.netlist
+  Original Cell name topfa00
+     Instance path:  UFA44
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_43        1       100.0
+                   topha00_4_100_88        1       100.0
+                           xor00_88        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_43.netlist
+  Original Cell name or00
+     Instance path:  UFA44.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_88.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA44.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_88        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_88.netlist
+  Original Cell name xor00
+     Instance path:  UFA44.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_44.netlist
+  Original Cell name topfa00
+     Instance path:  UFA43
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_42        1       100.0
+                   topha00_4_100_86        1       100.0
+                           xor00_86        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_42.netlist
+  Original Cell name or00
+     Instance path:  UFA43.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_86.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA43.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_86        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_86.netlist
+  Original Cell name xor00
+     Instance path:  UFA43.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_43.netlist
+  Original Cell name topfa00
+     Instance path:  UFA42
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_41        1       100.0
+                   topha00_4_100_84        1       100.0
+                           xor00_84        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_41.netlist
+  Original Cell name or00
+     Instance path:  UFA42.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_84.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA42.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_84        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_84.netlist
+  Original Cell name xor00
+     Instance path:  UFA42.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_42.netlist
+  Original Cell name topfa00
+     Instance path:  UFA41
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_40        1       100.0
+                   topha00_4_100_82        1       100.0
+                           xor00_82        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_40.netlist
+  Original Cell name or00
+     Instance path:  UFA41.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_82.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA41.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_82        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_82.netlist
+  Original Cell name xor00
+     Instance path:  UFA41.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_41.netlist
+  Original Cell name topfa00
+     Instance path:  UFA40
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_39        1       100.0
+                   topha00_4_100_80        1       100.0
+                           xor00_80        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_39.netlist
+  Original Cell name or00
+     Instance path:  UFA40.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_80.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA40.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_80        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_80.netlist
+  Original Cell name xor00
+     Instance path:  UFA40.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_40.netlist
+  Original Cell name topfa00
+     Instance path:  UFA39
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+                                VLO        2        10.0
+SUB MODULES 
+                          and00_125        1       100.0
+                   topha00_4_100_77        1       100.0
+                           xor00_77        1       100.0
+                            
+                         TOTAL             7           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_77.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA39.UHA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+                                VLO        2        10.0
+SUB MODULES 
+                          and00_125        1       100.0
+                           xor00_77        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell xor00_77.netlist
+  Original Cell name xor00
+     Instance path:  UFA39.UHA00.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell and00_125.netlist
+  Original Cell name and00
+     Instance path:  UFA39.UHA00.UA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell topfa00_39.netlist
+  Original Cell name topfa00
+     Instance path:  UFA38
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+                                VLO        1         5.0
+SUB MODULES 
+                            or00_37        1       100.0
+                   topha00_4_100_75        1       100.0
+                           xor00_75        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell or00_37.netlist
+  Original Cell name or00
+     Instance path:  UFA38.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_75.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA38.UHA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+SUB MODULES 
+                           xor00_75        1       100.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell xor00_75.netlist
+  Original Cell name xor00
+     Instance path:  UFA38.UHA00.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell topfa00_38.netlist
+  Original Cell name topfa00
+     Instance path:  UFA37
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_36        1       100.0
+                   topha00_4_100_74        1       100.0
+                           xor00_74        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_36.netlist
+  Original Cell name or00
+     Instance path:  UFA37.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_74.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA37.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_74        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_74.netlist
+  Original Cell name xor00
+     Instance path:  UFA37.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_37.netlist
+  Original Cell name topfa00
+     Instance path:  UFA36
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_35        1       100.0
+                   topha00_4_100_72        1       100.0
+                           xor00_72        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_35.netlist
+  Original Cell name or00
+     Instance path:  UFA36.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_72.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA36.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_72        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_72.netlist
+  Original Cell name xor00
+     Instance path:  UFA36.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_36.netlist
+  Original Cell name topfa00
+     Instance path:  UFA35
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_34        1       100.0
+                   topha00_4_100_70        1       100.0
+                           xor00_70        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_34.netlist
+  Original Cell name or00
+     Instance path:  UFA35.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_70.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA35.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_70        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_70.netlist
+  Original Cell name xor00
+     Instance path:  UFA35.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_35.netlist
+  Original Cell name topfa00
+     Instance path:  UFA34
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_33        1       100.0
+                   topha00_4_100_68        1       100.0
+                           xor00_68        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_33.netlist
+  Original Cell name or00
+     Instance path:  UFA34.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_68.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA34.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_68        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_68.netlist
+  Original Cell name xor00
+     Instance path:  UFA34.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_34.netlist
+  Original Cell name topfa00
+     Instance path:  UFA33
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_32        1       100.0
+                   topha00_4_100_66        1       100.0
+                           xor00_66        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_32.netlist
+  Original Cell name or00
+     Instance path:  UFA33.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_66.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA33.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_66        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_66.netlist
+  Original Cell name xor00
+     Instance path:  UFA33.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_33.netlist
+  Original Cell name topfa00
+     Instance path:  UFA32
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_31        1       100.0
+                   topha00_4_100_64        1       100.0
+                           xor00_64        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_31.netlist
+  Original Cell name or00
+     Instance path:  UFA32.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_64.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA32.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_64        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_64.netlist
+  Original Cell name xor00
+     Instance path:  UFA32.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_32.netlist
+  Original Cell name topfa00
+     Instance path:  UFA31
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                          and00_101        1       100.0
+                   topha00_4_100_61        1       100.0
+                           xor00_61        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_61.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA31.UHA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                          and00_101        1       100.0
+                           xor00_61        1       100.0
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell xor00_61.netlist
+  Original Cell name xor00
+     Instance path:  UFA31.UHA00.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell and00_101.netlist
+  Original Cell name and00
+     Instance path:  UFA31.UHA00.UA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_31.netlist
+  Original Cell name topfa00
+     Instance path:  UFA30
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_29        1       100.0
+                   topha00_4_100_60        1       100.0
+                           xor00_60        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_29.netlist
+  Original Cell name or00
+     Instance path:  UFA30.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_60.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA30.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_60        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_60.netlist
+  Original Cell name xor00
+     Instance path:  UFA30.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_30.netlist
+  Original Cell name topfa00
+     Instance path:  UFA29
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_28        1       100.0
+                   topha00_4_100_58        1       100.0
+                           xor00_58        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_28.netlist
+  Original Cell name or00
+     Instance path:  UFA29.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_58.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA29.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_58        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_58.netlist
+  Original Cell name xor00
+     Instance path:  UFA29.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_29.netlist
+  Original Cell name topfa00
+     Instance path:  UFA28
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_27        1       100.0
+                   topha00_4_100_56        1       100.0
+                           xor00_56        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_27.netlist
+  Original Cell name or00
+     Instance path:  UFA28.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_56.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA28.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_56        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_56.netlist
+  Original Cell name xor00
+     Instance path:  UFA28.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_28.netlist
+  Original Cell name topfa00
+     Instance path:  UFA27
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_26        1       100.0
+                   topha00_4_100_54        1       100.0
+                           xor00_54        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_26.netlist
+  Original Cell name or00
+     Instance path:  UFA27.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_54.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA27.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_54        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_54.netlist
+  Original Cell name xor00
+     Instance path:  UFA27.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_27.netlist
+  Original Cell name topfa00
+     Instance path:  UFA26
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_25        1       100.0
+                   topha00_4_100_52        1       100.0
+                           xor00_52        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_25.netlist
+  Original Cell name or00
+     Instance path:  UFA26.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_52.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA26.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_52        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_52.netlist
+  Original Cell name xor00
+     Instance path:  UFA26.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_26.netlist
+  Original Cell name topfa00
+     Instance path:  UFA25
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_24        1       100.0
+                   topha00_4_100_50        1       100.0
+                           xor00_50        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_24.netlist
+  Original Cell name or00
+     Instance path:  UFA25.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_50.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA25.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_50        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_50.netlist
+  Original Cell name xor00
+     Instance path:  UFA25.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_25.netlist
+  Original Cell name topfa00
+     Instance path:  UFA24
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_23        1       100.0
+                   topha00_4_100_48        1       100.0
+                           xor00_48        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_23.netlist
+  Original Cell name or00
+     Instance path:  UFA24.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_48.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA24.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_48        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_48.netlist
+  Original Cell name xor00
+     Instance path:  UFA24.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_24.netlist
+  Original Cell name topfa00
+     Instance path:  UFA23
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+                                VLO        2        10.0
+SUB MODULES 
+                           and00_77        1       100.0
+                   topha00_4_100_45        1       100.0
+                           xor00_45        1       100.0
+                            
+                         TOTAL             7           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_45.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA23.UHA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+                                VLO        2        10.0
+SUB MODULES 
+                           and00_77        1       100.0
+                           xor00_45        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell xor00_45.netlist
+  Original Cell name xor00
+     Instance path:  UFA23.UHA00.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell and00_77.netlist
+  Original Cell name and00
+     Instance path:  UFA23.UHA00.UA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell topfa00_23.netlist
+  Original Cell name topfa00
+     Instance path:  UFA22
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+                                VLO        1         5.0
+SUB MODULES 
+                            or00_21        1       100.0
+                   topha00_4_100_43        1       100.0
+                           xor00_43        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell or00_21.netlist
+  Original Cell name or00
+     Instance path:  UFA22.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_43.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA22.UHA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+SUB MODULES 
+                           xor00_43        1       100.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell xor00_43.netlist
+  Original Cell name xor00
+     Instance path:  UFA22.UHA00.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell topfa00_22.netlist
+  Original Cell name topfa00
+     Instance path:  UFA21
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_20        1       100.0
+                   topha00_4_100_42        1       100.0
+                           xor00_42        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_20.netlist
+  Original Cell name or00
+     Instance path:  UFA21.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_42.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA21.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_42        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_42.netlist
+  Original Cell name xor00
+     Instance path:  UFA21.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_21.netlist
+  Original Cell name topfa00
+     Instance path:  UFA20
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_19        1       100.0
+                   topha00_4_100_40        1       100.0
+                           xor00_40        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_19.netlist
+  Original Cell name or00
+     Instance path:  UFA20.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_40.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA20.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_40        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_40.netlist
+  Original Cell name xor00
+     Instance path:  UFA20.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_20.netlist
+  Original Cell name topfa00
+     Instance path:  UFA19
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_18        1       100.0
+                   topha00_4_100_38        1       100.0
+                           xor00_38        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_18.netlist
+  Original Cell name or00
+     Instance path:  UFA19.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_38.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA19.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_38        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_38.netlist
+  Original Cell name xor00
+     Instance path:  UFA19.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_19.netlist
+  Original Cell name topfa00
+     Instance path:  UFA18
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_17        1       100.0
+                   topha00_4_100_36        1       100.0
+                           xor00_36        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_17.netlist
+  Original Cell name or00
+     Instance path:  UFA18.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_36.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA18.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_36        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_36.netlist
+  Original Cell name xor00
+     Instance path:  UFA18.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_18.netlist
+  Original Cell name topfa00
+     Instance path:  UFA17
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_16        1       100.0
+                   topha00_4_100_34        1       100.0
+                           xor00_34        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_16.netlist
+  Original Cell name or00
+     Instance path:  UFA17.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_34.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA17.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_34        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_34.netlist
+  Original Cell name xor00
+     Instance path:  UFA17.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_17.netlist
+  Original Cell name topfa00
+     Instance path:  UFA16
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_15        1       100.0
+                   topha00_4_100_32        1       100.0
+                           xor00_32        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_15.netlist
+  Original Cell name or00
+     Instance path:  UFA16.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_32.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA16.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_32        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_32.netlist
+  Original Cell name xor00
+     Instance path:  UFA16.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_16.netlist
+  Original Cell name topfa00
+     Instance path:  UFA15
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+                                VLO        2        10.0
+SUB MODULES 
+                           and00_53        1       100.0
+                   topha00_4_100_29        1       100.0
+                           xor00_29        1       100.0
+                            
+                         TOTAL             7           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_29.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA15.UHA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+                                VLO        2        10.0
+SUB MODULES 
+                           and00_53        1       100.0
+                           xor00_29        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell xor00_29.netlist
+  Original Cell name xor00
+     Instance path:  UFA15.UHA00.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell and00_53.netlist
+  Original Cell name and00
+     Instance path:  UFA15.UHA00.UA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell topfa00_15.netlist
+  Original Cell name topfa00
+     Instance path:  UFA14
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_13        1       100.0
+                   topha00_4_100_28        1       100.0
+                           xor00_28        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_13.netlist
+  Original Cell name or00
+     Instance path:  UFA14.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_28.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA14.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_28        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_28.netlist
+  Original Cell name xor00
+     Instance path:  UFA14.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_14.netlist
+  Original Cell name topfa00
+     Instance path:  UFA13
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_12        1       100.0
+                   topha00_4_100_26        1       100.0
+                           xor00_26        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_12.netlist
+  Original Cell name or00
+     Instance path:  UFA13.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_26.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA13.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_26        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_26.netlist
+  Original Cell name xor00
+     Instance path:  UFA13.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_13.netlist
+  Original Cell name topfa00
+     Instance path:  UFA12
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_11        1       100.0
+                   topha00_4_100_24        1       100.0
+                           xor00_24        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_11.netlist
+  Original Cell name or00
+     Instance path:  UFA12.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_24.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA12.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_24        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_24.netlist
+  Original Cell name xor00
+     Instance path:  UFA12.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_12.netlist
+  Original Cell name topfa00
+     Instance path:  UFA11
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                            or00_10        1       100.0
+                   topha00_4_100_22        1       100.0
+                           xor00_22        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_10.netlist
+  Original Cell name or00
+     Instance path:  UFA11.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_22.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA11.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_22        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_22.netlist
+  Original Cell name xor00
+     Instance path:  UFA11.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_11.netlist
+  Original Cell name topfa00
+     Instance path:  UFA10
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                             or00_9        1       100.0
+                   topha00_4_100_20        1       100.0
+                           xor00_20        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_9.netlist
+  Original Cell name or00
+     Instance path:  UFA10.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_20.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA10.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_20        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_20.netlist
+  Original Cell name xor00
+     Instance path:  UFA10.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_10.netlist
+  Original Cell name topfa00
+     Instance path:  UFA09
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                             or00_8        1       100.0
+                   topha00_4_100_18        1       100.0
+                           xor00_18        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_8.netlist
+  Original Cell name or00
+     Instance path:  UFA09.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_18.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA09.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_18        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_18.netlist
+  Original Cell name xor00
+     Instance path:  UFA09.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_9.netlist
+  Original Cell name topfa00
+     Instance path:  UFA08
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                             or00_7        1       100.0
+                   topha00_4_100_16        1       100.0
+                           xor00_16        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_7.netlist
+  Original Cell name or00
+     Instance path:  UFA08.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_16.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA08.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_16        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_16.netlist
+  Original Cell name xor00
+     Instance path:  UFA08.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_8.netlist
+  Original Cell name topfa00
+     Instance path:  UFA07
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                           and00_29        1       100.0
+                   topha00_4_100_13        1       100.0
+                           xor00_13        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_13.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA07.UHA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                           and00_29        1       100.0
+                           xor00_13        1       100.0
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell xor00_13.netlist
+  Original Cell name xor00
+     Instance path:  UFA07.UHA00.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell and00_29.netlist
+  Original Cell name and00
+     Instance path:  UFA07.UHA00.UA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_7.netlist
+  Original Cell name topfa00
+     Instance path:  UFA06
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                             or00_5        1       100.0
+                   topha00_4_100_12        1       100.0
+                           xor00_12        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_5.netlist
+  Original Cell name or00
+     Instance path:  UFA06.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_12.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA06.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                           xor00_12        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_12.netlist
+  Original Cell name xor00
+     Instance path:  UFA06.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_6.netlist
+  Original Cell name topfa00
+     Instance path:  UFA05
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        4         3.3
+                                VLO        2        10.0
+SUB MODULES 
+                           and00_25        1       100.0
+                             or00_4        1       100.0
+                   topha00_4_100_10        1       100.0
+                    topha00_4_100_9        1       100.0
+                           xor00_10        1       100.0
+                            xor00_9        1       100.0
+                            
+                         TOTAL            12           
+----------------------------------------------------------------------
+Report for cell or00_4.netlist
+  Original Cell name or00
+     Instance path:  UFA05.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_10.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA05.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+SUB MODULES 
+                           xor00_10        1       100.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell xor00_10.netlist
+  Original Cell name xor00
+     Instance path:  UFA05.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_9.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA05.UHA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                           and00_25        1       100.0
+                            xor00_9        1       100.0
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell xor00_9.netlist
+  Original Cell name xor00
+     Instance path:  UFA05.UHA00.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell and00_25.netlist
+  Original Cell name and00
+     Instance path:  UFA05.UHA00.UA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_5.netlist
+  Original Cell name topfa00
+     Instance path:  UFA04
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                             or00_3        1       100.0
+                    topha00_4_100_8        1       100.0
+                            xor00_8        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_3.netlist
+  Original Cell name or00
+     Instance path:  UFA04.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_8.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA04.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                            xor00_8        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_8.netlist
+  Original Cell name xor00
+     Instance path:  UFA04.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_4.netlist
+  Original Cell name topfa00
+     Instance path:  UFA03
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                             or00_2        1       100.0
+                    topha00_4_100_6        1       100.0
+                            xor00_6        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_2.netlist
+  Original Cell name or00
+     Instance path:  UFA03.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_6.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA03.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                            xor00_6        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_6.netlist
+  Original Cell name xor00
+     Instance path:  UFA03.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_3.netlist
+  Original Cell name topfa00
+     Instance path:  UFA02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                             or00_1        1       100.0
+                    topha00_4_100_4        1       100.0
+                            xor00_4        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_1.netlist
+  Original Cell name or00
+     Instance path:  UFA02.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_4.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA02.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                            xor00_4        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_4.netlist
+  Original Cell name xor00
+     Instance path:  UFA02.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00_2.netlist
+  Original Cell name topfa00
+     Instance path:  UFA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+SUB MODULES 
+                             or00_0        1       100.0
+                    topha00_4_100_2        1       100.0
+                            xor00_2        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell or00_0.netlist
+  Original Cell name or00
+     Instance path:  UFA01.UO00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_2.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA01.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+SUB MODULES 
+                            xor00_2        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xor00_2.netlist
+  Original Cell name xor00
+     Instance path:  UFA01.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell topfa00.netlist
+  Original Cell name topfa00
+     Instance path:  UFA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+                                VLO        2        10.0
+SUB MODULES 
+                           and00_16        1       100.0
+                    topha00_4_100_0        1       100.0
+                            xor00_0        1       100.0
+                            
+                         TOTAL             7           
+----------------------------------------------------------------------
+Report for cell topha00_4_100_0.netlist
+  Original Cell name topha00_4_100
+     Instance path:  UFA00.UHA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         1.7
+                                VLO        2        10.0
+SUB MODULES 
+                           and00_16        1       100.0
+                            xor00_0        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell xor00_0.netlist
+  Original Cell name xor00
+     Instance path:  UFA00.UHA01.UX00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell and00_16.netlist
+  Original Cell name and00
+     Instance path:  UFA00.UHA01.UA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell and00_11.netlist
+  Original Cell name and00
+     Instance path:  UA12
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell and00_10.netlist
+  Original Cell name and00
+     Instance path:  UA11
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell and00_9.netlist
+  Original Cell name and00
+     Instance path:  UA10
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell and00_8.netlist
+  Original Cell name and00
+     Instance path:  UA09
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell and00_6.netlist
+  Original Cell name and00
+     Instance path:  UA07
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell and00_4.netlist
+  Original Cell name and00
+     Instance path:  UA05
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         0.8
+                                VLO        1         5.0
+                            
+                         TOTAL             2           

@@ -1,0 +1,20 @@
+Segmentación de una instrucción:
+    segmentar o dividir la ejecución de una instrucción en subtareas las cuales se ejecutan secuencialmente 
+    en etapas en el tiempo.
+FI, ID, CO, FO, EO, WO
+
+Pipeline->ejecutar una instrucción como en una cadena de producción.
+            EJECUTAR SECUENCIALMENTE LAS ETAPAS DE UNA INSTRUCCIÓN.
+
+un procesador superescalar ejecuta más de un pipeline 
+
+superpipeline->tomar una de las sub tareas de una operación, dividirla en sub etapas y aplicar pipeline
+
+ARQUITECTURA VECTORIAL->surge del concepto de operaciones con matrices y es un caso particular de arquitectura superescalar
+
+ESCALAR->es un procesador que aplica una linea de producción pipeline
+
+taxonomía flynn:
+SISD->Escalar
+MIMD->superescalar
+SIMD->VECTORIAL

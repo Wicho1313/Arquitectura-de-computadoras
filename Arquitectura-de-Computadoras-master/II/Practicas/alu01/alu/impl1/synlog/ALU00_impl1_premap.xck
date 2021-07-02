@@ -1,0 +1,2 @@
+ckid0_0:@|S:AL00.DI01.outdiv.Q[0]@|E:AL01.outFlago_tri_enable@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_2:@|S:AL00.DI00.OSCInst0.OSC@|E:AL00.DI01.sdiv[20:0]@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2

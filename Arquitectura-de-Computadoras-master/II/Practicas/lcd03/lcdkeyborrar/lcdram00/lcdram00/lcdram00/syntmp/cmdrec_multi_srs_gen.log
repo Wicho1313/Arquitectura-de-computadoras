@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toplcdram00  -multisrs  C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd03\lcdkeyborrar\lcdram00\lcdram00\lcdram00\synwork\lcdram00_lcdram00_comp.srs  -osyn  C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd03\lcdkeyborrar\lcdram00\lcdram00\lcdram00\synwork\lcdram00_lcdram00_mult.srs  -log  C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd03\lcdkeyborrar\lcdram00\lcdram00\lcdram00\synlog\lcdram00_lcdram00_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top toplcdram00 -multisrs ..\synwork\lcdram00_lcdram00_comp.srs -osyn ..\synwork\lcdram00_lcdram00_mult.srs -log ..\synlog\lcdram00_lcdram00_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\lcdram00_lcdram00_comp.srs|io:i|time:1573572439|size:19427|exec:0|csum:EC575FDFFD510B43781474CD969850B3
+file:..\synwork\lcdram00_lcdram00_mult.srs|io:o|time:1573572440|size:3294|exec:0|csum:
+file:..\synlog\lcdram00_lcdram00_multi_srs_gen.srr|io:o|time:1573572440|size:1334|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

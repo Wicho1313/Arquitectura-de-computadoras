@@ -1,0 +1,2 @@
+@E: CD326 :"C:\Users\FERNANDO\Desktop\P16\alu02\topalu02.vhdl":153:1:153:4|Port ens of entity work.shifrl00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "truestack00_truestack0.log"
+-o "truestack00_truestack0.csv"
+-pr "truestack00_truestack0.prf"

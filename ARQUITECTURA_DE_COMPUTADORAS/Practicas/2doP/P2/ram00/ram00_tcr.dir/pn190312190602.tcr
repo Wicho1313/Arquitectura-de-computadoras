@@ -1,0 +1,13 @@
+#Start recording tcl command: 3/12/2019 17:33:48
+#Project Location: C:/Users/FERNANDO/Desktop/P2/ram00; Project name: ram00
+prj_project open "C:/Users/FERNANDO/Desktop/P2/ram00/ram00.ldf"
+prj_src add "C:/Users/FERNANDO/Desktop/P2/ram00/ram00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P2/ram00/mux00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P2/ram00/contRead.vhdl"
+prj_src remove "C:/Users/FERNANDO/Desktop/P2/ram00/contRead.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P2/ram00/contRead00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P2/ram00/packageram00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P2/ram00/topram00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 3/12/2019 19:06:02

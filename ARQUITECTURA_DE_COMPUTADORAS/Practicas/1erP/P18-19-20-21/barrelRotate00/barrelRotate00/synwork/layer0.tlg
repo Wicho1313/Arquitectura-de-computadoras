@@ -1,0 +1,17 @@
+@N: CD630 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\topbarrelRotate00.vhdl":7:7:7:23|Synthesizing work.topbarrelrotate00.topbarrelrotate0.
+@N: CD630 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\BarrelRotate00.vhdl":8:7:8:20|Synthesizing work.barrelrotate00.barrelrotate0.
+@N: CD364 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\BarrelRotate00.vhdl":40:8:40:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\BarrelRotate00.vhdl":57:8:57:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\BarrelRotate00.vhdl":74:8:74:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\BarrelRotate00.vhdl":91:8:91:12|Removing redundant assignment.
+Post processing for work.barrelrotate00.barrelrotate0
+@N: CD630 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\source\toposcdiv00.vhdl":9:7:9:17|Synthesizing work.toposcdiv00.toposcdiv0.
+@N: CD630 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\source\div00.vhdl":9:7:9:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\source\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposcdiv00.toposcdiv0
+Post processing for work.topbarrelrotate00.topbarrelrotate0

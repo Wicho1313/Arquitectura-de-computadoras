@@ -1,0 +1,88 @@
+---------------------------------------------------
+Report for cell toplcd00
+   Instance path: toplcd00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      67.00        100.0
+                                 IOLGC	       2.00        100.0
+                                  LUT4	      96.00        100.0
+                                 IOREG	          2        100.0
+                                 IOBUF	         41        100.0
+                                PFUREG	         63        100.0
+                                RIPPLE	         15        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         lcdcontdata00	          1        11.2
+                              lcdmux00	          1         6.5
+                             lcddata00	          1        23.1
+                           lcdconfig00	          1        14.2
+                       lcdcontconfig00	          1         5.2
+                              toposc00	          1        39.1
+---------------------------------------------------
+Report for cell lcdmux00
+   Instance path: toplcd00/L05
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.33         6.5
+                                  LUT4	       8.00         8.3
+                                PFUREG	          8        12.7
+---------------------------------------------------
+Report for cell lcddata00
+   Instance path: toplcd00/L04
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      15.50        23.1
+                                  LUT4	      25.00        26.0
+                                PFUREG	          9        14.3
+---------------------------------------------------
+Report for cell lcdcontdata00
+   Instance path: toplcd00/L03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.50        11.2
+                                  LUT4	       6.00         6.3
+                                PFUREG	          9        14.3
+                                RIPPLE	          4        26.7
+---------------------------------------------------
+Report for cell lcdconfig00
+   Instance path: toplcd00/L02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.50        14.2
+                                  LUT4	      19.00        19.8
+                                PFUREG	          9        14.3
+---------------------------------------------------
+Report for cell lcdcontconfig00
+   Instance path: toplcd00/L01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.50         5.2
+                                  LUT4	       6.00         6.3
+                                PFUREG	          6         9.5
+---------------------------------------------------
+Report for cell toposc00
+   Instance path: toplcd00/L00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.17        39.1
+                                  LUT4	      31.00        32.3
+                                PFUREG	         22        34.9
+                                RIPPLE	         11        73.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        39.1
+---------------------------------------------------
+Report for cell div00
+   Instance path: toplcd00/L00/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.17        39.1
+                                  LUT4	      31.00        32.3
+                                PFUREG	         22        34.9
+                                RIPPLE	         11        73.3
+---------------------------------------------------
+Report for cell osc00
+   Instance path: toplcd00/L00/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

@@ -1,0 +1,56 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Nov 19 08:54:02 2019 *
+NOTE DESIGN NAME: signo00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS vector_salida[0] : 38 : out *
+NOTE PINS vector_entrada[0] : 23 : in *
+NOTE PINS vector_salida[31] : 59 : out *
+NOTE PINS vector_salida[30] : 57 : out *
+NOTE PINS vector_salida[29] : 56 : out *
+NOTE PINS vector_salida[28] : 54 : out *
+NOTE PINS vector_salida[27] : 55 : out *
+NOTE PINS vector_salida[26] : 52 : out *
+NOTE PINS vector_salida[25] : 50 : out *
+NOTE PINS vector_salida[24] : 48 : out *
+NOTE PINS vector_salida[23] : 49 : out *
+NOTE PINS vector_salida[22] : 47 : out *
+NOTE PINS vector_salida[21] : 45 : out *
+NOTE PINS vector_salida[20] : 43 : out *
+NOTE PINS vector_salida[19] : 42 : out *
+NOTE PINS vector_salida[18] : 44 : out *
+NOTE PINS vector_salida[17] : 39 : out *
+NOTE PINS vector_salida[16] : 41 : out *
+NOTE PINS vector_salida[15] : 91 : out *
+NOTE PINS vector_salida[14] : 92 : out *
+NOTE PINS vector_salida[13] : 93 : out *
+NOTE PINS vector_salida[12] : 94 : out *
+NOTE PINS vector_salida[11] : 96 : out *
+NOTE PINS vector_salida[10] : 95 : out *
+NOTE PINS vector_salida[9] : 98 : out *
+NOTE PINS vector_salida[8] : 97 : out *
+NOTE PINS vector_salida[7] : 99 : out *
+NOTE PINS vector_salida[6] : 100 : out *
+NOTE PINS vector_salida[5] : 104 : out *
+NOTE PINS vector_salida[4] : 105 : out *
+NOTE PINS vector_salida[3] : 106 : out *
+NOTE PINS vector_salida[2] : 107 : out *
+NOTE PINS vector_salida[1] : 40 : out *
+NOTE PINS vector_entrada[15] : 5 : in *
+NOTE PINS vector_entrada[14] : 6 : in *
+NOTE PINS vector_entrada[13] : 9 : in *
+NOTE PINS vector_entrada[12] : 10 : in *
+NOTE PINS vector_entrada[11] : 11 : in *
+NOTE PINS vector_entrada[10] : 12 : in *
+NOTE PINS vector_entrada[9] : 13 : in *
+NOTE PINS vector_entrada[8] : 14 : in *
+NOTE PINS vector_entrada[7] : 19 : in *
+NOTE PINS vector_entrada[6] : 20 : in *
+NOTE PINS vector_entrada[5] : 21 : in *
+NOTE PINS vector_entrada[4] : 22 : in *
+NOTE PINS vector_entrada[3] : 132 : in *
+NOTE PINS vector_entrada[2] : 133 : in *
+NOTE PINS vector_entrada[1] : 24 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

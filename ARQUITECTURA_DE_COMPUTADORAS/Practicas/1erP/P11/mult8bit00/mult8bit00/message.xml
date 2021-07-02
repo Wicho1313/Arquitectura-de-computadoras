@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl&quot;:18:8:18:9|Bit 7 of signal s0 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Bit 7 of signal s0 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl&quot;:18:20:18:21|Bit 7 of signal s3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>Bit 7 of signal s3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl&quot;:18:32:18:33|Bit 7 of signal s6 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>33</Navigation>
+            <Navigation>Bit 7 of signal s6 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl&quot;:18:44:18:45|Bit 7 of signal s9 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>Bit 7 of signal s9 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl&quot;:18:58:18:60|Bit 7 of signal s12 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>58</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>60</Navigation>
+            <Navigation>Bit 7 of signal s12 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl&quot;:18:73:18:75|Bit 7 of signal s15 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>73</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>75</Navigation>
+            <Navigation>Bit 7 of signal s15 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl&quot;:18:88:18:90|Bit 7 of signal s18 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>88</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>90</Navigation>
+            <Navigation>Bit 7 of signal s18 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl&quot;:18:98:18:100|Bit 7 of signal s20 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\topmult8bit00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>98</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>Bit 7 of signal s20 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

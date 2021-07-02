@@ -1,0 +1,1575 @@
+
+synpwrap -msg -prj "alu01_alu01_synplify.tcl" -log "alu01_alu01.srf"
+Copyright (C) 1992-2019 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.11.0.396.4
+    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+
+==contents of alu01_alu01.srf
+#Build: Synplify Pro (R) N-2018.03L-SP1-1, Build 443R, Apr  1 2019
+#install: C:\lscc\diamond\3.11_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-496B8RB
+
+# Thu Nov 28 10:48:20 2019
+
+#Implementation: alu01
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : alu01
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : alu01
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+@N:"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\topalu00.vhdl":7:7:7:14|Top entity is set to topalu00.
+File C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\osc00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\packagediv00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\xor00.vhdl changed - recompiling
+File C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\and00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\packageha00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\or00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\packagefa00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\xnor00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\packageadder8bit00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\mult8bit00VHDL\packagemult8bit00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\anda00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\ora00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nanda00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nora00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\xora00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\xnora00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nota00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\add00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\sub00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\mult00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\ac00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\packagealu00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\topdiv00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\topha00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\topfa00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\topadder8bit00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\mult8bit00VHDL\topmult8bit00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\topalu00.vhdl changed - recompiling
+VHDL syntax check successful!
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\anda00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\ora00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nanda00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nora00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\xora00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\xnora00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nota00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\add00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\sub00.vhdl changed - recompiling
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\packagealu00.vhdl changed - recompiling
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\topalu00.vhdl":7:7:7:14|Synthesizing work.topalu00.topalu0.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\ac00.vhdl":7:7:7:10|Synthesizing work.ac00.ac0.
+Post processing for work.ac00.ac0
+Running optimization stage 1 on ac00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\mult00.vhdl":6:7:6:12|Synthesizing work.mult00.mult0.
+Post processing for work.mult00.mult0
+Running optimization stage 1 on mult00 .......
+@W: CL169 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\mult00.vhdl":30:3:30:4|Pruning unused register outFlagmu_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\sub00.vhdl":7:7:7:11|Synthesizing work.sub00.sub0.
+Post processing for work.sub00.sub0
+Running optimization stage 1 on sub00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\add00.vhdl":7:7:7:11|Synthesizing work.add00.add0.
+Post processing for work.add00.add0
+Running optimization stage 1 on add00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\mult8bit00VHDL\topmult8bit00.vhdl":7:7:7:19|Synthesizing work.topmult8bit00.topmult8bit0.
+@W: CD796 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\mult8bit00VHDL\topmult8bit00.vhdl":16:8:16:9|Bit 7 of signal s0 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\mult8bit00VHDL\topmult8bit00.vhdl":16:20:16:21|Bit 7 of signal s3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\mult8bit00VHDL\topmult8bit00.vhdl":16:32:16:33|Bit 7 of signal s6 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\mult8bit00VHDL\topmult8bit00.vhdl":16:44:16:45|Bit 7 of signal s9 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\mult8bit00VHDL\topmult8bit00.vhdl":16:58:16:60|Bit 7 of signal s12 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\mult8bit00VHDL\topmult8bit00.vhdl":16:73:16:75|Bit 7 of signal s15 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\mult8bit00VHDL\topmult8bit00.vhdl":16:88:16:90|Bit 7 of signal s18 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\mult8bit00VHDL\topmult8bit00.vhdl":16:98:16:100|Bit 7 of signal s20 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\topfa00.vhdl":7:7:7:13|Synthesizing work.topfa00.topfa0.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0.
+Post processing for work.or00.or0
+Running optimization stage 1 on or00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\topha00.vhdl":7:7:7:13|Synthesizing work.topha00.topha0.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\xor00.vhdl":8:7:8:11|Synthesizing work.xor00.xor0.
+Post processing for work.xor00.xor0
+Running optimization stage 1 on xor00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+Post processing for work.and00.and0
+Running optimization stage 1 on and00 .......
+Post processing for work.topha00.topha0
+Running optimization stage 1 on topha00 .......
+Post processing for work.topfa00.topfa0
+Running optimization stage 1 on topfa00 .......
+Post processing for work.topmult8bit00.topmult8bit0
+Running optimization stage 1 on topmult8bit00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\topadder8bit00.vhdl":7:7:7:20|Synthesizing work.topadder8bit00.topadder8bit0.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\xnor00.vhdl":6:7:6:12|Synthesizing work.xnor00.xnor0.
+Post processing for work.xnor00.xnor0
+Running optimization stage 1 on xnor00 .......
+Post processing for work.topadder8bit00.topadder8bit0
+Running optimization stage 1 on topadder8bit00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nota00.vhdl":7:7:7:12|Synthesizing work.nota00.nota0.
+Post processing for work.nota00.nota0
+Running optimization stage 1 on nota00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\xnora00.vhdl":7:7:7:13|Synthesizing work.xnora00.xnora0.
+Post processing for work.xnora00.xnora0
+Running optimization stage 1 on xnora00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\xora00.vhdl":7:7:7:12|Synthesizing work.xora00.xora0.
+Post processing for work.xora00.xora0
+Running optimization stage 1 on xora00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nora00.vhdl":7:7:7:12|Synthesizing work.nora00.nora0.
+Post processing for work.nora00.nora0
+Running optimization stage 1 on nora00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nanda00.vhdl":7:7:7:13|Synthesizing work.nanda00.nanda0.
+Post processing for work.nanda00.nanda0
+Running optimization stage 1 on nanda00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\ora00.vhdl":7:7:7:11|Synthesizing work.ora00.ora0.
+Post processing for work.ora00.ora0
+Running optimization stage 1 on ora00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\anda00.vhdl":7:7:7:12|Synthesizing work.anda00.anda0.
+Post processing for work.anda00.anda0
+Running optimization stage 1 on anda00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\topdiv00.vhdl":8:7:8:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\div00.vhdl":29:6:29:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\div00.vhdl":37:6:37:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\div00.vhdl":45:6:45:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\div00.vhdl":53:6:53:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\div00.vhdl":61:6:61:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\div00.vhdl":69:6:69:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\div00.vhdl":77:6:77:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\div00.vhdl":85:6:85:11|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD326 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\osc00.vhdl":24:0:24:7|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Running optimization stage 1 on OSCH .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.topdiv00.topdiv0
+Running optimization stage 1 on topdiv00 .......
+Post processing for work.topalu00.topalu0
+Running optimization stage 1 on topalu00 .......
+Running optimization stage 2 on OSCH .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on topdiv00 .......
+Running optimization stage 2 on anda00 .......
+Running optimization stage 2 on ora00 .......
+Running optimization stage 2 on nanda00 .......
+Running optimization stage 2 on nora00 .......
+Running optimization stage 2 on xora00 .......
+Running optimization stage 2 on xnora00 .......
+Running optimization stage 2 on nota00 .......
+Running optimization stage 2 on xnor00 .......
+Running optimization stage 2 on topadder8bit00 .......
+Running optimization stage 2 on and00 .......
+Running optimization stage 2 on xor00 .......
+Running optimization stage 2 on topha00 .......
+Running optimization stage 2 on or00 .......
+Running optimization stage 2 on topfa00 .......
+Running optimization stage 2 on topmult8bit00 .......
+Running optimization stage 2 on add00 .......
+Running optimization stage 2 on sub00 .......
+Running optimization stage 2 on mult00 .......
+Running optimization stage 2 on ac00 .......
+Running optimization stage 2 on topalu00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\alu01\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 85MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 28 10:48:22 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : alu01
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\alu01\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 28 10:48:23 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\alu01\synwork\alu01_alu01_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 28 10:48:24 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Database state : C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\alu01\synwork\|alu01
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+File C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\alu01\synwork\alu01_alu01_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 28 10:48:25 2019
+
+###########################################################]
+Premap Report
+
+# Thu Nov 28 10:48:26 2019
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : alu01
+Synopsys Lattice Technology Pre-mapping, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\alu01\alu01_alu01_scck.rpt 
+Printing clock  summary report in "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\alu01\alu01_alu01_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 114MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 117MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+Fixing fake multiple drivers on net sAi[0].
+Fixing fake multiple drivers on net sAi[1].
+Fixing fake multiple drivers on net sAi[2].
+Fixing fake multiple drivers on net sAi[3].
+Fixing fake multiple drivers on net sAi[4].
+Fixing fake multiple drivers on net sAi[5].
+Fixing fake multiple drivers on net sAi[6].
+Fixing fake multiple drivers on net sAi[7].
+Fixing fake multiple drivers on net sBi[0].
+Fixing fake multiple drivers on net sBi[1].
+Fixing fake multiple drivers on net sBi[2].
+Fixing fake multiple drivers on net sBi[3].
+Fixing fake multiple drivers on net sBi[4].
+Fixing fake multiple drivers on net sBi[5].
+Fixing fake multiple drivers on net sBi[6].
+Fixing fake multiple drivers on net sBi[7].
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_16(topha0)) of type view:work.and00_0_16(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_29(topha0)) of type view:work.and00_0_30(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_45(topha0)) of type view:work.and00_0_46(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_61(topha0)) of type view:work.and00_0_62(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_77(topha0)) of type view:work.and00_0_78(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_93(topha0)) of type view:work.and00_0_94(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_109(topha0)) of type view:work.and00_0_110(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_125(topha0)) of type view:work.and00_0_126(and0) because it does not drive other instances.
+syn_allowed_resources : blockrams=26  set on top level netlist topalu00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 149MB peak: 150MB)
+
+
+
+Clock Summary
+******************
+
+          Start                            Requested     Requested     Clock                                           Clock                   Clock
+Level     Clock                            Frequency     Period        Type                                            Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     22   
+1 .         div00|outdiv_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     228  
+====================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                 Clock     Source                          Clock Pin              Non-clock Pin     Non-clock Pin
+Clock                            Load      Pin                             Seq Example            Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     22        AL00.D00.OSCInst0.OSC(OSCH)     AL00.D01.outdiv.C      -                 -            
+div00|outdiv_derived_clock       228       AL00.D01.outdiv.Q[0](dffe)      AL01.outFlaga_cl.C     -                 -            
+=================================================================================================================================
+
+@W: MT529 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\topdiv00vhdl\div00.vhdl":21:2:21:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including AL00.D01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 250 clock pin(s) of sequential element(s)
+0 instances converted, 250 sequential instances remain driven by gated/generated clocks
+
+================================================================== Gated/Generated Clocks ==================================================================
+Clock Tree ID     Driving Element           Drive Element Type     Unconverted Fanout     Sample Instance         Explanation                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       AL00.D01.outdiv.Q[0]      dffe                   228                    AL01.aux                Derived clock on input (not legal for GCC)
+@KP:ckid0_2       AL00.D00.OSCInst0.OSC     OSCH                   22                     AL00.D01.sdiv[20:0]     Black box on clock path                   
+============================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 150MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 150MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 150MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 64MB peak: 150MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+# Thu Nov 28 10:48:30 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Nov 28 10:48:31 2019
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : alu01
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":23:4:23:7|Removing user instance AL07.outrnot_cl_15[7] because it is equivalent to instance AL07.outrnot_cl_14[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":23:4:23:7|Removing user instance AL07.outrnot_cl_14[7] because it is equivalent to instance AL07.outrnot_cl_12[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":23:4:23:7|Removing user instance AL07.outrnot_cl_13[7] because it is equivalent to instance AL07.outrnot_cl_11[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":23:4:23:7|Removing user instance AL07.outrnot_cl_12[7] because it is equivalent to instance AL07.outrnot_cl_10[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":23:4:23:7|Removing user instance AL07.outrnot_cl_11[7] because it is equivalent to instance AL07.outrnot_cl_9[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":23:4:23:7|Removing user instance AL07.outrnot_cl_10[7] because it is equivalent to instance AL07.outrnot_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":22:3:22:4|Removing user instance AL07.outrnot_cl_21[7] because it is equivalent to instance AL07.outrnot_cl_20[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":22:3:22:4|Removing user instance AL07.outrnot_cl_20[7] because it is equivalent to instance AL07.outrnot_cl_22[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":22:3:22:4|Removing user instance AL07.outrnot_cl_23[7] because it is equivalent to instance AL07.outrnot_cl_17[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":22:3:22:4|Removing user instance AL07.outrnot_cl_22[7] because it is equivalent to instance AL07.outrnot_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":22:3:22:4|Removing user instance AL07.outrnot_cl_17[7] because it is equivalent to instance AL07.outrnot_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":22:3:22:4|Removing user instance AL07.outrnot_cl_16[7] because it is equivalent to instance AL07.outrnot_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":21:2:21:3|Removing sequential instance AL07.outrnot_cl_7[7] because it is equivalent to instance AL07.outrnot_cl_6[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":21:2:21:3|Removing sequential instance AL07.outrnot_cl_6[7] because it is equivalent to instance AL07.outrnot_cl_4[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":21:2:21:3|Removing sequential instance AL07.outrnot_cl_4[7] because it is equivalent to instance AL07.outrnot_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":21:2:21:3|Removing sequential instance AL07.outrnot_cl_2[7] because it is equivalent to instance AL07.outrnot_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":21:2:21:3|Removing sequential instance AL07.outrnot_cl_5[7] because it is equivalent to instance AL07.outrnot_cl_3[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":21:2:21:3|Removing sequential instance AL07.outrnot_cl_3[7] because it is equivalent to instance AL07.outrnot_cl_1[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":23:4:23:7|Removing user instance AL07.outrnot_cl_9[7] because it is equivalent to instance AL07.outrnot_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nota00.vhdl":21:2:21:3|Removing sequential instance AL07.outrnot_cl_1[7] because it is equivalent to instance AL07.outrnot_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":24:4:24:7|Removing user instance AL06.outrxn_cl_15[7] because it is equivalent to instance AL06.outrxn_cl_14[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":24:4:24:7|Removing user instance AL06.outrxn_cl_14[7] because it is equivalent to instance AL06.outrxn_cl_12[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":24:4:24:7|Removing user instance AL06.outrxn_cl_13[7] because it is equivalent to instance AL06.outrxn_cl_11[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":24:4:24:7|Removing user instance AL06.outrxn_cl_12[7] because it is equivalent to instance AL06.outrxn_cl_10[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":24:4:24:7|Removing user instance AL06.outrxn_cl_11[7] because it is equivalent to instance AL06.outrxn_cl_9[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":24:4:24:7|Removing user instance AL06.outrxn_cl_10[7] because it is equivalent to instance AL06.outrxn_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":23:3:23:4|Removing user instance AL06.outrxn_cl_21[7] because it is equivalent to instance AL06.outrxn_cl_20[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":23:3:23:4|Removing user instance AL06.outrxn_cl_20[7] because it is equivalent to instance AL06.outrxn_cl_22[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":23:3:23:4|Removing user instance AL06.outrxn_cl_23[7] because it is equivalent to instance AL06.outrxn_cl_17[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":23:3:23:4|Removing user instance AL06.outrxn_cl_22[7] because it is equivalent to instance AL06.outrxn_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":23:3:23:4|Removing user instance AL06.outrxn_cl_17[7] because it is equivalent to instance AL06.outrxn_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":23:3:23:4|Removing user instance AL06.outrxn_cl_16[7] because it is equivalent to instance AL06.outrxn_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":22:2:22:3|Removing sequential instance AL06.outrxn_cl_7[7] because it is equivalent to instance AL06.outrxn_cl_6[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":22:2:22:3|Removing sequential instance AL06.outrxn_cl_6[7] because it is equivalent to instance AL06.outrxn_cl_4[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":22:2:22:3|Removing sequential instance AL06.outrxn_cl_4[7] because it is equivalent to instance AL06.outrxn_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":22:2:22:3|Removing sequential instance AL06.outrxn_cl_2[7] because it is equivalent to instance AL06.outrxn_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":22:2:22:3|Removing sequential instance AL06.outrxn_cl_5[7] because it is equivalent to instance AL06.outrxn_cl_3[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":22:2:22:3|Removing sequential instance AL06.outrxn_cl_3[7] because it is equivalent to instance AL06.outrxn_cl_1[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xnora00.vhdl":22:2:22:3|Removing sequential instance AL06.outrxn_cl_1[7] because it is equivalent to instance AL06.outrxn_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":22:2:22:3|Removing sequential instance AL05.outrxo_cl_7[7] because it is equivalent to instance AL05.outrxo_cl_6[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":22:2:22:3|Removing sequential instance AL05.outrxo_cl_6[7] because it is equivalent to instance AL05.outrxo_cl_4[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":22:2:22:3|Removing sequential instance AL05.outrxo_cl_5[7] because it is equivalent to instance AL05.outrxo_cl_3[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":22:2:22:3|Removing sequential instance AL05.outrxo_cl_4[7] because it is equivalent to instance AL05.outrxo_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":22:2:22:3|Removing sequential instance AL05.outrxo_cl_3[7] because it is equivalent to instance AL05.outrxo_cl_1[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":22:2:22:3|Removing sequential instance AL05.outrxo_cl_2[7] because it is equivalent to instance AL05.outrxo_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":24:4:24:7|Removing user instance AL05.outrxo_cl_15[7] because it is equivalent to instance AL05.outrxo_cl_14[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":24:4:24:7|Removing user instance AL05.outrxo_cl_14[7] because it is equivalent to instance AL05.outrxo_cl_12[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":24:4:24:7|Removing user instance AL05.outrxo_cl_13[7] because it is equivalent to instance AL05.outrxo_cl_11[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":24:4:24:7|Removing user instance AL05.outrxo_cl_12[7] because it is equivalent to instance AL05.outrxo_cl_10[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":24:4:24:7|Removing user instance AL05.outrxo_cl_11[7] because it is equivalent to instance AL05.outrxo_cl_9[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":24:4:24:7|Removing user instance AL05.outrxo_cl_10[7] because it is equivalent to instance AL05.outrxo_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":23:3:23:4|Removing user instance AL05.outrxo_cl_23[7] because it is equivalent to instance AL05.outrxo_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":23:3:23:4|Removing user instance AL05.outrxo_cl_22[7] because it is equivalent to instance AL05.outrxo_cl_21[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":23:3:23:4|Removing user instance AL05.outrxo_cl_21[7] because it is equivalent to instance AL05.outrxo_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":23:3:23:4|Removing user instance AL05.outrxo_cl_20[7] because it is equivalent to instance AL05.outrxo_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":23:3:23:4|Removing user instance AL05.outrxo_cl_19[7] because it is equivalent to instance AL05.outrxo_cl_17[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":23:3:23:4|Removing user instance AL05.outrxo_cl_18[7] because it is equivalent to instance AL05.outrxo_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\xora00.vhdl":22:2:22:3|Removing sequential instance AL05.outrxo_cl_1[7] because it is equivalent to instance AL05.outrxo_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":24:4:24:7|Removing user instance AL04.outrno_cl_15[7] because it is equivalent to instance AL04.outrno_cl_14[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":24:4:24:7|Removing user instance AL04.outrno_cl_14[7] because it is equivalent to instance AL04.outrno_cl_12[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":24:4:24:7|Removing user instance AL04.outrno_cl_13[7] because it is equivalent to instance AL04.outrno_cl_11[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":24:4:24:7|Removing user instance AL04.outrno_cl_12[7] because it is equivalent to instance AL04.outrno_cl_10[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":24:4:24:7|Removing user instance AL04.outrno_cl_11[7] because it is equivalent to instance AL04.outrno_cl_9[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":24:4:24:7|Removing user instance AL04.outrno_cl_10[7] because it is equivalent to instance AL04.outrno_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":23:3:23:4|Removing user instance AL04.outrno_cl_21[7] because it is equivalent to instance AL04.outrno_cl_20[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":23:3:23:4|Removing user instance AL04.outrno_cl_20[7] because it is equivalent to instance AL04.outrno_cl_22[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":23:3:23:4|Removing user instance AL04.outrno_cl_23[7] because it is equivalent to instance AL04.outrno_cl_17[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":23:3:23:4|Removing user instance AL04.outrno_cl_22[7] because it is equivalent to instance AL04.outrno_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":23:3:23:4|Removing user instance AL04.outrno_cl_17[7] because it is equivalent to instance AL04.outrno_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":23:3:23:4|Removing user instance AL04.outrno_cl_16[7] because it is equivalent to instance AL04.outrno_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":22:2:22:3|Removing sequential instance AL04.outrno_cl_7[7] because it is equivalent to instance AL04.outrno_cl_6[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":22:2:22:3|Removing sequential instance AL04.outrno_cl_6[7] because it is equivalent to instance AL04.outrno_cl_4[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":22:2:22:3|Removing sequential instance AL04.outrno_cl_4[7] because it is equivalent to instance AL04.outrno_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":22:2:22:3|Removing sequential instance AL04.outrno_cl_2[7] because it is equivalent to instance AL04.outrno_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":22:2:22:3|Removing sequential instance AL04.outrno_cl_5[7] because it is equivalent to instance AL04.outrno_cl_3[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":22:2:22:3|Removing sequential instance AL04.outrno_cl_3[7] because it is equivalent to instance AL04.outrno_cl_1[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":24:4:24:7|Removing user instance AL04.outrno_cl_9[7] because it is equivalent to instance AL04.outrno_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nora00.vhdl":22:2:22:3|Removing sequential instance AL04.outrno_cl_1[7] because it is equivalent to instance AL04.outrno_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":24:4:24:7|Removing user instance AL03.outrn_cl_15[7] because it is equivalent to instance AL03.outrn_cl_14[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":24:4:24:7|Removing user instance AL03.outrn_cl_14[7] because it is equivalent to instance AL03.outrn_cl_12[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":24:4:24:7|Removing user instance AL03.outrn_cl_13[7] because it is equivalent to instance AL03.outrn_cl_11[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":24:4:24:7|Removing user instance AL03.outrn_cl_12[7] because it is equivalent to instance AL03.outrn_cl_10[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":24:4:24:7|Removing user instance AL03.outrn_cl_11[7] because it is equivalent to instance AL03.outrn_cl_9[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":24:4:24:7|Removing user instance AL03.outrn_cl_10[7] because it is equivalent to instance AL03.outrn_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":23:3:23:4|Removing user instance AL03.outrn_cl_23[7] because it is equivalent to instance AL03.outrn_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":23:3:23:4|Removing user instance AL03.outrn_cl_22[7] because it is equivalent to instance AL03.outrn_cl_21[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":23:3:23:4|Removing user instance AL03.outrn_cl_21[7] because it is equivalent to instance AL03.outrn_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":23:3:23:4|Removing user instance AL03.outrn_cl_20[7] because it is equivalent to instance AL03.outrn_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":23:3:23:4|Removing user instance AL03.outrn_cl_19[7] because it is equivalent to instance AL03.outrn_cl_17[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":23:3:23:4|Removing user instance AL03.outrn_cl_18[7] because it is equivalent to instance AL03.outrn_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":22:2:22:3|Removing sequential instance AL03.outrn_cl_7[7] because it is equivalent to instance AL03.outrn_cl_6[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":22:2:22:3|Removing sequential instance AL03.outrn_cl_6[7] because it is equivalent to instance AL03.outrn_cl_4[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":22:2:22:3|Removing sequential instance AL03.outrn_cl_5[7] because it is equivalent to instance AL03.outrn_cl_3[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":22:2:22:3|Removing sequential instance AL03.outrn_cl_4[7] because it is equivalent to instance AL03.outrn_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":22:2:22:3|Removing sequential instance AL03.outrn_cl_3[7] because it is equivalent to instance AL03.outrn_cl_1[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":22:2:22:3|Removing sequential instance AL03.outrn_cl_2[7] because it is equivalent to instance AL03.outrn_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":24:4:24:7|Removing user instance AL03.outrn_cl_9[7] because it is equivalent to instance AL03.outrn_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\nanda00.vhdl":22:2:22:3|Removing sequential instance AL03.outrn_cl_1[7] because it is equivalent to instance AL03.outrn_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ora00.vhdl":24:4:24:7|Removing user instance AL02.outro_cl_15[7] because it is equivalent to instance AL02.outro_cl_14[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ora00.vhdl":24:4:24:7|Removing user instance AL02.outro_cl_14[7] because it is equivalent to instance AL02.outro_cl_12[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Only the first 100 messages of id 'BN132' are reported. To see all messages use 'report_messages -log C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\alu01\synlog\alu01_alu01_fpga_mapper.srr -id BN132' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN132} -count unlimited' in the Tcl shell.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 146MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 146MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 149MB peak: 150MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 149MB peak: 158MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 150MB peak: 158MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 150MB peak: 158MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 150MB peak: 158MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 150MB peak: 158MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 177MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		   468.35ns		 425 /       170
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 177MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.out2ac_7_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.out2ac_6_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.out2ac_5_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.out2ac_4_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.out2ac_3_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.out2ac_2_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.out2ac_1_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.out2ac_0_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.outac_7_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.outac_6_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.outac_5_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.outac_4_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.outac_3_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.outac_2_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.outac_1_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\alu01\ac00.vhdl":23:2:23:3|Boundary register AL13.outac_0_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 177MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 140MB peak: 177MB)
+
+Writing Analyst data base C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\alu01\synwork\alu01_alu01_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 175MB peak: 177MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\alu01\alu01_alu01.edi
+N-2018.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 179MB peak: 181MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 179MB peak: 181MB)
+
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net AL00.D00.sclk.
+@N: MT615 |Found clock div00|outdiv_derived_clock with period 480.77ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Nov 28 10:48:36 2019
+#
+
+
+Top view:               topalu00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 466.579
+
+                                 Requested     Estimated     Requested     Estimated                 Clock                                           Clock              
+Starting Clock                   Frequency     Frequency     Period        Period        Slack       Type                                            Group              
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+div00|outdiv_derived_clock       2.1 MHz       469.6 MHz     480.769       2.130         957.279     derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0
+osc00|osc_int_inferred_clock     2.1 MHz       70.5 MHz      480.769       14.191        466.579     inferred                                        Inferred_clkgroup_0
+========================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  480.769     466.579  |  No paths    -      |  No paths    -      |  No paths    -    
+div00|outdiv_derived_clock    div00|outdiv_derived_clock    |  480.769     957.279  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: div00|outdiv_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                             Arrival            
+Instance               Reference                      Type        Pin     Net               Time        Slack  
+                       Clock                                                                                   
+---------------------------------------------------------------------------------------------------------------
+AL13.outFlagac         div00|outdiv_derived_clock     FD1S3IX     Q       outFlagac0_c      1.377       957.279
+AL05.aux               div00|outdiv_derived_clock     FD1S3AX     Q       aux               1.188       957.597
+AL07.aux               div00|outdiv_derived_clock     FD1S3AX     Q       aux               1.188       957.597
+AL12.outmuH_cl[7]      div00|outdiv_derived_clock     FD1S3IX     Q       outmuH_cl[7]      1.232       957.719
+AL07.outrnot_cl[7]     div00|outdiv_derived_clock     FD1S3IX     Q       outrnot_cl[7]     1.228       957.723
+AL06.aux               div00|outdiv_derived_clock     FD1S3AX     Q       aux               1.188       957.914
+AL12.outmuL_1[0]       div00|outdiv_derived_clock     FD1P3AX     Q       outmuL_1[0]       0.972       957.979
+AL12.outmuL_1[1]       div00|outdiv_derived_clock     FD1P3AX     Q       outmuL_1[1]       0.972       957.979
+AL12.outmuL_1[2]       div00|outdiv_derived_clock     FD1P3AX     Q       outmuL_1[2]       0.972       957.979
+AL12.outmuL_1[3]       div00|outdiv_derived_clock     FD1P3AX     Q       outmuL_1[3]       0.972       957.979
+===============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                               Required            
+Instance              Reference                      Type        Pin     Net                 Time         Slack  
+                      Clock                                                                                      
+-----------------------------------------------------------------------------------------------------------------
+AL04.outrno_1[0]      div00|outdiv_derived_clock     FD1P3AX     D       N_155               961.627      957.279
+AL04.outrno_1[1]      div00|outdiv_derived_clock     FD1P3AX     D       N_135               961.627      957.279
+AL04.outrno_1[2]      div00|outdiv_derived_clock     FD1P3AX     D       N_115               961.627      957.279
+AL04.outrno_1[3]      div00|outdiv_derived_clock     FD1P3AX     D       outrno_1_RNO[3]     961.627      957.279
+AL04.outrno_1[4]      div00|outdiv_derived_clock     FD1P3AX     D       outrno_1_RNO[4]     961.627      957.279
+AL04.outrno_1[5]      div00|outdiv_derived_clock     FD1P3AX     D       N_55                961.627      957.279
+AL04.outrno_1[6]      div00|outdiv_derived_clock     FD1P3AX     D       N_35                961.627      957.279
+AL04.outrno_1[7]      div00|outdiv_derived_clock     FD1P3AX     D       outrno_1_RNO[7]     961.627      957.279
+AL07.outrnot_1[0]     div00|outdiv_derived_clock     FD1P3AX     SP      outrnot_1ce[0]      961.067      957.336
+AL07.outrnot_1[1]     div00|outdiv_derived_clock     FD1P3AX     SP      outrnot_1ce[0]      961.067      957.336
+=================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      961.538
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         961.627
+
+    - Propagation time:                      4.348
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 957.279
+
+    Number of logic level(s):                3
+    Starting point:                          AL13.outFlagac / Q
+    Ending point:                            AL04.outrno_1[0] / D
+    The start point is clocked by            div00|outdiv_derived_clock [rising] on pin CK
+    The end   point is clocked by            div00|outdiv_derived_clock [rising] on pin CK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:div00|outdiv_derived_clock to c:div00|outdiv_derived_clock)
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+AL13.outFlagac                       FD1S3IX      Q        Out     1.377     1.377       -         
+outFlagac0_c                         Net          -        -       -         -           65        
+AL04.outrno_5_0_162_o3_2             ORCALUT4     B        In      0.000     1.377       -         
+AL04.outrno_5_0_162_o3_2             ORCALUT4     Z        Out     1.089     2.466       -         
+N_152_2                              Net          -        -       -         -           2         
+AL04.pora\.un1_funtno_2_RNI1SGU1     ORCALUT4     A        In      0.000     2.466       -         
+AL04.pora\.un1_funtno_2_RNI1SGU1     ORCALUT4     Z        Out     1.265     3.731       -         
+N_152                                Net          -        -       -         -           8         
+AL04.outrno_1_RNO[0]                 ORCALUT4     A        In      0.000     3.731       -         
+AL04.outrno_1_RNO[0]                 ORCALUT4     Z        Out     0.617     4.348       -         
+N_155                                Net          -        -       -         -           1         
+AL04.outrno_1[0]                     FD1P3AX      D        In      0.000     4.348       -         
+===================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: osc00|osc_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                      Starting                                                          Arrival            
+Instance              Reference                        Type        Pin     Net          Time        Slack  
+                      Clock                                                                                
+-----------------------------------------------------------------------------------------------------------
+AL00.D01.sdiv[0]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[0]      1.044       466.579
+AL00.D01.sdiv[1]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[1]      1.044       466.579
+AL00.D01.sdiv[2]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[2]      1.044       466.579
+AL00.D01.sdiv[3]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[3]      1.044       466.579
+AL00.D01.sdiv[6]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[6]      1.044       466.579
+AL00.D01.sdiv[7]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[7]      1.044       466.579
+AL00.D01.sdiv[8]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[8]      1.108       467.563
+AL00.D01.sdiv[9]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[9]      1.108       467.563
+AL00.D01.sdiv[10]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[10]     1.108       467.563
+AL00.D01.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[11]     1.108       467.563
+===========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                              Required            
+Instance              Reference                        Type        Pin     Net              Time         Slack  
+                      Clock                                                                                     
+----------------------------------------------------------------------------------------------------------------
+AL00.D01.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[20]     480.664      466.579
+AL00.D01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[21]     480.664      466.579
+AL00.D01.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[18]     480.664      466.721
+AL00.D01.sdiv[18]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[19]     480.664      466.721
+AL00.D01.sdiv[15]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[16]     480.664      466.864
+AL00.D01.sdiv[16]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[17]     480.664      466.864
+AL00.D01.sdiv[13]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[14]     480.664      467.007
+AL00.D01.sdiv[14]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[15]     480.664      467.007
+AL00.D01.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[12]     480.664      467.150
+AL00.D01.sdiv[12]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[13]     480.664      467.150
+================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      14.085
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     466.579
+
+    Number of logic level(s):                19
+    Starting point:                          AL00.D01.sdiv[0] / Q
+    Ending point:                            AL00.D01.sdiv[20] / D
+    The start point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+    The end   point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+AL00.D01.sdiv[0]                         FD1S3IX      Q        Out     1.044     1.044       -         
+sdiv[0]                                  Net          -        -       -         -           2         
+AL00.D01.pdiv\.sdiv15lto18_i_a2_15_4     ORCALUT4     A        In      0.000     1.044       -         
+AL00.D01.pdiv\.sdiv15lto18_i_a2_15_4     ORCALUT4     Z        Out     1.017     2.061       -         
+sdiv15lto18_i_a2_15_4                    Net          -        -       -         -           1         
+AL00.D01.pdiv\.sdiv15lto18_i_a2_15       ORCALUT4     B        In      0.000     2.061       -         
+AL00.D01.pdiv\.sdiv15lto18_i_a2_15       ORCALUT4     Z        Out     1.225     3.285       -         
+N_24_8                                   Net          -        -       -         -           5         
+AL00.D01.pdiv\.sdiv15lto18_i_a2_17       ORCALUT4     B        In      0.000     3.285       -         
+AL00.D01.pdiv\.sdiv15lto18_i_a2_17       ORCALUT4     Z        Out     1.193     4.478       -         
+N_3_18                                   Net          -        -       -         -           4         
+AL00.D01.pdiv\.sdiv15lto19               ORCALUT4     A        In      0.000     4.478       -         
+AL00.D01.pdiv\.sdiv15lto19               ORCALUT4     Z        Out     1.017     5.495       -         
+sdiv15lt20                               Net          -        -       -         -           1         
+AL00.D01.outdiv_0_sqmuxa_1               ORCALUT4     A        In      0.000     5.495       -         
+AL00.D01.outdiv_0_sqmuxa_1               ORCALUT4     Z        Out     1.089     6.584       -         
+outdiv_0_sqmuxa_1                        Net          -        -       -         -           2         
+AL00.D01.un1_sdiv69_3                    ORCALUT4     A        In      0.000     6.584       -         
+AL00.D01.un1_sdiv69_3                    ORCALUT4     Z        Out     1.017     7.601       -         
+un1_sdiv69_3                             Net          -        -       -         -           1         
+AL00.D01.un1_sdiv69_5                    ORCALUT4     D        In      0.000     7.601       -         
+AL00.D01.un1_sdiv69_5                    ORCALUT4     Z        Out     1.089     8.689       -         
+un1_sdiv69_5                             Net          -        -       -         -           2         
+AL00.D01.un1_sdiv69_i                    ORCALUT4     B        In      0.000     8.689       -         
+AL00.D01.un1_sdiv69_i                    ORCALUT4     Z        Out     1.017     9.706       -         
+un1_sdiv69_i                             Net          -        -       -         -           1         
+AL00.D01.un1_sdiv_cry_0_0                CCU2D        B0       In      0.000     9.706       -         
+AL00.D01.un1_sdiv_cry_0_0                CCU2D        COUT     Out     1.544     11.251      -         
+un1_sdiv_cry_0                           Net          -        -       -         -           1         
+AL00.D01.un1_sdiv_cry_1_0                CCU2D        CIN      In      0.000     11.251      -         
+AL00.D01.un1_sdiv_cry_1_0                CCU2D        COUT     Out     0.143     11.393      -         
+un1_sdiv_cry_2                           Net          -        -       -         -           1         
+AL00.D01.un1_sdiv_cry_3_0                CCU2D        CIN      In      0.000     11.393      -         
+AL00.D01.un1_sdiv_cry_3_0                CCU2D        COUT     Out     0.143     11.536      -         
+un1_sdiv_cry_4                           Net          -        -       -         -           1         
+AL00.D01.un1_sdiv_cry_5_0                CCU2D        CIN      In      0.000     11.536      -         
+AL00.D01.un1_sdiv_cry_5_0                CCU2D        COUT     Out     0.143     11.679      -         
+un1_sdiv_cry_6                           Net          -        -       -         -           1         
+AL00.D01.un1_sdiv_cry_7_0                CCU2D        CIN      In      0.000     11.679      -         
+AL00.D01.un1_sdiv_cry_7_0                CCU2D        COUT     Out     0.143     11.822      -         
+un1_sdiv_cry_8                           Net          -        -       -         -           1         
+AL00.D01.un1_sdiv_cry_9_0                CCU2D        CIN      In      0.000     11.822      -         
+AL00.D01.un1_sdiv_cry_9_0                CCU2D        COUT     Out     0.143     11.965      -         
+un1_sdiv_cry_10                          Net          -        -       -         -           1         
+AL00.D01.un1_sdiv_cry_11_0               CCU2D        CIN      In      0.000     11.965      -         
+AL00.D01.un1_sdiv_cry_11_0               CCU2D        COUT     Out     0.143     12.107      -         
+un1_sdiv_cry_12                          Net          -        -       -         -           1         
+AL00.D01.un1_sdiv_cry_13_0               CCU2D        CIN      In      0.000     12.107      -         
+AL00.D01.un1_sdiv_cry_13_0               CCU2D        COUT     Out     0.143     12.250      -         
+un1_sdiv_cry_14                          Net          -        -       -         -           1         
+AL00.D01.un1_sdiv_cry_15_0               CCU2D        CIN      In      0.000     12.250      -         
+AL00.D01.un1_sdiv_cry_15_0               CCU2D        COUT     Out     0.143     12.393      -         
+un1_sdiv_cry_16                          Net          -        -       -         -           1         
+AL00.D01.un1_sdiv_cry_17_0               CCU2D        CIN      In      0.000     12.393      -         
+AL00.D01.un1_sdiv_cry_17_0               CCU2D        COUT     Out     0.143     12.536      -         
+un1_sdiv_cry_18                          Net          -        -       -         -           1         
+AL00.D01.un1_sdiv_cry_19_0               CCU2D        CIN      In      0.000     12.536      -         
+AL00.D01.un1_sdiv_cry_19_0               CCU2D        S1       Out     1.549     14.085      -         
+un1_sdiv[21]                             Net          -        -       -         -           1         
+AL00.D01.sdiv[20]                        FD1S3IX      D        In      0.000     14.085      -         
+=======================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 179MB peak: 181MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 179MB peak: 181MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-4
+
+Register bits: 170 of 6864 (2%)
+PIC Latch:       0
+I/O cells:       48
+
+
+Details:
+BB:             1
+CCU2D:          11
+FD1P3AX:        90
+FD1S3AX:        12
+FD1S3IX:        43
+FD1S3JX:        9
+GSR:            1
+IB:             28
+INV:            10
+OB:             18
+OBZ:            1
+OFS1P3IX:       16
+ORCALUT4:       415
+OSCH:           1
+PFUMX:          1
+PUR:            1
+VHI:            13
+VLO:            35
+false:          235
+true:           257
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 35MB peak: 181MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:04s cputime
+# Thu Nov 28 10:48:37 2019
+
+###########################################################]
+
+
+Synthesis exit by 0.
+
+edif2ngd  -l "MachXO2" -d LCMXO2-7000HE -path "C:/Users/ameri/Documentos/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Practicas/2doP/P15/alu01/alu01" -path "C:/Users/ameri/Documentos/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Practicas/2doP/P15/alu01"   "C:/Users/ameri/Documentos/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Practicas/2doP/P15/alu01/alu01/alu01_alu01.edi" "alu01_alu01.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.11.0.396.4
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to alu01_alu01.ngo...
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 14 MB
+
+
+ngdbuild  -a "MachXO2" -d LCMXO2-7000HE  -p "C:/lscc/diamond/3.11_x64/ispfpga/xo2c00/data"  -p "C:/Users/ameri/Documentos/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Practicas/2doP/P15/alu01/alu01" -p "C:/Users/ameri/Documentos/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Practicas/2doP/P15/alu01"  "alu01_alu01.ngo" "alu01_alu01.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.11.0.396.4
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'alu01_alu01.ngo' ...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="AL00/D00/OSCInst0_SEDSTDBY" arg2="AL00/D00/OSCInst0_SEDSTDBY"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="1"  />
+
+Design Results:
+    705 blocks expanded
+Complete the first expansion.
+Writing 'alu01_alu01.ngd' ...
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 21 MB
+
+
+map -a "MachXO2" -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial   "alu01_alu01.ngd" -o "alu01_alu01_map.ncd" -pr "alu01_alu01.prf" -mp "alu01_alu01.mrp" -lpf "C:/Users/ameri/Documentos/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Practicas/2doP/P15/alu01/alu01/alu01_alu01_synplify.lpf" -lpf "C:/Users/ameri/Documentos/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Practicas/2doP/P15/alu01/alu01.lpf" -c 0           
+map:  version Diamond (64-bit) 3.11.0.396.4
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: alu01_alu01.ngd
+   Picdevice="LCMXO2-7000HE"
+
+   Pictype="TQFP144"
+
+   Picspeed=4
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO2-7000HETQFP144, Performance used: 4.
+
+Loading device for application map from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+
+
+
+Design Summary:
+   Number of registers:    170 out of  7209 (2%)
+      PFU registers:          154 out of  6864 (2%)
+      PIO registers:           16 out of   345 (5%)
+   Number of SLICEs:       227 out of  3432 (7%)
+      SLICEs as Logic/ROM:    227 out of  3432 (7%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:        444 out of  6864 (6%)
+      Number used as logic LUTs:        422
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 48 + 4(JTAG) out of 115 (45%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : Yes
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  2
+     Net clk00_c: 104 loads, 104 rising, 0 falling (Driver: AL00/D01/outdiv )
+     Net AL00/sclk: 12 loads, 12 rising, 0 falling (Driver: AL00/D00/OSCInst0 )
+   Number of Clock Enables:  12
+     Net AL13.outFlagac_0_sqmuxa_1: 8 loads, 0 LSLICEs
+     Net AL01/outra_1_sqmuxa_i: 4 loads, 4 LSLICEs
+     Net AL02/outro_1_sqmuxa_i: 4 loads, 4 LSLICEs
+     Net AL03/outrn_1_sqmuxa_i: 4 loads, 4 LSLICEs
+     Net AL04/outrno_1_sqmuxa_i: 4 loads, 4 LSLICEs
+     Net AL05/outrxo_1ce[0]: 4 loads, 4 LSLICEs
+     Net AL06/outrxn_1ce_1_RNIE5N31[0]: 4 loads, 4 LSLICEs
+     Net AL07/outrnot_1ce[0]: 4 loads, 4 LSLICEs
+     Net AL12/outmuH_1ce[0]: 8 loads, 8 LSLICEs
+     Net N_6_i_i: 8 loads, 0 LSLICEs
+     Net AL11/LEDsub_1ce: 5 loads, 5 LSLICEs
+     Net AL10/LEDad_1ce: 5 loads, 5 LSLICEs
+   Number of LSRs:  15
+     Net aux_RNI9QL21: 8 loads, 0 LSLICEs
+     Net AL01/fb: 1 loads, 1 LSLICEs
+     Net funt0_c[1]: 18 loads, 18 LSLICEs
+     Net N_731: 2 loads, 2 LSLICEs
+     Net AL02/fb: 1 loads, 1 LSLICEs
+     Net AL03/fb: 1 loads, 1 LSLICEs
+     Net AL04/fb: 1 loads, 1 LSLICEs
+     Net AL05/fb: 1 loads, 1 LSLICEs
+     Net AL06/fb: 1 loads, 1 LSLICEs
+     Net AL07/fb: 1 loads, 1 LSLICEs
+     Net AL12/aux: 1 loads, 1 LSLICEs
+     Net enable0_c: 9 loads, 1 LSLICEs
+     Net AL11/fb: 1 loads, 1 LSLICEs
+     Net AL10/fb: 1 loads, 1 LSLICEs
+     Net AL00/D01/un1_sdiv69_4_RNI8OPB: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net outFlagac0_c: 65 loads
+     Net funt0_c[3]: 38 loads
+     Net funt0_c[1]: 34 loads
+     Net funt0_c[0]: 29 loads
+     Net N_731: 29 loads
+     Net funt0_c[2]: 26 loads
+     Net inrs0_c[0]: 24 loads
+     Net inrs0_c[3]: 24 loads
+     Net inrs0_c[4]: 24 loads
+     Net inrs0_c[6]: 23 loads
+ 
+
+   Number of warnings:  0
+   Number of errors:    0
+
+
+
+Total CPU Time: 1 secs  
+Total REAL Time: 3 secs  
+Peak Memory Usage: 61 MB
+
+Dumping design to file alu01_alu01_map.ncd.
+
+mpartrce -p "alu01_alu01.p2t" -f "alu01_alu01.p3t" -tf "alu01_alu01.pt" "alu01_alu01_map.ncd" "alu01_alu01.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "alu01_alu01_map.ncd"
+Thu Nov 28 10:48:49 2019
+
+PAR: Place And Route Diamond (64-bit) 3.11.0.396.4.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/ameri/Documentos/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Practicas/2doP/P15/alu01/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF alu01_alu01_map.ncd alu01_alu01.dir/5_1.ncd alu01_alu01.prf
+Preference file: alu01_alu01.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file alu01_alu01_map.ncd.
+Design name: topalu00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application par from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   48+4(JTAG)/336     15% used
+                  48+4(JTAG)/115     45% bonded
+   IOLOGIC           16/336           4% used
+
+   SLICE            227/3432          6% used
+
+   OSC                1/1           100% used
+
+
+Number of Signals: 652
+Number of Connections: 1969
+
+Pin Constraint Summary:
+   48 out of 48 pins locked (100% locked).
+
+The following 2 signals are selected to use the primary clock routing resources:
+    clk00_c (driver: AL00/D01/SLICE_80, clk load #: 104)
+    AL00/sclk (driver: AL00/D00/OSCInst0, clk load #: 12)
+
+
+The following 2 signals are selected to use the secondary clock routing resources:
+    funt0_c[1] (driver: funt0[1], clk load #: 0, sr load #: 18, ce load #: 0)
+    AL00/D01/un1_sdiv69_4_RNI8OPB (driver: AL00/D01/SLICE_144, clk load #: 0, sr load #: 11, ce load #: 0)
+
+    <postMsg mid="61061008" type="Warning" dynamic="5" navigation="0" arg0="funt0_c[1]" arg1="Secondary" arg2="funt0[1]" arg3="13" arg4="Secondary"  />
+No signal is selected as Global Set/Reset.
+Starting Placer Phase 0.
+...........
+Finished Placer Phase 0.  REAL time: 4 secs 
+
+Starting Placer Phase 1.
+....................
+Placer score = 116185.
+Finished Placer Phase 1.  REAL time: 10 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  115531
+Finished Placer Phase 2.  REAL time: 10 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  General PIO: 1 out of 336 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Global Clocks:
+  PRIMARY "clk00_c" from Q0 on comp "AL00/D01/SLICE_80" on site "R2C19B", clk load = 104
+  PRIMARY "AL00/sclk" from OSC on comp "AL00/D00/OSCInst0" on site "OSC", clk load = 12
+  SECONDARY "funt0_c[1]" from comp "funt0[1]" on PIO site "13 (PL10A)", clk load = 0, ce load = 0, sr load = 18
+  SECONDARY "AL00/D01/un1_sdiv69_4_RNI8OPB" from F0 on comp "AL00/D01/SLICE_144" on site "R14C18D", clk load = 0, ce load = 0, sr load = 11
+
+  PRIMARY  : 2 out of 8 (25%)
+  SECONDARY: 2 out of 8 (25%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   48 + 4(JTAG) out of 336 (15.5%) PIO sites used.
+   48 + 4(JTAG) out of 115 (45.2%) bonded PIO sites used.
+   Number of PIO comps: 48; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 2 / 28 (  7%)  | 2.5V       | -         |
+| 1        | 1 / 29 (  3%)  | 2.5V       | -         |
+| 2        | 19 / 29 ( 65%) | 2.5V       | -         |
+| 3        | 8 / 9 ( 88%)   | 2.5V       | -         |
+| 4        | 8 / 10 ( 80%)  | 2.5V       | -         |
+| 5        | 10 / 10 (100%) | 2.5V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 7 secs 
+
+Dumping design to file alu01_alu01.dir/5_1.ncd.
+
+0 connections routed; 1969 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 15 secs 
+
+Start NBR router at 10:49:04 11/28/19
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 10:49:04 11/28/19
+
+Start NBR section for initial routing at 10:49:05 11/28/19
+Level 4, iteration 1
+53(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 464.140ns/0.000ns; real time: 16 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 10:49:05 11/28/19
+Level 4, iteration 1
+29(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 464.140ns/0.000ns; real time: 16 secs 
+Level 4, iteration 2
+9(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 463.343ns/0.000ns; real time: 16 secs 
+Level 4, iteration 3
+6(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 463.343ns/0.000ns; real time: 16 secs 
+Level 4, iteration 4
+3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 463.343ns/0.000ns; real time: 16 secs 
+Level 4, iteration 5
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 463.343ns/0.000ns; real time: 17 secs 
+Level 4, iteration 6
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 463.343ns/0.000ns; real time: 17 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 10:49:06 11/28/19
+
+Start NBR section for re-routing at 10:49:06 11/28/19
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 463.343ns/0.000ns; real time: 17 secs 
+
+Start NBR section for post-routing at 10:49:06 11/28/19
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 463.343ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 14 secs 
+Total REAL time: 18 secs 
+Completely routed.
+End of route.  1969 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file alu01_alu01.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 463.343
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.379
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 15 secs 
+Total REAL time to completion: 18 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+trce -f "alu01_alu01.pt" -o "alu01_alu01.twr" "alu01_alu01.ncd" "alu01_alu01.prf"
+trce:  version Diamond (64-bit) 3.11.0.396.4
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file alu01_alu01.ncd.
+Design name: topalu00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application trce from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4
+Thu Nov 28 10:49:08 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o alu01_alu01.twr -gui -msgset C:/Users/ameri/Documentos/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Practicas/2doP/P15/alu01/promote.xml alu01_alu01.ncd alu01_alu01.prf 
+Design file:     alu01_alu01.ncd
+Preference file: alu01_alu01.prf
+Device,speed:    LCMXO2-7000HE,4
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 5335 paths, 1 nets, and 782 connections (39.72% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.11.0.396.4
+Thu Nov 28 10:49:09 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 4 -sphld m -o alu01_alu01.twr -gui -msgset C:/Users/ameri/Documentos/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Practicas/2doP/P15/alu01/promote.xml alu01_alu01.ncd alu01_alu01.prf 
+Design file:     alu01_alu01.ncd
+Preference file: alu01_alu01.prf
+Device,speed:    LCMXO2-7000HE,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 5335 paths, 1 nets, and 782 connections (39.72% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Total CPU Time: 1 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 69 MB
+
+
+tmcheck -par "alu01_alu01.par" 
+
+bitgen -f "alu01_alu01.t2b" -w "alu01_alu01.ncd"  -jedec "alu01_alu01.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.11.0.396.4
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file alu01_alu01.ncd.
+Design name: topalu00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application Bitgen from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from alu01_alu01.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.95.
+ 
+Saving bit stream in "alu01_alu01.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        2046 Pages (128*2046 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory: 2046 Pages (Page 0 to Page 2045).
+Initialized UFM Pages:                     0 Page.
+ 
+Total CPU Time: 5 secs 
+Total REAL Time: 5 secs 
+Peak Memory Usage: 291 MB

@@ -1,0 +1,6 @@
+@E: CD326 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl":55:0:55:4|Port inflaginit of entity work.init00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@E: CD326 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl":63:0:63:4|Port inflagld of entity work.loaddata00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@E: CD326 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl":70:0:70:4|Port inflagsu of entity work.sust00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@E: CD326 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl":80:0:80:4|Port inflagca of entity work.compadd00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@E: CD326 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl":87:0:87:4|Port inflags8 of entity work.shift800 is unconnected. If a port needs to remain unconnected, use the keyword open.
+

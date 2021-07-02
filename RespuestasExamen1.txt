@@ -1,0 +1,23 @@
+Respuestas examen
+1.- Atributos de un sistema que tienen un impacto directo en la ejecución logica de un programa en lenguaje ensamblador.
+2.- Numero de campo, numero de bit de campo.
+3.- Memoria principal
+4.- Memoria caché
+5.- Direccionamiento indirecto
+6.- Direccionamiento directo
+7.- Direccionamiento inmediato
+8.- Número de instrucciones, Tipo de instrucciones.
+9.- La ubicacion de los operandos referidos en los campos de una instrucción
+10.- Es una lista de instrucciones para realizar una tarea específica por el programador.
+11.- Hacer más cosas en una sola instrucción, Longitud variable de las instrucciones.
+12.- Hacer menos cosas en una sola instrucción, Longitud fija de instrucciones
+13.- Memoria dividida.
+14.- Memoria principal, caché, unidad de control, ALU, Registros.
+15.- Arquitectura von neuman.
+16.- utilizados para transferencia de datos, operacion de direccionamiento inmediato
+17.- saltos condicionales, jump; saltos incondicionales.
+18.- es un registro especial, lleva el control de la secuencia de instrucción de la ejecucion de un programa
+19.- el registro que guarda el ultimo resultado de la operacionde la ALU.
+20.- Arreglos de puertas lógicas y flip.flop, plantillas para diseñar circuitos lógicos.
+
+16 17 se repirten en 2do parcial

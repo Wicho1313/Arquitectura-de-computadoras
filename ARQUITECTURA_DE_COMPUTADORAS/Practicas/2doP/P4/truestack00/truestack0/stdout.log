@@ -1,0 +1,48 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.10_x64\synpbase
+Hostname:    FERNANDO-VAIO
+Date:        Tue May 14 10:43:40 2019
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch truestack00_truestack0_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+The run directory C:\Users\FERNANDO\Desktop\QUINTO_SEMESTRE\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\Segundo_Parcial\P4\truestack00\truestack0 does not exist. Do you wish to create it ?
+batch mode default:yes
+log file: "C:\Users\FERNANDO\Desktop\QUINTO_SEMESTRE\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\Segundo_Parcial\P4\truestack00\truestack0\truestack00_truestack0.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+Warning: The following files were not found:
+C:\Users\FERNANDO\Desktop\QUINTO_SEMESTRE\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\Segundo_Parcial\P4\div00vhdl\div00.vhd
+C:\Users\FERNANDO\Desktop\QUINTO_SEMESTRE\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\Segundo_Parcial\P4\div00vhdl\osc00.vhd
+C:\Users\FERNANDO\Desktop\QUINTO_SEMESTRE\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\Segundo_Parcial\P4\div00vhdl\packagediv00.vhd
+C:\Users\FERNANDO\Desktop\QUINTO_SEMESTRE\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\Segundo_Parcial\P4\div00vhdl\topdiv00.vhd
+C:\Users\FERNANDO\Desktop\QUINTO_SEMESTRE\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\Segundo_Parcial\P4\truestack00\contring00.vhd
+C:\Users\FERNANDO\Desktop\QUINTO_SEMESTRE\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\Segundo_Parcial\P4\truestack00\coderStack00.vhd
+C:\Users\FERNANDO\Desktop\QUINTO_SEMESTRE\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\Segundo_Parcial\P4\truestack00\stack00.vhd
+C:\Users\FERNANDO\Desktop\QUINTO_SEMESTRE\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\Segundo_Parcial\P4\truestack00\stackPointer00.vhd
+C:\Users\FERNANDO\Desktop\QUINTO_SEMESTRE\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\Segundo_Parcial\P4\truestack00\muxstack00.vhd
+C:\Users\FERNANDO\Desktop\QUINTO_SEMESTRE\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\Segundo_Parcial\P4\truestack00\packageStack00.vhd
+C:\Users\FERNANDO\Desktop\QUINTO_SEMESTRE\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\Segundo_Parcial\P4\truestack00\topStack00.vhd
+
+Job: "hdl_info_gen" terminated with error status: 2
+See log file: "C:\Users\FERNANDO\Desktop\QUINTO_SEMESTRE\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\Segundo_Parcial\P4\truestack00\truestack0\syntax.log"
+# Tue May 14 10:43:42 2019
+
+Return Code: 2
+Run Time:00h:00m:02s
+Error: At line 72 while processing "truestack00_truestack0_synplify.tcl"
+2
+TCL script complete: "truestack00_truestack0_synplify.tcl"
+TCL script had errors: "truestack00_truestack0_synplify.tcl"
+exit status=9
+exit status=9
+Save changes for project:
+C:\Users\FERNANDO\Desktop\QUINTO_SEMESTRE\ARQUITECTURA_DE_COMPUTADORAS\Pr�cticas\Segundo_Parcial\P4\truestack00\truestack0\proj_1.prj
+batch mode default:no

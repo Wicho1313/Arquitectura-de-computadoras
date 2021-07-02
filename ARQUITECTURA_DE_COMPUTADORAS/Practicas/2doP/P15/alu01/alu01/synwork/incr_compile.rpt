@@ -1,0 +1,117 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : alu01
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 10
+FID:  path (prevtimestamp, timestamp)
+62       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\add00.vhdl (2019-10-20 16:13:40, 2019-11-26 10:22:12)
+63       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\anda00.vhdl (2019-10-20 16:13:42, 2019-11-28 10:48:07)
+65       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nanda00.vhdl (2019-10-20 16:13:38, 2019-11-28 10:48:07)
+66       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nora00.vhdl (2019-10-20 16:13:40, 2019-11-28 10:48:07)
+67       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nota00.vhdl (2019-10-20 16:13:38, 2019-11-28 10:48:07)
+68       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\ora00.vhdl (2019-10-20 16:13:38, 2019-11-28 10:48:07)
+69       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\packagealu00.vhdl (2019-10-20 16:13:42, 2019-11-26 10:20:30)
+70       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\sub00.vhdl (2019-10-20 16:13:38, 2019-11-26 10:22:12)
+72       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\xnora00.vhdl (2019-10-20 16:13:40, 2019-11-28 10:48:07)
+73       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\xora00.vhdl (2019-10-20 16:13:38, 2019-11-28 10:48:07)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 9
+MID:  lib.cell.view
+40       work.add00.add0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\add00.vhdl (2019-10-20 16:13:40, 2019-11-26 10:22:12) <-- (architecture and entity definition)
+2        work.anda00.anda0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\anda00.vhdl (2019-10-20 16:13:42, 2019-11-28 10:48:07) <-- (architecture and entity definition)
+6        work.nanda00.nanda0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nanda00.vhdl (2019-10-20 16:13:38, 2019-11-28 10:48:07) <-- (architecture and entity definition)
+8        work.nora00.nora0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nora00.vhdl (2019-10-20 16:13:40, 2019-11-28 10:48:07) <-- (architecture and entity definition)
+10       work.nota00.nota0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\nota00.vhdl (2019-10-20 16:13:38, 2019-11-28 10:48:07) <-- (architecture and entity definition)
+12       work.ora00.ora0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\ora00.vhdl (2019-10-20 16:13:38, 2019-11-28 10:48:07) <-- (architecture and entity definition)
+42       work.sub00.sub0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\sub00.vhdl (2019-10-20 16:13:38, 2019-11-26 10:22:12) <-- (architecture and entity definition)
+21       work.xnora00.xnora0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\xnora00.vhdl (2019-10-20 16:13:40, 2019-11-28 10:48:07) <-- (architecture and entity definition)
+23       work.xora00.xora0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\xora00.vhdl (2019-10-20 16:13:38, 2019-11-28 10:48:07) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 31
+FID:  path (timestamp)
+51       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\and00.vhdl (2019-10-20 16:13:42)
+52       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\or00.vhdl (2019-10-20 16:13:46)
+53       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\packageadder8bit00.vhdl (2019-10-20 16:13:44)
+54       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\packagefa00.vhdl (2019-10-20 16:13:42)
+55       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\packageha00.vhdl (2019-10-20 16:13:44)
+56       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\topadder8bit00.vhdl (2019-10-20 16:13:44)
+57       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\topfa00.vhdl (2019-10-20 16:13:42)
+58       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\topha00.vhdl (2019-10-20 16:13:42)
+59       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\xnor00.vhdl (2019-10-20 16:13:44)
+60       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\adder8bit00VHDL\xor00.vhdl (2019-10-20 16:13:44)
+61       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\ac00.vhdl (2019-10-20 16:13:40)
+64       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\mult00.vhdl (2019-10-20 16:13:38)
+71       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\alu01\topalu00.vhdl (2019-11-26 09:51:28)
+74       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\mult8bit00VHDL\packagemult8bit00.vhdl (2019-10-20 16:13:46)
+75       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\mult8bit00VHDL\topmult8bit00.vhdl (2019-10-20 16:13:46)
+76       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\div00.vhdl (2019-10-20 16:13:44)
+77       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\osc00.vhdl (2019-10-20 16:13:46)
+78       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\packagediv00.vhdl (2019-10-20 16:13:46)
+79       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P15\topdiv00VHDL\topdiv00.vhdl (2019-10-20 16:13:44)
+80       C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+81       C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (2019-04-01 08:08:08)
+82       C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\machxo2.vhd (2019-04-01 08:08:08)
+83       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 08:07:44)
+84       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (2019-04-01 08:07:44)
+85       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (2019-04-01 15:01:20)
+86       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (2019-04-01 08:07:44)
+87       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2019-04-01 08:07:44)
+88       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (2019-04-01 08:07:44)
+89       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (2019-04-01 08:07:44)
+90       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (2019-04-01 08:07:44)
+91       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 08:07:44)
+
+*******************************************************************
+Unchanged modules: 28
+MID:  lib.cell.view
+0        work.ac00.ac0
+1        work.ac00.vhdl
+26       work.and00.and0
+27       work.and00.vhdl
+4        work.div00.div0
+5        work.div00.vhdl
+44       work.mult00.mult0
+45       work.mult00.vhdl
+34       work.or00.or0
+35       work.or00.vhdl
+14       work.osc00.osc0
+15       work.osc00.vhdl
+46       work.topadder8bit00.topadder8bit0
+47       work.topadder8bit00.vhdl
+16       work.topalu00.topalu0
+17       work.topalu00.vhdl
+18       work.topdiv00.topdiv0
+19       work.topdiv00.vhdl
+48       work.topfa00.topfa0
+49       work.topfa00.vhdl
+50       work.topha00.topha0
+51       work.topha00.vhdl
+52       work.topmult8bit00.topmult8bit0
+53       work.topmult8bit00.vhdl
+36       work.xnor00.vhdl
+37       work.xnor00.xnor0
+38       work.xor00.vhdl
+39       work.xor00.xor0

@@ -1,0 +1,2 @@
+@W: CD279 :"C:\Users\FRANCO\Documents\Arquitectura\projectMachXO2\div00VHDL\osc00.vhdl":16:4:16:11|Port sedstdby of component osch not found on corresponding entity
+

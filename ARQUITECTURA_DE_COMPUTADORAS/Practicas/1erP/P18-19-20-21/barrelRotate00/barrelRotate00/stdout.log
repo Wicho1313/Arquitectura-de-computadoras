@@ -1,0 +1,128 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\3.9_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.9_x64\synpbase
+Hostname:    ALEJANDROBE
+Date:        Tue Oct 03 08:59:18 2017
+Version:     L-2016.09L
+
+Arguments:   -product synplify_pro -batch barrelRotate00_barrelRotate00_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+Technology initialized from device list to: LATTICE-XP
+
+Copied C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\barrelRotate00_barrelRotate00.srr to C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\backup\barrelRotate00_barrelRotate00.srr
+
+log file: "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\barrelRotate00_barrelRotate00.srr"
+
+Running: hdl_info_gen in foreground
+
+
+
+Generating HDL info...
+
+
+hdl_info_gen completed
+# Tue Oct 03 08:59:19 2017
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Copied C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\barrelRotate00_barrelRotate00.srr to C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\barrelRotate00_barrelRotate00.srf
+
+log file: "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\barrelRotate00_barrelRotate00.srr"
+
+Running: barrelRotate00 in foreground
+
+
+
+Running proj_1|barrelRotate00
+
+
+Running: compile (Compile) on proj_1|barrelRotate00
+# Tue Oct 03 08:59:20 2017
+
+
+Running: compile_flow (Compile Process) on proj_1|barrelRotate00
+# Tue Oct 03 08:59:20 2017
+
+
+Running: compiler (Compile Input) on proj_1|barrelRotate00
+# Tue Oct 03 08:59:20 2017
+
+
+compiler completed
+# Tue Oct 03 08:59:21 2017
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|barrelRotate00
+# Tue Oct 03 08:59:21 2017
+
+
+multi_srs_gen completed
+# Tue Oct 03 08:59:21 2017
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Copied C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\barrelRotate00_barrelRotate00.srr to C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\barrelRotate00_barrelRotate00.srf
+
+Complete: Compile Process on proj_1|barrelRotate00
+
+
+Running: premap (Pre-mapping) on proj_1|barrelRotate00
+# Tue Oct 03 08:59:21 2017
+
+
+premap completed with warnings
+# Tue Oct 03 08:59:23 2017
+
+Return Code: 1
+Run Time:00h:00m:02s
+
+Complete: Compile on proj_1|barrelRotate00
+
+
+Running: map (Map) on proj_1|barrelRotate00
+# Tue Oct 03 08:59:23 2017
+
+License granted for 4 parallel jobs
+
+
+Running: fpga_mapper (Map & Optimize) on proj_1|barrelRotate00
+# Tue Oct 03 08:59:23 2017
+
+Copied C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\synwork\barrelRotate00_barrelRotate00_m.srm to C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\barrelRotate00_barrelRotate00.srm
+
+
+fpga_mapper completed with warnings
+# Tue Oct 03 08:59:25 2017
+
+Return Code: 1
+Run Time:00h:00m:02s
+
+Complete: Map on proj_1|barrelRotate00
+
+Copied C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\barrelRotate00_barrelRotate00.srr to C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\barrelRotate00_barrelRotate00.srf
+
+Complete: Logic Synthesis on proj_1|barrelRotate00
+
+TCL script complete: "barrelRotate00_barrelRotate00_synplify.tcl"
+
+exit status=0
+
+exit status=0
+
+Save changes for project:
+C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\proj_1.prj
+
+batch mode default:no
+

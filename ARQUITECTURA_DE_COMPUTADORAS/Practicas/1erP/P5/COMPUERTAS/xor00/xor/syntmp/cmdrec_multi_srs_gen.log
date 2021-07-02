@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  work.xor00  -multisrs  C:\Users\FERNANDO\Desktop\COMPUERTAS\xor00\xor\synwork\xor00_xor_comp.srs  -osyn  C:\Users\FERNANDO\Desktop\COMPUERTAS\xor00\xor\synwork\xor00_xor_mult.srs  -log  C:\Users\FERNANDO\Desktop\COMPUERTAS\xor00\xor\synlog\xor00_xor_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top work.xor00 -multisrs ..\synwork\xor00_xor_comp.srs -osyn ..\synwork\xor00_xor_mult.srs -log ..\synlog\xor00_xor_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\xor00_xor_comp.srs|io:i|time:1548820829|size:1586|exec:0|csum:D46D3E1DF83068434228EF945781CF0D
+file:..\synwork\xor00_xor_mult.srs|io:o|time:1548820830|size:1306|exec:0|csum:
+file:..\synlog\xor00_xor_multi_srs_gen.srr|io:o|time:1548820830|size:409|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

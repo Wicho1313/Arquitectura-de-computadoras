@@ -1,0 +1,3 @@
+@W: CD643 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\topbarrelRotate00.vhdl":4:27:4:27|Ignoring use clause - componentes not found ...
+@W: CD276 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+

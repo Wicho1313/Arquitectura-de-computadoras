@@ -1,0 +1,11 @@
+#Start recording tcl command: 9/26/2017 10:35:27
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00; Project name: barrelRotate00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00.ldf"
+prj_run Export -impl barrelRotate00 -task Jedecgen
+prj_run Synthesis -impl barrelRotate00
+prj_run Synthesis -impl barrelRotate00 -task Synplify_Synthesis
+prj_run Export -impl barrelRotate00 -task Jedecgen
+prj_run Synthesis -impl barrelRotate00
+prj_project save
+prj_project close
+#Stop recording: 9/26/2017 10:48:55

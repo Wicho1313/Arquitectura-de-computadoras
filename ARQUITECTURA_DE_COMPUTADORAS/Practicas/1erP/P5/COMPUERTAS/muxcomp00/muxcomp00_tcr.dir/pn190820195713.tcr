@@ -1,0 +1,9 @@
+#Start recording tcl command: 8/20/2019 19:50:40
+#Project Location: C:/Users/Wicho/Documents/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Prácticas/1erP/P5/COMPUERTAS/muxcomp00; Project name: muxcomp00
+prj_project open "C:/Users/Wicho/Documents/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Prácticas/1erP/P5/COMPUERTAS/muxcomp00/muxcomp00.ldf"
+prj_run Synthesis -impl muxcomp00
+prj_run Synthesis -impl muxcomp00
+prj_run Synthesis -impl muxcomp00
+prj_project save
+prj_project close
+#Stop recording: 8/20/2019 19:57:13

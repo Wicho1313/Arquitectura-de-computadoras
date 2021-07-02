@@ -1,0 +1,239 @@
+
+Loading design for application trce from file lcdram00_lcdram00_map.ncd.
+Design name: toplcdram00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application trce from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4
+Tue Nov 12 09:27:30 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o lcdram00_lcdram00.tw1 -gui -msgset C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/lcd03/lcdkeyborrar/lcdram00/lcdram00/promote.xml lcdram00_lcdram00_map.ncd lcdram00_lcdram00.prf 
+Design file:     lcdram00_lcdram00_map.ncd
+Preference file: lcdram00_lcdram00.prf
+Device,speed:    LCMXO2-7000HE,5
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "U0/soscout0" 2.080000 MHz ;
+            1498 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 470.453ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              U0/OS01/sdiv[19]  (from U0/soscout0 -)
+   Destination:    FF         Data in        U0/OS01/sdiv[20]  (to U0/soscout0 -)
+
+   Delay:              10.166ns  (49.2% logic, 50.8% route), 16 logic levels.
+
+ Constraint Details:
+
+     10.166ns physical path delay U0/OS01/SLICE_17 to U0/OS01/SLICE_17 meets
+    480.769ns delay constraint less
+      0.150ns DIN_SET requirement (totaling 480.619ns) by 470.453ns
+
+ Physical Path Details:
+
+      Data path U0/OS01/SLICE_17 to U0/OS01/SLICE_17:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409 */SLICE_17.CLK to *1/SLICE_17.Q0 U0/OS01/SLICE_17 (from U0/soscout0)
+ROUTE         3   e 1.030 *1/SLICE_17.Q0 to   SLICE_294.C1 U0/OS01/sdiv[19]
+CTOF_DEL    ---     0.452   SLICE_294.C1 to   SLICE_294.F1 SLICE_294
+ROUTE         3   e 1.030   SLICE_294.F1 to   SLICE_325.A0 U0/OS01/N_274
+CTOF_DEL    ---     0.452   SLICE_325.A0 to   SLICE_325.F0 SLICE_325
+ROUTE         3   e 1.030   SLICE_325.F0 to   SLICE_295.C0 U0/OS01/N_277
+CTOF_DEL    ---     0.452   SLICE_295.C0 to   SLICE_295.F0 SLICE_295
+ROUTE         1   e 1.030   SLICE_295.F0 to   SLICE_293.B0 U0/OS01/N_258
+CTOF_DEL    ---     0.452   SLICE_293.B0 to   SLICE_293.F0 SLICE_293
+ROUTE         1   e 1.030   SLICE_293.F0 to *1/SLICE_27.B0 U0/OS01/un1_outdiv37_i_0
+C0TOFCO_DE  ---     0.905 *1/SLICE_27.B0 to */SLICE_27.FCO U0/OS01/SLICE_27
+ROUTE         1   e 0.001 */SLICE_27.FCO to */SLICE_26.FCI U0/OS01/un1_sdiv_1_cry_0
+FCITOFCO_D  ---     0.146 */SLICE_26.FCI to */SLICE_26.FCO U0/OS01/SLICE_26
+ROUTE         1   e 0.001 */SLICE_26.FCO to */SLICE_25.FCI U0/OS01/un1_sdiv_1_cry_2
+FCITOFCO_D  ---     0.146 */SLICE_25.FCI to */SLICE_25.FCO U0/OS01/SLICE_25
+ROUTE         1   e 0.001 */SLICE_25.FCO to */SLICE_24.FCI U0/OS01/un1_sdiv_1_cry_4
+FCITOFCO_D  ---     0.146 */SLICE_24.FCI to */SLICE_24.FCO U0/OS01/SLICE_24
+ROUTE         1   e 0.001 */SLICE_24.FCO to */SLICE_23.FCI U0/OS01/un1_sdiv_1_cry_6
+FCITOFCO_D  ---     0.146 */SLICE_23.FCI to */SLICE_23.FCO U0/OS01/SLICE_23
+ROUTE         1   e 0.001 */SLICE_23.FCO to */SLICE_22.FCI U0/OS01/un1_sdiv_1_cry_8
+FCITOFCO_D  ---     0.146 */SLICE_22.FCI to */SLICE_22.FCO U0/OS01/SLICE_22
+ROUTE         1   e 0.001 */SLICE_22.FCO to */SLICE_21.FCI U0/OS01/un1_sdiv_1_cry_10
+FCITOFCO_D  ---     0.146 */SLICE_21.FCI to */SLICE_21.FCO U0/OS01/SLICE_21
+ROUTE         1   e 0.001 */SLICE_21.FCO to */SLICE_20.FCI U0/OS01/un1_sdiv_1_cry_12
+FCITOFCO_D  ---     0.146 */SLICE_20.FCI to */SLICE_20.FCO U0/OS01/SLICE_20
+ROUTE         1   e 0.001 */SLICE_20.FCO to */SLICE_19.FCI U0/OS01/un1_sdiv_1_cry_14
+FCITOFCO_D  ---     0.146 */SLICE_19.FCI to */SLICE_19.FCO U0/OS01/SLICE_19
+ROUTE         1   e 0.001 */SLICE_19.FCO to */SLICE_18.FCI U0/OS01/un1_sdiv_1_cry_16
+FCITOFCO_D  ---     0.146 */SLICE_18.FCI to */SLICE_18.FCO U0/OS01/SLICE_18
+ROUTE         1   e 0.001 */SLICE_18.FCO to */SLICE_17.FCI U0/OS01/un1_sdiv_1_cry_18
+FCITOF1_DE  ---     0.569 */SLICE_17.FCI to *1/SLICE_17.F1 U0/OS01/SLICE_17
+ROUTE         1   e 0.001 *1/SLICE_17.F1 to */SLICE_17.DI1 U0/OS01/un1_sdiv_1[21] (to U0/soscout0)
+                  --------
+                   10.166   (49.2% logic, 50.8% route), 16 logic levels.
+
+Report:   96.937MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "U0/soscout0" 2.080000    |             |             |
+MHz ;                                   |    2.080 MHz|   96.937 MHz|  16  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: clk0_c   Source: U0/OS01/SLICE_182.Q0   Loads: 174
+   No transfer within this clock domain is found
+
+Clock Domain: U0/soscout0   Source: U0/OS00/OSCInst0.OSC   Loads: 12
+   Covered under: FREQUENCY NET "U0/soscout0" 2.080000 MHz ;
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1498 paths, 1 nets, and 1433 connections (65.17% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.11.0.396.4
+Tue Nov 12 09:27:30 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o lcdram00_lcdram00.tw1 -gui -msgset C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/lcd03/lcdkeyborrar/lcdram00/lcdram00/promote.xml lcdram00_lcdram00_map.ncd lcdram00_lcdram00.prf 
+Design file:     lcdram00_lcdram00_map.ncd
+Preference file: lcdram00_lcdram00.prf
+Device,speed:    LCMXO2-7000HE,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "U0/soscout0" 2.080000 MHz ;
+            1498 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.447ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              U0/OS01/sdiv[12]  (from U0/soscout0 -)
+   Destination:    FF         Data in        U0/OS01/sdiv[12]  (to U0/soscout0 -)
+
+   Delay:               0.434ns  (53.9% logic, 46.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.434ns physical path delay U0/OS01/SLICE_21 to U0/OS01/SLICE_21 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.447ns
+
+ Physical Path Details:
+
+      Data path U0/OS01/SLICE_21 to U0/OS01/SLICE_21:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133 */SLICE_21.CLK to *1/SLICE_21.Q1 U0/OS01/SLICE_21 (from U0/soscout0)
+ROUTE         3   e 0.199 *1/SLICE_21.Q1 to *1/SLICE_21.A1 U0/OS01/sdiv[12]
+CTOF_DEL    ---     0.101 *1/SLICE_21.A1 to *1/SLICE_21.F1 U0/OS01/SLICE_21
+ROUTE         1   e 0.001 *1/SLICE_21.F1 to */SLICE_21.DI1 U0/OS01/un1_sdiv_1[13] (to U0/soscout0)
+                  --------
+                    0.434   (53.9% logic, 46.1% route), 2 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "U0/soscout0" 2.080000    |             |             |
+MHz ;                                   |     0.000 ns|     0.447 ns|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: clk0_c   Source: U0/OS01/SLICE_182.Q0   Loads: 174
+   No transfer within this clock domain is found
+
+Clock Domain: U0/soscout0   Source: U0/OS00/OSCInst0.OSC   Loads: 12
+   Covered under: FREQUENCY NET "U0/soscout0" 2.080000 MHz ;
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1498 paths, 1 nets, and 1433 connections (65.17% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.7_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\arithadder4bit00\arithadder4bit00.vhdl":10:7:10:22|Top entity is set to arithadder4bit00.
+@N: CD630 :"C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\arithadder4bit00\arithadder4bit00.vhdl":10:7:10:22|Synthesizing work.arithadder4bit00.arithadder4bit0.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\arithadder4bit00\arithadder4bit00.vhdl":10:7:10:22|Selected library: work cell: arithadder4bit00 view arithadder4bit0 as top level
+@N: NF107 :"C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\arithadder4bit00\arithadder4bit00.vhdl":10:7:10:22|Selected library: work cell: arithadder4bit00 view arithadder4bit0 as top level
+

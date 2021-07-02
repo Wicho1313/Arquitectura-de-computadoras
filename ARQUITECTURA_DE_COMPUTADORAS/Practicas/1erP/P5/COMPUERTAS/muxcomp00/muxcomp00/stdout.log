@@ -1,0 +1,36 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.11_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.11_x64\synpbase
+Hostname:    WICHO
+Date:        Tue Aug 20 19:54:15 2019
+Version:     N-2018.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch muxcomp00_muxcomp00_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "C:\Users\Wicho\Documents\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\1erP\P5\COMPUERTAS\muxcomp00\muxcomp00\muxcomp00_muxcomp00.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+Warning: The following files were not found:
+C:\Users\Wicho\Documents\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\1erP\P5\COMPUERTAS\muxcomp00\muxcomp00\muxcomp00.vhdl
+
+Job: "hdl_info_gen" terminated with error status: 2
+See log file: "C:\Users\Wicho\Documents\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\1erP\P5\COMPUERTAS\muxcomp00\muxcomp00\syntax.log"
+# Tue Aug 20 19:54:15 2019
+
+Return Code: 2
+Run Time:00h:00m:00s
+Error: At line 63 while processing "muxcomp00_muxcomp00_synplify.tcl"
+2
+TCL script complete: "muxcomp00_muxcomp00_synplify.tcl"
+TCL script had errors: "muxcomp00_muxcomp00_synplify.tcl"
+exit status=9
+exit status=9
+Save changes for project:
+C:\Users\Wicho\Documents\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Pr�cticas\1erP\P5\COMPUERTAS\muxcomp00\muxcomp00\proj_1.prj
+batch mode default:no

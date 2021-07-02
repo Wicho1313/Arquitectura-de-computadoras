@@ -1,0 +1,16 @@
+#Start recording tcl command: 10/3/2017 08:43:36
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00; Project name: barrelRotate00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00.ldf"
+prj_run Export -impl barrelRotate00 -task Jedecgen
+pgr_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/barrelRotate00.xcf"
+prj_src add -exclude "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/barrelRotate00.xcf"
+prj_src enable "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/barrelRotate00.xcf"
+pgr_program run
+pgr_project close
+pgr_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/barrelRotate00.xcf"
+pgr_program run
+pgr_program run
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 10/3/2017 09:03:27

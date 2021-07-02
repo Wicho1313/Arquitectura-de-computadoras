@@ -1,0 +1,15 @@
+i LC00.OS01.outdiv_i
+m 0 0
+u 10 28
+n ckid0_0 {t:LC04.outWordd_1[6:0].C} Derived clock on input (not legal for GCC)
+p {t:LC00.OS01.outdiv.Q[0]}{t:LC00.OS01.outdiv_derived_clock.I[0]}{t:LC00.OS01.outdiv_derived_clock.OUT[0]}{p:LC00.OS01.outdiv}{t:LC00.OS01.outdiv}{p:LC00.clk0}{t:LC00.clk0}{t:LC04.clkd}{p:LC04.clkd}{t:LC04.outWordd_1[6:0].C}
+e ckid0_0 {t:LC04.outWordd_1[6:0].C} dffe
+d ckid0_1 {t:LC00.OS01.outdiv.Q[0]} dffe Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i LC00.OS00.osc_int_i
+m 0 0
+u 2 22
+n ckid0_2 {t:LC00.OS01.sdiv[20:0].C} Black box on clock path
+p {t:LC00.OS00.OSCInst0.OSC}{t:LC00.OS00.osc_int_inferred_clock.I[0]}{t:LC00.OS00.osc_int_inferred_clock.OUT[0]}{p:LC00.OS00.osc_int}{t:LC00.OS00.osc_int}{t:LC00.OS01.clkdiv}{p:LC00.OS01.clkdiv}{t:LC00.OS01.sdiv[20:0].C}
+e ckid0_2 {t:LC00.OS01.sdiv[20:0].C} sdffr
+d ckid0_2 {t:LC00.OS00.OSCInst0.OSC} OSCH Black box on clock path
+l 0 0 0 0 0

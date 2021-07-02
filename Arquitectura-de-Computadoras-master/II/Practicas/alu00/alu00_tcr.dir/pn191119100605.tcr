@@ -1,0 +1,9 @@
+#Start recording tcl command: 11/19/2019 08:52:37
+#Project Location: C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/alu00; Project name: alu00
+prj_project open "C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/alu00/alu00.ldf"
+prj_run Export -impl alu0 -task Jedecgen
+pgr_project open "C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/alu00/alu0/alu0.xcf"
+pgr_program run
+pgr_project save "C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/alu00/alu0/alu0.xcf"
+pgr_project close
+#Stop recording: 11/19/2019 10:06:06

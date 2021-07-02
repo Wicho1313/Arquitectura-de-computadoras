@@ -1,0 +1,336 @@
+
+       Lattice Mapping Report File for Design Module 'multiplicador00'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial
+     multiplicador4bits_multiplicador4bits.ngd -o
+     multiplicador4bits_multiplicador4bits_map.ncd -pr
+     multiplicador4bits_multiplicador4bits.prf -mp
+     multiplicador4bits_multiplicador4bits.mrp -lpf C:/Users/FERNANDO/Desktop/P1
+     0/mult4bit00/multiplicador4bits/multiplicador4bits_multiplicador4bits_synpl
+     ify.lpf -lpf
+     C:/Users/FERNANDO/Desktop/P10/mult4bit00/multiplicador4bits.lpf -c 0 -gui
+     -msgset C:/Users/FERNANDO/Desktop/P10/mult4bit00/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
+Mapped on:  02/19/19  18:32:15
+
+Design Summary
+--------------
+
+   Number of registers:      0 out of  7209 (0%)
+      PFU registers:            0 out of  6864 (0%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:        13 out of  3432 (0%)
+      SLICEs as Logic/ROM:     13 out of  3432 (0%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:          0 out of  3432 (0%)
+   Number of LUT4s:         26 out of  6864 (0%)
+      Number used as logic LUTs:         26
+      Number used as distributed RAM:     0
+      Number used as ripple logic:        0
+      Number used as shift registers:     0
+   Number of PIO sites used: 16 + 4(JTAG) out of 115 (17%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+                                    Page 1
+
+
+
+
+Design:  multiplicador00                               Date:  02/19/19  18:32:15
+
+Design Summary (cont)
+---------------------
+   Number of clocks:  0
+   Number of Clock Enables:  0
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net Am_c[2]: 9 loads
+     Net Am_c[1]: 8 loads
+     Net Bm_c[2]: 8 loads
+     Net Bm_c[3]: 8 loads
+     Net Am_c[0]: 7 loads
+     Net Bm_c[1]: 7 loads
+     Net Bm_c[0]: 6 loads
+     Net Am_c[3]: 5 loads
+     Net Sm1[2]: 3 loads
+     Net Zm1[0]: 3 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+   No errors or warnings present.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| Rm[0]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Am[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[7]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[6]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[5]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[4]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[3]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[2]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[1]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Bm[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Bm[2]               | INPUT     | LVCMOS25  |            |
+
+                                    Page 2
+
+
+
+
+Design:  multiplicador00                               Date:  02/19/19  18:32:15
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| Bm[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Bm[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Am[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Am[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Am[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Block MA00/VCC undriven or does not drive anything - clipped.
+Block MA00/GND undriven or does not drive anything - clipped.
+Block MA02/VCC undriven or does not drive anything - clipped.
+Block MA02/GND undriven or does not drive anything - clipped.
+Block MA03/VCC undriven or does not drive anything - clipped.
+Block MA03/GND undriven or does not drive anything - clipped.
+Block MA08/GND undriven or does not drive anything - clipped.
+Block MA08/VCC undriven or does not drive anything - clipped.
+Block MA08/FA00/GND undriven or does not drive anything - clipped.
+Block MA08/FA00/VCC undriven or does not drive anything - clipped.
+Block MA08/FA00/HA00/GND undriven or does not drive anything - clipped.
+Block MA08/FA00/HA00/VCC undriven or does not drive anything - clipped.
+Block MA08/FA00/HA01/GND undriven or does not drive anything - clipped.
+Block MA08/FA00/HA01/VCC undriven or does not drive anything - clipped.
+Block MA09/GND undriven or does not drive anything - clipped.
+Block MA09/VCC undriven or does not drive anything - clipped.
+Block MA09/FA00/GND undriven or does not drive anything - clipped.
+Block MA09/FA00/VCC undriven or does not drive anything - clipped.
+Block MA09/FA00/HA00/GND undriven or does not drive anything - clipped.
+Block MA09/FA00/HA00/VCC undriven or does not drive anything - clipped.
+Block MA09/FA02/GND undriven or does not drive anything - clipped.
+Block MA09/FA02/VCC undriven or does not drive anything - clipped.
+Block MA10/GND undriven or does not drive anything - clipped.
+Block MA10/VCC undriven or does not drive anything - clipped.
+Block MA10/FA01/GND undriven or does not drive anything - clipped.
+Block MA10/FA01/VCC undriven or does not drive anything - clipped.
+Block MA10/FA01/HA00/GND undriven or does not drive anything - clipped.
+Block MA10/FA01/HA00/VCC undriven or does not drive anything - clipped.
+Block MA11/GND undriven or does not drive anything - clipped.
+Block MA11/VCC undriven or does not drive anything - clipped.
+Block MA11/FA01/GND undriven or does not drive anything - clipped.
+Block MA11/FA01/VCC undriven or does not drive anything - clipped.
+Block MA11/FA01/HA00/GND undriven or does not drive anything - clipped.
+Block MA11/FA01/HA00/VCC undriven or does not drive anything - clipped.
+Block MA11/FA01/HA01/GND undriven or does not drive anything - clipped.
+Block MA11/FA01/HA01/VCC undriven or does not drive anything - clipped.
+Block MA16/GND undriven or does not drive anything - clipped.
+Block MA16/VCC undriven or does not drive anything - clipped.
+
+                                    Page 3
+
+
+
+
+Design:  multiplicador00                               Date:  02/19/19  18:32:15
+
+Removed logic (cont)
+--------------------
+Block MA16/FA00/GND undriven or does not drive anything - clipped.
+Block MA16/FA00/VCC undriven or does not drive anything - clipped.
+Block MA16/FA00/HA00/GND undriven or does not drive anything - clipped.
+Block MA16/FA00/HA00/VCC undriven or does not drive anything - clipped.
+Block MA16/FA00/HA01/GND undriven or does not drive anything - clipped.
+Block MA16/FA00/HA01/VCC undriven or does not drive anything - clipped.
+Block MA17/GND undriven or does not drive anything - clipped.
+Block MA17/VCC undriven or does not drive anything - clipped.
+Block MA17/FA00/GND undriven or does not drive anything - clipped.
+Block MA17/FA00/VCC undriven or does not drive anything - clipped.
+Block MA17/FA00/HA00/VCC undriven or does not drive anything - clipped.
+Block MA17/FA00/HA00/GND undriven or does not drive anything - clipped.
+Block MA17/FA02/GND undriven or does not drive anything - clipped.
+Block MA17/FA02/VCC undriven or does not drive anything - clipped.
+Block MA18/GND undriven or does not drive anything - clipped.
+Block MA18/VCC undriven or does not drive anything - clipped.
+Block MA18/FA01/GND undriven or does not drive anything - clipped.
+Block MA18/FA01/VCC undriven or does not drive anything - clipped.
+Block MA18/FA01/HA00/GND undriven or does not drive anything - clipped.
+Block MA18/FA01/HA00/VCC undriven or does not drive anything - clipped.
+Block MA18/FA02/GND undriven or does not drive anything - clipped.
+Block MA18/FA02/VCC undriven or does not drive anything - clipped.
+Block MA19/GND undriven or does not drive anything - clipped.
+Block MA19/VCC undriven or does not drive anything - clipped.
+Block MA19/FA02/GND undriven or does not drive anything - clipped.
+Block MA19/FA02/VCC undriven or does not drive anything - clipped.
+Block MA24/GND undriven or does not drive anything - clipped.
+Block MA24/VCC undriven or does not drive anything - clipped.
+Block MA24/FA00/GND undriven or does not drive anything - clipped.
+Block MA24/FA00/VCC undriven or does not drive anything - clipped.
+Block MA24/FA00/HA00/GND undriven or does not drive anything - clipped.
+Block MA24/FA00/HA00/VCC undriven or does not drive anything - clipped.
+Block MA24/FA00/HA01/GND undriven or does not drive anything - clipped.
+Block MA24/FA00/HA01/VCC undriven or does not drive anything - clipped.
+Block MA25/GND undriven or does not drive anything - clipped.
+Block MA25/VCC undriven or does not drive anything - clipped.
+Block MA25/FA01/GND undriven or does not drive anything - clipped.
+Block MA25/FA01/VCC undriven or does not drive anything - clipped.
+Block MA25/FA01/HA00/GND undriven or does not drive anything - clipped.
+Block MA25/FA01/HA00/VCC undriven or does not drive anything - clipped.
+Block MA25/FA02/GND undriven or does not drive anything - clipped.
+Block MA25/FA02/VCC undriven or does not drive anything - clipped.
+Block MA26/GND undriven or does not drive anything - clipped.
+Block MA26/VCC undriven or does not drive anything - clipped.
+Block MA26/FA00/GND undriven or does not drive anything - clipped.
+Block MA26/FA00/VCC undriven or does not drive anything - clipped.
+Block MA26/FA00/HA00/GND undriven or does not drive anything - clipped.
+Block MA26/FA00/HA00/VCC undriven or does not drive anything - clipped.
+Block MA26/FA01/GND undriven or does not drive anything - clipped.
+Block MA26/FA01/VCC undriven or does not drive anything - clipped.
+Block MA26/FA01/HA00/GND undriven or does not drive anything - clipped.
+Block MA26/FA01/HA00/VCC undriven or does not drive anything - clipped.
+Block MA26/FA02/GND undriven or does not drive anything - clipped.
+Block MA26/FA02/VCC undriven or does not drive anything - clipped.
+Block MA27/GND undriven or does not drive anything - clipped.
+Block MA27/VCC undriven or does not drive anything - clipped.
+
+                                    Page 4
+
+
+
+
+Design:  multiplicador00                               Date:  02/19/19  18:32:15
+
+Removed logic (cont)
+--------------------
+Block MA27/FA01/GND undriven or does not drive anything - clipped.
+Block MA27/FA01/VCC undriven or does not drive anything - clipped.
+Block MA27/FA01/HA00/GND undriven or does not drive anything - clipped.
+Block MA27/FA01/HA00/VCC undriven or does not drive anything - clipped.
+Block MA27/FA02/GND undriven or does not drive anything - clipped.
+Block MA27/FA02/VCC undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+
+Memory Usage
+------------
+
+
+     
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 1 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 55 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 5
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.

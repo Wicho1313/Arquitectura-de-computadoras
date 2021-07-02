@@ -1,0 +1,36 @@
+#Start recording tcl command: 5/7/2019 22:03:27
+#Project Location: C:/Users/FERNANDO/Desktop/P16/alu02; Project name: alu02
+prj_project new -name "alu02" -impl "alu02" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_src add "C:/Users/FERNANDO/Desktop/P16/topdiv00VHDL/div00.vhdl" "C:/Users/FERNANDO/Desktop/P16/topdiv00VHDL/osc00.vhdl" "C:/Users/FERNANDO/Desktop/P16/topdiv00VHDL/packagediv00.vhdl" "C:/Users/FERNANDO/Desktop/P16/topdiv00VHDL/topdiv00.vhdl" "C:/Users/FERNANDO/Desktop/P16/adder8bit00VHDL/and00.vhdl" "C:/Users/FERNANDO/Desktop/P16/adder8bit00VHDL/or00.vhdl" "C:/Users/FERNANDO/Desktop/P16/adder8bit00VHDL/packageadder8bit00.vhdl" "C:/Users/FERNANDO/Desktop/P16/adder8bit00VHDL/packagefa00.vhdl" "C:/Users/FERNANDO/Desktop/P16/adder8bit00VHDL/packageha00.vhdl" "C:/Users/FERNANDO/Desktop/P16/adder8bit00VHDL/topadder8bit00.vhdl" "C:/Users/FERNANDO/Desktop/P16/adder8bit00VHDL/topfa00.vhdl" "C:/Users/FERNANDO/Desktop/P16/adder8bit00VHDL/topha00.vhdl" "C:/Users/FERNANDO/Desktop/P16/adder8bit00VHDL/xnor00.vhdl" "C:/Users/FERNANDO/Desktop/P16/adder8bit00VHDL/xor00.vhdl" "C:/Users/FERNANDO/Desktop/P16/mult8bit00VHDL/packagemult8bit00.vhdl" "C:/Users/FERNANDO/Desktop/P16/mult8bit00VHDL/topmult8bit00.vhdl" "C:/Users/FERNANDO/Desktop/P16/alu01/ac00.vhdl" "C:/Users/FERNANDO/Desktop/P16/alu01/add00.vhdl" "C:/Users/FERNANDO/Desktop/P16/alu01/anda00.vhdl" "C:/Users/FERNANDO/Desktop/P16/alu01/mult00.vhdl" "C:/Users/FERNANDO/Desktop/P16/alu01/nanda00.vhdl" "C:/Users/FERNANDO/Desktop/P16/alu01/nora00.vhdl" "C:/Users/FERNANDO/Desktop/P16/alu01/nota00.vhdl" "C:/Users/FERNANDO/Desktop/P16/alu01/ora00.vhdl" "C:/Users/FERNANDO/Desktop/P16/alu01/packagealu00.vhdl" "C:/Users/FERNANDO/Desktop/P16/alu01/sub00.vhdl" "C:/Users/FERNANDO/Desktop/P16/alu01/topalu00.vhdl" "C:/Users/FERNANDO/Desktop/P16/alu01/xnora00.vhdl" "C:/Users/FERNANDO/Desktop/P16/alu01/xora00.vhdl"
+prj_project save
+prj_src add "C:/Users/FERNANDO/Desktop/P16/alu02/shifRL00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P16/alu02/packagealu02.vhdl"
+prj_src remove "C:/Users/FERNANDO/Desktop/P16/alu01/packagealu00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P16/alu02/topalu02.vhdl"
+prj_src remove "C:/Users/FERNANDO/Desktop/P16/alu01/topalu00.vhdl"
+prj_run Export -impl alu02 -task Jedecgen
+pgr_project save "C:/Users/FERNANDO/Desktop/P16/alu02/alu02/alu02.xcf"
+prj_src add -exclude "C:/Users/FERNANDO/Desktop/P16/alu02/alu02/alu02.xcf"
+prj_src enable "C:/Users/FERNANDO/Desktop/P16/alu02/alu02/alu02.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P16/alu02/alu02/alu02.xcf"
+pgr_program run
+pgr_project close
+prj_run Export -impl alu02 -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/P16/alu02/alu02/alu02.xcf"
+pgr_program run
+pgr_project save "C:/Users/FERNANDO/Desktop/P16/alu02/alu02/alu02.xcf"
+pgr_project close
+prj_run Export -impl alu02 -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/P16/alu02/alu02/alu02.xcf"
+pgr_program run
+pgr_project save "C:/Users/FERNANDO/Desktop/P16/alu02/alu02/alu02.xcf"
+prj_run Export -impl alu02 -task Jedecgen
+prj_run Export -impl alu02 -task Jedecgen
+pgr_project save "C:/Users/FERNANDO/Desktop/P16/alu02/alu02/alu02.xcf"
+pgr_project close
+pgr_project open "C:/Users/FERNANDO/Desktop/P16/alu02/alu02/alu02.xcf"
+pgr_program run
+pgr_project save "C:/Users/FERNANDO/Desktop/P16/alu02/alu02/alu02.xcf"
+pgr_project close
+prj_run Export -impl alu02 -task Jedecgen
+#Stop recording: 5/7/2019 23:26:22

@@ -1,0 +1,30 @@
+#Start recording tcl command: 3/31/2019 08:48:57
+#Project Location: C:/Users/FERNANDO/Desktop/P2/ram00; Project name: ram00
+prj_project open "C:/Users/FERNANDO/Desktop/P2/ram00/ram00.ldf"
+pgr_project open "C:/Users/FERNANDO/Desktop/P2/ram00/ram0/ram0.xcf"
+pgr_project close
+prj_run Export -impl ram0 -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/P2/ram00/ram0/ram0.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P2/ram00/ram0/ram0.xcf"
+pgr_program run
+pgr_project close
+prj_run Export -impl ram0 -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/P2/ram00/ram0/ram0.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P2/ram00/ram0/ram0.xcf"
+pgr_program run
+pgr_project close
+prj_run Export -impl ram0 -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/P2/ram00/ram0/ram0.xcf"
+pgr_program run
+pgr_project close
+prj_run Export -impl ram0 -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/P2/ram00/ram0/ram0.xcf"
+pgr_program run
+pgr_project close
+prj_run Export -impl ram0 -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/P2/ram00/ram0/ram0.xcf"
+pgr_program run
+pgr_project save "C:/Users/FERNANDO/Desktop/P2/ram00/ram0/ram0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 3/31/2019 11:34:57

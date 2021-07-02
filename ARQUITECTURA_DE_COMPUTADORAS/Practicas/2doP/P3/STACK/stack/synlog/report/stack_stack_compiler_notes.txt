@@ -1,0 +1,39 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\FERNANDO\Desktop\pilas\STACK\topStack00.vhdl":6:7:6:16|Top entity is set to topStack00.
+@N: CD630 :"C:\Users\FERNANDO\Desktop\pilas\STACK\topStack00.vhdl":6:7:6:16|Synthesizing work.topstack00.topstack0.
+@N: CD630 :"C:\Users\FERNANDO\Desktop\pilas\STACK\muxstack00.vhdl":6:7:6:16|Synthesizing work.muxstack00.muxstack0.
+@N: CD630 :"C:\Users\FERNANDO\Desktop\pilas\STACK\stackpointer00.vhdl":8:7:8:20|Synthesizing work.stackpointer00.stackpointer0.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\stackpointer00.vhdl":38:5:38:13|Removing redundant assignment.
+@N: CD630 :"C:\Users\FERNANDO\Desktop\pilas\STACK\stack00.vhdl":8:7:8:13|Synthesizing work.stack00.stack0.
+@N: CL134 :"C:\Users\FERNANDO\Desktop\pilas\STACK\stack00.vhdl":23:7:23:13|Found RAM wordram, depth=64, width=7
+@N: CD630 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":9:7:9:18|Synthesizing work.coderstack00.coderstack0.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":48:6:48:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":58:8:58:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":69:8:69:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":80:8:80:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":91:8:91:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":102:6:102:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":112:5:112:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":123:5:123:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":134:5:134:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":145:5:145:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":156:6:156:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":166:5:166:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":177:5:177:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":188:5:188:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":199:5:199:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":210:6:210:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":220:5:220:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":231:5:231:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":242:5:242:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl":253:5:253:12|Removing redundant assignment.
+@N: CD630 :"C:\Users\FERNANDO\Desktop\pilas\STACK\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+@N: CD630 :"C:\Users\FERNANDO\Desktop\pilas\STACK\topOsc00.vhdl":5:7:5:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\FERNANDO\Desktop\pilas\STACK\div00.vhdl":7:7:7:11|Synthesizing work.div00.div0.
+@N: CD630 :"C:\Users\FERNANDO\Desktop\pilas\STACK\oscilador00.vhdl":4:7:4:17|Synthesizing work.oscilador00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL159 :"C:\Users\FERNANDO\Desktop\pilas\STACK\stack00.vhdl":13:4:13:11|Input inFlagra is unused.
+@N|Running in 64-bit mode
+

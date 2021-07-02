@@ -1,0 +1,183 @@
+---------------------------------------------------
+Report for cell topbcd00
+   Instance path: topbcd00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     180.00        100.0
+                                 IOLGC	      13.00        100.0
+                                  LUT4	     304.00        100.0
+                                 IOREG	         13        100.0
+                                 IOBUF	         78        100.0
+                                PFUREG	        172        100.0
+                                RIPPLE	         23        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                  uc00	          1         3.2
+                              topdiv00	          1        38.5
+                                sust00	          1         3.8
+                              shift800	          1         3.1
+                             shift1200	          1         4.5
+                             progMem00	          1         2.3
+                                  pc00	          1         2.6
+                                 mux00	          1        12.9
+                                init00	          1         5.4
+                            loadData00	          1         7.3
+                            contIter00	          1         2.7
+                            contring00	          1         1.0
+                             compadd00	          1         7.2
+                           checkCode00	          1         0.2
+                                 ac800	          1         1.4
+                                ac1200	          1         2.0
+---------------------------------------------------
+Report for cell init00
+   Instance path: topbcd00/BCD01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.75         5.4
+                                  LUT4	      16.00         5.3
+                                PFUREG	          7         4.1
+---------------------------------------------------
+Report for cell compadd00
+   Instance path: topbcd00/BCD04
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.92         7.2
+                                  LUT4	      19.00         6.3
+                                PFUREG	         28        16.3
+---------------------------------------------------
+Report for cell shift1200
+   Instance path: topbcd00/BCD06
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.17         4.5
+                                  LUT4	      14.00         4.6
+                                PFUREG	         15         8.7
+---------------------------------------------------
+Report for cell sust00
+   Instance path: topbcd00/BCD03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.92         3.8
+                                  LUT4	       7.00         2.3
+                                PFUREG	         16         9.3
+---------------------------------------------------
+Report for cell mux00
+   Instance path: topbcd00/BCD16
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.25        12.9
+                                  LUT4	      57.00        18.8
+---------------------------------------------------
+Report for cell contring00
+   Instance path: topbcd00/BCD14
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.83         1.0
+                                PFUREG	          7         4.1
+---------------------------------------------------
+Report for cell checkCode00
+   Instance path: topbcd00/BCD13
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.33         0.2
+                                  LUT4	       1.00         0.3
+---------------------------------------------------
+Report for cell progMem00
+   Instance path: topbcd00/BCD12
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.08         2.3
+                                  LUT4	      10.00         3.3
+                                PFUREG	          4         2.3
+---------------------------------------------------
+Report for cell pc00
+   Instance path: topbcd00/BCD11
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.67         2.6
+                                  LUT4	      10.00         3.3
+                                PFUREG	          6         3.5
+---------------------------------------------------
+Report for cell uc00
+   Instance path: topbcd00/BCD10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.75         3.2
+                                  LUT4	      15.50         5.1
+---------------------------------------------------
+Report for cell contIter00
+   Instance path: topbcd00/BCD09
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         2.7
+                                  LUT4	      11.50         3.8
+                                PFUREG	          6         3.5
+---------------------------------------------------
+Report for cell ac1200
+   Instance path: topbcd00/BCD08
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.58         2.0
+                                  LUT4	       1.00         0.3
+                                PFUREG	         13         7.6
+---------------------------------------------------
+Report for cell ac800
+   Instance path: topbcd00/BCD07
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.58         1.4
+                                  LUT4	       1.00         0.3
+                                PFUREG	          9         5.2
+---------------------------------------------------
+Report for cell shift800
+   Instance path: topbcd00/BCD05
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.67         3.1
+                                  LUT4	       8.00         2.6
+                                PFUREG	         11         6.4
+---------------------------------------------------
+Report for cell loadData00
+   Instance path: topbcd00/BCD02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.08         7.3
+                                  LUT4	      33.00        10.9
+                                PFUREG	          4         2.3
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topbcd00/BCD00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      69.33        38.5
+                                  LUT4	      93.00        30.6
+                                PFUREG	         46        26.7
+                                RIPPLE	         23        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        21.1
+                                 div01	          1        17.4
+---------------------------------------------------
+Report for cell div01
+   Instance path: topbcd00/BCD00/D02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      31.33        17.4
+                                  LUT4	      41.00        13.5
+                                PFUREG	         22        12.8
+                                RIPPLE	         11        47.8
+---------------------------------------------------
+Report for cell div00
+   Instance path: topbcd00/BCD00/D01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      38.00        21.1
+                                  LUT4	      52.00        17.1
+                                PFUREG	         24        14.0
+                                RIPPLE	         12        52.2
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topbcd00/BCD00/D00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

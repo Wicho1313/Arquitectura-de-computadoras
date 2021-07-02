@@ -1,0 +1,76 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\Arquitectura-de-Computadoras-master\\II\\Practicas\\memProg00\\memProg0\\synwork\\memProg00_memProg0_comp.srs|-top|topdec00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\bin64\\c_vhdl.exe":1554128468
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\location.map":1554152480
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std1164.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\numeric.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\arith.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542263532
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\Arquitectura-de-Computadoras-master\\II\\Practicas\\memProg00\\packagediv00.vhd":1564894834
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\cpld\\lattice.vhd":1554127688
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\Arquitectura-de-Computadoras-master\\II\\Practicas\\memProg00\\packagememProg00.vhd":1564894834
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\Arquitectura-de-Computadoras-master\\II\\Practicas\\memProg00\\contRead00.vhd":1564894834
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\Arquitectura-de-Computadoras-master\\II\\Practicas\\memProg00\\div00.vhd":1564894834
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\Arquitectura-de-Computadoras-master\\II\\Practicas\\memProg00\\mP00.vhd":1564894834
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\Arquitectura-de-Computadoras-master\\II\\Practicas\\memProg00\\osc00.vhd":1564894834
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\Arquitectura-de-Computadoras-master\\II\\Practicas\\memProg00\\decoderInst00.vhd":1564894834
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\Arquitectura-de-Computadoras-master\\II\\Practicas\\memProg00\\topdiv00.vhd":1564894834
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\Arquitectura-de-Computadoras-master\\II\\Practicas\\memProg00\\toprom00.vhd":1564894834
+0 "C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\packagediv00.vhd" vhdl
+2 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\packagememProg00.vhd" vhdl
+3 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\contRead00.vhd" vhdl
+4 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\div00.vhd" vhdl
+5 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\mP00.vhd" vhdl
+6 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\osc00.vhd" vhdl
+7 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\decoderInst00.vhd" vhdl
+8 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\topdiv00.vhd" vhdl
+9 "C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\memProg00\toprom00.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 1 
+8 6 4 1 
+9 8 3 5 7 2 
+
+# Dependency Lists (Users Of)
+0 -1
+1 8 7 
+2 9 
+3 9 
+4 8 
+5 9 
+6 8 
+7 9 
+8 9 
+9 -1
+
+# Design Unit to File Association
+arch work contread00 contread0 3
+module work contread00 3
+arch work div00 div0 4
+module work div00 4
+arch work dec00 dec0 5
+module work dec00 5
+arch work osc00 osc0 6
+module work osc00 6
+arch work decoderinst00 decoderinst0 7
+module work decoderinst00 7
+arch work topdiv00 topdiv0 8
+module work topdiv00 8
+arch work topdec00 topdec0 9
+module work topdec00 9
+
+
+# Configuration files used

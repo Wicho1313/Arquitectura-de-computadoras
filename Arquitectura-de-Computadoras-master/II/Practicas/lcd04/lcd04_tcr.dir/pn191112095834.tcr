@@ -1,0 +1,6 @@
+#Start recording tcl command: 11/12/2019 09:42:41
+#Project Location: C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/lcd04; Project name: lcd04
+prj_project open "C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/lcd04/lcd04.ldf"
+pgr_project close
+prj_run Export -impl lcd4 -task Jedecgen
+#Stop recording: 11/12/2019 09:58:34

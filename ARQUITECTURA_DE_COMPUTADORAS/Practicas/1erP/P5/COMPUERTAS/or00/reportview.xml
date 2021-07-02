@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Report>
+<ReportView version="2.0">
+    <Implement name="or00">
+        <ToolReport id="tooldec" path="" status="0"/>
+        <ToolReport id="toolhle_genhierarchy" path="C:/Users/Wicho/Documents/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Prácticas/1erP/P5/COMPUERTAS/or00/or00/hdla_gen_hierarchy.html" status="1"/>
+        <ToolReport id="toolpio" path="" status="2"/>
+        <ToolReport id="toolsso" path="" status="2"/>
+    </Implement>
+</ReportView>

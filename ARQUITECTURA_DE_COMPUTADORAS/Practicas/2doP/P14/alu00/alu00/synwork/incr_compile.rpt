@@ -1,0 +1,69 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : alu00
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 5
+FID:  path (prevtimestamp, timestamp)
+20       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\ac00.vhdl (2019-10-20 16:13:06, 2019-11-21 10:45:01)
+21       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\anda00.vhdl (2019-10-20 16:13:04, 2019-11-21 10:45:01)
+23       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\packagealu00.vhdl (2019-10-20 16:13:06, 2019-11-21 10:45:01)
+24       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\topalu00.vhdl (2019-10-20 16:13:06, 2019-11-21 10:44:28)
+28       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\topdiv00VHDL\topdiv00.vhdl (2019-10-20 16:13:02, 2019-11-21 10:45:01)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 7
+MID:  lib.cell.view
+0        work.ac00.ac0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\ac00.vhdl (2019-10-20 16:13:06, 2019-11-21 10:45:01) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\topalu00.vhdl (2019-10-20 16:13:06, 2019-11-21 10:44:28) <-- (may instantiate this module)
+2        work.anda00.anda0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\anda00.vhdl (2019-10-20 16:13:04, 2019-11-21 10:45:01) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\topalu00.vhdl (2019-10-20 16:13:06, 2019-11-21 10:44:28) <-- (may instantiate this module)
+4        work.div00.div0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\topalu00.vhdl (2019-10-20 16:13:06, 2019-11-21 10:44:28) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\topdiv00VHDL\topdiv00.vhdl (2019-10-20 16:13:02, 2019-11-21 10:45:01) <-- (may instantiate this module)
+6        work.ora00.ora0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\topalu00.vhdl (2019-10-20 16:13:06, 2019-11-21 10:44:28) <-- (may instantiate this module)
+8        work.osc00.osc0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\topalu00.vhdl (2019-10-20 16:13:06, 2019-11-21 10:44:28) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\topdiv00VHDL\topdiv00.vhdl (2019-10-20 16:13:02, 2019-11-21 10:45:01) <-- (may instantiate this module)
+10       work.topalu00.topalu0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\topalu00.vhdl (2019-10-20 16:13:06, 2019-11-21 10:44:28) <-- (architecture and entity definition)
+12       work.topdiv00.topdiv0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\topalu00.vhdl (2019-10-20 16:13:06, 2019-11-21 10:44:28) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\topdiv00VHDL\topdiv00.vhdl (2019-10-20 16:13:02, 2019-11-21 10:45:01) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 15
+FID:  path (timestamp)
+22       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\ora00.vhdl (2019-10-20 16:13:04)
+25       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\topdiv00VHDL\div00.vhdl (2019-10-20 16:13:02)
+26       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\topdiv00VHDL\osc00.vhdl (2019-10-20 16:13:02)
+27       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\topdiv00VHDL\packagediv00.vhdl (2019-10-20 16:13:02)
+29       C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+30       C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (2019-04-01 08:08:08)
+31       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 08:07:44)
+32       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (2019-04-01 08:07:44)
+33       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (2019-04-01 15:01:20)
+34       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (2019-04-01 08:07:44)
+35       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2019-04-01 08:07:44)
+36       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (2019-04-01 08:07:44)
+37       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (2019-04-01 08:07:44)
+38       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (2019-04-01 08:07:44)
+39       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 08:07:44)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

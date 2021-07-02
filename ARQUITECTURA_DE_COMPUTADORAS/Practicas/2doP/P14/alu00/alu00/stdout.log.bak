@@ -1,0 +1,90 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.11_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.11_x64\synpbase
+Hostname:    DESKTOP-496B8RB
+Date:        Tue Nov 19 09:43:32 2019
+Version:     N-2018.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch alu00_alu00_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\alu00_alu00.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\alu00_alu00.srr to C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\alu00_alu00.srf
+
+hdl_info_gen completed
+# Tue Nov 19 09:43:33 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+log file: "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\alu00_alu00.srr"
+Running: alu00 in foreground
+
+Running proj_1|alu00
+
+Running Flow: compile (Compile) on proj_1|alu00
+# Tue Nov 19 09:43:34 2019
+
+Running Flow: compile_flow (Compile Process) on proj_1|alu00
+# Tue Nov 19 09:43:34 2019
+
+Running: compiler (Compile Input) on proj_1|alu00
+# Tue Nov 19 09:43:34 2019
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\synwork\alu00_alu00_comp.srs to C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\alu00_alu00.srs
+
+compiler completed
+# Tue Nov 19 09:43:36 2019
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|alu00
+# Tue Nov 19 09:43:36 2019
+
+multi_srs_gen completed
+# Tue Nov 19 09:43:37 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\synwork\alu00_alu00_mult.srs to C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\alu00_alu00.srs
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\alu00_alu00.srr to C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\alu00_alu00.srf
+Complete: Compile Process on proj_1|alu00
+
+Running: premap (Premap) on proj_1|alu00
+# Tue Nov 19 09:43:37 2019
+
+premap completed with warnings
+# Tue Nov 19 09:43:39 2019
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on proj_1|alu00
+
+Running Flow: map (Map) on proj_1|alu00
+# Tue Nov 19 09:43:39 2019
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|alu00
+# Tue Nov 19 09:43:39 2019
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\synwork\alu00_alu00_m.srm to C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\alu00_alu00.srm
+
+fpga_mapper completed with warnings
+# Tue Nov 19 09:43:42 2019
+
+Return Code: 1
+Run Time:00h:00m:03s
+Complete: Map on proj_1|alu00
+Copied C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\alu00_alu00.srr to C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\alu00_alu00.srf
+Complete: Logic Synthesis on proj_1|alu00
+TCL script complete: "alu00_alu00_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P14\alu00\alu00\proj_1.prj
+batch mode default:no

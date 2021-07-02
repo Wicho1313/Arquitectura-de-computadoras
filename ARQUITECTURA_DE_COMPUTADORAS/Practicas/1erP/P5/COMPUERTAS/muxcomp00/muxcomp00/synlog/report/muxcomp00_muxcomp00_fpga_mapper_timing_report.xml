@@ -1,0 +1,4 @@
+Windows-RemoteFX-HyperV-Integration-Package~31bf3856ad364e35~amd64~en-US~10.0.18362.1, Update: INF_wsynth3dvsp, current: Staged, pending: Default, start: Staged, applicable: Installed, targeted: Staged, limit: Staged, selected: Default
+2019-08-10 21:24:33, Info                  CBS    Appl: DetectUpdate, Package: Microsoft-Windows-RemoteFX-HyperV-Integration-Package~31bf3856ad364e35~amd64~en-US~10.0.18362.1, Remote Parent: RemoteFXHypervIntegration, Intended State: Staged
+2019-08-10 21:24:33, Info                  CBS    Appl: Package: Microsoft-Windows-RemoteFX-HyperV-Integration-Package~31bf3856ad364e35~amd64~en-US~10.0.18362.1, Update: RemoteFX Server Hyper-v Integration, Applicable: NeedsParent, Disposition: Staged
+2019-08-10 21:24:33, Info                  CBS    Plan: Package: Microsoft-W

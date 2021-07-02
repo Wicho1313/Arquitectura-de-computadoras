@@ -1,0 +1,996 @@
+
+           Lattice Mapping Report File for Design Module 'topalu00'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial
+     alu02_alu02.ngd -o alu02_alu02_map.ncd -pr alu02_alu02.prf -mp
+     alu02_alu02.mrp -lpf
+     C:/Users/FERNANDO/Desktop/P16/alu02/alu02/alu02_alu02_synplify.lpf -lpf
+     C:/Users/FERNANDO/Desktop/P16/alu02/alu02.lpf -c 0 -gui -msgset
+     C:/Users/FERNANDO/Desktop/P16/alu02/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
+Mapped on:  05/08/19  09:43:41
+
+Design Summary
+--------------
+
+   Number of registers:    175 out of  7209 (2%)
+      PFU registers:          159 out of  6864 (2%)
+      PIO registers:           16 out of   345 (5%)
+   Number of SLICEs:       236 out of  3432 (7%)
+      SLICEs as Logic/ROM:    236 out of  3432 (7%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:        461 out of  6864 (7%)
+      Number used as logic LUTs:        439
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 48 + 4(JTAG) out of 115 (45%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net AL00.sclk_0: 123 loads, 123 rising, 0 falling (Driver:
+     AL00/D00/OSCInst0 )
+
+                                    Page 1
+
+
+
+
+Design:  topalu00                                      Date:  05/08/19  09:43:41
+
+Design Summary (cont)
+---------------------
+   Number of Clock Enables:  14
+     Net aux_RNIF61I1: 9 loads, 1 LSLICEs
+     Net AL10/LEDad_1ce: 5 loads, 5 LSLICEs
+     Net un1_outdiv_0_sqmuxa_1_RNI285K: 36 loads, 36 LSLICEs
+     Net AL11/LEDsub_1ce: 5 loads, 5 LSLICEs
+     Net AL01/aux_RNIFRVJ1: 4 loads, 4 LSLICEs
+     Net AL02/un1_funto_RNIVEFI1: 4 loads, 4 LSLICEs
+     Net AL03/un1_funtn_RNI02VG1: 4 loads, 4 LSLICEs
+     Net AL04/aux_RNIHLH71: 4 loads, 4 LSLICEs
+     Net AL05/outrxo_1ce[0]: 4 loads, 4 LSLICEs
+     Net AL06/outrxn_1ce[0]: 5 loads, 5 LSLICEs
+     Net AL07/outrnot_1ce[0]: 5 loads, 5 LSLICEs
+     Net AL12/outmuH_1ce[0]: 8 loads, 8 LSLICEs
+     Net AL13/outsl_1_RNO_0[5]: 1 loads, 1 LSLICEs
+     Net aux_RNI40571: 8 loads, 0 LSLICEs
+   Number of LSRs:  12
+     Net aux_RNIC61R1: 8 loads, 0 LSLICEs
+     Net AL10/fb: 1 loads, 1 LSLICEs
+     Net AL11/fb: 1 loads, 1 LSLICEs
+     Net AL01/fb: 1 loads, 1 LSLICEs
+     Net AL02/fb: 1 loads, 1 LSLICEs
+     Net AL03/fb: 1 loads, 1 LSLICEs
+     Net AL04/fb: 1 loads, 1 LSLICEs
+     Net AL05/fb: 1 loads, 1 LSLICEs
+     Net AL06/fb: 1 loads, 1 LSLICEs
+     Net AL07/fb: 1 loads, 1 LSLICEs
+     Net un1_outdiv_0_sqmuxa_1_RNIDE1V: 9 loads, 1 LSLICEs
+     Net AL00/D01/un1_sdiv69_3_RNILDRF: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net outFlagac0_c: 60 loads
+     Net un1_outdiv_0_sqmuxa_1_RNI285K: 48 loads
+     Net funt0_c[3]: 30 loads
+     Net funt0_c[0]: 25 loads
+     Net inrs0_c[0]: 24 loads
+     Net inrs0_c[2]: 24 loads
+     Net inrs0_c[3]: 24 loads
+     Net inrs0_c[7]: 24 loads
+     Net inrs0_c[4]: 23 loads
+     Net inrt0_c[3]: 23 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+   No errors or warnings present.
+
+
+
+
+
+                                    Page 2
+
+
+
+
+Design:  topalu00                                      Date:  05/08/19  09:43:41
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| outFlagInst0        | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LEDas0              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clk00               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagac0          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| in2rd0[7]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| in2rd0[6]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| in2rd0[5]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| in2rd0[4]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| in2rd0[3]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| in2rd0[2]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| in2rd0[1]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| in2rd0[0]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| inrd0[7]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| inrd0[6]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| inrd0[5]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| inrd0[4]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| inrd0[3]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| inrd0[2]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| inrd0[1]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| inrd0[0]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| inrt0[7]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inrt0[6]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inrt0[5]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inrt0[4]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inrt0[3]            | INPUT     | LVCMOS25  |            |
+
+                                    Page 3
+
+
+
+
+Design:  topalu00                                      Date:  05/08/19  09:43:41
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| inrt0[2]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inrt0[1]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inrt0[0]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inrs0[7]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inrs0[6]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inrs0[5]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inrs0[4]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inrs0[3]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inrs0[2]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inrs0[1]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inrs0[0]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| enable0             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| funt0[5]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| funt0[4]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| funt0[3]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| funt0[2]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| funt0[1]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| funt0[0]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Block AL00/GND undriven or does not drive anything - clipped.
+Block AL00/VCC undriven or does not drive anything - clipped.
+Block AL00/D00/VCC undriven or does not drive anything - clipped.
+Block AL00/D01/VCC undriven or does not drive anything - clipped.
+
+                                    Page 4
+
+
+
+
+Design:  topalu00                                      Date:  05/08/19  09:43:41
+
+Removed logic (cont)
+--------------------
+Block AL08/GND undriven or does not drive anything - clipped.
+Block AL08/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA00/GND undriven or does not drive anything - clipped.
+Block AL08/UFA00/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA00/UHA00/GND undriven or does not drive anything - clipped.
+Block AL08/UFA00/UHA00/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA00/UHA00/UX00/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA00/UHA00/UX00/GND undriven or does not drive anything - clipped.
+Block AL08/UFA00/UO00/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA00/UO00/GND undriven or does not drive anything - clipped.
+Block AL08/UFA01/GND undriven or does not drive anything - clipped.
+Block AL08/UFA01/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA01/UO00/GND undriven or does not drive anything - clipped.
+Block AL08/UFA01/UO00/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA02/GND undriven or does not drive anything - clipped.
+Block AL08/UFA02/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA02/UO00/GND undriven or does not drive anything - clipped.
+Block AL08/UFA02/UO00/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA03/GND undriven or does not drive anything - clipped.
+Block AL08/UFA03/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA03/UO00/GND undriven or does not drive anything - clipped.
+Block AL08/UFA03/UO00/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA04/GND undriven or does not drive anything - clipped.
+Block AL08/UFA04/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA04/UO00/GND undriven or does not drive anything - clipped.
+Block AL08/UFA04/UO00/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA05/GND undriven or does not drive anything - clipped.
+Block AL08/UFA05/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA05/UO00/GND undriven or does not drive anything - clipped.
+Block AL08/UFA05/UO00/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA06/GND undriven or does not drive anything - clipped.
+Block AL08/UFA06/VCC undriven or does not drive anything - clipped.
+Block AL08/UFA06/UO00/GND undriven or does not drive anything - clipped.
+Block AL08/UFA06/UO00/VCC undriven or does not drive anything - clipped.
+Block AL08/UX08/GND undriven or does not drive anything - clipped.
+Block AL08/UX08/VCC undriven or does not drive anything - clipped.
+Block AL08/UA00/GND undriven or does not drive anything - clipped.
+Block AL08/UA00/VCC undriven or does not drive anything - clipped.
+Block AL08/UA01/GND undriven or does not drive anything - clipped.
+Block AL08/UA01/VCC undriven or does not drive anything - clipped.
+Block AL08/UA02/GND undriven or does not drive anything - clipped.
+Block AL08/UA02/VCC undriven or does not drive anything - clipped.
+Block AL08/UA03/GND undriven or does not drive anything - clipped.
+Block AL08/UA03/VCC undriven or does not drive anything - clipped.
+Block AL08/UA04/GND undriven or does not drive anything - clipped.
+Block AL08/UA04/VCC undriven or does not drive anything - clipped.
+Block AL08/UA05/GND undriven or does not drive anything - clipped.
+Block AL08/UA05/VCC undriven or does not drive anything - clipped.
+Block AL08/UA06/GND undriven or does not drive anything - clipped.
+Block AL08/UA06/VCC undriven or does not drive anything - clipped.
+Block AL08/UA07/VCC undriven or does not drive anything - clipped.
+Block AL08/UA07/GND undriven or does not drive anything - clipped.
+Block AL09/GND undriven or does not drive anything - clipped.
+Block AL09/VCC undriven or does not drive anything - clipped.
+Block AL09/UA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UA01/GND undriven or does not drive anything - clipped.
+
+                                    Page 5
+
+
+
+
+Design:  topalu00                                      Date:  05/08/19  09:43:41
+
+Removed logic (cont)
+--------------------
+Block AL09/UA02/VCC undriven or does not drive anything - clipped.
+Block AL09/UA02/GND undriven or does not drive anything - clipped.
+Block AL09/UA03/VCC undriven or does not drive anything - clipped.
+Block AL09/UA03/GND undriven or does not drive anything - clipped.
+Block AL09/UA09/VCC undriven or does not drive anything - clipped.
+Block AL09/UA09/GND undriven or does not drive anything - clipped.
+Block AL09/Utopfa00/GND undriven or does not drive anything - clipped.
+Block AL09/Utopfa00/VCC undriven or does not drive anything - clipped.
+Block AL09/Utopfa00/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/Utopfa00/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/Utopfa00/UHA01/UA00/VCC undriven or does not drive anything -
+     clipped.
+Block AL09/Utopfa00/UHA01/UA00/GND undriven or does not drive anything -
+     clipped.
+Block AL09/UFA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA01/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA01/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA01/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA01/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA01/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA01/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA02/GND undriven or does not drive anything - clipped.
+Block AL09/UFA02/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA02/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA02/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA02/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA02/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA02/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA02/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA03/GND undriven or does not drive anything - clipped.
+Block AL09/UFA03/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA03/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA03/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA03/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA03/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA03/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA03/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA04/GND undriven or does not drive anything - clipped.
+Block AL09/UFA04/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA04/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA04/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA04/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA04/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA04/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA04/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA05/GND undriven or does not drive anything - clipped.
+Block AL09/UFA05/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA05/UHA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA05/UHA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA05/UHA00/UA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA05/UHA00/UA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA05/UHA00/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA05/UHA00/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA05/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA05/UHA01/VCC undriven or does not drive anything - clipped.
+
+                                    Page 6
+
+
+
+
+Design:  topalu00                                      Date:  05/08/19  09:43:41
+
+Removed logic (cont)
+--------------------
+Block AL09/UFA05/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA05/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA05/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA05/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA06/GND undriven or does not drive anything - clipped.
+Block AL09/UFA06/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA06/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA06/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA06/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA06/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA06/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA06/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA07/GND undriven or does not drive anything - clipped.
+Block AL09/UFA07/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA07/UHA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA07/UHA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA07/UHA00/UA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA07/UHA00/UA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA07/UHA00/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA07/UHA00/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA08/GND undriven or does not drive anything - clipped.
+Block AL09/UFA08/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA08/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA08/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA08/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA08/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA08/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA08/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA09/GND undriven or does not drive anything - clipped.
+Block AL09/UFA09/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA09/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA09/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA09/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA09/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA09/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA09/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA10/GND undriven or does not drive anything - clipped.
+Block AL09/UFA10/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA10/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA10/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA10/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA10/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA10/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA10/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA11/GND undriven or does not drive anything - clipped.
+Block AL09/UFA11/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA11/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA11/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA11/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA11/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA11/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA11/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA12/GND undriven or does not drive anything - clipped.
+Block AL09/UFA12/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA12/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA12/UHA01/VCC undriven or does not drive anything - clipped.
+
+                                    Page 7
+
+
+
+
+Design:  topalu00                                      Date:  05/08/19  09:43:41
+
+Removed logic (cont)
+--------------------
+Block AL09/UFA12/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA12/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA12/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA12/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA13/GND undriven or does not drive anything - clipped.
+Block AL09/UFA13/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA13/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA13/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA13/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA13/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA13/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA13/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA14/GND undriven or does not drive anything - clipped.
+Block AL09/UFA14/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA14/UHA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA14/UHA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA14/UHA00/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA14/UHA00/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA14/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA14/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA15/GND undriven or does not drive anything - clipped.
+Block AL09/UFA15/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA15/UHA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA15/UHA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA15/UHA00/UA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA15/UHA00/UA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA15/UHA00/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA15/UHA00/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA16/GND undriven or does not drive anything - clipped.
+Block AL09/UFA16/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA16/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA16/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA16/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA16/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA16/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA16/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA17/GND undriven or does not drive anything - clipped.
+Block AL09/UFA17/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA17/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA17/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA17/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA17/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA17/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA17/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA18/GND undriven or does not drive anything - clipped.
+Block AL09/UFA18/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA18/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA18/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA18/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA18/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA18/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA18/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA19/GND undriven or does not drive anything - clipped.
+Block AL09/UFA19/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA19/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA19/UHA01/VCC undriven or does not drive anything - clipped.
+
+                                    Page 8
+
+
+
+
+Design:  topalu00                                      Date:  05/08/19  09:43:41
+
+Removed logic (cont)
+--------------------
+Block AL09/UFA19/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA19/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA19/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA19/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA20/GND undriven or does not drive anything - clipped.
+Block AL09/UFA20/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA20/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA20/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA20/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA20/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA20/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA20/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA21/GND undriven or does not drive anything - clipped.
+Block AL09/UFA21/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA21/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA21/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA21/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA21/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA21/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA21/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA22/GND undriven or does not drive anything - clipped.
+Block AL09/UFA22/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA22/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA22/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA22/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA22/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA22/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA22/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA23/GND undriven or does not drive anything - clipped.
+Block AL09/UFA23/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA23/UHA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA23/UHA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA23/UHA00/UA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA23/UHA00/UA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA23/UHA00/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA23/UHA00/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA24/GND undriven or does not drive anything - clipped.
+Block AL09/UFA24/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA24/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA24/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA24/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA24/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA24/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA24/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA25/GND undriven or does not drive anything - clipped.
+Block AL09/UFA25/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA25/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA25/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA25/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA25/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA25/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA25/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA26/GND undriven or does not drive anything - clipped.
+Block AL09/UFA26/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA26/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA26/UHA01/VCC undriven or does not drive anything - clipped.
+
+                                    Page 9
+
+
+
+
+Design:  topalu00                                      Date:  05/08/19  09:43:41
+
+Removed logic (cont)
+--------------------
+Block AL09/UFA26/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA26/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA26/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA26/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA27/GND undriven or does not drive anything - clipped.
+Block AL09/UFA27/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA27/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA27/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA27/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA27/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA27/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA27/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA28/GND undriven or does not drive anything - clipped.
+Block AL09/UFA28/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA28/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA28/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA28/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA28/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA28/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA28/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA29/GND undriven or does not drive anything - clipped.
+Block AL09/UFA29/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA29/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA29/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA29/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA29/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA29/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA29/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA30/GND undriven or does not drive anything - clipped.
+Block AL09/UFA30/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA30/UHA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA30/UHA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA30/UHA00/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA30/UHA00/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA30/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA30/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA31/GND undriven or does not drive anything - clipped.
+Block AL09/UFA31/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA31/UHA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA31/UHA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA31/UHA00/UA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA31/UHA00/UA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA31/UHA00/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA31/UHA00/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA32/GND undriven or does not drive anything - clipped.
+Block AL09/UFA32/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA32/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA32/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA32/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA32/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA32/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA32/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA33/GND undriven or does not drive anything - clipped.
+Block AL09/UFA33/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA33/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA33/UHA01/VCC undriven or does not drive anything - clipped.
+
+                                   Page 10
+
+
+
+
+Design:  topalu00                                      Date:  05/08/19  09:43:41
+
+Removed logic (cont)
+--------------------
+Block AL09/UFA33/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA33/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA33/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA33/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA34/GND undriven or does not drive anything - clipped.
+Block AL09/UFA34/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA34/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA34/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA34/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA34/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA34/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA34/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA35/GND undriven or does not drive anything - clipped.
+Block AL09/UFA35/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA35/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA35/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA35/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA35/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA35/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA35/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA36/GND undriven or does not drive anything - clipped.
+Block AL09/UFA36/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA36/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA36/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA36/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA36/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA36/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA36/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA37/GND undriven or does not drive anything - clipped.
+Block AL09/UFA37/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA37/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA37/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA37/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA37/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA37/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA37/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA38/GND undriven or does not drive anything - clipped.
+Block AL09/UFA38/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA38/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA38/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA38/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA38/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA38/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA38/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA39/GND undriven or does not drive anything - clipped.
+Block AL09/UFA39/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA39/UHA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA39/UHA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA39/UHA00/UA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA39/UHA00/UA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA39/UHA00/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA39/UHA00/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA40/GND undriven or does not drive anything - clipped.
+Block AL09/UFA40/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA40/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA40/UHA01/VCC undriven or does not drive anything - clipped.
+
+                                   Page 11
+
+
+
+
+Design:  topalu00                                      Date:  05/08/19  09:43:41
+
+Removed logic (cont)
+--------------------
+Block AL09/UFA40/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA40/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA40/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA40/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA41/GND undriven or does not drive anything - clipped.
+Block AL09/UFA41/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA41/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA41/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA41/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA41/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA41/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA41/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA42/GND undriven or does not drive anything - clipped.
+Block AL09/UFA42/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA42/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA42/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA42/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA42/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA42/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA42/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA43/GND undriven or does not drive anything - clipped.
+Block AL09/UFA43/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA43/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA43/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA43/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA43/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA43/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA43/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA44/GND undriven or does not drive anything - clipped.
+Block AL09/UFA44/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA44/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA44/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA44/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA44/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA44/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA44/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA45/GND undriven or does not drive anything - clipped.
+Block AL09/UFA45/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA45/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA45/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA45/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA45/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA45/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA45/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA46/GND undriven or does not drive anything - clipped.
+Block AL09/UFA46/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA46/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA46/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA46/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA46/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA46/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA46/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA47/GND undriven or does not drive anything - clipped.
+Block AL09/UFA47/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA47/UHA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA47/UHA00/VCC undriven or does not drive anything - clipped.
+
+                                   Page 12
+
+
+
+
+Design:  topalu00                                      Date:  05/08/19  09:43:41
+
+Removed logic (cont)
+--------------------
+Block AL09/UFA47/UHA00/UA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA47/UHA00/UA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA47/UHA00/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA47/UHA00/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA48/GND undriven or does not drive anything - clipped.
+Block AL09/UFA48/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA48/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA48/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA48/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA48/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA48/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA48/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA49/GND undriven or does not drive anything - clipped.
+Block AL09/UFA49/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA49/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA49/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA49/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA49/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA49/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA49/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA50/GND undriven or does not drive anything - clipped.
+Block AL09/UFA50/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA50/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA50/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA50/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA50/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA50/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA50/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA51/GND undriven or does not drive anything - clipped.
+Block AL09/UFA51/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA51/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA51/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA51/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA51/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA51/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA51/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA52/GND undriven or does not drive anything - clipped.
+Block AL09/UFA52/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA52/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA52/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA52/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA52/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA52/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA52/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA53/GND undriven or does not drive anything - clipped.
+Block AL09/UFA53/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA53/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA53/UHA01/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA53/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA53/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA53/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA53/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA54/GND undriven or does not drive anything - clipped.
+Block AL09/UFA54/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA54/UHA01/GND undriven or does not drive anything - clipped.
+Block AL09/UFA54/UHA01/VCC undriven or does not drive anything - clipped.
+
+                                   Page 13
+
+
+
+
+Design:  topalu00                                      Date:  05/08/19  09:43:41
+
+Removed logic (cont)
+--------------------
+Block AL09/UFA54/UHA01/UX00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA54/UHA01/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA54/UO00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA54/UO00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA55/GND undriven or does not drive anything - clipped.
+Block AL09/UFA55/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA55/UHA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA55/UHA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA55/UHA00/UA00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA55/UHA00/UA00/GND undriven or does not drive anything - clipped.
+Block AL09/UFA55/UHA00/UX00/VCC undriven or does not drive anything - clipped.
+Block AL09/UFA55/UHA00/UX00/GND undriven or does not drive anything - clipped.
+Block AL14/VCC undriven or does not drive anything - clipped.
+Block AL14/GND undriven or does not drive anything - clipped.
+Block AL13/VCC undriven or does not drive anything - clipped.
+Block AL13/GND undriven or does not drive anything - clipped.
+Block AL12/GND undriven or does not drive anything - clipped.
+Block AL12/VCC undriven or does not drive anything - clipped.
+Block AL07/VCC undriven or does not drive anything - clipped.
+Block AL07/GND undriven or does not drive anything - clipped.
+Block AL06/VCC undriven or does not drive anything - clipped.
+Block AL06/GND undriven or does not drive anything - clipped.
+Block AL05/VCC undriven or does not drive anything - clipped.
+Block AL05/GND undriven or does not drive anything - clipped.
+Block AL04/VCC undriven or does not drive anything - clipped.
+Block AL04/GND undriven or does not drive anything - clipped.
+Block AL03/VCC undriven or does not drive anything - clipped.
+Block AL03/GND undriven or does not drive anything - clipped.
+Block AL02/VCC undriven or does not drive anything - clipped.
+Block AL02/GND undriven or does not drive anything - clipped.
+Block AL01/VCC undriven or does not drive anything - clipped.
+Block AL01/GND undriven or does not drive anything - clipped.
+Block AL11/VCC undriven or does not drive anything - clipped.
+Block AL11/GND undriven or does not drive anything - clipped.
+Block AL10/VCC undriven or does not drive anything - clipped.
+Block AL10/GND undriven or does not drive anything - clipped.
+Signal AL13/aux_1_bm was merged into signal AL13/un1_codopsl
+Signal AL00/D00/GND undriven or does not drive anything - clipped.
+Signal AL00/D01/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal AL00/D00/OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
+     
+Signal AL00/D01/un1_sdiv_cry_19_0_COUT undriven or does not drive anything -
+     clipped.
+Signal AL00/D01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal AL00/D01/N_1 undriven or does not drive anything - clipped.
+Block AL13/aux_1_bm was optimized away.
+Block AL00/D00/GND was optimized away.
+Block AL00/D01/GND was optimized away.
+
+Memory Usage
+------------
+
+
+     
+
+                                   Page 14
+
+
+
+
+Design:  topalu00                                      Date:  05/08/19  09:43:41
+
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                AL00/D00/OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     AL00.sclk_0
+  OSC Nominal Frequency (MHz):                      2.08
+
+ASIC Components
+---------------
+
+Instance Name: AL00/D00/OSCInst0
+         Type: OSCH
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 1 secs  
+   Total REAL Time: 2 secs  
+   Peak Memory Usage: 59 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   Page 15
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.

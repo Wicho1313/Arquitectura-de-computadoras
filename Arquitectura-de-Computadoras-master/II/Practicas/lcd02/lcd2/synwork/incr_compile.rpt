@@ -1,0 +1,75 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : lcd2
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+25       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd02\coder00.vhd (2019-11-04 11:51:25, 2019-11-04 11:54:56)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+0        work.coder00.coder0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd02\coder00.vhd (2019-11-04 11:51:25, 2019-11-04 11:54:56) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 24
+FID:  path (timestamp)
+26       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd02\contring00.vhd (2019-08-04 00:00:34)
+27       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd02\div00.vhd (2019-08-04 00:00:34)
+28       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd02\lcdconfig00.vhd (2019-08-04 00:00:34)
+29       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd02\lcdcontconfig00.vhd (2019-08-04 00:00:34)
+30       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd02\lcdmux00.vhd (2019-08-04 00:00:34)
+31       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd02\osc00.vhd (2019-08-04 00:00:34)
+32       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd02\packagekey00.vhd (2019-08-04 00:00:34)
+33       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd02\packagelcd00.vhd (2019-08-04 00:00:34)
+34       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd02\packageosc00.vhd (2019-08-04 00:00:34)
+35       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd02\topkey00.vhd (2019-08-04 00:00:34)
+36       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd02\toplcd00.vhd (2019-08-04 00:00:34)
+37       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd02\toposc00.vhd (2019-08-04 00:00:34)
+38       C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+39       C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (2019-04-01 08:08:08)
+40       C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\machxo2.vhd (2019-04-01 08:08:08)
+41       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 08:07:44)
+42       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (2019-04-01 08:07:44)
+43       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (2019-04-01 15:01:20)
+44       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (2019-04-01 08:07:44)
+45       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2019-04-01 08:07:44)
+46       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (2019-04-01 08:07:44)
+47       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (2019-04-01 08:07:44)
+48       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (2019-04-01 08:07:44)
+49       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 08:07:44)
+
+*******************************************************************
+Unchanged modules: 18
+MID:  lib.cell.view
+2        work.contring00.contring0
+3        work.contring00.vhdl
+4        work.div00.div0
+5        work.div00.vhdl
+6        work.lcdconfig00.lcdconfig0
+7        work.lcdconfig00.vhdl
+8        work.lcdcontconfig00.lcdcontconfig0
+9        work.lcdcontconfig00.vhdl
+10       work.lcdmux00.lcdmux0
+11       work.lcdmux00.vhdl
+12       work.osc00.osc0
+13       work.osc00.vhdl
+14       work.topkey00.topkey0
+15       work.topkey00.vhdl
+16       work.toplcd00.toplcd0
+17       work.toplcd00.vhdl
+18       work.toposc00.toposc0
+19       work.toposc00.vhdl

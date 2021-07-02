@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "xnor00_xnor00.log"
+-o "xnor00_xnor00.csv"
+-pr "xnor00_xnor00.prf"

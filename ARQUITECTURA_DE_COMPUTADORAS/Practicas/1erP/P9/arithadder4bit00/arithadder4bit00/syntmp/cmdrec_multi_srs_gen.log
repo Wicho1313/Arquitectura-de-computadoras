@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  arithadder4bit00  -multisrs  C:\Users\FERNANDO\Desktop\P9\arithadder4bit00\arithadder4bit00\synwork\arithadder4bit00_arithadder4bit00_comp.srs  -osyn  C:\Users\FERNANDO\Desktop\P9\arithadder4bit00\arithadder4bit00\synwork\arithadder4bit00_arithadder4bit00_mult.srs  -log  C:\Users\FERNANDO\Desktop\P9\arithadder4bit00\arithadder4bit00\synlog\arithadder4bit00_arithadder4bit00_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top arithadder4bit00 -multisrs ..\synwork\arithadder4bit00_arithadder4bit00_comp.srs -osyn ..\synwork\arithadder4bit00_arithadder4bit00_mult.srs -log ..\synlog\arithadder4bit00_arithadder4bit00_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\arithadder4bit00_arithadder4bit00_comp.srs|io:i|time:1550870660|size:1893|exec:0|csum:ECE3760FD652E4D82CEA63614AAEE97B
+file:..\synwork\arithadder4bit00_arithadder4bit00_mult.srs|io:o|time:1550870662|size:1592|exec:0|csum:
+file:..\synlog\arithadder4bit00_arithadder4bit00_multi_srs_gen.srr|io:o|time:1550870662|size:670|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

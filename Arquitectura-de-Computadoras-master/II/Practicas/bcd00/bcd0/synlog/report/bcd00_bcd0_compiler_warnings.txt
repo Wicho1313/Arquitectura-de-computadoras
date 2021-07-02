@@ -1,0 +1,22 @@
+@W: CD638 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl":43:7:43:14|Signal sflagfff is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CG296 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\progMem00.vhdl":29:8:29:14|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\progMem00.vhdl":31:5:31:9|Referenced variable clkpm is not in sensitivity list.
+@W: CL260 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\progMem00.vhdl":31:1:31:2|Pruning register bit 3 of outcodePM(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\shift1200.vhdl":21:4:21:5|Pruning unused register outFlags12_cl_7. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\shift800.vhdl":21:4:21:5|Pruning unused register outFlags8_cl_7. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\compadd00.vhdl":28:4:28:5|Pruning unused register outFlagAC12ca_cl_7. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\sust00.vhdl":24:4:24:5|Pruning unused register outFlagAC12su_cl_7. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\loadData00.vhdl":23:6:23:7|Pruning unused register outFlagLD_cl_7. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\init00.vhdl":23:3:23:4|Pruning unused register outFlag12init_cl_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\init00.vhdl":23:3:23:4|Pruning unused register outFlag8init_cl_8. Make sure that there are no unused intermediate registers.
+@W: CD276 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl":43:7:43:14|Bit 0 of signal sFlagFFF is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl":43:7:43:14|Bit 1 of signal sFlagFFF is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl":43:7:43:14|Bit 2 of signal sFlagFFF is floating -- simulation mismatch possible.
+@W: CL177 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\init00.vhdl":24:9:24:27|Sharing sequential element outFlag12init_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\init00.vhdl":24:9:24:27|Sharing sequential element outFlag12init. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL246 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\sust00.vhdl":10:4:10:10|Input port bits 6 to 0 of inac8su(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\sust00.vhdl":11:4:11:11|Input port bit 0 of inac12su(11 downto 0) is unused 
+@W: CL247 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\shift800.vhdl":10:4:10:9|Input port bit 7 of inacs8(7 downto 0) is unused 
+@W: CL247 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\shift1200.vhdl":10:4:10:10|Input port bit 11 of inacs12(11 downto 0) is unused 
+

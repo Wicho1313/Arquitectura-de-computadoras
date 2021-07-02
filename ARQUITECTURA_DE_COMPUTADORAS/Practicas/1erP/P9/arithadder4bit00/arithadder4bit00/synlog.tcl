@@ -1,0 +1,1 @@
+run_tcl -fg arithadder4bit00_arithadder4bit00_synplify.tcl

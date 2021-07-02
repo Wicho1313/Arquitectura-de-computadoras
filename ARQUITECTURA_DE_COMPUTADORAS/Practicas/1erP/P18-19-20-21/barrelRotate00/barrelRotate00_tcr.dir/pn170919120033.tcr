@@ -1,0 +1,10 @@
+#Start recording tcl command: 9/19/2017 11:44:24
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00; Project name: barrelRotate00
+prj_project new -name "barrelRotate00" -impl "barrelRotate00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00vhdl/div00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00vhdl/osc00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00vhdl/packagediv00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00vhdl/toposcdiv00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/source"
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/source/div00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/source/osc00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/source/packagediv00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/barrelRotate00/source/toposcdiv00.vhdl"
+prj_project save
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/BarrelRotate00.vhdl"
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/packagebarrelRotate00.vhdl"
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/barrelRotate00/topbarrelRotate00.vhdl"
+#Stop recording: 9/19/2017 12:00:33

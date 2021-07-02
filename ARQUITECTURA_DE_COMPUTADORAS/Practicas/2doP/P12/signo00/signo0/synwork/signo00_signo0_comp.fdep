@@ -1,0 +1,24 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P12\\signo00\\signo0\\synwork\\signo00_signo0_comp.srs|-top|signo00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\bin64\\c_vhdl.exe":1554128468
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\location.map":1554152480
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std1164.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\numeric.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\arith.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1554127664
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542263532
+#CUR:"C:\\Users\\ameri\\Documentos\\ESCOM\\Arquitectura\\ARQUITECTURA_DE_COMPUTADORAS\\Practicas\\2doP\\P12\\signo00\\signo00.vhd":1574174735
+0			"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1			"C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo00.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+#Dependency Lists(Users Of)
+0 -1
+1 -1
+#Design Unit to File Association
+module work signo00 1
+arch work signo00 signo0 1

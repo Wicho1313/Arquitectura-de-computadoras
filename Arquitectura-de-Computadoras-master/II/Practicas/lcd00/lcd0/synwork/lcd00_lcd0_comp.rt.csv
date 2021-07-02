@@ -1,0 +1,11 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, Entity: OSCH Architecture: syn_black_box, 0h:00m:00s,     79 MB
+work, Entity: osc00 Architecture: osc0, 0h:00m:00s,     79 MB
+work, Entity: div00 Architecture: div0, 0h:00m:00s,     79 MB
+work, Entity: topdiv00 Architecture: topdiv0, 0h:00m:00s,     79 MB
+work, Entity: lcdContConfig00 Architecture: lcdcontconfig0, 0h:00m:00s,     79 MB
+work, Entity: lcdConfig00 Architecture: lcdconfig0, 0h:00m:00s,     79 MB
+work, Entity: lcdContData00 Architecture: lcdcontdata0, 0h:00m:00s,     79 MB
+work, Entity: lcdData00 Architecture: lcddata0, 0h:00m:00s,     79 MB
+work, Entity: lcdmux00 Architecture: lcdmux0, 0h:00m:00s,     79 MB
+work, Entity: toplcd00 Architecture: toplcd0, 0h:00m:00s,     79 MB

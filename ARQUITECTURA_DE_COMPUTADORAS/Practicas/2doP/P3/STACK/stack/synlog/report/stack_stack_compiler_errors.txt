@@ -1,0 +1,2 @@
+@E: CD326 :"C:\Users\FERNANDO\Desktop\pilas\STACK\topStack00.vhdl":97:4:97:7|Port rwr of entity work.coderstack00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+

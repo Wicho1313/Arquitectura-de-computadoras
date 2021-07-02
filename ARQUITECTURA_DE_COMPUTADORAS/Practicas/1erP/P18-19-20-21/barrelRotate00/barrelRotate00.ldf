@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="barrelRotate00" device="LCMXO2-7000HE-5TG144C" default_implementation="barrelRotate00">
+    <Options/>
+    <Implementation title="barrelRotate00" dir="barrelRotate00" description="barrelRotate00" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="topbarrelRotate00"/>
+        <Source name="barrelRotate00/source/div00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="barrelRotate00/source/osc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="barrelRotate00/source/packagediv00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="barrelRotate00/source/toposcdiv00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="BarrelRotate00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packagebarrelRotate00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="topbarrelRotate00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="topbarrelRotate00"/>
+        </Source>
+        <Source name="barrelRotate00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="barrelRotate00/barrelRotate00.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="barrelRotate001.sty"/>
+</BaliProject>

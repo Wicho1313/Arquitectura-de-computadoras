@@ -1,0 +1,21 @@
+@P:  Worst Slack : 468.498
+@P:  div00|SalidaOsc_derived_clock - Estimated Frequency : 440.8 MHz
+@P:  div00|SalidaOsc_derived_clock - Requested Frequency : 2.1 MHz
+@P:  div00|SalidaOsc_derived_clock - Estimated Period : 2.269
+@P:  div00|SalidaOsc_derived_clock - Requested Period : 480.769
+@P:  div00|SalidaOsc_derived_clock - Slack : 479.269
+@P:  oscilador00|osc_int_inferred_clock - Estimated Frequency : 81.5 MHz
+@P:  oscilador00|osc_int_inferred_clock - Requested Frequency : 2.1 MHz
+@P:  oscilador00|osc_int_inferred_clock - Estimated Period : 12.271
+@P:  oscilador00|osc_int_inferred_clock - Requested Period : 480.769
+@P:  oscilador00|osc_int_inferred_clock - Slack : 468.498
+@P:  Total Area : 138.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:02s

@@ -1,0 +1,38 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.11_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.11_x64\synpbase
+Hostname:    DESKTOP-496B8RB
+Date:        Tue Nov 19 08:45:46 2019
+Version:     N-2018.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch signo00_signo0_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+The run directory C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\2doP\P12\signo00\signo0 does not exist. Do you wish to create it ?
+batch mode default:yes
+log file: "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\2doP\P12\signo00\signo0\signo00_signo0.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+Warning: The following files were not found:
+C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\2doP\P12\signo00\signo00.vhd
+
+Job: "hdl_info_gen" terminated with error status: 2
+See log file: "C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Prácticas\2doP\P12\signo00\signo0\syntax.log"
+# Tue Nov 19 08:45:49 2019
+
+Return Code: 2
+Run Time:00h:00m:02s
+Error: At line 63 while processing "signo00_signo0_synplify.tcl"
+2
+TCL script complete: "signo00_signo0_synplify.tcl"
+TCL script had errors: "signo00_signo0_synplify.tcl"
+exit status=9
+exit status=9
+Save changes for project:
+C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Pr�cticas\2doP\P12\signo00\signo0\proj_1.prj
+batch mode default:no

@@ -1,0 +1,8 @@
+#Start recording tcl command: 3/8/2019 11:07:08
+#Project Location: C:/Users/FERNANDO/Desktop/P2/ram00; Project name: ram00
+prj_project new -name "ram00" -impl "ram0" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_src add "C:/Users/FERNANDO/Desktop/P2/ram00/topdiv00VHDL/div00.vhdl" "C:/Users/FERNANDO/Desktop/P2/ram00/topdiv00VHDL/osc00.vhdl" "C:/Users/FERNANDO/Desktop/P2/ram00/topdiv00VHDL/packagediv00.vhdl" "C:/Users/FERNANDO/Desktop/P2/ram00/topdiv00VHDL/topdiv00.vhdl"
+prj_project save
+prj_src add "C:/Users/FERNANDO/Desktop/P2/ram00/contring00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P2/ram00/coder00.vhdl"
+#Stop recording: 3/8/2019 12:38:17

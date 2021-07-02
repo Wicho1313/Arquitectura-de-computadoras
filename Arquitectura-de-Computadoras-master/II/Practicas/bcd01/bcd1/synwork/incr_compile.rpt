@@ -1,0 +1,152 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : bcd1
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 46
+FID:  path (prevtimestamp, timestamp)
+0        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\ac1200.vhdl (2019-11-12 18:36:12, N/A)
+1        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\ac800.vhdl (2019-11-12 18:35:50, N/A)
+2        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\checkCode00.vhdl (2019-11-12 18:33:48, N/A)
+3        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\coderNibbles00.vhdl (2019-11-12 18:33:12, N/A)
+4        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\compadd00.vhdl (2019-11-12 18:29:20, N/A)
+5        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\contIter00.vhdl (2019-11-12 18:28:27, N/A)
+6        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\contring00.vhdl (2019-11-13 09:20:21, N/A)
+7        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\div01.vhdl (2019-11-12 18:21:59, N/A)
+8        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\init00.vhdl (2019-11-12 18:26:44, N/A)
+9        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\memProg00.vhdl (2019-11-12 18:25:25, N/A)
+10       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\mux00.vhdl (2019-11-13 09:20:56, N/A)
+11       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\packagebcd00.vhdl (2019-11-12 18:38:34, N/A)
+12       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\pc00.vhdl (2019-11-12 18:21:33, N/A)
+13       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\readData00.vhdl (2019-11-12 18:24:15, N/A)
+14       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\shift1200.vhdl (2019-11-12 18:20:58, N/A)
+15       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\shift800.vhdl (2019-11-12 18:20:23, N/A)
+16       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\sust00.vhdl (2019-11-12 18:19:45, N/A)
+17       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:28:38, N/A)
+18       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\uc00.vhdl (2019-11-12 18:35:13, N/A)
+19       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl (2019-09-02 09:35:20, N/A)
+20       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\osc00.vhd (2019-08-29 09:30:16, N/A)
+21       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\packagediv00.vhdl (2019-11-12 18:22:16, N/A)
+22       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl (2019-11-12 18:23:13, N/A)
+34       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\ac1200.vhdl (N/A, 2019-11-13 19:24:18)
+35       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\ac800.vhdl (N/A, 2019-11-13 19:24:18)
+36       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\checkCode00.vhdl (N/A, 2019-11-13 19:24:18)
+37       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\coderNibbles00.vhdl (N/A, 2019-11-13 19:24:18)
+38       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\compadd00.vhdl (N/A, 2019-11-13 19:24:18)
+39       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\contIter00.vhdl (N/A, 2019-11-13 19:24:18)
+40       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\contring00.vhdl (N/A, 2019-11-13 19:24:18)
+41       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\div00.vhdl (N/A, 2019-11-13 20:31:46)
+42       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\div01.vhdl (N/A, 2019-11-13 19:24:18)
+43       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl (N/A, 2019-11-13 19:24:18)
+44       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\memProg00.vhdl (N/A, 2019-11-13 19:24:18)
+45       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\mux00.vhdl (N/A, 2019-11-13 19:24:18)
+46       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\osc00.vhd (N/A, 2019-11-13 20:32:17)
+47       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\packagebcd00.vhdl (N/A, 2019-11-13 19:24:18)
+48       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\packagediv00.vhdl (N/A, 2019-11-13 20:33:19)
+49       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\pc00.vhdl (N/A, 2019-11-13 19:24:18)
+50       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\readData00.vhdl (N/A, 2019-11-13 19:24:18)
+51       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\shift1200.vhdl (N/A, 2019-11-13 19:24:18)
+52       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\shift800.vhdl (N/A, 2019-11-13 19:24:18)
+53       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\sust00.vhdl (N/A, 2019-11-13 19:24:18)
+54       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18)
+55       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topdiv00.vhdl (N/A, 2019-11-13 20:33:43)
+56       C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\uc00.vhdl (N/A, 2019-11-13 19:24:18)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 21
+MID:  lib.cell.view
+0        work.ac1200.ac120 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\ac1200.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+2        work.ac800.ac80 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\ac800.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+4        work.checkcode00.checkcode0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\checkCode00.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+6        work.codernibbles00.codernibbles0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\coderNibbles00.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+8        work.compadd00.compadd0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\compadd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+10       work.contiter00.contiter0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\contIter00.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+12       work.contring00.contring0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\contring00.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+14       work.div00.div0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\div00.vhdl (N/A, 2019-11-13 20:31:46) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topdiv00.vhdl (N/A, 2019-11-13 20:33:43) <-- (may instantiate this module)
+16       work.div01.div0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\div01.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topdiv00.vhdl (N/A, 2019-11-13 20:33:43) <-- (may instantiate this module)
+18       work.init00.init0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+20       work.memprog00.memprog0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\memProg00.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+22       work.mux00.mux0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\mux00.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+24       work.osc00.osc0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\osc00.vhd (N/A, 2019-11-13 20:32:17) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topdiv00.vhdl (N/A, 2019-11-13 20:33:43) <-- (may instantiate this module)
+26       work.pc00.pc0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\pc00.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+28       work.readdata00.readdata0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\readData00.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+30       work.shift1200.shift120 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\shift1200.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+32       work.shift800.shift80 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\shift800.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+34       work.sust00.sust0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\sust00.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+36       work.topbcd00.topbcd0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+38       work.topdiv00.topdiv0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topdiv00.vhdl (N/A, 2019-11-13 20:33:43) <-- (architecture and entity definition)
+40       work.uc00.uc0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl (N/A, 2019-11-13 19:24:18) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\uc00.vhdl (N/A, 2019-11-13 19:24:18) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 11
+FID:  path (timestamp)
+23       C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+24       C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (2019-04-01 08:08:08)
+25       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 08:07:44)
+26       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (2019-04-01 08:07:44)
+27       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (2019-04-01 15:01:20)
+28       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (2019-04-01 08:07:44)
+29       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2019-04-01 08:07:44)
+30       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (2019-04-01 08:07:44)
+31       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (2019-04-01 08:07:44)
+32       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (2019-04-01 08:07:44)
+33       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 08:07:44)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

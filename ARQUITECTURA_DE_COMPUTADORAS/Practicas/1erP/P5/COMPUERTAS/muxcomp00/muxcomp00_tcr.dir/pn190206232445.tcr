@@ -1,0 +1,8 @@
+#Start recording tcl command: 2/6/2019 23:18:22
+#Project Location: C:/Users/FERNANDO/Desktop/QUINTO_SEMESTRE/ARQUITECTURA_DE_COMPUTADORAS/Prácticas/P5/COMPUERTAS/muxcomp00; Project name: muxcomp00
+prj_project open "C:/Users/FERNANDO/Desktop/QUINTO_SEMESTRE/ARQUITECTURA_DE_COMPUTADORAS/Prácticas/P5/COMPUERTAS/muxcomp00/muxcomp00.ldf"
+pgr_project open "C:/Users/FERNANDO/Desktop/QUINTO_SEMESTRE/ARQUITECTURA_DE_COMPUTADORAS/Prácticas/P5/COMPUERTAS/muxcomp00/muxcomp00/muxcomp00.xcf"
+pgr_program run
+pgr_project save "C:/Users/FERNANDO/Desktop/QUINTO_SEMESTRE/ARQUITECTURA_DE_COMPUTADORAS/Prácticas/P5/COMPUERTAS/muxcomp00/muxcomp00/muxcomp00.xcf"
+pgr_project close
+#Stop recording: 2/6/2019 23:24:45

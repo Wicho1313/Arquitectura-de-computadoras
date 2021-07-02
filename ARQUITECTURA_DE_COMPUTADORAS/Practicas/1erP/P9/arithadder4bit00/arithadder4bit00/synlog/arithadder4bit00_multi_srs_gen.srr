@@ -1,0 +1,13 @@
+Synopsys Netlist Linker, version comp201509p1, Build 145R, built Dec  9 2015
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\arithadder4bit00\arithadder4bit00.vhdl":10:7:10:22|Selected library: work cell: arithadder4bit00 view arithadder4bit0 as top level
+@N: NF107 :"C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\arithadder4bit00\arithadder4bit00.vhdl":10:7:10:22|Selected library: work cell: arithadder4bit00 view arithadder4bit0 as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Sep 05 09:07:00 2016
+
+###########################################################]

@@ -1,0 +1,18 @@
+#Start recording tcl command: 2/19/2019 17:03:00
+#Project Location: C:/Users/FERNANDO/Desktop/P12/osc00MachXO2280C; Project name: osc00
+prj_project new -name "osc00" -impl "osc00" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/FERNANDO/Desktop/P12/osc00MachXO2280C/osc00.vhdl"
+prj_run Export -impl osc00 -task Jedecgen
+prj_run Export -impl osc00 -task Jedecgen
+pgr_project save "C:/Users/FERNANDO/Desktop/P12/osc00MachXO2280C/osc00/osc00.xcf"
+prj_src add -exclude "C:/Users/FERNANDO/Desktop/P12/osc00MachXO2280C/osc00/osc00.xcf"
+prj_src enable "C:/Users/FERNANDO/Desktop/P12/osc00MachXO2280C/osc00/osc00.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P12/osc00MachXO2280C/osc00/osc00.xcf"
+pgr_program run
+pgr_project save "C:/Users/FERNANDO/Desktop/P12/osc00MachXO2280C/osc00/osc00.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P12/osc00MachXO2280C/osc00/osc00.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P12/osc00MachXO2280C/osc00/osc00.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P12/osc00MachXO2280C/osc00/osc00.xcf"
+pgr_project close
+#Stop recording: 2/19/2019 17:08:34

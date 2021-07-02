@@ -1,0 +1,16 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_16(topha0)) of type view:work.and00_0_16(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_29(topha0)) of type view:work.and00_0_30(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_45(topha0)) of type view:work.and00_0_46(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_61(topha0)) of type view:work.and00_0_62(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_77(topha0)) of type view:work.and00_0_78(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_93(topha0)) of type view:work.and00_0_94(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_109(topha0)) of type view:work.and00_0_110(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\ameri\documentos\escom\arquitectura\arquitectura_de_computadoras\practicas\2dop\p15\adder8bit00vhdl\topha00.vhdl":18:2:18:5|Removing instance UA00 (in view: work.topha00_1_125(topha0)) of type view:work.and00_0_126(and0) because it does not drive other instances.
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

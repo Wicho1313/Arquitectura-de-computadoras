@@ -1,0 +1,235 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : bcd1
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : bcd1
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+@N:"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl":7:7:7:14|Top entity is set to topbcd00.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topbcd00.vhdl":7:7:7:14|Synthesizing work.topbcd00.topbcd0.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\mux00.vhdl":8:7:8:11|Synthesizing work.mux00.mux0.
+Post processing for work.mux00.mux0
+Running optimization stage 1 on mux00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\coderNibbles00.vhdl":8:7:8:20|Synthesizing work.codernibbles00.codernibbles0.
+Post processing for work.codernibbles00.codernibbles0
+Running optimization stage 1 on coderNibbles00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\contring00.vhdl":8:7:8:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+Running optimization stage 1 on contring00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\memProg00.vhdl":8:7:8:15|Synthesizing work.memprog00.memprog0.
+@W: CG296 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\memProg00.vhdl":29:8:29:14|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\memProg00.vhdl":31:5:31:9|Referenced variable clkpm is not in sensitivity list.
+Post processing for work.memprog00.memprog0
+Running optimization stage 1 on memProg00 .......
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\memProg00.vhdl":31:1:31:2|Register bit outcodePM(3) is always 0.
+@W: CL260 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\memProg00.vhdl":31:1:31:2|Pruning register bit 3 of outcodePM(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\checkCode00.vhdl":6:7:6:17|Synthesizing work.checkcode00.checkcode0.
+Post processing for work.checkcode00.checkcode0
+Running optimization stage 1 on checkCode00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\pc00.vhdl":8:7:8:10|Synthesizing work.pc00.pc0.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\pc00.vhdl":41:4:41:8|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\pc00.vhdl":50:6:50:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\pc00.vhdl":73:4:73:8|Removing redundant assignment.
+Post processing for work.pc00.pc0
+Running optimization stage 1 on pc00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\uc00.vhdl":6:7:6:10|Synthesizing work.uc00.uc0.
+Post processing for work.uc00.uc0
+Running optimization stage 1 on uc00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\contIter00.vhdl":8:7:8:16|Synthesizing work.contiter00.contiter0.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\contIter00.vhdl":40:7:40:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\contIter00.vhdl":61:7:61:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\contIter00.vhdl":67:7:67:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\contIter00.vhdl":73:7:73:17|Removing redundant assignment.
+Post processing for work.contiter00.contiter0
+Running optimization stage 1 on contIter00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\ac1200.vhdl":6:7:6:12|Synthesizing work.ac1200.ac120.
+Post processing for work.ac1200.ac120
+Running optimization stage 1 on ac1200 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\ac800.vhdl":6:7:6:11|Synthesizing work.ac800.ac80.
+Post processing for work.ac800.ac80
+Running optimization stage 1 on ac800 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\shift1200.vhdl":6:7:6:15|Synthesizing work.shift1200.shift120.
+Post processing for work.shift1200.shift120
+Running optimization stage 1 on shift1200 .......
+@W: CL169 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\shift1200.vhdl":21:4:21:5|Pruning unused register outFlags12_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\shift800.vhdl":6:7:6:14|Synthesizing work.shift800.shift80.
+Post processing for work.shift800.shift80
+Running optimization stage 1 on shift800 .......
+@W: CL169 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\shift800.vhdl":21:4:21:5|Pruning unused register outFlags8_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\compadd00.vhdl":8:7:8:15|Synthesizing work.compadd00.compadd0.
+Post processing for work.compadd00.compadd0
+Running optimization stage 1 on compadd00 .......
+@W: CL169 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\compadd00.vhdl":26:4:26:5|Pruning unused register outFlagAC12ca_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\sust00.vhdl":6:7:6:12|Synthesizing work.sust00.sust0.
+Post processing for work.sust00.sust0
+Running optimization stage 1 on sust00 .......
+@W: CL169 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\sust00.vhdl":24:4:24:5|Pruning unused register outFlagAC12su_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\readData00.vhdl":8:7:8:16|Synthesizing work.readdata00.readdata0.
+Post processing for work.readdata00.readdata0
+Running optimization stage 1 on readData00 .......
+@W: CL169 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\readData00.vhdl":23:6:23:7|Pruning unused register outFlagLD_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":8:7:8:12|Synthesizing work.init00.init0.
+Post processing for work.init00.init0
+Running optimization stage 1 on init00 .......
+@W: CL169 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Pruning unused register outFlag8init_cl_8. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Pruning unused register outFlag12init_cl_1. Make sure that there are no unused intermediate registers.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Register bit outAC12init(11) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Register bit outAC12init(10) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Register bit outAC12init(9) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Register bit outAC12init(8) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Register bit outAC12init(7) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Register bit outAC12init(6) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Register bit outAC12init(5) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Register bit outAC12init(4) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Register bit outAC12init(3) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Register bit outAC12init(2) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Register bit outAC12init(1) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Register bit outAC12init(0) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Register bit outAC8init(7) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Register bit outAC8init(6) is always 0.
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":25:6:25:7|Register bit outAC8init(5) is always 0.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\div01.vhdl":8:7:8:11|Synthesizing work.div01.div0.
+Post processing for work.div01.div0
+Running optimization stage 1 on div01 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\div00.vhdl":28:7:28:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\div00.vhdl":36:7:36:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\div00.vhdl":44:7:44:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\div00.vhdl":52:7:52:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\div00.vhdl":60:7:60:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\div00.vhdl":68:7:68:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\div00.vhdl":76:7:76:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\div00.vhdl":84:7:84:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\div00.vhdl":92:7:92:12|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Running optimization stage 1 on OSCH .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.topdiv00.topdiv0
+Running optimization stage 1 on topdiv00 .......
+Post processing for work.topbcd00.topbcd0
+Running optimization stage 1 on topbcd00 .......
+Running optimization stage 2 on OSCH .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on div01 .......
+Running optimization stage 2 on topdiv00 .......
+Running optimization stage 2 on init00 .......
+@W: CL177 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":26:13:26:31|Sharing sequential element outFlag12init_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\init00.vhdl":26:13:26:31|Sharing sequential element outFlag12init. Add a syn_preserve attribute to the element to prevent sharing.
+Running optimization stage 2 on readData00 .......
+Running optimization stage 2 on sust00 .......
+@W: CL246 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\sust00.vhdl":10:4:10:10|Input port bits 6 to 0 of inac8su(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\sust00.vhdl":11:4:11:11|Input port bit 0 of inac12su(11 downto 0) is unused 
+Running optimization stage 2 on compadd00 .......
+Running optimization stage 2 on shift800 .......
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\shift800.vhdl":21:4:21:5|Register bit outACs8(0) is always 0.
+@W: CL247 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\shift800.vhdl":10:4:10:9|Input port bit 7 of inacs8(7 downto 0) is unused 
+Running optimization stage 2 on shift1200 .......
+@N: CL189 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\shift1200.vhdl":21:4:21:5|Register bit outACs12(0) is always 0.
+@W: CL247 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\shift1200.vhdl":10:4:10:10|Input port bit 11 of inacs12(11 downto 0) is unused 
+Running optimization stage 2 on ac800 .......
+Running optimization stage 2 on ac1200 .......
+Running optimization stage 2 on contIter00 .......
+Running optimization stage 2 on uc00 .......
+@N: CL159 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\uc00.vhdl":7:7:7:11|Input clkuc is unused.
+Running optimization stage 2 on pc00 .......
+Running optimization stage 2 on checkCode00 .......
+Running optimization stage 2 on memProg00 .......
+@N: CL159 :"C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\memProg00.vhdl":11:1:11:7|Input resetPM is unused.
+Running optimization stage 2 on contring00 .......
+Running optimization stage 2 on coderNibbles00 .......
+Running optimization stage 2 on mux00 .......
+Running optimization stage 2 on topbcd00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\bcd1\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 78MB peak: 81MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 13 20:35:18 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : bcd1
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\bcd1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 13 20:35:19 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\bcd01\bcd1\synwork\bcd01_bcd1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 13 20:35:19 2019
+
+###########################################################]

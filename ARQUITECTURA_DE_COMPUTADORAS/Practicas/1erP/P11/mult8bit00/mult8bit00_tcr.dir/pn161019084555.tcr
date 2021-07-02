@@ -1,0 +1,7 @@
+#Start recording tcl command: 10/19/2016 08:43:44
+#Project Location: C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/rom00; Project name: mult8bit00
+prj_project new -name "mult8bit00" -impl "mult8bit00" -dev LCMXO2-4000HE-4TG144C -synthesis "synplify"
+prj_src add "C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/mult4bit00VHDL/and00.vhdl" "C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/mult4bit00VHDL/or00.vhdl" "C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/mult4bit00VHDL/packagefa00.vhdl" "C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/mult4bit00VHDL/packageha00.vhdl" "C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/mult4bit00VHDL/topfa00.vhdl" "C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/mult4bit00VHDL/topha00.vhdl" "C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/mult4bit00VHDL/xor00.vhdl"
+prj_project save
+prj_src add "C:/Users/Othoniel/Desktop/Arquitectura de Computadoras/Practicas/rom00/packagemult8bit00.vhdl"
+#Stop recording: 10/19/2016 08:45:55

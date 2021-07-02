@@ -1,0 +1,8 @@
+#Start recording tcl command: 2/22/2019 16:48:52
+#Project Location: C:/Users/FERNANDO/Desktop/P18/barrelRotate00; Project name: barrelRotate00
+prj_project open "C:/Users/FERNANDO/Desktop/P18/barrelRotate00/barrelRotate00.ldf"
+pgr_project open "C:/Users/FERNANDO/Desktop/P18/barrelRotate00/barrelRotate00/barrelRotate00.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P18/barrelRotate00/barrelRotate00/barrelRotate00.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 2/22/2019 16:51:49

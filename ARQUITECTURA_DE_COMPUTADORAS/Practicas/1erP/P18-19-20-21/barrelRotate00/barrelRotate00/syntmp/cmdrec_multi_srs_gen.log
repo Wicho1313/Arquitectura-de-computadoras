@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topbarrelRotate00  -multisrs  "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\synwork\barrelRotate00_barrelRotate00_comp.srs"  -osyn  "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\synwork\barrelRotate00_barrelRotate00_mult.srs"  -log  "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\synlog\barrelRotate00_barrelRotate00_multi_srs_gen.srr" 
+rc:0 success:1 runtime:0
+file:C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\synwork\barrelRotate00_barrelRotate00_comp.srs|io:i|time:1506442204|size:8549|exec:0
+file:C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\synwork\barrelRotate00_barrelRotate00_mult.srs|io:o|time:1506442206|size:2862|exec:0
+file:C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\barrelRotate00\barrelRotate00\synlog\barrelRotate00_barrelRotate00_multi_srs_gen.srr|io:o|time:1507039161|size:467|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1481009796|size:3128320|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1481010064|size:3947520|exec:1

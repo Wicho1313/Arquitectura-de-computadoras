@@ -1,0 +1,600 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+           Lattice Mapping Report File for Design Module 'topbcd00'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
+     bcd00_bcd0.ngd -o bcd00_bcd0_map.ncd -pr bcd00_bcd0.prf -mp bcd00_bcd0.mrp
+     -lpf C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd0/bcd
+     00_bcd0_synplify.lpf -lpf
+     C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf -c
+     0 -gui -msgset
+     C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
+Mapped on:  11/11/19  09:56:22
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:    185 out of  7209 (3%)
+      PFU registers:          172 out of  6864 (3%)
+      PIO registers:           13 out of   345 (4%)
+   Number of SLICEs:       180 out of  3432 (5%)
+      SLICEs as Logic/ROM:    180 out of  3432 (5%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         23 out of  3432 (1%)
+   Number of LUT4s:        350 out of  6864 (5%)
+      Number used as logic LUTs:        304
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       46
+      Number used as shift registers:     0
+   Number of PIO sites used: 78 + 4(JTAG) out of 115 (71%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : Yes
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  3
+     Net clk00_c: 91 loads, 91 rising, 0 falling (Driver: BCD00/D01/oscout )
+
+     Net clk001_c: 5 loads, 5 rising, 0 falling (Driver: BCD00/D02/outdiv1 )
+     Net BCD00/sclk: 25 loads, 25 rising, 0 falling (Driver: BCD00/D00/OSCinst0
+     )
+   Number of Clock Enables:  11
+     Net outDataLD_1ce[0]: 8 loads, 0 LSLICEs
+     Net BCD01/aux0_RNO_0: 1 loads, 1 LSLICEs
+     Net BCD04/outAC12ca_0_sqmuxa: 6 loads, 6 LSLICEs
+     Net BCD04/outAC12ca_1ce[0]: 6 loads, 6 LSLICEs
+     Net BCD04/aux_0_sqmuxa_i_0: 1 loads, 1 LSLICEs
+     Net BCD06/outACs12_1ce[10]: 6 loads, 6 LSLICEs
+     Net BCD03/outAC12su_1ce[0]: 6 loads, 6 LSLICEs
+     Net outFlagpc0_c: 2 loads, 2 LSLICEs
+     Net BCD08/aux_0_sqmuxa: 6 loads, 6 LSLICEs
+     Net BCD07/aux_0_sqmuxa: 4 loads, 4 LSLICEs
+     Net BCD05/outACs8_1ce[1]: 4 loads, 4 LSLICEs
+   Number of LSRs:  23
+     Net BCD03.aux: 2 loads, 1 LSLICEs
+     Net BCD13.pcheck.outflagch2_ac0_3_i: 1 loads, 0 LSLICEs
+     Net outcodePM0_c[2]: 4 loads, 4 LSLICEs
+     Net outFlagPM0_c: 2 loads, 2 LSLICEs
+     Net BCD01/N_484: 1 loads, 1 LSLICEs
+     Net outcodePM0_c[1]: 4 loads, 4 LSLICEs
+     Net outcodePM0_c[0]: 4 loads, 4 LSLICEs
+     Net BCD01/fb: 1 loads, 1 LSLICEs
+     Net BCD01/aux1_0_sqmuxa: 1 loads, 1 LSLICEs
+     Net BCD04/aux: 1 loads, 1 LSLICEs
+     Net BCD06/aux: 1 loads, 1 LSLICEs
+     Net BCD14/sintRing[3]: 1 loads, 0 LSLICEs
+     Net BCD11/m2_i_a3: 1 loads, 1 LSLICEs
+     Net BCD11/outpc_704: 3 loads, 3 LSLICEs
+     Net BCD11.ppc.outpc14: 1 loads, 1 LSLICEs
+     Net F1F2F3uc0_c_i[1]: 1 loads, 1 LSLICEs
+     Net enable0_c: 2 loads, 2 LSLICEs
+     Net BCD09/outFlagIterA_RNIID0T4: 1 loads, 1 LSLICEs
+     Net BCD09/outFlagIterA_RNIJUUC9: 2 loads, 2 LSLICEs
+     Net BCD08.aux: 1 loads, 1 LSLICEs
+     Net BCD07.aux: 1 loads, 1 LSLICEs
+     Net BCD00/D02/un1_outdiv144_RNIBQKV: 11 loads, 11 LSLICEs
+     Net BCD00/D01/oscout_0_sqmuxa_i_a7_RNI9I351: 12 loads, 12 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net outcodePM0_c[2]: 28 loads
+     Net outcodePM0_c[0]: 26 loads
+     Net outcodePM0_c[1]: 24 loads
+     Net outFlagPM0_c: 21 loads
+     Net sAC12a[10]: 16 loads
+     Net sAC12a[1]: 16 loads
+     Net sAC12a[2]: 16 loads
+     Net sAC12a[5]: 16 loads
+     Net sAC12a[6]: 16 loads
+     Net sAC12a[9]: 16 loads
+
+
+
+
+   Number of warnings:  28
+
+
+   Number of errors:    0
+     
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(5): Semantic error in "LOCATE COMP "outTransist0[3]" SITE "76" ;":
+     COMP "outTransist0[3]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(6): Semantic error in "LOCATE COMP "outTransist0[2]" SITE "75" ;":
+     COMP "outTransist0[2]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(7): Semantic error in "LOCATE COMP "outTransist0[1]" SITE "74" ;":
+     COMP "outTransist0[1]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(8): Semantic error in "LOCATE COMP "outTransist0[0]" SITE "73" ;":
+     COMP "outTransist0[0]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(9): Semantic error in "LOCATE COMP "outBCD0[6]" SITE "77" ;": COMP
+     "outBCD0[6]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(10): Semantic error in "LOCATE COMP "outBCD0[5]" SITE "78" ;": COMP
+     "outBCD0[5]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(11): Semantic error in "LOCATE COMP "outBCD0[4]" SITE "81" ;": COMP
+     "outBCD0[4]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(12): Semantic error in "LOCATE COMP "outBCD0[3]" SITE "82" ;": COMP
+     "outBCD0[3]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(13): Semantic error in "LOCATE COMP "outBCD0[2]" SITE "83" ;": COMP
+     "outBCD0[2]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(14): Semantic error in "LOCATE COMP "outBCD0[1]" SITE "84" ;": COMP
+     "outBCD0[1]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(15): Semantic error in "LOCATE COMP "outBCD0[0]" SITE "85" ;": COMP
+     "outBCD0[0]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(25): Semantic error in "LOCATE COMP "outAC120[10]" SITE "52" ;":
+     COMP "outAC120[10]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(26): Semantic error in "LOCATE COMP "outAC120[9]" SITE "50" ;": COMP
+     "outAC120[9]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(27): Semantic error in "LOCATE COMP "outAC120[8]" SITE "48" ;": COMP
+     "outAC120[8]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(28): Semantic error in "LOCATE COMP "outAC120[7]" SITE "49" ;": COMP
+     "outAC120[7]" cannot be found in design. This preference has been disabled.
+
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(29): Semantic error in "LOCATE COMP "outAC120[6]" SITE "47" ;": COMP
+     "outAC120[6]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(30): Semantic error in "LOCATE COMP "outAC120[5]" SITE "45" ;": COMP
+     "outAC120[5]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(31): Semantic error in "LOCATE COMP "outAC120[4]" SITE "43" ;": COMP
+     "outAC120[4]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(32): Semantic error in "LOCATE COMP "outAC120[3]" SITE "42" ;": COMP
+     "outAC120[3]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(33): Semantic error in "LOCATE COMP "outAC120[2]" SITE "44" ;": COMP
+     "outAC120[2]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(34): Semantic error in "LOCATE COMP "outAC120[1]" SITE "39" ;": COMP
+     "outAC120[1]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(35): Semantic error in "LOCATE COMP "outAC120[0]" SITE "41" ;": COMP
+     "outAC120[0]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(36): Semantic error in "LOCATE COMP "outCode0[3]" SITE "99" ;": COMP
+     "outCode0[3]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(37): Semantic error in "LOCATE COMP "outCode0[2]" SITE "100" ;":
+     COMP "outCode0[2]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(38): Semantic error in "LOCATE COMP "outCode0[1]" SITE "104" ;":
+     COMP "outCode0[1]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(39): Semantic error in "LOCATE COMP "outCode0[0]" SITE "105" ;":
+     COMP "outCode0[0]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(40): Semantic error in "LOCATE COMP "outFlagPC0" SITE "106" ;": COMP
+     "outFlagPC0" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
+     00.lpf(41): Semantic error in "LOCATE COMP "outFlagMP0" SITE "107" ;": COMP
+     "outFlagMP0" cannot be found in design. This preference has been disabled.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| outFlag120          | BIDIR     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| outACsust120[0]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clk00               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+| cdiv00[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outtransist0[3]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outtransist0[2]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outtransist0[1]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outtransist0[0]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outBCDmux0[6]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outBCDmux0[5]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outBCDmux0[4]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outBCDmux0[3]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outBCDmux0[2]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outBCDmux0[1]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outBCDmux0[0]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagch0          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outcodePM0[3]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outcodePM0[2]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outcodePM0[1]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outcodePM0[0]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagPM0          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagpc0          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outPC0[4]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outPC0[3]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outPC0[2]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outPC0[1]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outPC0[0]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| F1F2F3uc0[2]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| F1F2F3uc0[1]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| F1F2F3uc0[0]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagIterB0       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+| outFlagIterA0       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagSustIter0    | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outContIter0[3]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outContIter0[2]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outContIter0[1]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outContIter0[0]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outACsust120[11]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outACsust120[10]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outACsust120[9]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outACsust120[8]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outACsust120[7]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outACsust120[6]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outACsust120[5]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outACsust120[4]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outACsust120[3]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outACsust120[2]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outACsust120[1]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[7]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[6]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[5]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[4]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[3]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[2]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[1]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[0]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagAC120        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagAC80         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlag80           | BIDIR     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+
+| inData0[7]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inData0[6]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inData0[5]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inData0[4]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inData0[3]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inData0[2]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inData0[1]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inData0[0]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| enable0             | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| reset0              | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| cdiv01[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv01[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv01[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv01[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clk001              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block BCD00/D01/VCC undriven or does not drive anything - clipped.
+Block BCD00/D02/VCC undriven or does not drive anything - clipped.
+Block BCD02/VCC undriven or does not drive anything - clipped.
+Block BCD02/GND undriven or does not drive anything - clipped.
+Block BCD05/VCC undriven or does not drive anything - clipped.
+Block BCD05/GND undriven or does not drive anything - clipped.
+Block BCD07/GND undriven or does not drive anything - clipped.
+Block BCD07/VCC undriven or does not drive anything - clipped.
+Block BCD08/GND undriven or does not drive anything - clipped.
+Block BCD08/VCC undriven or does not drive anything - clipped.
+Block BCD09/VCC undriven or does not drive anything - clipped.
+Block BCD09/GND undriven or does not drive anything - clipped.
+
+Block BCD10/GND undriven or does not drive anything - clipped.
+Block BCD11/VCC undriven or does not drive anything - clipped.
+Block BCD11/GND undriven or does not drive anything - clipped.
+Block BCD12/GND undriven or does not drive anything - clipped.
+Block BCD12/VCC undriven or does not drive anything - clipped.
+Block BCD13/GND undriven or does not drive anything - clipped.
+Block BCD14/VCC undriven or does not drive anything - clipped.
+Block BCD16/GND undriven or does not drive anything - clipped.
+Block BCD03/VCC undriven or does not drive anything - clipped.
+Block BCD03/GND undriven or does not drive anything - clipped.
+Block BCD06/VCC undriven or does not drive anything - clipped.
+Block BCD06/GND undriven or does not drive anything - clipped.
+Block BCD04/VCC undriven or does not drive anything - clipped.
+Block BCD04/GND undriven or does not drive anything - clipped.
+Block BCD01/VCC undriven or does not drive anything - clipped.
+Signal enable0_c_i was merged into signal enable0_c
+Signal BCD14.sintRing_i[3] was merged into signal BCD14/sintRing[3]
+Signal BCD01/fb_am undriven or does not drive anything - clipped.
+Signal BCD00/D00/GND undriven or does not drive anything - clipped.
+Signal BCD00/D01/GND undriven or does not drive anything - clipped.
+Signal BCD00/D02/GND undriven or does not drive anything - clipped.
+Signal BCD01/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal BCD00/D00/OSCinst0_SEDSTDBY undriven or does not drive anything -
+     clipped.
+Signal BCD00/D01/un1_sdiv_cry_21_0_COUT undriven or does not drive anything -
+     clipped.
+Signal BCD00/D01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal BCD00/D01/N_1 undriven or does not drive anything - clipped.
+Signal BCD00/D02/un1_sdiv1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal BCD00/D02/N_1 undriven or does not drive anything - clipped.
+Signal BCD00/D02/un1_sdiv1_cry_19_0_COUT undriven or does not drive anything -
+     clipped.
+Block enable0_pad_RNIB6SA was optimized away.
+Block BCD14/sintRing_RNILIDF[3] was optimized away.
+Block BCD01/outAC12init_1_6_.fb_am was optimized away.
+Block BCD00/D00/GND was optimized away.
+Block BCD00/D01/GND was optimized away.
+Block BCD00/D02/GND was optimized away.
+Block BCD01/GND was optimized away.
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                BCD00/D00/OSCinst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     BCD00/sclk
+  OSC Nominal Frequency (MHz):                      2.08
+
+
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: BCD00/D00/OSCinst0
+         Type: OSCH
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 60 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

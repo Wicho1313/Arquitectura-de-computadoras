@@ -1,0 +1,9 @@
+#Start recording tcl command: 3/22/2019 11:26:55
+#Project Location: C:/Users/FERNANDO/Desktop/P6/lcd00; Project name: lcd00
+prj_project new -name "lcd00" -impl "lcdConfig" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_src add "C:/Users/FERNANDO/Desktop/P6/topdiv00VHDL/div00.vhdl" "C:/Users/FERNANDO/Desktop/P6/topdiv00VHDL/osc00.vhdl" "C:/Users/FERNANDO/Desktop/P6/topdiv00VHDL/packagediv00.vhdl" "C:/Users/FERNANDO/Desktop/P6/topdiv00VHDL/topdiv00.vhdl"
+prj_project save
+prj_src add "C:/Users/FERNANDO/Desktop/P6/lcd00/lcdContConfig00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 3/22/2019 11:47:04

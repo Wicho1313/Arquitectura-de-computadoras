@@ -1,0 +1,3 @@
+@W: CL279 :"C:\Users\FERNANDO\Desktop\P1C\key00\contring00.vhdl":18:2:18:3|Pruning register bits 2 to 0 of scont(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CD326 :"C:\Users\FERNANDO\Desktop\P1C\topdiv00VHDL\osc00.vhdl":24:0:24:7|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
+

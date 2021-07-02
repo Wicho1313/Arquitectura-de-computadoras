@@ -1,0 +1,5 @@
+#Start recording tcl command: 11/14/2019 11:04:01
+#Project Location: C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/bcd01; Project name: bcd01
+prj_project open "C:/Users/ameri/Documentos/ESCOM/Arquitectura/Arquitectura-de-Computadoras-master/II/Practicas/bcd01/bcd01.ldf"
+prj_run Export -impl bcd1 -task Jedecgen
+#Stop recording: 11/14/2019 13:05:43

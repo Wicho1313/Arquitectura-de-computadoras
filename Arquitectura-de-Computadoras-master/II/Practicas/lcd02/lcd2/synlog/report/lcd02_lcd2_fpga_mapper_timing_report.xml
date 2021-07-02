@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd02\lcd2\synlog\lcd02_lcd2_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>div00|oscout_derived_clock</data>
+<data>2.1 MHz</data>
+<data>379.2 MHz</data>
+<data>956.265</data>
+</row>
+<row>
+<data>osc00|osc_int_inferred_clock</data>
+<data>2.1 MHz</data>
+<data>118.9 MHz</data>
+<data>472.362</data>
+</row>
+</report_table>

@@ -1,0 +1,12 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\FRANCO\Desktop\10-multiplicador4bits\multplicador00.vhdl":4:7:4:21|Top entity is set to multiplicador00.
+@N: CD630 :"C:\Users\FRANCO\Desktop\10-multiplicador4bits\multplicador00.vhdl":4:7:4:21|Synthesizing work.multiplicador00.multiplicador0.
+@N: CD630 :"C:\Users\FRANCO\Desktop\10-multiplicador4bits\fa00.vhdl":4:7:4:10|Synthesizing work.fa00.fa0.
+@N: CD630 :"C:\Users\FRANCO\Desktop\10-multiplicador4bits\or00.vhdl":4:7:4:10|Synthesizing work.or00.or0.
+@N: CD630 :"C:\Users\FRANCO\Desktop\10-multiplicador4bits\ha00.vhdl":4:7:4:10|Synthesizing work.ha00.ha0.
+@N: CD630 :"C:\Users\FRANCO\Desktop\10-multiplicador4bits\and00.vhdl":4:7:4:11|Synthesizing work.and00.and0.
+@N: CD630 :"C:\Users\FRANCO\Desktop\10-multiplicador4bits\xor00.vhdl":4:7:4:11|Synthesizing work.xor00.xor0.
+@N|Running in 64-bit mode
+

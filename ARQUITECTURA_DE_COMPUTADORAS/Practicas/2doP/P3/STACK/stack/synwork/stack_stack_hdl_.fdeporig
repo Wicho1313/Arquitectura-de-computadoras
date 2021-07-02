@@ -1,0 +1,76 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|topStack00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\FERNANDO\\Desktop\\pilas\\STACK\\stack\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"C:\\Users\\FERNANDO\\Desktop\\pilas\\STACK\\div00.vhdl":1544436354
+#CUR:"C:\\Users\\FERNANDO\\Desktop\\pilas\\STACK\\oscilador00.vhdl":1544436354
+#CUR:"C:\\Users\\FERNANDO\\Desktop\\pilas\\STACK\\topOsc00.vhdl":1544436354
+#CUR:"C:\\Users\\FERNANDO\\Desktop\\pilas\\STACK\\coderStack00.vhdl":1554070207
+#CUR:"C:\\Users\\FERNANDO\\Desktop\\pilas\\STACK\\contring00.vhdl":1544436354
+#CUR:"C:\\Users\\FERNANDO\\Desktop\\pilas\\STACK\\muxstack00.vhdl":1544436354
+#CUR:"C:\\Users\\FERNANDO\\Desktop\\pilas\\STACK\\stackpointer00.vhdl":1554071217
+#CUR:"C:\\Users\\FERNANDO\\Desktop\\pilas\\STACK\\stack00.vhdl":1544436354
+#CUR:"C:\\Users\\FERNANDO\\Desktop\\pilas\\STACK\\topStack00.vhdl":1554073129
+0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\FERNANDO\Desktop\pilas\STACK\div00.vhdl" vhdl
+2 "C:\Users\FERNANDO\Desktop\pilas\STACK\oscilador00.vhdl" vhdl
+3 "C:\Users\FERNANDO\Desktop\pilas\STACK\topOsc00.vhdl" vhdl
+4 "C:\Users\FERNANDO\Desktop\pilas\STACK\coderStack00.vhdl" vhdl
+5 "C:\Users\FERNANDO\Desktop\pilas\STACK\contring00.vhdl" vhdl
+6 "C:\Users\FERNANDO\Desktop\pilas\STACK\muxstack00.vhdl" vhdl
+7 "C:\Users\FERNANDO\Desktop\pilas\STACK\stackpointer00.vhdl" vhdl
+8 "C:\Users\FERNANDO\Desktop\pilas\STACK\stack00.vhdl" vhdl
+9 "C:\Users\FERNANDO\Desktop\pilas\STACK\topStack00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 2 1 
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 3 5 4 8 7 6 
+
+# Dependency Lists (Users Of)
+0 -1
+1 3 
+2 3 
+3 9 
+4 9 
+5 9 
+6 9 
+7 9 
+8 9 
+9 -1
+
+# Design Unit to File Association
+arch work div00 div0 1
+module work div00 1
+arch work oscilador00 osc0 2
+module work oscilador00 2
+arch work toposc00 toposc0 3
+module work toposc00 3
+arch work coderstack00 coderstack0 4
+module work coderstack00 4
+arch work contring00 contring0 5
+module work contring00 5
+arch work muxstack00 muxstack0 6
+module work muxstack00 6
+arch work stackpointer00 stackpointer0 7
+module work stackpointer00 7
+arch work stack00 stack0 8
+module work stack00 8
+arch work topstack00 topstack0 9
+module work topstack00 9

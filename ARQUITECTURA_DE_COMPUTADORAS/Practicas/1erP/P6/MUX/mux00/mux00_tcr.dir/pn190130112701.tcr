@@ -1,0 +1,19 @@
+#Start recording tcl command: 1/30/2019 11:09:28
+#Project Location: C:/Users/FERNANDO/Desktop/MUX/mux00; Project name: mux00
+prj_project new -name "mux00" -impl "mux00" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/FERNANDO/Desktop/MUX/mux00/mux00.vhdl"
+prj_run Synthesis -impl mux00
+prj_run Export -impl mux00 -task Jedecgen
+pgr_project save "C:/Users/FERNANDO/Desktop/MUX/mux00/mux00/mux00.xcf"
+prj_src add -exclude "C:/Users/FERNANDO/Desktop/MUX/mux00/mux00/mux00.xcf"
+prj_src enable "C:/Users/FERNANDO/Desktop/MUX/mux00/mux00/mux00.xcf"
+pgr_project close
+prj_run Export -impl mux00 -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/MUX/mux00/mux00/mux00.xcf"
+pgr_program run
+pgr_project save "C:/Users/FERNANDO/Desktop/MUX/mux00/mux00/mux00.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 1/30/2019 11:27:01

@@ -1,0 +1,10 @@
+#Start recording tcl command: 3/19/2019 18:48:15
+#Project Location: C:/Users/FERNANDO/Desktop/P5/rom00; Project name: rom00
+prj_project new -name "rom00" -impl "rom0" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_src add "C:/Users/FERNANDO/Desktop/P5/topdiv00VHDL/div00.vhdl" "C:/Users/FERNANDO/Desktop/P5/topdiv00VHDL/osc00.vhdl" "C:/Users/FERNANDO/Desktop/P5/topdiv00VHDL/packagediv00.vhdl" "C:/Users/FERNANDO/Desktop/P5/topdiv00VHDL/topdiv00.vhdl"
+prj_project save
+prj_src add "C:/Users/FERNANDO/Desktop/P5/rom00/contRead00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P5/rom00/rom00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P5/rom00/packagerom00.vhdl"
+prj_src add "C:/Users/FERNANDO/Desktop/P5/rom00/topram00.vhdl"
+#Stop recording: 3/19/2019 20:54:30

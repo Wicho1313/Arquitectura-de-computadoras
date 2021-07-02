@@ -1,0 +1,9 @@
+#Start recording tcl command: 3/31/2019 11:41:43
+#Project Location: C:/Users/FERNANDO/Desktop/P5/rom00; Project name: rom00
+prj_project open "C:/Users/FERNANDO/Desktop/P5/rom00/rom00.ldf"
+prj_run Export -impl rom0 -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/P5/rom00/rom0/rom0.xcf"
+pgr_program run
+pgr_project save "C:/Users/FERNANDO/Desktop/P5/rom00/rom0/rom0.xcf"
+prj_project close
+#Stop recording: 3/31/2019 11:49:34

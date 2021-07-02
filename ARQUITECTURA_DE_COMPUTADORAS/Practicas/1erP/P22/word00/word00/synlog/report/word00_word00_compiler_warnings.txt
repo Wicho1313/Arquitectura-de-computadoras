@@ -1,0 +1,2 @@
+@W: CD326 :"C:\Users\FERNANDO\Desktop\P22\div00VHDL\osc00.vhdl":24:0:24:7|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
+

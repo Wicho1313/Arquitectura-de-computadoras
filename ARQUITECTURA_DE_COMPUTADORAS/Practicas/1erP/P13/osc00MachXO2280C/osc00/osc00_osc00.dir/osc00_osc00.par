@@ -1,0 +1,25 @@
+PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Tue Feb 19 18:05:28 2019
+
+C:/lscc/diamond/3.10_x64/ispfpga\bin\nt64\par -f osc00_osc00.p2t
+osc00_osc00_map.ncd osc00_osc00.dir osc00_osc00.prf -gui -msgset
+C:/Users/FERNANDO/Desktop/P12/osc00MachXO2280C/promote.xml
+
+
+Preference file: osc00_osc00.prf.
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            1073741.823  0            1073741.823  0            21           Success
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 22 secs 
+
+par done!

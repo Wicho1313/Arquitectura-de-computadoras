@@ -1,0 +1,18 @@
+#Start recording tcl command: 1/29/2019 22:20:50
+#Project Location: C:/Users/FERNANDO/Desktop/COMPUERTAS/not00; Project name: not00
+prj_project new -name "not00" -impl "not00" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/FERNANDO/Desktop/COMPUERTAS/not00/not00/not00.vhd"
+prj_run Synthesis -impl not00
+prj_run Export -impl not00 -task Jedecgen
+prj_run Export -impl not00 -task Jedecgen
+pgr_project save "C:/Users/FERNANDO/Desktop/COMPUERTAS/not00/not00/not00.xcf"
+prj_src add -exclude "C:/Users/FERNANDO/Desktop/COMPUERTAS/not00/not00/not00.xcf"
+prj_src enable "C:/Users/FERNANDO/Desktop/COMPUERTAS/not00/not00/not00.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/COMPUERTAS/not00/not00/not00.xcf"
+pgr_program run
+pgr_project save "C:/Users/FERNANDO/Desktop/COMPUERTAS/not00/not00/not00.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 1/29/2019 22:33:40

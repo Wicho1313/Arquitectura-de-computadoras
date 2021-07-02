@@ -1,0 +1,9 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, Entity: OSCH Architecture: syn_black_box, 0h:00m:00s,     78 MB
+work, Entity: osc00 Architecture: osc0, 0h:00m:00s,     78 MB
+work, Entity: div00 Architecture: div0, 0h:00m:00s,     79 MB
+work, Entity: topdiv00 Architecture: topdiv0, 0h:00m:00s,     79 MB
+work, Entity: anda00 Architecture: anda0, 0h:00m:00s,     79 MB
+work, Entity: ora00 Architecture: ora0, 0h:00m:00s,     79 MB
+work, Entity: ac00 Architecture: ac0, 0h:00m:00s,     79 MB
+work, Entity: topalu00 Architecture: topalu0, 0h:00m:00s,     79 MB

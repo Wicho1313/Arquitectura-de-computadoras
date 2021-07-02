@@ -1,0 +1,60 @@
+[ START MERGED ]
+[ END MERGED ]
+[ START CLIPPED ]
+VCC
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.11.0.396.4 -- WARNING: Map write only section -- Tue Nov 19 08:53:46 2019
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "vector_salida[0]" SITE "38" ;
+LOCATE COMP "vector_entrada[0]" SITE "23" ;
+LOCATE COMP "vector_salida[31]" SITE "59" ;
+LOCATE COMP "vector_salida[30]" SITE "57" ;
+LOCATE COMP "vector_salida[29]" SITE "56" ;
+LOCATE COMP "vector_salida[28]" SITE "54" ;
+LOCATE COMP "vector_salida[27]" SITE "55" ;
+LOCATE COMP "vector_salida[26]" SITE "52" ;
+LOCATE COMP "vector_salida[25]" SITE "50" ;
+LOCATE COMP "vector_salida[24]" SITE "48" ;
+LOCATE COMP "vector_salida[23]" SITE "49" ;
+LOCATE COMP "vector_salida[22]" SITE "47" ;
+LOCATE COMP "vector_salida[21]" SITE "45" ;
+LOCATE COMP "vector_salida[20]" SITE "43" ;
+LOCATE COMP "vector_salida[19]" SITE "42" ;
+LOCATE COMP "vector_salida[18]" SITE "44" ;
+LOCATE COMP "vector_salida[17]" SITE "39" ;
+LOCATE COMP "vector_salida[16]" SITE "41" ;
+LOCATE COMP "vector_salida[15]" SITE "91" ;
+LOCATE COMP "vector_salida[14]" SITE "92" ;
+LOCATE COMP "vector_salida[13]" SITE "93" ;
+LOCATE COMP "vector_salida[12]" SITE "94" ;
+LOCATE COMP "vector_salida[11]" SITE "96" ;
+LOCATE COMP "vector_salida[10]" SITE "95" ;
+LOCATE COMP "vector_salida[9]" SITE "98" ;
+LOCATE COMP "vector_salida[8]" SITE "97" ;
+LOCATE COMP "vector_salida[7]" SITE "99" ;
+LOCATE COMP "vector_salida[6]" SITE "100" ;
+LOCATE COMP "vector_salida[5]" SITE "104" ;
+LOCATE COMP "vector_salida[4]" SITE "105" ;
+LOCATE COMP "vector_salida[3]" SITE "106" ;
+LOCATE COMP "vector_salida[2]" SITE "107" ;
+LOCATE COMP "vector_salida[1]" SITE "40" ;
+LOCATE COMP "vector_entrada[15]" SITE "5" ;
+LOCATE COMP "vector_entrada[14]" SITE "6" ;
+LOCATE COMP "vector_entrada[13]" SITE "9" ;
+LOCATE COMP "vector_entrada[12]" SITE "10" ;
+LOCATE COMP "vector_entrada[11]" SITE "11" ;
+LOCATE COMP "vector_entrada[10]" SITE "12" ;
+LOCATE COMP "vector_entrada[9]" SITE "13" ;
+LOCATE COMP "vector_entrada[8]" SITE "14" ;
+LOCATE COMP "vector_entrada[7]" SITE "19" ;
+LOCATE COMP "vector_entrada[6]" SITE "20" ;
+LOCATE COMP "vector_entrada[5]" SITE "21" ;
+LOCATE COMP "vector_entrada[4]" SITE "22" ;
+LOCATE COMP "vector_entrada[3]" SITE "132" ;
+LOCATE COMP "vector_entrada[2]" SITE "133" ;
+LOCATE COMP "vector_entrada[1]" SITE "24" ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

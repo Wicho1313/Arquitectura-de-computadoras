@@ -1,0 +1,232 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : impl1
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 94
+FID:  path (prevtimestamp, timestamp)
+97       C:\Users\Yair\Desktop\P15_ALU\ALU\ac00.vhdl (2019-06-12 10:34:42, N/A)
+98       C:\Users\Yair\Desktop\P15_ALU\ALU\adder8bits.vhdl (2019-06-07 16:53:20, N/A)
+99       C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl (2019-06-09 21:52:24, N/A)
+100      C:\Users\Yair\Desktop\P15_ALU\ALU\and0.vhdl (2019-02-26 12:28:04, N/A)
+101      C:\Users\Yair\Desktop\P15_ALU\ALU\and00.vhdl (2019-04-30 09:24:00, N/A)
+102      C:\Users\Yair\Desktop\P15_ALU\ALU\anda00.vhdl (2019-06-12 10:45:58, N/A)
+103      C:\Users\Yair\Desktop\P15_ALU\ALU\div00.vhdl (2019-04-22 22:26:48, N/A)
+104      C:\Users\Yair\Desktop\P15_ALU\ALU\fa00.vhdl (2019-04-30 09:24:00, N/A)
+105      C:\Users\Yair\Desktop\P15_ALU\ALU\ha00.vhdl (2019-04-30 09:24:00, N/A)
+106      C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl (2019-06-10 00:24:27, N/A)
+107      C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl (2019-06-07 14:25:20, N/A)
+108      C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl (2019-06-07 14:15:07, N/A)
+109      C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl (2019-06-07 14:23:19, N/A)
+110      C:\Users\Yair\Desktop\P15_ALU\ALU\or.vhdl (2019-02-26 12:27:49, N/A)
+111      C:\Users\Yair\Desktop\P15_ALU\ALU\or00.vhdl (2019-04-30 09:24:00, N/A)
+112      C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl (2019-06-12 10:45:49, N/A)
+113      C:\Users\Yair\Desktop\P15_ALU\ALU\osc00.vhdl (2019-04-22 22:30:28, N/A)
+114      C:\Users\Yair\Desktop\P15_ALU\ALU\packageadder.vhdl (2019-02-26 12:27:16, N/A)
+115      C:\Users\Yair\Desktop\P15_ALU\ALU\packageadder8bit00.vhdl (2019-04-30 09:24:00, N/A)
+116      C:\Users\Yair\Desktop\P15_ALU\ALU\packagealu00.vhdl (2019-06-09 16:52:08, N/A)
+117      C:\Users\Yair\Desktop\P15_ALU\ALU\packagecomp.vhdl (2019-02-26 12:27:39, N/A)
+118      C:\Users\Yair\Desktop\P15_ALU\ALU\packagediv00.vhdl (2019-04-22 22:30:28, N/A)
+119      C:\Users\Yair\Desktop\P15_ALU\ALU\packagefa00.vhdl (2019-04-30 09:24:00, N/A)
+120      C:\Users\Yair\Desktop\P15_ALU\ALU\packageha00.vhdl (2019-04-30 09:24:00, N/A)
+121      C:\Users\Yair\Desktop\P15_ALU\ALU\packagemul00.vhdl (2019-02-26 12:26:54, N/A)
+122      C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl (2019-06-09 21:51:50, N/A)
+123      C:\Users\Yair\Desktop\P15_ALU\ALU\topadder0.vhdl (2019-02-26 12:27:26, N/A)
+124      C:\Users\Yair\Desktop\P15_ALU\ALU\topadder01.vhdl (2019-02-26 12:27:09, N/A)
+125      C:\Users\Yair\Desktop\P15_ALU\ALU\topalu00.vhdl (2019-06-12 10:52:28, N/A)
+126      C:\Users\Yair\Desktop\P15_ALU\ALU\topdiv00.vhdl (2019-04-22 22:33:26, N/A)
+127      C:\Users\Yair\Desktop\P15_ALU\ALU\topmult00.vhdl (2019-06-09 21:03:43, N/A)
+128      C:\Users\Yair\Desktop\P15_ALU\ALU\xnor00.vhdl (2019-04-30 09:24:00, N/A)
+129      C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl (2019-06-07 14:22:50, N/A)
+130      C:\Users\Yair\Desktop\P15_ALU\ALU\xor.vhdl (2019-02-26 12:28:12, N/A)
+131      C:\Users\Yair\Desktop\P15_ALU\ALU\xor00.vhdl (2019-05-02 10:55:18, N/A)
+132      C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl (2019-06-07 14:24:58, N/A)
+133      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\ac00.vhdl (N/A, 2019-08-04 00:00:34)
+134      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\adder8bits.vhdl (N/A, 2019-08-04 00:00:34)
+135      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\addera00.vhdl (N/A, 2019-08-04 00:00:34)
+136      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\and0.vhdl (N/A, 2019-08-04 00:00:34)
+137      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\and00.vhdl (N/A, 2019-08-04 00:00:34)
+138      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\anda00.vhdl (N/A, 2019-08-04 00:00:34)
+139      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\div00.vhdl (N/A, 2019-08-04 00:00:34)
+140      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\fa00.vhdl (N/A, 2019-08-04 00:00:34)
+141      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\ha00.vhdl (N/A, 2019-08-04 00:00:34)
+142      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\mult8bits.vhdl (N/A, 2019-08-04 00:00:34)
+143      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\nanda00.vhdl (N/A, 2019-08-04 00:00:34)
+144      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\nora00.vhdl (N/A, 2019-08-04 00:00:34)
+145      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\nota00.vhdl (N/A, 2019-08-04 00:00:34)
+146      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\or.vhdl (N/A, 2019-08-04 00:00:34)
+147      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\or00.vhdl (N/A, 2019-08-04 00:00:34)
+148      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\ora00.vhdl (N/A, 2019-08-04 00:00:34)
+149      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\osc00.vhdl (N/A, 2019-08-04 00:00:34)
+150      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\packageadder.vhdl (N/A, 2019-08-04 00:00:34)
+151      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\packageadder8bit00.vhdl (N/A, 2019-08-04 00:00:34)
+152      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\packagealu00.vhdl (N/A, 2019-08-04 00:00:34)
+153      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\packagecomp.vhdl (N/A, 2019-08-04 00:00:34)
+154      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\packagediv00.vhdl (N/A, 2019-08-04 00:00:34)
+155      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\packagefa00.vhdl (N/A, 2019-08-04 00:00:34)
+156      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\packageha00.vhdl (N/A, 2019-08-04 00:00:34)
+157      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\packagemul00.vhdl (N/A, 2019-08-04 00:00:34)
+158      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\subsa00.vhdl (N/A, 2019-08-04 00:00:34)
+159      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topadder0.vhdl (N/A, 2019-08-04 00:00:34)
+160      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topadder01.vhdl (N/A, 2019-08-04 00:00:34)
+161      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00)
+162      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topdiv00.vhdl (N/A, 2019-08-04 00:00:34)
+163      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topmult00.vhdl (N/A, 2019-08-04 00:00:34)
+164      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\xnor00.vhdl (N/A, 2019-08-04 00:00:34)
+165      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\xnora00.vhdl (N/A, 2019-08-04 00:00:34)
+166      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\xor.vhdl (N/A, 2019-08-04 00:00:34)
+167      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\xor00.vhdl (N/A, 2019-08-04 00:00:34)
+168      C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\xora00.vhdl (N/A, 2019-08-04 00:00:34)
+0        C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd (2017-04-27 17:11:44, N/A)
+1        C:\lscc\diamond\3.10_x64\synpbase\lib\cpld\lattice.vhd (2017-08-05 02:23:36, N/A)
+2        C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\arith.vhd (2017-08-05 01:03:44, N/A)
+3        C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\hyperents.vhd (2017-08-05 01:03:44, N/A)
+4        C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\location.map (2017-08-05 07:43:28, N/A)
+5        C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\numeric.vhd (2017-08-05 01:03:44, N/A)
+6        C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2017-08-05 01:03:44, N/A)
+7        C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd (2017-08-05 01:03:44, N/A)
+8        C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std1164.vhd (2017-08-05 01:03:44, N/A)
+9        C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\umr_capim.vhd (2017-08-05 01:03:44, N/A)
+10       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\unsigned.vhd (2017-08-05 01:03:44, N/A)
+169      C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (N/A, 2018-11-15 00:32:12)
+170      C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (N/A, 2019-04-01 08:08:08)
+171      C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (N/A, 2019-04-01 08:07:44)
+172      C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (N/A, 2019-04-01 08:07:44)
+173      C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (N/A, 2019-04-01 15:01:20)
+174      C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (N/A, 2019-04-01 08:07:44)
+175      C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (N/A, 2019-04-01 08:07:44)
+176      C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (N/A, 2019-04-01 08:07:44)
+177      C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (N/A, 2019-04-01 08:07:44)
+178      C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (N/A, 2019-04-01 08:07:44)
+179      C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (N/A, 2019-04-01 08:07:44)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 28
+MID:  lib.cell.view
+0        work.ac00.ac0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\ac00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+60       work.adder8bits.adder8bits0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\adder8bits.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+66       work.addera00.addera0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\addera00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+54       work.and0.and00 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\and0.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topadder0.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topadder01.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topmult00.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+24       work.and00.and0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\adder8bits.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\and00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\fa00.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\ha00.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+2        work.anda00.anda0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\anda00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+4        work.div00.div0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\div00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topdiv00.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+26       work.fa00.fa0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\adder8bits.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\fa00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+28       work.ha00.ha0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\adder8bits.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\fa00.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\ha00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+62       work.mult8bits.mult8bits0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\mult8bits.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+16       work.nanda00.nanda0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\nanda00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+18       work.nora00.nora0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\nora00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+14       work.nota00.nota0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\nota00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+56       work.or0.or00 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\or.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topadder01.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topmult00.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+30       work.or00.or0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\adder8bits.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\fa00.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\or00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+6        work.ora00.ora0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\ora00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+8        work.osc00.osc0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\osc00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topdiv00.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+68       work.subsa00.subsa0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\subsa00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+44       work.topadder0.topadder00 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topadder0.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topadder01.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topmult00.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+46       work.topadder1.topadder01 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topadder01.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topmult00.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+10       work.topalu00.topalu0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (architecture and entity definition)
+12       work.topdiv00.topdiv0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topdiv00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+64       work.topmult00.topmult0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topmult00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+33       work.xnor00.xnor0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\adder8bits.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\xnor00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+21       work.xnora00.xnora0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\xnora00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+59       work.xor0.xor00 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topadder0.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topadder01.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topmult00.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\xor.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+35       work.xor00.xor0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\adder8bits.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\fa00.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\ha00.vhdl (N/A, 2019-08-04 00:00:34) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\xor00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+23       work.xora00.xora0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\topalu00.vhdl (N/A, 2019-11-25 10:42:00) <-- (may instantiate this module)
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\alu01\alu\xora00.vhdl (N/A, 2019-08-04 00:00:34) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

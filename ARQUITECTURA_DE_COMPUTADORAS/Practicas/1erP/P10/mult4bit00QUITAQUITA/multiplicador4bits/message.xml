@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\franco\desktop\10-multiplicador4bits\multplicador00.vhdl&quot;:63:2:63:5|Removing user instance MA07 because it is equivalent to instance MA03. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\franco\desktop\10-multiplicador4bits\multplicador00.vhdl</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing user instance MA07 because it is equivalent to instance MA03. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

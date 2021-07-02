@@ -1,0 +1,1 @@
+run_tcl -fg multiplicador4bits_multiplicador4bits_synplify.tcl

@@ -1,0 +1,90 @@
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\FERNANDO\Desktop\P2\ram00\topram00.vhdl":8:7:8:14|Top entity is set to topram00.
+File C:\lscc\diamond\3.10_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\FERNANDO\Desktop\P2\ram00\topdiv00VHDL\osc00.vhdl changed - recompiling
+File C:\Users\FERNANDO\Desktop\P2\ram00\topdiv00VHDL\packagediv00.vhdl changed - recompiling
+File C:\Users\FERNANDO\Desktop\P2\ram00\contring00.vhdl changed - recompiling
+File C:\Users\FERNANDO\Desktop\P2\ram00\coder00.vhdl changed - recompiling
+File C:\Users\FERNANDO\Desktop\P2\ram00\ram00.vhdl changed - recompiling
+File C:\Users\FERNANDO\Desktop\P2\ram00\mux00.vhdl changed - recompiling
+File C:\Users\FERNANDO\Desktop\P2\ram00\contRead00.vhdl changed - recompiling
+File C:\Users\FERNANDO\Desktop\P2\ram00\packageram00.vhdl changed - recompiling
+File C:\Users\FERNANDO\Desktop\P2\ram00\topdiv00VHDL\topdiv00.vhdl changed - recompiling
+File C:\Users\FERNANDO\Desktop\P2\ram00\topram00.vhdl changed - recompiling
+VHDL syntax check successful!
+File C:\Users\FERNANDO\Desktop\P2\ram00\coder00.vhdl changed - recompiling
+@N: CD630 :"C:\Users\FERNANDO\Desktop\P2\ram00\topram00.vhdl":8:7:8:14|Synthesizing work.topram00.topram0.
+@N: CD630 :"C:\Users\FERNANDO\Desktop\P2\ram00\contRead00.vhdl":9:7:9:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P2\ram00\contRead00.vhdl":36:6:36:14|Removing redundant assignment.
+Post processing for work.contread00.contread0
+@N: CD630 :"C:\Users\FERNANDO\Desktop\P2\ram00\mux00.vhdl":9:7:9:11|Synthesizing work.mux00.mux0.
+Post processing for work.mux00.mux0
+@N: CD630 :"C:\Users\FERNANDO\Desktop\P2\ram00\ram00.vhdl":10:7:10:11|Synthesizing work.ram00.ram0.
+Post processing for work.ram00.ram0
+@N: CL134 :"C:\Users\FERNANDO\Desktop\P2\ram00\ram00.vhdl":24:8:24:14|Found RAM wordram, depth=64, width=7
+@N: CD630 :"C:\Users\FERNANDO\Desktop\P2\ram00\coder00.vhdl":10:7:10:13|Synthesizing work.coder00.coder0.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P2\ram00\coder00.vhdl":48:7:48:14|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P2\ram00\coder00.vhdl":98:7:98:14|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P2\ram00\coder00.vhdl":148:7:148:14|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P2\ram00\coder00.vhdl":198:7:198:14|Removing redundant assignment.
+Post processing for work.coder00.coder0
+@N: CD630 :"C:\Users\FERNANDO\Desktop\P2\ram00\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+@W: CL279 :"C:\Users\FERNANDO\Desktop\P2\ram00\contring00.vhdl":18:2:18:3|Pruning register bits 2 to 0 of scont(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\Users\FERNANDO\Desktop\P2\ram00\topdiv00VHDL\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\FERNANDO\Desktop\P2\ram00\topdiv00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P2\ram00\topdiv00VHDL\div00.vhdl":29:6:29:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P2\ram00\topdiv00VHDL\div00.vhdl":37:6:37:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P2\ram00\topdiv00VHDL\div00.vhdl":45:6:45:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P2\ram00\topdiv00VHDL\div00.vhdl":53:6:53:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P2\ram00\topdiv00VHDL\div00.vhdl":61:6:61:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P2\ram00\topdiv00VHDL\div00.vhdl":69:6:69:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P2\ram00\topdiv00VHDL\div00.vhdl":77:6:77:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\FERNANDO\Desktop\P2\ram00\topdiv00VHDL\div00.vhdl":85:6:85:11|Removing redundant assignment.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\FERNANDO\Desktop\P2\ram00\topdiv00VHDL\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD326 :"C:\Users\FERNANDO\Desktop\P2\ram00\topdiv00VHDL\osc00.vhdl":24:0:24:7|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topram00.topram0
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 80MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 31 11:27:52 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\FERNANDO\Desktop\P2\ram00\ram0\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 31 11:27:53 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 31 11:27:53 2019
+
+###########################################################]

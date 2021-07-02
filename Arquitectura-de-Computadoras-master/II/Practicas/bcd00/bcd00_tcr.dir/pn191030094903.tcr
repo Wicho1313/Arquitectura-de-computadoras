@@ -1,0 +1,7 @@
+#Start recording tcl command: 10/30/2019 09:17:39
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00; Project name: bcd00
+prj_project new -name "bcd00" -impl "bcd0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00VHDL/div00.vhdl" "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00VHDL/osc00.vhd" "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00VHDL/packagediv00.vhdl" "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00VHDL/topdiv00.vhdl"
+prj_project save
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/init00.vhdl"
+#Stop recording: 10/30/2019 09:49:03

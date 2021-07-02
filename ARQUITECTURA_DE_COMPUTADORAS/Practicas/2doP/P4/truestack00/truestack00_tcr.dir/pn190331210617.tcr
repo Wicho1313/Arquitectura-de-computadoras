@@ -1,0 +1,18 @@
+#Start recording tcl command: 3/31/2019 20:33:57
+#Project Location: C:/Users/FERNANDO/Desktop/P4/truestack00; Project name: truestack00
+prj_project open "C:/Users/FERNANDO/Desktop/P4/truestack00/truestack00.ldf"
+prj_run Export -impl truestack0 -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/P4/truestack00/truestack0/truestack0.xcf"
+pgr_program run
+pgr_project close
+prj_run Export -impl truestack0 -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/P4/truestack00/truestack0/truestack0.xcf"
+pgr_program run
+pgr_project close
+prj_run Export -impl truestack0 -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/P4/truestack00/truestack0/truestack0.xcf"
+pgr_program run
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 3/31/2019 21:06:17

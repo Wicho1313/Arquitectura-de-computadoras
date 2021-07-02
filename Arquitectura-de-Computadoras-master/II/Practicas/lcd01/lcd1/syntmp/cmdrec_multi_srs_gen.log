@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toplcd00  -multisrs  C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\lcd1\synwork\lcd01_lcd1_comp.srs  -osyn  C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\lcd1\synwork\lcd01_lcd1_mult.srs  -log  C:\Users\ameri\Documentos\ESCOM\Arquitectura\Arquitectura-de-Computadoras-master\II\Practicas\lcd01\lcd1\synlog\lcd01_lcd1_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top toplcd00 -multisrs ..\synwork\lcd01_lcd1_comp.srs -osyn ..\synwork\lcd01_lcd1_mult.srs -log ..\synlog\lcd01_lcd1_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\lcd01_lcd1_comp.srs|io:i|time:1572317812|size:14465|exec:0|csum:87123C3F5EE3084CE8EAD895F89D9E00
+file:..\synwork\lcd01_lcd1_mult.srs|io:o|time:1572317814|size:4830|exec:0|csum:
+file:..\synlog\lcd01_lcd1_multi_srs_gen.srr|io:o|time:1572317814|size:1278|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

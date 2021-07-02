@@ -1,0 +1,70 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : lcd0
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+26       C:\Users\ameri\Documentos\Arquitectura-de-Computadoras-master\II\Practicas\lcd00\lcdData00.vhd (2019-10-17 11:33:08, 2019-10-19 11:50:39)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+8        work.lcddata00.lcddata0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\Arquitectura-de-Computadoras-master\II\Practicas\lcd00\lcdData00.vhd (2019-10-17 11:33:08, 2019-10-19 11:50:39) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 21
+FID:  path (timestamp)
+22       C:\Users\ameri\Documentos\Arquitectura-de-Computadoras-master\II\Practicas\lcd00\div00.vhd (2019-08-04 00:00:34)
+23       C:\Users\ameri\Documentos\Arquitectura-de-Computadoras-master\II\Practicas\lcd00\lcdConfig00.vhd (2019-10-15 09:35:37)
+24       C:\Users\ameri\Documentos\Arquitectura-de-Computadoras-master\II\Practicas\lcd00\lcdContConfig00.vhd (2019-08-04 00:00:34)
+25       C:\Users\ameri\Documentos\Arquitectura-de-Computadoras-master\II\Practicas\lcd00\lcdContData00.vhd (2019-08-04 00:00:34)
+27       C:\Users\ameri\Documentos\Arquitectura-de-Computadoras-master\II\Practicas\lcd00\lcdmux00.vhd (2019-08-04 00:00:34)
+28       C:\Users\ameri\Documentos\Arquitectura-de-Computadoras-master\II\Practicas\lcd00\osc00.vhd (2019-08-04 00:00:34)
+29       C:\Users\ameri\Documentos\Arquitectura-de-Computadoras-master\II\Practicas\lcd00\packagediv00.vhd (2019-08-04 00:00:34)
+30       C:\Users\ameri\Documentos\Arquitectura-de-Computadoras-master\II\Practicas\lcd00\packagelcd00.vhd (2019-08-04 00:00:34)
+31       C:\Users\ameri\Documentos\Arquitectura-de-Computadoras-master\II\Practicas\lcd00\topdiv00.vhd (2019-08-04 00:00:34)
+32       C:\Users\ameri\Documentos\Arquitectura-de-Computadoras-master\II\Practicas\lcd00\toplcd00.vhd (2019-10-14 22:28:36)
+33       C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+34       C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (2019-04-01 08:08:08)
+35       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 08:07:44)
+36       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (2019-04-01 08:07:44)
+37       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (2019-04-01 15:01:20)
+38       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (2019-04-01 08:07:44)
+39       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2019-04-01 08:07:44)
+40       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (2019-04-01 08:07:44)
+41       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (2019-04-01 08:07:44)
+42       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (2019-04-01 08:07:44)
+43       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 08:07:44)
+
+*******************************************************************
+Unchanged modules: 16
+MID:  lib.cell.view
+0        work.div00.div0
+1        work.div00.vhdl
+2        work.lcdconfig00.lcdconfig0
+3        work.lcdconfig00.vhdl
+4        work.lcdcontconfig00.lcdcontconfig0
+5        work.lcdcontconfig00.vhdl
+6        work.lcdcontdata00.lcdcontdata0
+7        work.lcdcontdata00.vhdl
+10       work.lcdmux00.lcdmux0
+11       work.lcdmux00.vhdl
+12       work.osc00.osc0
+13       work.osc00.vhdl
+14       work.topdiv00.topdiv0
+15       work.topdiv00.vhdl
+16       work.toplcd00.toplcd0
+17       work.toplcd00.vhdl

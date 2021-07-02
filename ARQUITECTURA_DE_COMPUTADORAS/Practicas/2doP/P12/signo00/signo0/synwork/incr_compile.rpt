@@ -1,0 +1,54 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-496B8RB
+
+Implementation : signo0
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 22
+FID:  path (prevtimestamp, timestamp)
+11       C:\Users\FERNANDO\Desktop\signo00\signo00.vhd (2019-05-06 10:24:10, N/A)
+22       C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo00.vhd (N/A, 2019-11-19 08:45:35)
+12       C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd (2017-04-27 17:11:44, N/A)
+13       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\arith.vhd (2017-08-05 01:03:44, N/A)
+14       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\hyperents.vhd (2017-08-05 01:03:44, N/A)
+15       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\location.map (2017-08-05 07:43:28, N/A)
+16       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\numeric.vhd (2017-08-05 01:03:44, N/A)
+17       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2017-08-05 01:03:44, N/A)
+18       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd (2017-08-05 01:03:44, N/A)
+19       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std1164.vhd (2017-08-05 01:03:44, N/A)
+20       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\umr_capim.vhd (2017-08-05 01:03:44, N/A)
+21       C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\unsigned.vhd (2017-08-05 01:03:44, N/A)
+23       C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (N/A, 2018-11-15 00:32:12)
+24       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (N/A, 2019-04-01 08:07:44)
+25       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (N/A, 2019-04-01 08:07:44)
+26       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (N/A, 2019-04-01 15:01:20)
+27       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (N/A, 2019-04-01 08:07:44)
+28       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (N/A, 2019-04-01 08:07:44)
+29       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (N/A, 2019-04-01 08:07:44)
+30       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (N/A, 2019-04-01 08:07:44)
+31       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (N/A, 2019-04-01 08:07:44)
+32       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (N/A, 2019-04-01 08:07:44)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+0        work.signo00.signo0 may have changed because the following files changed:
+                        C:\Users\ameri\Documentos\ESCOM\Arquitectura\ARQUITECTURA_DE_COMPUTADORAS\Practicas\2doP\P12\signo00\signo00.vhd (N/A, 2019-11-19 08:45:35) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

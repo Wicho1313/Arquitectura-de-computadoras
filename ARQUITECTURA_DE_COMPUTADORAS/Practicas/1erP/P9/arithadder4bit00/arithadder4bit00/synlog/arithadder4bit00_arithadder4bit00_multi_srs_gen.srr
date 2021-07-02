@@ -1,0 +1,13 @@
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\lscc\diamond\3.7_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
+File C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\arithadder4bit00\arithadder4bit00\synwork\arithadder4bit00_arithadder4bit00_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Feb 22 15:24:22 2019
+
+###########################################################]

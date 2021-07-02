@@ -1,0 +1,27 @@
+PAR: Place And Route Diamond (64-bit) 3.11.0.396.4.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+Tue Nov 19 08:53:47 2019
+
+C:/lscc/diamond/3.11_x64/ispfpga\bin\nt64\par -f signo00_signo0.p2t
+signo00_signo0_map.ncd signo00_signo0.dir signo00_signo0.prf -gui -msgset
+C:/Users/ameri/Documentos/ESCOM/Arquitectura/ARQUITECTURA_DE_COMPUTADORAS/Practicas/2doP/P12/signo00/promote.xml
+
+
+Preference file: signo00_signo0.prf.
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            -            -            -            -            08           Completed
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 8 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.

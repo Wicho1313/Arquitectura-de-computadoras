@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topshiftRL00  -multisrs  C:\Users\FRANCO\Documents\Arquitectura\projectMachXO2\shiftmux00\shiftmux00\synwork\shiftmux00_shiftmux00_comp.srs  -osyn  C:\Users\FRANCO\Documents\Arquitectura\projectMachXO2\shiftmux00\shiftmux00\synwork\shiftmux00_shiftmux00_mult.srs  -log  C:\Users\FRANCO\Documents\Arquitectura\projectMachXO2\shiftmux00\shiftmux00\synlog\shiftmux00_shiftmux00_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top topshiftRL00 -multisrs ..\synwork\shiftmux00_shiftmux00_comp.srs -osyn ..\synwork\shiftmux00_shiftmux00_mult.srs -log ..\synlog\shiftmux00_shiftmux00_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\shiftmux00_shiftmux00_comp.srs|io:i|time:1550775944|size:7168|exec:0|csum:295819349152264E2F177CCEE6B10EFF
+file:..\synwork\shiftmux00_shiftmux00_mult.srs|io:o|time:1550775946|size:2532|exec:0|csum:
+file:..\synlog\shiftmux00_shiftmux00_multi_srs_gen.srr|io:o|time:1550775946|size:552|exec:0|csum:
+file:..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

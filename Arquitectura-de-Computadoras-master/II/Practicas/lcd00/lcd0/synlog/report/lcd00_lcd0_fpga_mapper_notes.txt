@@ -1,0 +1,16 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MO106 :"c:\users\ameri\documentos\arquitectura-de-computadoras-master\ii\practicas\lcd00\lcdconfig00.vhd":32:6:32:9|Found ROM outCommandc_cnst[7] (in view: work.lcdConfig00(lcdconfig0)) with 18 words by 1 bit.
+@N: MO106 :"c:\users\ameri\documentos\arquitectura-de-computadoras-master\ii\practicas\lcd00\lcdconfig00.vhd":32:6:32:9|Found ROM outCommandc_cnst[5:0] (in view: work.lcdConfig00(lcdconfig0)) with 18 words by 6 bits.
+@N: MO106 :"c:\users\ameri\documentos\arquitectura-de-computadoras-master\ii\practicas\lcd00\lcdconfig00.vhd":32:6:32:9|Found ROM ENc_cnst (in view: work.lcdConfig00(lcdconfig0)) with 18 words by 1 bit.
+@N: MO106 :"c:\users\ameri\documentos\arquitectura-de-computadoras-master\ii\practicas\lcd00\lcddata00.vhd":42:18:42:25|Found ROM outWordd_2[6:5] (in view: work.lcdData00(lcddata0)) with 16 words by 2 bits.
+@N: MO106 :"c:\users\ameri\documentos\arquitectura-de-computadoras-master\ii\practicas\lcd00\lcddata00.vhd":42:18:42:25|Found ROM outWordd_2[3:0] (in view: work.lcdData00(lcddata0)) with 16 words by 4 bits.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: C:\Users\ameri\Documentos\Arquitectura-de-Computadoras-master\II\Practicas\lcd00\lcd0\lcd00_lcd0.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock div00|outdiv_derived_clock with period 480.77ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

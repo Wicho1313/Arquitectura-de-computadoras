@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.7_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topmult8bit00  -incremental_debug  -multisrs  "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\mult8bit00\synwork\mult8bit00_mult8bit00_comp.srs"  -osyn  "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\mult8bit00\synwork\mult8bit00_mult8bit00_mult.srs"  -log  "C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\mult8bit00\synlog\mult8bit00_mult8bit00_multi_srs_gen.srr" 
+rc:0 success:1 runtime:0
+C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\mult8bit00\synwork\mult8bit00_mult8bit00_comp.srs|i|1476894331|8006
+C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\mult8bit00\synwork\mult8bit00_mult8bit00_mult.srs|o|1476894332|6359
+C:\Users\Othoniel\Desktop\Arquitectura de Computadoras\Practicas\mult8bit00\mult8bit00\synlog\mult8bit00_mult8bit00_multi_srs_gen.srr|o|1476894332|409
+C:\lscc\diamond\3.7_x64\synpbase\bin\syn_nfilter.exe|i|1449734274|3110400
+C:\lscc\diamond\3.7_x64\synpbase\bin64\syn_nfilter.exe|i|1449734476|4182528

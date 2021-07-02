@@ -1,0 +1,129 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn181113173749"></A><B><U><big>pn181113173749</big></U></B>
+#Start recording tcl command: 11/13/2018 15:17:52
+#Project Location: C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits; Project name: multiplicador4bits
+prj_project new -name "multiplicador4bits" -impl "multiplicador4bits" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/and00.vhdl"
+prj_src add "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/xor00.vhdl"
+prj_src add "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/ha00.vhdl"
+prj_src add "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/fa00.vhdl"
+prj_src add "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/multiplicador4bits.vhdl"
+prj_src remove "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/multiplicador4bits.vhdl"
+prj_src add "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/multplicador00.vhdl"
+prj_src add "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/or00.vhdl"
+prj_run Synthesis -impl multiplicador4bits
+prj_run Export -impl multiplicador4bits
+prj_run Export -impl multiplicador4bits -task Jedecgen
+pgr_project save "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/multiplicador4bits/multiplicador4bits.xcf"
+prj_src add -exclude "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/multiplicador4bits/multiplicador4bits.xcf"
+prj_src enable "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/multiplicador4bits/multiplicador4bits.xcf"
+pgr_program run
+pgr_project save "C:/Users/Mike/Desktop/Arquitectura/1Parcial/10-multiplicador4bits/multiplicador4bits/multiplicador4bits.xcf"
+prj_project save
+prj_project close
+#Stop recording: 11/13/2018 17:37:49
+
+
+
+<A name="pn190219183441"></A><B><U><big>pn190219183441</big></U></B>
+#Start recording tcl command: 2/19/2019 18:29:37
+#Project Location: C:/Users/FERNANDO/Desktop/P10/mult4bit00; Project name: multiplicador4bits
+prj_project open "C:/Users/FERNANDO/Desktop/P10/mult4bit00/multiplicador4bits.ldf"
+prj_run Export -impl multiplicador4bits -task Jedecgen
+pgr_project open "C:/Users/FERNANDO/Desktop/P10/mult4bit00/multiplicador4bits/multiplicador4bits.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P10/mult4bit00/multiplicador4bits/multiplicador4bits.xcf"
+pgr_program run
+pgr_project save "C:/Users/FERNANDO/Desktop/P10/mult4bit00/multiplicador4bits/multiplicador4bits.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P10/mult4bit00/multiplicador4bits/multiplicador4bits.xcf"
+pgr_project save "C:/Users/FERNANDO/Desktop/P10/mult4bit00/multiplicador4bits/multiplicador4bits.xcf"
+pgr_project close
+#Stop recording: 2/19/2019 18:34:41
+
+
+
+<A name="pn190219184345"></A><B><U><big>pn190219184345</big></U></B>
+#Start recording tcl command: 2/19/2019 18:38:44
+#Project Location: C:/Users/FERNANDO/Desktop/P10/mult4bit00; Project name: multiplicador4bits
+prj_project open "C:/Users/FERNANDO/Desktop/P10/mult4bit00/multiplicador4bits.ldf"
+prj_project close
+#Stop recording: 2/19/2019 18:43:45
+
+
+
+<A name="pn190220005151"></A><B><U><big>pn190220005151</big></U></B>
+#Start recording tcl command: 2/20/2019 00:38:22
+#Project Location: C:/Users/FERNANDO/Desktop/P10/mult4bit00; Project name: multiplicador4bits
+prj_project open "C:/Users/FERNANDO/Desktop/P10/mult4bit00/multiplicador4bits.ldf"
+#Stop recording: 2/20/2019 00:51:51
+
+
+
+<A name="pn190220115454"></A><B><U><big>pn190220115454</big></U></B>
+#Start recording tcl command: 2/20/2019 11:54:29
+#Project Location: C:/Users/FERNANDO/Desktop/P10/mult4bit00; Project name: multiplicador4bits
+prj_project open "C:/Users/FERNANDO/Desktop/P10/mult4bit00/multiplicador4bits.ldf"
+#Stop recording: 2/20/2019 11:54:54
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>
